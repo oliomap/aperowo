@@ -93,8 +93,8 @@ async def main():
 
     # Access individual results
     for result in results:  # Show all results
-        print(f"URL: {result.url}")
-        print(f"Depth: {result.metadata.get('depth', 0)}")   
+        #print(f"URL: {result.url}")
+        #print(f"Depth: {result.metadata.get('depth', 0)}")   
         process_result(result, output_filename)
 
 if __name__ == "__main__":
