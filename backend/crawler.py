@@ -5,6 +5,7 @@ from urllib.parse import urlparse
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig
 from crawl4ai.deep_crawling import BFSDeepCrawlStrategy
 from crawl4ai.content_scraping_strategy import LXMLWebScrapingStrategy
+from crawl4ai.deep_crawling.filters import URLPatternFilter, FilterChain
 
 def process_result(result, filename):
     '''
@@ -36,7 +37,7 @@ def process_result(result, filename):
     filepath = os.path.join('data/raw', filename)
     
     # Create data directory if it doesn't exist
-    os.makedirs('data', exist_ok=True)
+    os.makedirs('data/raw', exist_ok=True)
 
     # Read existing data
     if os.path.exists(filepath):
@@ -55,35 +56,46 @@ def process_result(result, filename):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(all_data, f, ensure_ascii=False, indent=4)
 
-async def main():
+async def event_crawler():
     # Configure a 2-level deep crawl
+    url_filter = URLPatternFilter(patterns = ["*events*"])
     config = CrawlerRunConfig(
         deep_crawl_strategy=BFSDeepCrawlStrategy(
-            max_depth=0, 
-            include_external=True,
+            max_depth=1, 
+            filter_chain = FilterChain([url_filter])
         ),
         scraping_strategy=LXMLWebScrapingStrategy(),
         verbose=True
     )
 
     async with AsyncWebCrawler() as crawler:
-        results = await crawler.arun("https://amiv.ethz.ch/en/events/", config=config)
+        results = await crawler.arun("https://www.vmp.ethz.ch/en/events/alle_events", config=config)
 
         print(f"Crawled {len(results)} pages in total")
+    
+    return results
 
-        # Define the output filename
-        output_filename = "crawled_data_test.json"
-        filepath = os.path.join('data/raw/', output_filename)
+    
 
-        # Clear the file before starting
-        if os.path.exists(filepath):
-            os.remove(filepath)
+async def main():
+    
+    results = await event_crawler()
 
-        # Access individual results
-        for result in results:  # Show all results
-            #print(f"URL: {result.url}")
-            #print(f"Depth: {result.metadata.get('depth', 0)}")   
-            process_result(result, output_filename)
+    print(f"Crawled {len(results)} pages in total")
+
+    # Define the output filename
+    output_filename = "crawled_data_test.json"
+    filepath = os.path.join('data/raw', output_filename)
+
+    # Clear the file before starting
+    if os.path.exists(filepath):
+        os.remove(filepath)
+
+    # Access individual results
+    for result in results:  # Show all results
+        print(f"URL: {result.url}")
+        print(f"Depth: {result.metadata.get('depth', 0)}")   
+        process_result(result, output_filename)
 
 if __name__ == "__main__":
     asyncio.run(main())
