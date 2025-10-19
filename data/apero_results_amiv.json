@@ -6398,5 +6398,57 @@
       },
       "summary": "Food (abendessen, dinner, essen)"
     }
+  },
+  {
+    "url": "events/68ed75045811fa6940bf9344",
+    "title": "Successfully completing the first year",
+    "date": "2025-10-28",
+    "start_time": "15:15",
+    "end_time": "16:15",
+    "location": "ETF E 1",
+    "refreshments": "Food (essen) · Drinks (apero, drink) · Snacks (snack, snacks)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks",
+        "snacks"
+      ],
+      "matches": {
+        "drinks": [
+          "apero",
+          "drink"
+        ],
+        "food": [
+          "essen"
+        ],
+        "snacks": [
+          "snack",
+          "snacks"
+        ]
+      },
+      "summary": "Food (essen) · Drinks (apero, drink) · Snacks (snack, snacks)"
+    }
+  },
+  {
+    "url": "events/68f1ef45f36e235dd67eff14",
+    "title": "Limes Talk ",
+    "date": "2025-10-28",
+    "start_time": "11:15",
+    "end_time": "13:00",
+    "location": "CAB G 59",
+    "refreshments": "Food (essen, lunch, mittagessen)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "essen",
+          "lunch",
+          "mittagessen"
+        ]
+      },
+      "summary": "Food (essen, lunch, mittagessen)"
+    }
   }
 ]

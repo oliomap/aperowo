@@ -67,7 +67,7 @@ async def main():
     )
 
     async with AsyncWebCrawler() as crawler:
-        results = await crawler.arun("https://amiv.ethz.ch/en/events", config=config)
+        results = await crawler.arun("https://amiv.ethz.ch/en/events/", config=config)
 
         print(f"Crawled {len(results)} pages in total")
 
@@ -81,8 +81,8 @@ async def main():
 
         # Access individual results
         for result in results:  # Show all results
-            print(f"URL: {result.url}")
-            print(f"Depth: {result.metadata.get('depth', 0)}")   
+            #print(f"URL: {result.url}")
+            #print(f"Depth: {result.metadata.get('depth', 0)}")   
             process_result(result, output_filename)
 
 if __name__ == "__main__":
