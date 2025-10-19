@@ -33,7 +33,7 @@ def process_result(result, filename):
         "markdown": result.markdown
     }
 
-    filepath = os.path.join('data', filename)
+    filepath = os.path.join('data/raw', filename)
     
     # Create data directory if it doesn't exist
     os.makedirs('data', exist_ok=True)
@@ -73,7 +73,7 @@ async def main():
 
         # Define the output filename
         output_filename = "crawled_data_test.json"
-        filepath = os.path.join('data', output_filename)
+        filepath = os.path.join('data/raw/', output_filename)
 
         # Clear the file before starting
         if os.path.exists(filepath):
