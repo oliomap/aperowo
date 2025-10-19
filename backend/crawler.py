@@ -82,10 +82,10 @@ async def main():
     print(f"Crawled {len(results)} pages in total")
 
     # Define the output filename
-    output_filename = "crawled_data_test.json"
+    output_filename = "VMP_data.json"
+
     filepath = os.path.join('data/raw', output_filename)
 
-    # Clear the file before starting
     if os.path.exists(filepath):
         os.remove(filepath)
 
