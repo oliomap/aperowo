@@ -75,8 +75,6 @@ async def event_crawler():
     
     return results
 
-    
-
 async def main():
     
     results = await event_crawler()
