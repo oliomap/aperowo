@@ -6,6 +6,11 @@ const sources = [
     label: "AMIV Aperos",
     path: "/data/apero_results_amiv.json",
   },
+  {
+    id: "vmp-apero",
+    label: "VMP Aperos",
+    path: "/data/apero_results_vmp.json",
+  }
 ];
 
 // Fallback for events that do not specify an ease-of-entry score.
