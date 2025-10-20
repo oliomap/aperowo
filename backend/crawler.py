@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 from crawl4ai import AsyncWebCrawler, CrawlerRunConfig
 from crawl4ai.deep_crawling import BFSDeepCrawlStrategy
 from crawl4ai.content_scraping_strategy import LXMLWebScrapingStrategy
-from crawl4ai.deep_crawling.filters import URLPatternFilter, FilterChain
+from crawl4ai.deep_crawling.filters import URLPatternFilter, FilterChain, DomainFilter, ContentTypeFilter
 
 def process_result(result, filename):
     '''
@@ -56,28 +56,47 @@ def process_result(result, filename):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(all_data, f, ensure_ascii=False, indent=4)
 
-async def event_crawler():
-    # Configure a 2-level deep crawl
-    url_filter = URLPatternFilter(patterns = ["*events*"])
+async def event_crawler(specific_url, specific_url_filter_chain, specific_max_depth):
+
     config = CrawlerRunConfig(
         deep_crawl_strategy=BFSDeepCrawlStrategy(
-            max_depth=1, 
-            filter_chain = FilterChain([url_filter])
+            max_depth= specific_max_depth, 
+            filter_chain = specific_url_filter_chain
         ),
         scraping_strategy=LXMLWebScrapingStrategy(),
         verbose=True
     )
 
     async with AsyncWebCrawler() as crawler:
-        results = await crawler.arun("https://www.vmp.ethz.ch/en/events/alle_events", config=config)
-
+        results = await crawler.arun(specific_url, config=config)
         print(f"Crawled {len(results)} pages in total")
     
     return results
 
+
+async def vmp_crawler():
+
+    vmp_url = "https://www.vmp.ethz.ch/en/events/alle_events"
+    vmp_include_pattern_filter = URLPatternFilter(patterns = ["*events*"])
+    vmp_max_depth = 1
+
+    urls_to_exclude = [
+        "https://www.vmp.ethz.ch/en/events/alle_events",
+        "https://www.vmp.ethz.ch/en/events",
+        "https://www.vmp.ethz.ch/en/events/meine_events",
+        "https://www.vmp.ethz.ch/en/events/helper-recruitment",
+    ]
+    vmp_exclude_pattern_filter = URLPatternFilter(patterns = urls_to_exclude, reverse = True )
+    
+    vmp_filter_chain = FilterChain([vmp_include_pattern_filter, vmp_exclude_pattern_filter])
+    return vmp_url, vmp_filter_chain, vmp_max_depth
+
 async def main():
     
-    results = await event_crawler()
+    #results = await event_crawler(vmp_crawler)
+    #Here we can implement the for loop for different websites
+    start_url, crawl_filters, max_depth = await vmp_crawler()
+    results = await event_crawler(start_url, crawl_filters, max_depth)
 
     print(f"Crawled {len(results)} pages in total")
 
