@@ -30,6 +30,7 @@ def process_result(result, filename):
         "success": result.success,
         "metadata": result.metadata,
         "html": result.html,
+        "fit_html": result.fit_html,
         "extracted_content": result.extracted_content,
         "markdown": result.markdown
     }
@@ -64,7 +65,8 @@ async def event_crawler(specific_url, specific_url_filter_chain, specific_max_de
             filter_chain = specific_url_filter_chain
         ),
         scraping_strategy=LXMLWebScrapingStrategy(),
-        verbose=True
+        verbose=True,
+        excluded_tags=["header", "footer", "nav", "aside"]
     )
 
     async with AsyncWebCrawler() as crawler:

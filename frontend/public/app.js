@@ -5,12 +5,12 @@ const sources = [
     id: "amiv-apero",
     label: "AMIV Aperos",
     path: "/data/apero_results_amiv.json",
-  }
-  /*{
+  },
+  {
     id: "vmp-apero",
     label: "VMP Aperos",
     path: "/data/apero_results_vmp.json",
-  }*/
+  }
 ];
 
 // Fallback for events that do not specify an ease-of-entry score.
@@ -345,17 +345,17 @@ const renderCalendar = () => {
     const eventsContainer = document.createElement("div");
     eventsContainer.className = "calendar__events";
 
-    dayEvents.slice(0, 3).forEach((event) => {
+    dayEvents.slice(0, 2).forEach((event) => {
       const chip = document.createElement("span");
       chip.className = "calendar__event-chip";
       chip.textContent = event.title;
       eventsContainer.appendChild(chip);
     });
 
-    if (dayEvents.length > 3) {
+    if (dayEvents.length > 2) {
       const more = document.createElement("span");
       more.className = "calendar__more";
-      more.textContent = `+${dayEvents.length - 3}`;
+      more.textContent = `+${dayEvents.length - 2} more`;
       eventsContainer.appendChild(more);
     }
 

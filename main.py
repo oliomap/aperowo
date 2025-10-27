@@ -1,6 +1,9 @@
 import json
+from pathlib import Path
+from typing import Union
 
 from backend.amiv_api import fetch_all_events, extract_event_fields
+from backend.filter import load_raw_events, filter_events_for_refreshments, write_filtered_events
 
 def extract_amiv():
     """
@@ -36,12 +39,35 @@ def extract_amiv():
 
     print(f"Extracted information for {len(filtered_events_amiv)} AMIV events and saved to apero_results_amiv.json.")
 
-def main():
+def main(
+    source: Union[str, Path] = Path("data/raw/VMP_data.json"),
+    destination: Union[str, Path] = Path("data/apero_results_vmp.json"),
+) -> None:
+    """
+    Main function to process event data and extract refreshment events.
+    Loads raw event data from the source file, filters for events with refreshments,
+    and writes the results to the destination files.
 
+    TODO: 
+        - Change the signature to accept multiple sources and destinations for different websites.
+        - Implement a loop to process multiple event data files.
     """
-    Main function to execute the extraction of all events from all possible sites.
-    This function is called when the script is run directly.
-    """
+
+    records = load_raw_events(source)
+    # The crawler stores fairly verbose HTML and Markdown snippets; prioritise
+    # those fields to keep the keyword search focused.
+    filtered = filter_events_for_refreshments(
+        records,
+        text_fields=("markdown", "extracted_content", "html", "metadata.title"),
+    )
+    write_filtered_events(filtered, destination)
+
+    print(
+        f"Processed {len(records)} records, "
+        f"found {len(filtered)} refreshment events. "
+        f"Output written to {destination}."
+    )
+
     extract_amiv()
 
 if __name__ == "__main__":

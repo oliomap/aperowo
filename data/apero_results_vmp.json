@@ -1,0 +1,95 @@
+[
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/sushi-night-hs25",
+    "title": "Sushi Night | VMP",
+    "date": "2025-11-05",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "location": null,
+    "refreshments": "Food (sushi) · Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ],
+        "food": [
+          "sushi"
+        ]
+      },
+      "summary": "Food (sushi) · Drinks (beer)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/vmp-chess-tournament-hs25",
+    "title": "VMP Chess Tournament | VMP",
+    "date": "2025-10-28",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "location": null,
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/just-line-dance",
+    "title": "Just (Line) Dance | VMP",
+    "date": "2025-11-03",
+    "start_time": "17:00",
+    "end_time": "20:00",
+    "location": null,
+    "refreshments": "Drinks (drink) · Snacks (snack, snacks)",
+    "refreshment_details": {
+      "categories": [
+        "drinks",
+        "snacks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "snacks": [
+          "snack",
+          "snacks"
+        ]
+      },
+      "summary": "Drinks (drink) · Snacks (snack, snacks)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/coding-weekend-hs25",
+    "title": "Coding Weekend | VMP",
+    "date": "2025-10-31",
+    "start_time": "16:00",
+    "end_time": "04:00",
+    "location": null,
+    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food) · Drinks (drink)"
+    }
+  }
+]

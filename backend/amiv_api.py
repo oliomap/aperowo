@@ -30,16 +30,9 @@ REFRESHMENT_RULES = {
             "spritz",
             "hugos",
             "hugo",
-            "mulled wine",
             "gluhwein",
             "gluehwein",
-            "sangria",
-            "gin",
-            "tonic",
-            "punch",
-            "prosecco",
             "champagne",
-            "bar",
             "apero",
             "aperitivo",
             "drink",
@@ -74,6 +67,7 @@ REFRESHMENT_RULES = {
             "abendessen",
             "food",
             "essen",
+            "sushi",
         },
     },
     "snacks": {
@@ -86,8 +80,6 @@ REFRESHMENT_RULES = {
             "nuts",
             "fingerfood",
             "finger food",
-            "canape",
-            "canapes",
             "sandwich",
             "sandwiches",
             "apero riche",
@@ -104,8 +96,6 @@ REFRESHMENT_RULES = {
             "cupcakes",
             "dessert",
             "desserts",
-            "cookies",
-            "cookie",
             "chocolate",
             "sweets",
             "waffle",
@@ -118,24 +108,11 @@ REFRESHMENT_RULES = {
             "donuts",
         },
     },
-    "coffee": {
-        "label": "Coffee & Tea",
-        "keywords": {
-            "coffee",
-            "kaffee",
-            "espresso",
-            "latte",
-            "cappuccino",
-            "tea",
-            "tee",
-            "chai",
-        },
-    },
 }
 
 # Define the order in which categories should be displayed when multiple
 # matches are found.  The idea is to list the most substantial offering first.
-REFRESHMENT_DISPLAY_PRIORITY = ["food", "drinks", "snacks", "sweet", "coffee"]
+REFRESHMENT_DISPLAY_PRIORITY = ["food", "drinks", "snacks", "sweet"]
 
 # Normalize text by removing diacritical marks (accents).
 def normalize_text(text):
