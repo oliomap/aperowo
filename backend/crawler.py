@@ -76,7 +76,7 @@ async def event_crawler(specific_url, specific_url_filter_chain, specific_max_de
     return results
 
 
-async def vmp_crawler():
+async def vmp_crawler_args():
 
     vmp_url = "https://www.vmp.ethz.ch/en/events/alle_events"
     vmp_include_pattern_filter = URLPatternFilter(patterns = ["*events*"])
@@ -93,28 +93,47 @@ async def vmp_crawler():
     vmp_filter_chain = FilterChain([vmp_include_pattern_filter, vmp_exclude_pattern_filter])
     return vmp_url, vmp_filter_chain, vmp_max_depth
 
-async def main():
+async def vis_crawler_args():
+
+    vis_url = "https://vis.ethz.ch/de/events/"
+    vis_include_pattern_filter = URLPatternFilter(patterns = ["*events*"])
+
+    vis_max_depth = 1
+
+    urls_to_exclude = [
+        "https://vis.ethz.ch/de/events/",
+        "https://vis.ethz.ch/de/accounts/keycloak/login?next=/de/events/",
+    ]
+    vis_exclude_pattern_filter = URLPatternFilter(patterns = urls_to_exclude, reverse = True )
     
-    #results = await event_crawler(vmp_crawler)
-    #Here we can implement the for loop for different websites
-    start_url, crawl_filters, max_depth = await vmp_crawler()
-    results = await event_crawler(start_url, crawl_filters, max_depth)
+    vis_filter_chain = FilterChain([vis_include_pattern_filter, vis_exclude_pattern_filter])
+    return vis_url, vis_filter_chain, vis_max_depth
 
-    print(f"Crawled {len(results)} pages in total")
 
-    # Define the output filename
-    output_filename = "VMP_data.json"
 
-    filepath = os.path.join('data/raw', output_filename)
+async def main():
+    crawler_configs = [
+        {"args_func": vmp_crawler_args, "output_filename": "VMP_data.json"},
+        {"args_func": vis_crawler_args, "output_filename": "VIS_data.json"}
+        # Add more crawler configurations here:
+        # {"args_func": another_crawler_args, "output_filename": "ANOTHER_data.json"},
+    ]
 
-    if os.path.exists(filepath):
-        os.remove(filepath)
+    for config in crawler_configs:
+        start_url, crawl_filters, max_depth = await config["args_func"]()
+        results = await event_crawler(start_url, crawl_filters, max_depth)
 
-    # Access individual results
-    for result in results:  # Show all results
-        #print(f"URL: {result.url}")
-        #print(f"Depth: {result.metadata.get('depth', 0)}")   
-        process_result(result, output_filename)
+        print(f"Crawled {len(results)} pages in total for {config['output_filename']}")
+
+        filepath = os.path.join('data/raw', config['output_filename'])
+
+        if os.path.exists(filepath):
+            os.remove(filepath)
+
+        for result in results:
+            process_result(result, config['output_filename'])
+
+
 
 if __name__ == "__main__":
     asyncio.run(main())

@@ -908,34 +908,45 @@ def _lookup_path(record: JSONMapping, path: str) -> Any:
     return current
 
 
-def main(
-    source: Union[str, Path] = Path("data/raw/VMP_data.json"),
-    destination: Union[str, Path] = Path("data/apero_results_vmp.json"),
-) -> None:
+def main() -> None:
     """
     Convenience entry point that filters the VMP crawl dump and writes the result.
 
-    This mirrors the pattern used by :mod:`backend.crawler`: the function relies
+    This mirrors the pattern used by :mod:`backend.crawler`: the function uses the data/raw/VMP_data.json file as
+    a default input and later overri
     on the raw data captured in ``data/raw/VMP_data.json`` and produces a
     calendar-compatible JSON file that only contains events mentioning food,
     drinks or snacks.  Paths can be overridden when the function is invoked from
     scripts or tests.
     """
 
-    records = load_raw_events(source)
+    # Minimal batch processing similar to backend.crawler::main
+    configs = [
+        {"source": Path("data/raw/VMP_data.json"), "destination": Path("data/apero_results_vmp.json")},
+        {"source": Path("data/raw/VIS_data.json"), "destination": Path("data/apero_results_vis.json")},
+        # Add more mappings here if needed
+    ]
+
+    for cfg in configs:
+        src = cfg["source"]
+        dst = cfg["destination"]
+
+        records = load_raw_events(src)
     # The crawler stores fairly verbose HTML and Markdown snippets; prioritise
     # those fields to keep the keyword search focused.
-    filtered = filter_events_for_refreshments(
-        records,
-        text_fields=("markdown", "extracted_content", "html", "metadata.title"),
-    )
-    write_filtered_events(filtered, destination)
 
-    print(
-        f"Processed {len(records)} records, "
-        f"found {len(filtered)} refreshment events. "
-        f"Output written to {destination}."
-    )
+
+        filtered = filter_events_for_refreshments(
+            records,
+            text_fields=("markdown", "extracted_content", "html", "metadata.title"),
+        )
+        write_filtered_events(filtered, dst)
+
+        print(
+            f"Processed {len(records)} records for {src}, "
+            f"found {len(filtered)} refreshment events. "
+            f"Output written to {dst}."
+        )
 
 
 if __name__ == "__main__":

@@ -1,12 +1,86 @@
 [
   {
-    "url": "https://www.vmp.ethz.ch/en/events/sushi-night-hs25",
-    "title": "Sushi Night | VMP",
-    "date": "2025-11-05",
+    "url": "https://www.vmp.ethz.ch/en/events/alle_events",
+    "title": "Current Events | VMP",
+    "date": "2025-11-13",
     "start_time": "18:00",
-    "end_time": "22:00",
+    "end_time": null,
     "location": null,
-    "refreshments": "Food (sushi) · Drinks (beer)",
+    "refreshments": "Food (sushi)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "sushi"
+        ]
+      },
+      "summary": "Food (sushi)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/all-you-can-sweet-hs25-2025-11-13",
+    "title": "All You Can Sweet | VMP",
+    "date": "2025-11-13",
+    "start_time": "17:00",
+    "end_time": "21:00",
+    "location": null,
+    "refreshments": "Drinks (wine) · Snacks (snack) · Dessert (chocolate, crepe, crepes)",
+    "refreshment_details": {
+      "categories": [
+        "drinks",
+        "snacks",
+        "sweet"
+      ],
+      "matches": {
+        "drinks": [
+          "wine"
+        ],
+        "snacks": [
+          "snack"
+        ],
+        "sweet": [
+          "chocolate",
+          "crepe",
+          "crepes",
+          "sweets",
+          "waffle",
+          "waffles"
+        ]
+      },
+      "summary": "Drinks (wine) · Snacks (snack) · Dessert (chocolate, crepe, crepes)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/appbuilding-challenge-matlab",
+    "title": "App Building Challenge with MATLAB | VMP",
+    "date": "2025-10-29",
+    "start_time": "18:00",
+    "end_time": "20:00",
+    "location": null,
+    "refreshments": "Food (bbq, pizza)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "bbq",
+          "pizza"
+        ]
+      },
+      "summary": "Food (bbq, pizza)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/coding-weekend-hs25",
+    "title": "Coding Weekend | VMP",
+    "date": "2025-10-31",
+    "start_time": "16:00",
+    "end_time": "04:00",
+    "location": null,
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -14,13 +88,13 @@
       ],
       "matches": {
         "drinks": [
-          "beer"
+          "drink"
         ],
         "food": [
-          "sushi"
+          "food"
         ]
       },
-      "summary": "Food (sushi) · Drinks (beer)"
+      "summary": "Food (food) · Drinks (drink)"
     }
   },
   {
@@ -29,6 +103,26 @@
     "date": "2025-10-28",
     "start_time": "18:00",
     "end_time": "22:00",
+    "location": null,
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/jane-street-panel-talk",
+    "title": "Jane Street “Get to Know Us” Panel Talk | VMP",
+    "date": "2025-11-05",
+    "start_time": "16:30",
+    "end_time": "18:15",
     "location": null,
     "refreshments": "Food (food)",
     "refreshment_details": {
@@ -69,13 +163,33 @@
     }
   },
   {
-    "url": "https://www.vmp.ethz.ch/en/events/coding-weekend-hs25",
-    "title": "Coding Weekend | VMP",
-    "date": "2025-10-31",
+    "url": "https://www.vmp.ethz.ch/en/events/rge-2025-11-18",
+    "title": "Research Group Event | VMP",
+    "date": "2025-11-18",
     "start_time": "16:00",
-    "end_time": "04:00",
+    "end_time": "18:00",
     "location": null,
-    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshments": "Drinks (apero)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "apero"
+        ]
+      },
+      "summary": "Drinks (apero)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/sushi-night-hs25",
+    "title": "Sushi Night | VMP",
+    "date": "2025-11-05",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "location": null,
+    "refreshments": "Food (sushi) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -83,13 +197,13 @@
       ],
       "matches": {
         "drinks": [
-          "drink"
+          "beer"
         ],
         "food": [
-          "food"
+          "sushi"
         ]
       },
-      "summary": "Food (food) · Drinks (drink)"
+      "summary": "Food (sushi) · Drinks (beer)"
     }
   }
 ]

@@ -10,6 +10,11 @@ const sources = [
     id: "vmp-apero",
     label: "VMP Aperos",
     path: "/data/apero_results_vmp.json",
+  },
+  {
+    id: "vis-apero",
+    label: "VIS Aperos",
+    path: "/data/apero_results_vis.json",
   }
 ];
 
