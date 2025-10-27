@@ -1,81 +1,27 @@
 [
   {
-    "url": "https://vis.ethz.ch/de/events/",
-    "title": "Events",
-    "date": "2025-10-28",
-    "start_time": "18:15",
+    "url": "https://vis.ethz.ch/en/events/994",
+    "title": "VISky Tasting",
+    "date": "2025-11-12",
+    "start_time": "18:30",
     "end_time": null,
     "location": null,
-    "refreshments": "Food (dinner, essen) · Drinks (beer)",
+    "refreshments": "Snacks (snack, snacks)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "food": [
-          "dinner",
-          "essen"
-        ]
-      },
-      "summary": "Food (dinner, essen) · Drinks (beer)"
-    }
-  },
-  {
-    "url": "https://vis.ethz.ch/de/events/988",
-    "title": "VIS x Dialectic: Tech Talk",
-    "date": "2025-10-28",
-    "start_time": "18:15",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (pizza) · Drinks (drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "pizza"
-        ]
-      },
-      "summary": "Food (pizza) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "https://vis.ethz.ch/de/events/997",
-    "title": "VIS Beer Pong Tournament",
-    "date": "2025-11-07",
-    "start_time": "18:00",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Drinks (beer, bier) · Snacks (snack, snacks)",
-    "refreshment_details": {
-      "categories": [
-        "drinks",
         "snacks"
       ],
       "matches": {
-        "drinks": [
-          "beer",
-          "bier"
-        ],
         "snacks": [
           "snack",
           "snacks"
         ]
       },
-      "summary": "Drinks (beer, bier) · Snacks (snack, snacks)"
+      "summary": "Snacks (snack, snacks)"
     }
   },
   {
-    "url": "https://vis.ethz.ch/de/events/995",
+    "url": "https://vis.ethz.ch/en/events/995",
     "title": "ICPC Swiss Subregional Contest 2025-2026",
     "date": "2025-11-01",
     "start_time": "10:00",
@@ -100,75 +46,13 @@
     }
   },
   {
-    "url": "https://vis.ethz.ch/de/events/999",
-    "title": "VIS x Jane Street: Tech Talk",
-    "date": "2025-11-04",
+    "url": "https://vis.ethz.ch/en/events/988",
+    "title": "VIS x Dialectic: Tech Talk",
+    "date": "2025-10-28",
     "start_time": "18:15",
-    "end_time": "21:00",
-    "location": null,
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
-  },
-  {
-    "url": "https://vis.ethz.ch/de/events/991",
-    "title": "VIS x QuantCo: Private Dinner",
-    "date": "2025-11-06",
-    "start_time": "18:30",
     "end_time": null,
     "location": null,
-    "refreshments": "Food (abendessen, dinner, essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "abendessen",
-          "dinner",
-          "essen"
-        ]
-      },
-      "summary": "Food (abendessen, dinner, essen)"
-    }
-  },
-  {
-    "url": "https://vis.ethz.ch/de/events/981",
-    "title": "Coding Weekend",
-    "date": "2025-10-31",
-    "start_time": "14:30",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
-  },
-  {
-    "url": "https://vis.ethz.ch/de/events/984",
-    "title": "Midweek Mexican Madness",
-    "date": "2025-10-30",
-    "start_time": "18:00",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (essen) · Drinks (bier)",
+    "refreshments": "Food (pizza) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -176,34 +60,152 @@
       ],
       "matches": {
         "drinks": [
-          "bier"
+          "drink"
         ],
         "food": [
-          "essen"
+          "pizza"
         ]
       },
-      "summary": "Food (essen) · Drinks (bier)"
+      "summary": "Food (pizza) · Drinks (drink)"
     }
   },
   {
-    "url": "https://vis.ethz.ch/de/events/994",
-    "title": "VISky Tasting",
-    "date": "2025-11-13",
-    "start_time": "18:30",
+    "url": "https://vis.ethz.ch/en/events/984",
+    "title": "Midweek Mexican Madness",
+    "date": "2025-10-30",
+    "start_time": "18:00",
     "end_time": null,
     "location": null,
-    "refreshments": "Snacks (snack, snacks)",
+    "refreshments": "Food (food) · Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer",
+          "drink"
+        ],
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food) · Drinks (beer, drink)"
+    }
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/981",
+    "title": "Coding Weekend",
+    "date": "2025-10-31",
+    "start_time": "14:30",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food) · Drinks (drink)"
+    }
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/931",
+    "title": "VIS x Irrational - Coffee Crawl",
+    "date": "2025-11-08",
+    "start_time": "10:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ]
+      },
+      "summary": "Drinks (drink)"
+    }
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/997",
+    "title": "VIS Beer Pong Tournament",
+    "date": "2025-11-07",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Drinks (beer) · Snacks (snack, snacks)",
+    "refreshment_details": {
+      "categories": [
+        "drinks",
         "snacks"
       ],
       "matches": {
+        "drinks": [
+          "beer"
+        ],
         "snacks": [
           "snack",
           "snacks"
         ]
       },
-      "summary": "Snacks (snack, snacks)"
+      "summary": "Drinks (beer) · Snacks (snack, snacks)"
+    }
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/999",
+    "title": "VIS x Jane Street: Tech Talk",
+    "date": "2025-11-04",
+    "start_time": "18:15",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food) · Drinks (drink)"
+    }
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/991",
+    "title": "VIS x QuantCo: Private Dinner",
+    "date": "2018-11-06",
+    "start_time": "18:30",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Food (dinner, food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "dinner",
+          "food"
+        ]
+      },
+      "summary": "Food (dinner, food)"
     }
   }
 ]

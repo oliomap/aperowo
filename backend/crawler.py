@@ -95,14 +95,14 @@ async def vmp_crawler_args():
 
 async def vis_crawler_args():
 
-    vis_url = "https://vis.ethz.ch/de/events/"
+    vis_url = "https://vis.ethz.ch/en/events/"
     vis_include_pattern_filter = URLPatternFilter(patterns = ["*events*"])
 
     vis_max_depth = 1
 
     urls_to_exclude = [
-        "https://vis.ethz.ch/de/events/",
-        "https://vis.ethz.ch/de/accounts/keycloak/login?next=/de/events/",
+        "https://vis.ethz.ch/en/events/",
+        "https://vis.ethz.ch/en/accounts/keycloak/login?next=/en/events/",
     ]
     vis_exclude_pattern_filter = URLPatternFilter(patterns = urls_to_exclude, reverse = True )
     

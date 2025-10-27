@@ -1,25 +1,5 @@
 [
   {
-    "url": "https://www.vmp.ethz.ch/en/events/alle_events",
-    "title": "Current Events | VMP",
-    "date": "2025-11-13",
-    "start_time": "18:00",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (sushi)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "sushi"
-        ]
-      },
-      "summary": "Food (sushi)"
-    }
-  },
-  {
     "url": "https://www.vmp.ethz.ch/en/events/all-you-can-sweet-hs25-2025-11-13",
     "title": "All You Can Sweet | VMP",
     "date": "2025-11-13",
@@ -53,27 +33,6 @@
     }
   },
   {
-    "url": "https://www.vmp.ethz.ch/en/events/appbuilding-challenge-matlab",
-    "title": "App Building Challenge with MATLAB | VMP",
-    "date": "2025-10-29",
-    "start_time": "18:00",
-    "end_time": "20:00",
-    "location": null,
-    "refreshments": "Food (bbq, pizza)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "bbq",
-          "pizza"
-        ]
-      },
-      "summary": "Food (bbq, pizza)"
-    }
-  },
-  {
     "url": "https://www.vmp.ethz.ch/en/events/coding-weekend-hs25",
     "title": "Coding Weekend | VMP",
     "date": "2025-10-31",
@@ -95,46 +54,6 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "https://www.vmp.ethz.ch/en/events/vmp-chess-tournament-hs25",
-    "title": "VMP Chess Tournament | VMP",
-    "date": "2025-10-28",
-    "start_time": "18:00",
-    "end_time": "22:00",
-    "location": null,
-    "refreshments": "Food (food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food)"
-    }
-  },
-  {
-    "url": "https://www.vmp.ethz.ch/en/events/jane-street-panel-talk",
-    "title": "Jane Street “Get to Know Us” Panel Talk | VMP",
-    "date": "2025-11-05",
-    "start_time": "16:30",
-    "end_time": "18:15",
-    "location": null,
-    "refreshments": "Food (food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food)"
     }
   },
   {
@@ -163,26 +82,6 @@
     }
   },
   {
-    "url": "https://www.vmp.ethz.ch/en/events/rge-2025-11-18",
-    "title": "Research Group Event | VMP",
-    "date": "2025-11-18",
-    "start_time": "16:00",
-    "end_time": "18:00",
-    "location": null,
-    "refreshments": "Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ]
-      },
-      "summary": "Drinks (apero)"
-    }
-  },
-  {
     "url": "https://www.vmp.ethz.ch/en/events/sushi-night-hs25",
     "title": "Sushi Night | VMP",
     "date": "2025-11-05",
@@ -204,6 +103,86 @@
         ]
       },
       "summary": "Food (sushi) · Drinks (beer)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/rge-2025-11-18",
+    "title": "Research Group Event | VMP",
+    "date": "2025-11-18",
+    "start_time": "16:00",
+    "end_time": "18:00",
+    "location": null,
+    "refreshments": "Drinks (apero)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "apero"
+        ]
+      },
+      "summary": "Drinks (apero)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/vmp-chess-tournament-hs25",
+    "title": "VMP Chess Tournament | VMP",
+    "date": "2025-10-28",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "location": null,
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/appbuilding-challenge-matlab",
+    "title": "App Building Challenge with MATLAB | VMP",
+    "date": "2025-10-29",
+    "start_time": "18:00",
+    "end_time": "20:00",
+    "location": null,
+    "refreshments": "Food (pizza)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "pizza"
+        ]
+      },
+      "summary": "Food (pizza)"
+    }
+  },
+  {
+    "url": "https://www.vmp.ethz.ch/en/events/jane-street-panel-talk",
+    "title": "Jane Street “Get to Know Us” Panel Talk | VMP",
+    "date": "2025-11-05",
+    "start_time": "16:30",
+    "end_time": "18:15",
+    "location": null,
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
     }
   }
 ]
