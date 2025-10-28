@@ -1,0 +1,28 @@
+{
+
+    "jobs": [
+        {
+            "url": "https://vis.ethz.ch/en/events/",
+            "urls_to_exclude": [
+                "https://vis.ethz.ch/en/events/",
+                "https://vis.ethz.ch/en/accounts/keycloak/login?next=/en/events/"
+            ],
+            "depth": 1,
+            "include_pattern_filter": "*/events/*",
+            "frequency": "daily"
+        },
+        {
+            "url": "https://vmp.ethz.ch/en/events/alle_events",
+            "urls_to_exclude": [
+                "https://www.vmp.ethz.ch/en/events/alle_events",
+                "https://www.vmp.ethz.ch/en/events",
+                "https://www.vmp.ethz.ch/en/events/meine_events",
+                "https://www.vmp.ethz.ch/en/events/helper-recruitment"
+            ],
+            "depth": 1,
+            "include_pattern_filter": "*/events/*",
+            "frequency": "daily"
+        }
+    ]
+
+}
