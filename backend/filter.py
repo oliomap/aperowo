@@ -16,6 +16,9 @@ from datetime import datetime
 from collections.abc import Iterable, Mapping, MutableMapping, Sequence
 from pathlib import Path
 from typing import Any, Callable, Union
+from thefuzz import fuzz
+
+
 
 try:
     from .amiv_api import REFRESHMENT_DISPLAY_PRIORITY, REFRESHMENT_RULES, normalize_text
@@ -185,17 +188,21 @@ def filter_events_for_refreshments(
     return filtered
 
 
+
+
+
 def write_filtered_events(
     filtered_events: Sequence[Mapping[str, Any]],
     destination: Union[str, Path],
     field_mapping: Mapping[str, Union[str, Sequence[str], Callable[[JSONMapping], Any]]] | None = None,
     *,
+    seen_titles: set,
     ensure_ascii: bool = False,
     indent: int = 2,
     encoding: str = "utf-8",
 ) -> list[dict[str, Any]]:
     """
-    Serialise filtered events into the structure used by ``apero_results_amiv.json``.
+    Serialise filtered events into the structure used by ``apero_results_example.json``.
 
     Parameters
     ----------
@@ -221,6 +228,7 @@ def write_filtered_events(
 
     Returns
     -------
+    
     list[dict]
         The serialised list that was written to ``destination``.  Returning it
         makes unit testing straightforward because no file system access is
@@ -241,15 +249,18 @@ def write_filtered_events(
         for field, extractor in mapping_config.items():
             event_payload[field] = _resolve_field(record, extractor)
 
-        # Ensure canonical date and time representations in the output.
-        event_payload["date"] = _normalise_date_value(event_payload.get("date"))
-        event_payload["start_time"] = _render_time_field(event_payload.get("start_time"))
-        event_payload["end_time"] = _render_time_field(event_payload.get("end_time"))
+        title = event_payload.get("title")
+        if not is_title_present(title, seen_titles):
+            seen_titles.add(title)
+            # Ensure canonical date and time representations in the output.
+            event_payload["date"] = _normalise_date_value(event_payload.get("date"))
+            event_payload["start_time"] = _render_time_field(event_payload.get("start_time"))
+            event_payload["end_time"] = _render_time_field(event_payload.get("end_time"))
 
-        summary = details.get("summary")
-        event_payload["refreshments"] = summary
-        event_payload["refreshment_details"] = details
-        serialised.append(dict(event_payload))
+            summary = details.get("summary")
+            event_payload["refreshments"] = summary
+            event_payload["refreshment_details"] = details
+            serialised.append(dict(event_payload))
 
     with destination_path.open("w", encoding=encoding) as handle:
         json.dump(serialised, handle, ensure_ascii=ensure_ascii, indent=indent)
@@ -906,6 +917,19 @@ def _lookup_path(record: JSONMapping, path: str) -> Any:
             return current[: int(end)] if end else current
 
     return current
+################################################-test
+
+
+def is_title_present(title: str, seen_titles: set, score_threshold: int = 80) -> bool:
+    """
+    Check if a similar title is already in the set of seen titles.
+    """
+    if not title:
+        return False
+    for seen_title in seen_titles:
+        if fuzz.partial_ratio(title, seen_title) >= score_threshold:
+            return True
+    return False
 
 
 def main() -> None:
@@ -919,6 +943,7 @@ def main() -> None:
     drinks or snacks.  Paths can be overridden when the function is invoked from
     scripts or tests.
     """
+    seen_titles = set()
 
     # Minimal batch processing similar to backend.crawler::main
     configs = [
@@ -931,7 +956,11 @@ def main() -> None:
         src = cfg["source"]
         dst = cfg["destination"]
 
-        records = load_raw_events(src)
+        try:
+            records = load_raw_events(src)
+        except FileNotFoundError:
+            print(f"Source file not found: {src}. Skipping.")
+            continue
     # The crawler stores fairly verbose HTML and Markdown snippets; prioritise
     # those fields to keep the keyword search focused.
 
@@ -940,13 +969,13 @@ def main() -> None:
             records,
             text_fields=("markdown", "extracted_content", "html", "metadata.title"),
         )
-        write_filtered_events(filtered, dst)
+        write_filtered_events(filtered, dst, seen_titles=seen_titles)
 
         print(
             f"Processed {len(records)} records for {src}, "
             f"found {len(filtered)} refreshment events. "
             f"Output written to {dst}."
-        )
+        ) 
 
 
 if __name__ == "__main__":

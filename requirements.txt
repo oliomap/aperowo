@@ -13,3 +13,5 @@ playwright
 tldextract
 setuptools
 typeguard
+thefuzz
+

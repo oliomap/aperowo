@@ -1,31 +1,5 @@
 [
   {
-    "url": "https://vis.ethz.ch/en/events/",
-    "title": "Events",
-    "date": "2025-10-28",
-    "start_time": "18:15",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (dinner, food) · Drinks (beer, drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer",
-          "drink"
-        ],
-        "food": [
-          "dinner",
-          "food"
-        ]
-      },
-      "summary": "Food (dinner, food) · Drinks (beer, drink)"
-    }
-  },
-  {
     "url": "https://vis.ethz.ch/en/events/931",
     "title": "VIS x Irrational - Coffee Crawl",
     "date": "2025-11-08",
@@ -187,30 +161,6 @@
         ]
       },
       "summary": "Food (food) · Drinks (beer, drink)"
-    }
-  },
-  {
-    "url": "https://vis.ethz.ch/en/events/981",
-    "title": "Coding Weekend",
-    "date": "2025-10-31",
-    "start_time": "14:30",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (food) · Drinks (drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food) · Drinks (drink)"
     }
   },
   {

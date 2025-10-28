@@ -1,25 +1,5 @@
 [
   {
-    "url": "https://vmp.ethz.ch/en/events/alle_events",
-    "title": "Current Events | VMP",
-    "date": "2025-11-13",
-    "start_time": "18:00",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (sushi)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "sushi"
-        ]
-      },
-      "summary": "Food (sushi)"
-    }
-  },
-  {
     "url": "https://vmp.ethz.ch/en/events/all-you-can-sweet-hs25-2025-11-13",
     "title": "All You Can Sweet | VMP",
     "date": "2025-11-13",
@@ -203,6 +183,26 @@
         ]
       },
       "summary": "Drinks (apero)"
+    }
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/alle_events",
+    "title": "Current Events | VMP",
+    "date": "2025-11-13",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Food (sushi)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "sushi"
+        ]
+      },
+      "summary": "Food (sushi)"
     }
   }
 ]

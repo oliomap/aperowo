@@ -5914,7 +5914,7 @@
     "start_time": "11:30",
     "end_time": "16:00",
     "location": "6042 Dietwil",
-    "refreshments": "Food (food, grill) · Drinks (beer) · Snacks (snack, snacks)",
+    "refreshments": "Food (food, grill) · Drinks (beer, bier) · Snacks (snack, snacks)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5923,7 +5923,8 @@
       ],
       "matches": {
         "drinks": [
-          "beer"
+          "beer",
+          "bier"
         ],
         "food": [
           "food",
@@ -5934,7 +5935,7 @@
           "snacks"
         ]
       },
-      "summary": "Food (food, grill) · Drinks (beer) · Snacks (snack, snacks)"
+      "summary": "Food (food, grill) · Drinks (beer, bier) · Snacks (snack, snacks)"
     }
   }
 ]

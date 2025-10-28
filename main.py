@@ -60,7 +60,12 @@ def main(
         records,
         text_fields=("markdown", "extracted_content", "html", "metadata.title"),
     )
-    write_filtered_events(filtered, destination)
+
+
+    seen_titles = set()
+    # write_filtered_events(filtered, destination)
+    write_filtered_events(filtered, destination, seen_titles=seen_titles)
+
 
     print(
         f"Processed {len(records)} records, "
