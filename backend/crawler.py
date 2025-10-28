@@ -76,62 +76,100 @@ async def event_crawler(specific_url, specific_url_filter_chain, specific_max_de
     return results
 
 
-async def vmp_crawler_args():
+# async def vmp_crawler_args():
 
-    vmp_url = "https://www.vmp.ethz.ch/en/events/alle_events"
-    vmp_include_pattern_filter = URLPatternFilter(patterns = ["*events*"])
-    vmp_max_depth = 1
+#     vmp_url = "https://www.vmp.ethz.ch/en/events/alle_events"
+#     vmp_include_pattern_filter = URLPatternFilter(patterns = ["*events*"])
+#     vmp_max_depth = 1
 
-    urls_to_exclude = [
-        "https://www.vmp.ethz.ch/en/events/alle_events",
-        "https://www.vmp.ethz.ch/en/events",
-        "https://www.vmp.ethz.ch/en/events/meine_events",
-        "https://www.vmp.ethz.ch/en/events/helper-recruitment",
-    ]
-    vmp_exclude_pattern_filter = URLPatternFilter(patterns = urls_to_exclude, reverse = True )
+#     urls_to_exclude = [
+#         "https://www.vmp.ethz.ch/en/events/alle_events",
+#         "https://www.vmp.ethz.ch/en/events",
+#         "https://www.vmp.ethz.ch/en/events/meine_events",
+#         "https://www.vmp.ethz.ch/en/events/helper-recruitment",
+#     ]
+#     vmp_exclude_pattern_filter = URLPatternFilter(patterns = urls_to_exclude, reverse = True )
     
-    vmp_filter_chain = FilterChain([vmp_include_pattern_filter, vmp_exclude_pattern_filter])
-    return vmp_url, vmp_filter_chain, vmp_max_depth
+#     vmp_filter_chain = FilterChain([vmp_include_pattern_filter, vmp_exclude_pattern_filter])
+#     return vmp_url, vmp_filter_chain, vmp_max_depth
 
-async def vis_crawler_args():
+# async def vis_crawler_args():
 
-    vis_url = "https://vis.ethz.ch/en/events/"
-    vis_include_pattern_filter = URLPatternFilter(patterns = ["*events*"])
+#     vis_url = "https://vis.ethz.ch/en/events/"
+#     vis_include_pattern_filter = URLPatternFilter(patterns = ["*events*"])
 
-    vis_max_depth = 1
+#     vis_max_depth = 1
 
-    urls_to_exclude = [
-        "https://vis.ethz.ch/en/events/",
-        "https://vis.ethz.ch/en/accounts/keycloak/login?next=/en/events/",
-    ]
-    vis_exclude_pattern_filter = URLPatternFilter(patterns = urls_to_exclude, reverse = True )
+#     urls_to_exclude = [
+#         "https://vis.ethz.ch/en/events/",
+#         "https://vis.ethz.ch/en/accounts/keycloak/login?next=/en/events/",
+#     ]
+#     vis_exclude_pattern_filter = URLPatternFilter(patterns = urls_to_exclude, reverse = True )
     
-    vis_filter_chain = FilterChain([vis_include_pattern_filter, vis_exclude_pattern_filter])
-    return vis_url, vis_filter_chain, vis_max_depth
+#     vis_filter_chain = FilterChain([vis_include_pattern_filter, vis_exclude_pattern_filter])
+#     return vis_url, vis_filter_chain, vis_max_depth
 
 
 
-async def main():
-    crawler_configs = [
-        {"args_func": vmp_crawler_args, "output_filename": "VMP_data.json"},
-        {"args_func": vis_crawler_args, "output_filename": "VIS_data.json"}
-        # Add more crawler configurations here:
-        # {"args_func": another_crawler_args, "output_filename": "ANOTHER_data.json"},
-    ]
 
-    for config in crawler_configs:
-        start_url, crawl_filters, max_depth = await config["args_func"]()
+async def run_crawlers_from_file(cfg_path: str = "./backend/urls_to_crawl.json"):
+    """Load crawler configs from JSON and run the loop for each job.
+
+    This is intentionally simple: it reads the JSON file, extracts a list of
+    jobs (supports either a top-level dict with "jobs" or a plain list), and
+    executes the same body that the original `main` used to contain.
+    """
+    # read file
+    with open(cfg_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    jobs = data.get("jobs") if isinstance(data, dict) else data
+  
+  
+
+    for config in jobs:
+        start_url = config.get("url")
+        max_depth = config.get("depth", 1)
+        # print(max_depth)
+
+        output_filename = config.get("output_filename")
+        # print(output_filename)
+
+        
+
+        # Build filter chain
+
+        include_patterns = config.get("include_pattern_filter") or config.get("urls_to_include") or []
+        if not isinstance(include_patterns, (list, tuple)):
+            include_patterns = [include_patterns]
+
+        exclude_patterns = config.get("urls_to_exclude") or config.get("exclude") or []
+        if not isinstance(exclude_patterns, (list, tuple)):
+            exclude_patterns = [exclude_patterns] if exclude_patterns else []
+
+        include_filter = URLPatternFilter(patterns=include_patterns)
+        exclude_filter = URLPatternFilter(patterns=exclude_patterns, reverse=True)
+        crawl_filters = FilterChain([include_filter, exclude_filter])
+
+        # Run crawler
         results = await event_crawler(start_url, crawl_filters, max_depth)
+        print(f"Crawled {len(results)} pages in total for {output_filename}")
 
-        print(f"Crawled {len(results)} pages in total for {config['output_filename']}")
 
-        filepath = os.path.join('data/raw', config['output_filename'])
-
+        # Save results (overwrite)
+        filepath = os.path.join("../data/raw/", output_filename)
         if os.path.exists(filepath):
             os.remove(filepath)
 
         for result in results:
-            process_result(result, config['output_filename'])
+            process_result(result, output_filename)
+
+
+
+
+async def main():
+    await run_crawlers_from_file()
+
 
 
 

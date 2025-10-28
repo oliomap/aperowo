@@ -9,7 +9,8 @@
             ],
             "depth": 1,
             "include_pattern_filter": "*/events/*",
-            "frequency": "daily"
+            "frequency": "daily",
+            "output_filename": "VIS_data.json"
         },
         {
             "url": "https://vmp.ethz.ch/en/events/alle_events",
@@ -21,7 +22,8 @@
             ],
             "depth": 1,
             "include_pattern_filter": "*/events/*",
-            "frequency": "daily"
+            "frequency": "daily",
+            "output_filename": "VMP_data.json"
         }
     ]
 
