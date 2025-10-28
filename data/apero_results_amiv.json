@@ -6,7 +6,7 @@
     "start_time": "17:00",
     "end_time": "20:00",
     "location": "StuZ",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -17,21 +17,21 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/5c6bdb62b0fc9800010f48d1",
     "title": "AMIV Alumni Event",
-    "date": "",
-    "start_time": "",
-    "end_time": "",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
     "location": null,
-    "refreshments": "Drinks (apero, beer, bier)",
+    "refreshments": "Drinks (apero, beer)",
     "refreshment_details": {
       "categories": [
         "drinks"
@@ -39,12 +39,12 @@
       "matches": {
         "drinks": [
           "apero",
-          "beer",
-          "bier"
+          "beer"
         ]
       },
-      "summary": "Drinks (apero, beer, bier)"
-    }
+      "summary": "Drinks (apero, beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/5c6d11d862488c0001bf67f0",
@@ -64,27 +64,8 @@
         ]
       },
       "summary": "Food (essen)"
-    }
-  },
-  {
-    "url": "events/5c781a60c4337900014cdc13",
-    "title": "LIMES-Stammtisch ",
-    "date": "2019-03-07",
-    "start_time": "17:30",
-    "end_time": "19:00",
-    "location": "Kleine Freiheit",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+    },
+    "easeOfEntry": 0.65
   },
   {
     "url": "events/5c851fb6a7b5480001b8e715",
@@ -93,7 +74,7 @@
     "start_time": "17:00",
     "end_time": "19:00",
     "location": "Sitzungszimmer 2 (CAB E15.2)",
-    "refreshments": "Food (essen, food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -101,36 +82,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (beer, bier)"
-    }
-  },
-  {
-    "url": "events/5c9102c316cbb90001a93df2",
-    "title": "LIMES-Stammtisch ",
-    "date": "2019-04-11",
-    "start_time": "16:30",
-    "end_time": "18:00",
-    "location": "Kleine Freiheit, Haldenegg",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (food) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/5ca323356c3dcf0001978013",
@@ -154,7 +114,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 0.65
   },
   {
     "url": "events/5caf536d831b010001285f09",
@@ -163,7 +124,7 @@
     "start_time": "15:30",
     "end_time": "20:00",
     "location": "Stutz2 CAB",
-    "refreshments": "Food (essen, meal) · Dessert (dessert)",
+    "refreshments": "Food (meal) · Dessert (dessert)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -171,15 +132,15 @@
       ],
       "matches": {
         "food": [
-          "essen",
           "meal"
         ],
         "sweet": [
           "dessert"
         ]
       },
-      "summary": "Food (essen, meal) · Dessert (dessert)"
-    }
+      "summary": "Food (meal) · Dessert (dessert)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/5cb6e8fbd7f87e00019d7ab4",
@@ -188,7 +149,7 @@
     "start_time": "11:00",
     "end_time": "17:00",
     "location": "Sportareal Fluntern",
-    "refreshments": "Food (essen, grill) · Drinks (beer)",
+    "refreshments": "Food (grill) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -199,36 +160,12 @@
           "beer"
         ],
         "food": [
-          "essen",
           "grill"
         ]
       },
-      "summary": "Food (essen, grill) · Drinks (beer)"
-    }
-  },
-  {
-    "url": "events/5cc01f67cc380900012056f6",
-    "title": null,
-    "date": "2019-05-09",
-    "start_time": "16:30",
-    "end_time": "19:00",
-    "location": "Clausiusbar",
-    "refreshments": "Food (essen) · Drinks (bier)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "bier"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (bier)"
-    }
+      "summary": "Food (grill) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.65
   },
   {
     "url": "events/5ccad7eb03beeb00013e0d21",
@@ -248,27 +185,8 @@
         ]
       },
       "summary": "Food (essen)"
-    }
-  },
-  {
-    "url": "events/5ccc365cafb0450001c1c51e",
-    "title": "LIMES-Stammtisch ",
-    "date": "2019-05-09",
-    "start_time": "16:30",
-    "end_time": "18:00",
-    "location": "Kleine Freiheit",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/5cd92421a2ae744ce04474ce",
@@ -277,25 +195,21 @@
     "start_time": "16:00",
     "end_time": "20:30",
     "location": "ETH Alumni Pavillon",
-    "refreshments": "Food (essen) · Drinks (bier, cocktail, cocktails)",
+    "refreshments": "Drinks (cocktail, cocktails, drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
-          "bier",
           "cocktail",
           "cocktails",
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (bier, cocktail, cocktails)"
-    }
+      "summary": "Drinks (cocktail, cocktails, drink)"
+    },
+    "easeOfEntry": 0.6
   },
   {
     "url": "events/5d7fa0c7a4473dfc53f5bbad",
@@ -304,7 +218,7 @@
     "start_time": "16:00",
     "end_time": "21:00",
     "location": "StuZ",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -315,38 +229,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "events/5d84953d44aa78c29f60668b",
-    "title": null,
-    "date": "2019-09-24",
-    "start_time": "15:30",
-    "end_time": "18:00",
-    "location": "HG E7",
-    "refreshments": "Food (bratwurst, essen, wurst) · Drinks (bier)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "bier"
-        ],
-        "food": [
-          "bratwurst",
-          "essen",
-          "wurst"
-        ]
-      },
-      "summary": "Food (bratwurst, essen, wurst) · Drinks (bier)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/5d892ced66880446a532baba",
@@ -355,7 +243,7 @@
     "start_time": "16:00",
     "end_time": "20:30",
     "location": "CAB Sitzungszimmer",
-    "refreshments": "Food (essen, food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -363,36 +251,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (beer, bier)"
-    }
-  },
-  {
-    "url": "events/5d93995f93ba7ed8679eab74",
-    "title": null,
-    "date": "2019-10-08",
-    "start_time": "15:15",
-    "end_time": "16:00",
-    "location": "ML F39",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (food) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/5d939c547e523295c6d37266",
@@ -401,22 +268,19 @@
     "start_time": "13:15",
     "end_time": "14:00",
     "location": "ML F38",
-    "refreshments": "Food (essen) · Drinks (apero)",
+    "refreshments": "Drinks (apero)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "apero"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
+      "summary": "Drinks (apero)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/5d9b473f1609185bbe2ac7a3",
@@ -425,46 +289,19 @@
     "start_time": "18:00",
     "end_time": "23:00",
     "location": "Platzspitz",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "events/5d9f4fcdc41b5287202c0ce3",
-    "title": null,
-    "date": "2019-11-13",
-    "start_time": "15:30",
-    "end_time": "18:00",
-    "location": "Siemens Mobility AG, Hammerweg 1, 8304 Wallisellen",
-    "refreshments": "Food (essen) · Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/5da04e56bb68377315ac51f6",
@@ -473,7 +310,7 @@
     "start_time": "16:30",
     "end_time": "21:30",
     "location": "Clausiusbar",
-    "refreshments": "Food (essen, food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer, bier)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -485,56 +322,12 @@
           "bier"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (beer, bier)"
-    }
-  },
-  {
-    "url": "events/5db04bc62b87d4b26f532258",
-    "title": null,
-    "date": "2019-11-12",
-    "start_time": "17:00",
-    "end_time": "21:00",
-    "location": "ETZ Foyer",
-    "refreshments": "Food (essen) · Drinks (bier)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "bier"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (bier)"
-    }
-  },
-  {
-    "url": "events/5dc144170bc050de7819d812",
-    "title": null,
-    "date": "2019-12-07",
-    "start_time": "16:00",
-    "end_time": "22:59",
-    "location": "CAB H 52",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (food) · Drinks (beer, bier)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/5dc433fb28b217f5639d5098",
@@ -543,7 +336,7 @@
     "start_time": "16:30",
     "end_time": "21:00",
     "location": "StuZ (CAB)",
-    "refreshments": "Food (essen, meal) · Dessert (dessert)",
+    "refreshments": "Food (meal) · Dessert (dessert)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -551,15 +344,15 @@
       ],
       "matches": {
         "food": [
-          "essen",
           "meal"
         ],
         "sweet": [
           "dessert"
         ]
       },
-      "summary": "Food (essen, meal) · Dessert (dessert)"
-    }
+      "summary": "Food (meal) · Dessert (dessert)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/5dd69efc3476832d8a7c19b2",
@@ -568,40 +361,19 @@
     "start_time": "17:00",
     "end_time": "21:00",
     "location": "Hiltl, Langstrasse 84 8004 Zürich",
-    "refreshments": "Food (dinner, essen)",
+    "refreshments": "Food (dinner)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (dinner, essen)"
-    }
-  },
-  {
-    "url": "events/5de63a4835e323058ebbce14",
-    "title": "Christmas Brunch",
-    "date": "2019-12-10",
-    "start_time": "06:00",
-    "end_time": "09:00",
-    "location": "CLA & ETZ",
-    "refreshments": "Food (essen, food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen",
-          "food"
-        ]
-      },
-      "summary": "Food (essen, food)"
-    }
+      "summary": "Food (dinner)"
+    },
+    "easeOfEntry": 0.9500000000000001
   },
   {
     "url": "events/5e186edc69f9e42331c81631",
@@ -625,27 +397,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "events/5e46e60a5afc5a3b191e08c8",
-    "title": "Create a bot for your plant in the pot",
-    "date": "2020-03-17",
-    "start_time": "17:00",
-    "end_time": "20:00",
-    "location": "Student Project House (HPZ F-Stock)",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/5e4bfa4b21c68a8bc6966e6e",
@@ -669,7 +422,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/5e56b03c2cc5d0e22bedff58",
@@ -689,27 +443,8 @@
         ]
       },
       "summary": "Food (essen)"
-    }
-  },
-  {
-    "url": "events/5e5d004e2cc5d0e22bedffed",
-    "title": "AMIV goes Wellness",
-    "date": "2020-03-09",
-    "start_time": "17:00",
-    "end_time": "19:00",
-    "location": "Hürlimann Thermalbad & Spa Zürich",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/5e84616d914139e8a2051035",
@@ -718,7 +453,7 @@
     "start_time": "17:00",
     "end_time": "20:00",
     "location": "Zuhause",
-    "refreshments": "Food (dinner, essen, meal)",
+    "refreshments": "Food (dinner, meal)",
     "refreshment_details": {
       "categories": [
         "food"
@@ -726,12 +461,12 @@
       "matches": {
         "food": [
           "dinner",
-          "essen",
           "meal"
         ]
       },
-      "summary": "Food (dinner, essen, meal)"
-    }
+      "summary": "Food (dinner, meal)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/5e84d218914139e8a2051047",
@@ -740,22 +475,19 @@
     "start_time": "17:00",
     "end_time": "01:00",
     "location": "mc.amiv.ch",
-    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshments": "Food (food)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
+        "food"
       ],
       "matches": {
-        "drinks": [
-          "drink"
-        ],
         "food": [
           "food"
         ]
       },
-      "summary": "Food (food) · Drinks (drink)"
-    }
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/5e88d1e2fd99b3218499d910",
@@ -764,22 +496,19 @@
     "start_time": "22:00",
     "end_time": "22:00",
     "location": "mc.amiv.ch",
-    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshments": "Food (food)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
+        "food"
       ],
       "matches": {
-        "drinks": [
-          "drink"
-        ],
         "food": [
           "food"
         ]
       },
-      "summary": "Food (food) · Drinks (drink)"
-    }
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/5ec22f3ab57cfda0f5be205d",
@@ -800,21 +529,8 @@
         ]
       },
       "summary": "Food (dinner, essen)"
-    }
-  },
-  {
-    "url": "events/5efc5ff790fc01ffdc6acd2d",
-    "title": "From nanotech to living sensors: unraveling the spin physics of biosensing at the nanoscale",
-    "date": "2020-07-07",
-    "start_time": "16:30",
-    "end_time": "18:30",
-    "location": "https://ethz.zoom.us/j/99067196866",
-    "refreshments": null,
-    "refreshment_details": {
-      "categories": [],
-      "matches": {},
-      "summary": null
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/5f61c86639bb527622391066",
@@ -823,7 +539,7 @@
     "start_time": "16:00",
     "end_time": "19:45",
     "location": "TBD",
-    "refreshments": "Food (essen, food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -831,36 +547,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (beer, bier)"
-    }
-  },
-  {
-    "url": "events/5f719571e14175e56ba71507",
-    "title": "SK[AI] IS THE LIMIT!",
-    "date": "2020-11-20",
-    "start_time": "11:00",
-    "end_time": "20:00",
-    "location": "Online",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (food) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.9500000000000001
   },
   {
     "url": "events/5f7382c2e14175e56ba71555",
@@ -869,43 +564,19 @@
     "start_time": "12:00",
     "end_time": "15:00",
     "location": "ETH Zürich",
-    "refreshments": "Food (essen) · Drinks (bier, drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
-          "bier",
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (bier, drink)"
-    }
-  },
-  {
-    "url": "events/5f981d248aa59dda11463f8f",
-    "title": "Kultur-Kickoff",
-    "date": "2020-10-29",
-    "start_time": "17:00",
-    "end_time": "20:00",
-    "location": "Zoom",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/5faaa2734ec70e771fb5654b",
@@ -914,19 +585,19 @@
     "start_time": "19:00",
     "end_time": "22:00",
     "location": "AMIV Discord",
-    "refreshments": "Drinks (beer, bier)",
+    "refreshments": "Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "drinks"
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ]
       },
-      "summary": "Drinks (beer, bier)"
-    }
+      "summary": "Drinks (beer)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/5faafd4830de11ce8c2ca845",
@@ -935,24 +606,20 @@
     "start_time": "18:00",
     "end_time": "20:00",
     "location": "Zoom",
-    "refreshments": "Food (essen) · Drinks (cocktail, cocktails, drink)",
+    "refreshments": "Drinks (cocktail, drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "cocktail",
-          "cocktails",
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (cocktail, cocktails, drink)"
-    }
+      "summary": "Drinks (cocktail, drink)"
+    },
+    "easeOfEntry": 0.95
   },
   {
     "url": "events/5fc6191c7e5783fa7c9a7e1e",
@@ -973,21 +640,8 @@
         ]
       },
       "summary": "Food (dinner, essen)"
-    }
-  },
-  {
-    "url": "events/603a6d26af13970c6dfbba62",
-    "title": "Quick&Dirty",
-    "date": "2021-08-04",
-    "start_time": "09:59",
-    "end_time": "10:00",
-    "location": "Online/At home/Wherever creativity leads you",
-    "refreshments": null,
-    "refreshment_details": {
-      "categories": [],
-      "matches": {},
-      "summary": null
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/603cc6a7ad8017a30911aa9a",
@@ -1007,7 +661,8 @@
         ]
       },
       "summary": "Food (food)"
-    }
+    },
+    "easeOfEntry": 0.4
   },
   {
     "url": "events/604b6ee1dd4849ed245b9f2c",
@@ -1016,19 +671,19 @@
     "start_time": "19:00",
     "end_time": "21:00",
     "location": "AMIV Discord",
-    "refreshments": "Drinks (beer, bier)",
+    "refreshments": "Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "drinks"
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ]
       },
-      "summary": "Drinks (beer, bier)"
-    }
+      "summary": "Drinks (beer)"
+    },
+    "easeOfEntry": 0.6
   },
   {
     "url": "events/60753702867adce0cb0b3810",
@@ -1037,46 +692,19 @@
     "start_time": "14:00",
     "end_time": "16:00",
     "location": "Zürich",
-    "refreshments": "Food (essen) · Drinks (bier) · Dessert (chocolate)",
+    "refreshments": "Dessert (chocolate)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks",
         "sweet"
       ],
       "matches": {
-        "drinks": [
-          "bier"
-        ],
-        "food": [
-          "essen"
-        ],
         "sweet": [
           "chocolate"
         ]
       },
-      "summary": "Food (essen) · Drinks (bier) · Dessert (chocolate)"
-    }
-  },
-  {
-    "url": "events/607e8b092d914abb157a634a",
-    "title": "LIMES AfterStudy",
-    "date": "2021-05-05",
-    "start_time": "16:30",
-    "end_time": "19:00",
-    "location": "bQm Kulturcafe & Bar at ETH Zentrum",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Dessert (chocolate)"
+    },
+    "easeOfEntry": 0.65
   },
   {
     "url": "events/60891ba2850794acc623821b",
@@ -1085,7 +713,7 @@
     "start_time": "10:00",
     "end_time": "21:59",
     "location": "blitz.ethz.ch/grav",
-    "refreshments": "Food (essen, lunch, mittagessen) · Drinks (beer, bier)",
+    "refreshments": "Food (lunch, pizza) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1093,18 +721,16 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
           "lunch",
-          "mittagessen",
           "pizza"
         ]
       },
-      "summary": "Food (essen, lunch, mittagessen) · Drinks (beer, bier)"
-    }
+      "summary": "Food (lunch, pizza) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/6099530363fc6b38f7806481",
@@ -1125,7 +751,8 @@
         ]
       },
       "summary": "Food (dinner, essen)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/609f7ebacd5ba8f5b8789ff5",
@@ -1149,7 +776,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (apero)"
-    }
+    },
+    "easeOfEntry": 0.75
   },
   {
     "url": "events/60ac09966c7802fd157f55ce",
@@ -1158,7 +786,7 @@
     "start_time": "15:00",
     "end_time": "19:00",
     "location": "tba",
-    "refreshments": "Food (essen, food, grill) · Drinks (beer, bier, drink)",
+    "refreshments": "Food (food) · Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1167,17 +795,15 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
         ],
         "food": [
-          "essen",
-          "food",
-          "grill"
+          "food"
         ]
       },
-      "summary": "Food (essen, food, grill) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Food (food) · Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.75
   },
   {
     "url": "events/60ac0bc79c0ed7eb181593f7",
@@ -1186,7 +812,7 @@
     "start_time": "15:00",
     "end_time": "19:00",
     "location": "tba",
-    "refreshments": "Food (essen, food, grill) · Drinks (beer, bier, drink)",
+    "refreshments": "Food (food) · Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1195,17 +821,15 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
         ],
         "food": [
-          "essen",
-          "food",
-          "grill"
+          "food"
         ]
       },
-      "summary": "Food (essen, food, grill) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Food (food) · Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.75
   },
   {
     "url": "events/60ac0c04c665a8bb54938558",
@@ -1214,7 +838,7 @@
     "start_time": "15:00",
     "end_time": "19:00",
     "location": "tba",
-    "refreshments": "Food (essen, food, grill) · Drinks (beer, bier, drink)",
+    "refreshments": "Food (food) · Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1223,17 +847,15 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
         ],
         "food": [
-          "essen",
-          "food",
-          "grill"
+          "food"
         ]
       },
-      "summary": "Food (essen, food, grill) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Food (food) · Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.75
   },
   {
     "url": "events/60ac0c1680c9efd12c669515",
@@ -1242,7 +864,7 @@
     "start_time": "15:00",
     "end_time": "19:00",
     "location": "tba",
-    "refreshments": "Food (essen, food, grill) · Drinks (beer, bier, drink)",
+    "refreshments": "Food (food) · Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1251,17 +873,15 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
         ],
         "food": [
-          "essen",
-          "food",
-          "grill"
+          "food"
         ]
       },
-      "summary": "Food (essen, food, grill) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Food (food) · Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.75
   },
   {
     "url": "events/60ac0c302f61bb0494b03707",
@@ -1270,7 +890,7 @@
     "start_time": "15:00",
     "end_time": "19:00",
     "location": "tba",
-    "refreshments": "Food (essen, food, grill) · Drinks (beer, bier, drink)",
+    "refreshments": "Food (food) · Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1279,17 +899,15 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
         ],
         "food": [
-          "essen",
-          "food",
-          "grill"
+          "food"
         ]
       },
-      "summary": "Food (essen, food, grill) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Food (food) · Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.75
   },
   {
     "url": "events/60ac0c4a0444fb767c73cf04",
@@ -1298,7 +916,7 @@
     "start_time": "15:00",
     "end_time": "19:00",
     "location": "tba",
-    "refreshments": "Food (essen, food, grill) · Drinks (beer, bier, drink)",
+    "refreshments": "Food (food) · Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1307,17 +925,15 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
         ],
         "food": [
-          "essen",
-          "food",
-          "grill"
+          "food"
         ]
       },
-      "summary": "Food (essen, food, grill) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Food (food) · Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.75
   },
   {
     "url": "events/60ac0c632f61bb0494b03708",
@@ -1326,7 +942,7 @@
     "start_time": "15:00",
     "end_time": "19:00",
     "location": "tba",
-    "refreshments": "Food (essen, food, grill) · Drinks (beer, bier, drink)",
+    "refreshments": "Food (food) · Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1335,17 +951,15 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
         ],
         "food": [
-          "essen",
-          "food",
-          "grill"
+          "food"
         ]
       },
-      "summary": "Food (essen, food, grill) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Food (food) · Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.75
   },
   {
     "url": "events/60ac0c796c7802fd157f55dd",
@@ -1354,7 +968,7 @@
     "start_time": "15:00",
     "end_time": "19:00",
     "location": "tba",
-    "refreshments": "Food (essen, food, grill) · Drinks (beer, bier, drink)",
+    "refreshments": "Food (food) · Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1363,17 +977,15 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
         ],
         "food": [
-          "essen",
-          "food",
-          "grill"
+          "food"
         ]
       },
-      "summary": "Food (essen, food, grill) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Food (food) · Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.75
   },
   {
     "url": "events/60b4e1f093fcd85b9b2f57ec",
@@ -1393,27 +1005,8 @@
         ]
       },
       "summary": "Food (food)"
-    }
-  },
-  {
-    "url": "events/60d81e4ba23595a79f244e48",
-    "title": "Amiv goes Wellness",
-    "date": "2021-07-06",
-    "start_time": "16:00",
-    "end_time": "20:00",
-    "location": "Hürlimann Spa Zürich",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/60f52487d5a031eeddfb2170",
@@ -1437,7 +1030,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 0.6
   },
   {
     "url": "events/6129253b2172bd81f6b47a67",
@@ -1446,7 +1040,7 @@
     "start_time": "16:00",
     "end_time": "18:00",
     "location": "CAB",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1457,12 +1051,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.4
   },
   {
     "url": "events/6141c07e4dd6e6a35e8136d7",
@@ -1471,7 +1065,7 @@
     "start_time": "16:00",
     "end_time": "19:00",
     "location": "StuZ, CAB",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1482,12 +1076,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.6
   },
   {
     "url": "events/614760a445a6ef5bae167256",
@@ -1496,7 +1090,7 @@
     "start_time": "11:00",
     "end_time": "16:00",
     "location": "CAB Vorhof",
-    "refreshments": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (apero, beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1505,57 +1099,15 @@
       "matches": {
         "drinks": [
           "apero",
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "grill",
-          "wurst"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)"
-    }
-  },
-  {
-    "url": "events/614a386045a6ef5bae167372",
-    "title": "Kontakt.21 Supporting Program: ETH Career Center",
-    "date": "2021-10-04",
-    "start_time": "16:15",
-    "end_time": "17:00",
-    "location": "ML D 28",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
-  },
-  {
-    "url": "events/614a397c11d52943f7e668bf",
-    "title": "Kontakt.21 Supporting Program: Lohnverhandlungen und Saläre",
-    "date": "2021-10-07",
-    "start_time": "16:15",
-    "end_time": "17:00",
-    "location": "HG E 1.1",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (barbecue) · Drinks (apero, beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/61540e44e6ddce9f9e14fce6",
@@ -1564,22 +1116,19 @@
     "start_time": "08:30",
     "end_time": "16:00",
     "location": "ETH Zürich, Campus Zentrum",
-    "refreshments": "Food (lunch) · Drinks (apero)",
+    "refreshments": "Food (lunch)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
+        "food"
       ],
       "matches": {
-        "drinks": [
-          "apero"
-        ],
         "food": [
           "lunch"
         ]
       },
-      "summary": "Food (lunch) · Drinks (apero)"
-    }
+      "summary": "Food (lunch)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/615488ba4dd6e6a35e813986",
@@ -1600,7 +1149,8 @@
         ]
       },
       "summary": "Food (bbq, food)"
-    }
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/61588bf4c7d1c67f7e1240bf",
@@ -1609,7 +1159,7 @@
     "start_time": "16:00",
     "end_time": "20:00",
     "location": "CAB E15.2",
-    "refreshments": "Food (essen, food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1617,16 +1167,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (beer, bier)"
-    }
+      "summary": "Food (food) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/615c91132837f53da758d7f1",
@@ -1635,7 +1184,7 @@
     "start_time": "15:00",
     "end_time": "14:00",
     "location": "Flumserberg",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1646,46 +1195,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "events/6165f6092837f53da758d90b",
-    "title": "Axpo Industry Talk",
-    "date": "2021-10-27",
-    "start_time": "15:30",
-    "end_time": "17:30",
-    "location": "ML E 12",
-    "refreshments": null,
-    "refreshment_details": {
-      "categories": [],
-      "matches": {},
-      "summary": null
-    }
-  },
-  {
-    "url": "events/61682e8486ae9022e1b2afc8",
-    "title": "Poetry Slam",
-    "date": "2021-10-23",
-    "start_time": "18:30",
-    "end_time": "21:50",
-    "location": "Rote Fabrik, Aktionshalle",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/616f4343ec8213abaeb9a0cd",
@@ -1694,7 +1209,7 @@
     "start_time": "17:30",
     "end_time": "22:30",
     "location": "STuZ",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1705,12 +1220,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/617a89bdf2b5d1755417cdf5",
@@ -1736,7 +1251,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (beer, bier, drink)"
-    }
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/6189966dc1567c7a067c4dd5",
@@ -1745,23 +1261,20 @@
     "start_time": "16:30",
     "end_time": "19:00",
     "location": "Alumni Pavillon",
-    "refreshments": "Food (essen) · Dessert (cake, cupcake)",
+    "refreshments": "Dessert (cake, cupcake)",
     "refreshment_details": {
       "categories": [
-        "food",
         "sweet"
       ],
       "matches": {
-        "food": [
-          "essen"
-        ],
         "sweet": [
           "cake",
           "cupcake"
         ]
       },
-      "summary": "Food (essen) · Dessert (cake, cupcake)"
-    }
+      "summary": "Dessert (cake, cupcake)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/618b8b66112657ba0f51dc6f",
@@ -1770,22 +1283,19 @@
     "start_time": "17:30",
     "end_time": "19:30",
     "location": "Kleine Freiheit",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/619b895e11953e4756465805",
@@ -1794,19 +1304,19 @@
     "start_time": "17:30",
     "end_time": "20:00",
     "location": "Parkstrasse 23, 5401 Baden",
-    "refreshments": "Food (essen, pizza)",
+    "refreshments": "Food (pizza)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
           "pizza"
         ]
       },
-      "summary": "Food (essen, pizza)"
-    }
+      "summary": "Food (pizza)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/619cd443df2a784cc0b0b429",
@@ -1826,32 +1336,8 @@
         ]
       },
       "summary": "Food (essen)"
-    }
-  },
-  {
-    "url": "events/61a68c73963f2e3a018ccd86",
-    "title": "LIMES Stammtisch - XMAS Edition",
-    "date": "2021-12-07",
-    "start_time": "17:00",
-    "end_time": "20:00",
-    "location": "On the terrace of the ETH building ETF",
-    "refreshments": "Food (essen) · Drinks (gluhwein, wein)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "gluhwein",
-          "wein"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (gluhwein, wein)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/61a76683e74f6dcd1a6573fa",
@@ -1860,7 +1346,7 @@
     "start_time": "17:30",
     "end_time": "21:00",
     "location": "GZ Oerlikon",
-    "refreshments": "Food (dinner, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1871,12 +1357,12 @@
           "drink"
         ],
         "food": [
-          "dinner",
           "food"
         ]
       },
-      "summary": "Food (dinner, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/61a8bda393384880cfdf286c",
@@ -1885,7 +1371,7 @@
     "start_time": "17:15",
     "end_time": "19:30",
     "location": "HG D1.2",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1896,12 +1382,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.4
   },
   {
     "url": "events/61b8b717e74f6dcd1a6574fb",
@@ -1921,7 +1407,8 @@
         ]
       },
       "summary": "Food (essen)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/61fd4d33d6d03ce9d6cfcad2",
@@ -1945,7 +1432,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6221ea789c0491fd7c2f727e",
@@ -1954,7 +1442,7 @@
     "start_time": "16:00",
     "end_time": "19:00",
     "location": "StuZ, CAB, ETH Zentrum",
-    "refreshments": "Food (abendessen, dinner, essen) · Dessert (dessert, desserts)",
+    "refreshments": "Food (dinner) · Dessert (dessert, desserts)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1962,17 +1450,16 @@
       ],
       "matches": {
         "food": [
-          "abendessen",
-          "dinner",
-          "essen"
+          "dinner"
         ],
         "sweet": [
           "dessert",
           "desserts"
         ]
       },
-      "summary": "Food (abendessen, dinner, essen) · Dessert (dessert, desserts)"
-    }
+      "summary": "Food (dinner) · Dessert (dessert, desserts)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6225c451236eeb50f1ee2477",
@@ -1981,7 +1468,7 @@
     "start_time": "15:30",
     "end_time": "14:00",
     "location": "HXE, ETH Hoenggerberg",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -1992,12 +1479,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/62290f3b236eeb50f1ee24f4",
@@ -2017,7 +1504,8 @@
         ]
       },
       "summary": "Food (food)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/622f55966ae08dd1e0c8716b",
@@ -2026,12 +1514,11 @@
     "start_time": "16:30",
     "end_time": "21:30",
     "location": "StuZ",
-    "refreshments": "Food (food) · Drinks (drink) · Snacks (snack, snacks)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
-        "drinks",
-        "snacks"
+        "drinks"
       ],
       "matches": {
         "drinks": [
@@ -2039,34 +1526,11 @@
         ],
         "food": [
           "food"
-        ],
-        "snacks": [
-          "snack",
-          "snacks"
         ]
       },
-      "summary": "Food (food) · Drinks (drink) · Snacks (snack, snacks)"
-    }
-  },
-  {
-    "url": "events/623adfed4db9ca466dd1fa28",
-    "title": "Hikingbreak 2022",
-    "date": "2022-06-29",
-    "start_time": "05:00",
-    "end_time": "18:00",
-    "location": "Voralphütte",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/625e6f3da7d6a115fc94e492",
@@ -2075,7 +1539,7 @@
     "start_time": "16:00",
     "end_time": "20:00",
     "location": "Clausiusbar",
-    "refreshments": "Food (food, meal) · Drinks (beer, bier)",
+    "refreshments": "Food (food, meal) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2083,16 +1547,16 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
           "food",
           "meal"
         ]
       },
-      "summary": "Food (food, meal) · Drinks (beer, bier)"
-    }
+      "summary": "Food (food, meal) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/6267f763a7d6a115fc94e4bc",
@@ -2101,64 +1565,19 @@
     "start_time": "16:30",
     "end_time": "19:30",
     "location": "Clausiusbar, Tannenbarstrasse 3",
-    "refreshments": "Food (essen) · Drinks (beer, bier, wein)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer",
-          "bier",
-          "wein"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (beer, bier, wein)"
-    }
-  },
-  {
-    "url": "events/62693e2767ac79d52d6268c7",
-    "title": "Limes goes Sensirion",
-    "date": "",
-    "start_time": "",
-    "end_time": "",
-    "location": "Stäfa",
-    "refreshments": "Drinks (apero)",
+    "refreshments": "Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "drinks"
       ],
       "matches": {
         "drinks": [
-          "apero"
+          "beer"
         ]
       },
-      "summary": "Drinks (apero)"
-    }
-  },
-  {
-    "url": "events/626aa06aef8f089d417fc581",
-    "title": "Limes goes Sensirion",
-    "date": "",
-    "start_time": "",
-    "end_time": "",
-    "location": "Stäfa",
-    "refreshments": "Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ]
-      },
-      "summary": "Drinks (apero)"
-    }
+      "summary": "Drinks (beer)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/626ab221d69ca9c917b51cda",
@@ -2167,7 +1586,7 @@
     "start_time": "16:00",
     "end_time": "19:00",
     "location": "StuZ, CAB, ETH Zentrum",
-    "refreshments": "Food (buffet, dinner, essen) · Dessert (dessert)",
+    "refreshments": "Food (buffet, dinner) · Dessert (dessert)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2176,35 +1595,15 @@
       "matches": {
         "food": [
           "buffet",
-          "dinner",
-          "essen"
+          "dinner"
         ],
         "sweet": [
           "dessert"
         ]
       },
-      "summary": "Food (buffet, dinner, essen) · Dessert (dessert)"
-    }
-  },
-  {
-    "url": "events/626ba271d9b57b676be58409",
-    "title": "Limes goes Sensirion",
-    "date": "2022-05-05",
-    "start_time": "11:00",
-    "end_time": "16:00",
-    "location": "Stäfa",
-    "refreshments": "Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ]
-      },
-      "summary": "Drinks (apero)"
-    }
+      "summary": "Food (buffet, dinner) · Dessert (dessert)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/626bc452d9b57b676be5840c",
@@ -2213,23 +1612,20 @@
     "start_time": "08:00",
     "end_time": "11:00",
     "location": "Alumni Pavillon (MM C 78.1)",
-    "refreshments": "Food (essen) · Dessert (waffle, waffles)",
+    "refreshments": "Dessert (waffle, waffles)",
     "refreshment_details": {
       "categories": [
-        "food",
         "sweet"
       ],
       "matches": {
-        "food": [
-          "essen"
-        ],
         "sweet": [
           "waffle",
           "waffles"
         ]
       },
-      "summary": "Food (essen) · Dessert (waffle, waffles)"
-    }
+      "summary": "Dessert (waffle, waffles)"
+    },
+    "easeOfEntry": 0.6000000000000001
   },
   {
     "url": "events/627b9b3097126d8a6e6a12be",
@@ -2238,7 +1634,7 @@
     "start_time": "14:00",
     "end_time": "18:00",
     "location": "CAB Vorhof",
-    "refreshments": "Food (barbecue, essen, grill) · Drinks (beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2246,18 +1642,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "essen",
-          "grill",
-          "wurst"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, essen, grill) · Drinks (beer, bier)"
-    }
+      "summary": "Food (barbecue) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/628516998cbefd3541d2c606",
@@ -2266,24 +1659,20 @@
     "start_time": "17:00",
     "end_time": "21:00",
     "location": "ETH Hönggerberg HIL rooftop",
-    "refreshments": "Food (essen) · Drinks (beer, bier, drink)",
+    "refreshments": "Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.65
   },
   {
     "url": "events/628676edad60164acf2cacc7",
@@ -2304,27 +1693,8 @@
         ]
       },
       "summary": "Food (burger, essen)"
-    }
-  },
-  {
-    "url": "events/6286770a8cbefd3541d2c865",
-    "title": "LIMES Summer Sangria Night",
-    "date": "2022-06-29",
-    "start_time": "16:00",
-    "end_time": "19:00",
-    "location": "ETH Zentrum, LEE Building Terrace, Floor H",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/62fcdcf62bd70eab332d061b",
@@ -2333,7 +1703,7 @@
     "start_time": "07:00",
     "end_time": "16:00",
     "location": "StuZ CAB D21 - Universitätstrasse 6, 8006 Zürich",
-    "refreshments": "Food (lunch, pizza) · Drinks (apero, drink) · Snacks (snack, snacks)",
+    "refreshments": "Food (lunch, pizza) · Drinks (drink) · Snacks (snack, snacks)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2342,7 +1712,6 @@
       ],
       "matches": {
         "drinks": [
-          "apero",
           "drink"
         ],
         "food": [
@@ -2354,28 +1723,9 @@
           "snacks"
         ]
       },
-      "summary": "Food (lunch, pizza) · Drinks (apero, drink) · Snacks (snack, snacks)"
-    }
-  },
-  {
-    "url": "events/62fcdd15d112940acdb7f0ce",
-    "title": "AI with Picnic: Speaker sessions",
-    "date": "2022-10-07",
-    "start_time": "16:30",
-    "end_time": "19:00",
-    "location": "StuZ CAB D21 - Universitätstrasse 6, 8006 Zürich",
-    "refreshments": "Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ]
-      },
-      "summary": "Drinks (apero)"
-    }
+      "summary": "Food (lunch, pizza) · Drinks (drink) · Snacks (snack, snacks)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/631098dd488d89ed65ed3773",
@@ -2399,7 +1749,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/631a4f8eca1a541d68396917",
@@ -2419,7 +1770,8 @@
         ]
       },
       "summary": "Drinks (apero)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/631a4fbfca1a541d68396918",
@@ -2439,7 +1791,8 @@
         ]
       },
       "summary": "Drinks (apero)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/631a4fefcbc712faf484a95b",
@@ -2448,42 +1801,19 @@
     "start_time": "16:15",
     "end_time": "17:45",
     "location": "HG E3",
-    "refreshments": "Food (essen) · Drinks (apero)",
+    "refreshments": "Drinks (apero)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "apero"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
-  },
-  {
-    "url": "events/6326b21ea259c11fa35e70d2",
-    "title": "Kickoff & Info EESTEC",
-    "date": "2022-09-29",
-    "start_time": "16:30",
-    "end_time": "17:30",
-    "location": "HG D 3.2",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Drinks (apero)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6335bd1614eb69486abc9f7f",
@@ -2492,19 +1822,19 @@
     "start_time": "16:30",
     "end_time": "18:00",
     "location": "HG D 1.1",
-    "refreshments": "Food (essen, pizza)",
+    "refreshments": "Food (pizza)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
           "pizza"
         ]
       },
-      "summary": "Food (essen, pizza)"
-    }
+      "summary": "Food (pizza)"
+    },
+    "easeOfEntry": 0.4
   },
   {
     "url": "events/633c94b25e77e511aae746c6",
@@ -2513,7 +1843,7 @@
     "start_time": "16:30",
     "end_time": "19:00",
     "location": "tbd",
-    "refreshments": "Food (essen, food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2521,16 +1851,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (beer, bier)"
-    }
+      "summary": "Food (food) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/633d4c51aeef09601d7fb6a9",
@@ -2539,22 +1868,19 @@
     "start_time": "13:00",
     "end_time": "16:00",
     "location": "Dietlikon",
-    "refreshments": "Food (essen) · Drinks (apero)",
+    "refreshments": "Drinks (apero)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "apero"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
+      "summary": "Drinks (apero)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/63469529618fa73252e1e9e2",
@@ -2563,24 +1889,19 @@
     "start_time": "08:30",
     "end_time": "16:00",
     "location": "ETH Zürich Zentrum",
-    "refreshments": "Food (essen, lunch, mittagessen) · Drinks (apero)",
+    "refreshments": "Food (lunch)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
+        "food"
       ],
       "matches": {
-        "drinks": [
-          "apero"
-        ],
         "food": [
-          "essen",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (essen, lunch, mittagessen) · Drinks (apero)"
-    }
+      "summary": "Food (lunch)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/634d924d9f0a72c1de0994de",
@@ -2589,22 +1910,19 @@
     "start_time": "16:15",
     "end_time": "17:30",
     "location": "ETH HG E3 ",
-    "refreshments": "Food (essen) · Drinks (apero)",
+    "refreshments": "Drinks (apero)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "apero"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
+      "summary": "Drinks (apero)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/634e53761adc271a134d1716",
@@ -2613,7 +1931,7 @@
     "start_time": "16:30",
     "end_time": "17:30",
     "location": "CAB E 24.2",
-    "refreshments": "Food (abendessen, dinner, essen) · Drinks (apero)",
+    "refreshments": "Food (dinner) · Drinks (apero)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2624,13 +1942,12 @@
           "apero"
         ],
         "food": [
-          "abendessen",
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (abendessen, dinner, essen) · Drinks (apero)"
-    }
+      "summary": "Food (dinner) · Drinks (apero)"
+    },
+    "easeOfEntry": 0.95
   },
   {
     "url": "events/635115d7f189627246ea26af",
@@ -2639,22 +1956,21 @@
     "start_time": "17:00",
     "end_time": "21:00",
     "location": "food&lab, ETH Zentrum, Building: CAB H 47.3",
-    "refreshments": "Food (abendessen, buffet, dinner)",
+    "refreshments": "Food (buffet, dinner, food)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "abendessen",
           "buffet",
           "dinner",
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (abendessen, buffet, dinner)"
-    }
+      "summary": "Food (buffet, dinner, food)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/63564e4afce52f35ef411249",
@@ -2663,7 +1979,7 @@
     "start_time": "23:00",
     "end_time": "22:00",
     "location": "Rothenthurm",
-    "refreshments": "Food (abendessen, dinner, essen) · Drinks (drink)",
+    "refreshments": "Food (dinner, food, lunch) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2674,16 +1990,14 @@
           "drink"
         ],
         "food": [
-          "abendessen",
           "dinner",
-          "essen",
           "food",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (abendessen, dinner, essen) · Drinks (drink)"
-    }
+      "summary": "Food (dinner, food, lunch) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.2500000000000001
   },
   {
     "url": "events/635948f10c5488ee605027ef",
@@ -2692,40 +2006,19 @@
     "start_time": "18:00",
     "end_time": "21:00",
     "location": "Cucina Bernoulli, Hardturmstrasse 261, 8005 Zürich",
-    "refreshments": "Food (dinner, essen)",
+    "refreshments": "Food (dinner)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (dinner, essen)"
-    }
-  },
-  {
-    "url": "events/635949e15459214f16208005",
-    "title": "Christmas Brunch HS22",
-    "date": "2022-12-21",
-    "start_time": "06:00",
-    "end_time": "09:15",
-    "location": "CLA & ETZ",
-    "refreshments": "Food (essen, food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen",
-          "food"
-        ]
-      },
-      "summary": "Food (essen, food)"
-    }
+      "summary": "Food (dinner)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/635eec000fd89a426cba7eba",
@@ -2734,44 +2027,20 @@
     "start_time": "17:00",
     "end_time": "22:00",
     "location": "ETZ Foyer",
-    "refreshments": "Food (essen) · Drinks (beer, bier, drink)",
+    "refreshments": "Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (beer, bier, drink)"
-    }
-  },
-  {
-    "url": "events/635f8e779642776cfcf4ac48",
-    "title": "Dumpling Night ",
-    "date": "2022-11-14",
-    "start_time": "16:00",
-    "end_time": "21:00",
-    "location": "Clausiusbar",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/63601c636f715f1de5bb0de7",
@@ -2780,19 +2049,19 @@
     "start_time": "17:30",
     "end_time": "20:30",
     "location": "Innenhof Kalkbreite, Kalkbreitestrasse 6,  8003 ZH",
-    "refreshments": "Food (essen, food)",
+    "refreshments": "Food (food)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food)"
-    }
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": 0.4
   },
   {
     "url": "events/636a6e61b65a59fb58397dc8",
@@ -2801,23 +2070,20 @@
     "start_time": "16:30",
     "end_time": "19:30",
     "location": "Alumni Pavillon",
-    "refreshments": "Food (essen) · Dessert (cake, cupcake)",
+    "refreshments": "Dessert (cake, cupcake)",
     "refreshment_details": {
       "categories": [
-        "food",
         "sweet"
       ],
       "matches": {
-        "food": [
-          "essen"
-        ],
         "sweet": [
           "cake",
           "cupcake"
         ]
       },
-      "summary": "Food (essen) · Dessert (cake, cupcake)"
-    }
+      "summary": "Dessert (cake, cupcake)"
+    },
+    "easeOfEntry": 0.65
   },
   {
     "url": "events/636cc726a25501ffff160bc8",
@@ -2826,12 +2092,11 @@
     "start_time": "17:00",
     "end_time": "22:00",
     "location": "StuZ (CAB F21)",
-    "refreshments": "Food (food) · Drinks (drink) · Snacks (snack, snacks)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
-        "drinks",
-        "snacks"
+        "drinks"
       ],
       "matches": {
         "drinks": [
@@ -2839,14 +2104,11 @@
         ],
         "food": [
           "food"
-        ],
-        "snacks": [
-          "snack",
-          "snacks"
         ]
       },
-      "summary": "Food (food) · Drinks (drink) · Snacks (snack, snacks)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/63849b689049b824485e53ed",
@@ -2855,7 +2117,7 @@
     "start_time": "15:00",
     "end_time": "22:00",
     "location": "Hönggerberg Plaza",
-    "refreshments": "Food (essen, raclette) · Drinks (gluhwein, wein, wine)",
+    "refreshments": "Food (raclette) · Drinks (wine)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2863,17 +2125,15 @@
       ],
       "matches": {
         "drinks": [
-          "gluhwein",
-          "wein",
           "wine"
         ],
         "food": [
-          "essen",
           "raclette"
         ]
       },
-      "summary": "Food (essen, raclette) · Drinks (gluhwein, wein, wine)"
-    }
+      "summary": "Food (raclette) · Drinks (wine)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/6387453b1ee2b89cdedc855c",
@@ -2882,65 +2142,19 @@
     "start_time": "11:00",
     "end_time": "13:00",
     "location": "Eingang ML / Ecke Clausiusstrasse",
-    "refreshments": "Food (essen, lunch, mittagessen) · Drinks (gluhwein, wein, wine)",
+    "refreshments": "Drinks (wine)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
-          "gluhwein",
-          "wein",
           "wine"
-        ],
-        "food": [
-          "essen",
-          "lunch",
-          "mittagessen"
         ]
       },
-      "summary": "Food (essen, lunch, mittagessen) · Drinks (gluhwein, wein, wine)"
-    }
-  },
-  {
-    "url": "events/638a029333f43b97437b2aa2",
-    "title": "FS23 cheaper PolyLan",
-    "date": "2023-04-07",
-    "start_time": "10:00",
-    "end_time": "11:00",
-    "location": "CHN",
-    "refreshments": null,
-    "refreshment_details": {
-      "categories": [],
-      "matches": {},
-      "summary": null
-    }
-  },
-  {
-    "url": "events/638e428895c87aeef9c2d9b5",
-    "title": "LIMES Stammtisch - XMAS Edition",
-    "date": "2022-12-13",
-    "start_time": "17:00",
-    "end_time": "20:00",
-    "location": "ETH Zentrum - Building ETF: on the rooftop",
-    "refreshments": "Food (essen) · Drinks (gluhwein, wein)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "gluhwein",
-          "wein"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (gluhwein, wein)"
-    }
+      "summary": "Drinks (wine)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/63c0094cf8c8ec9d7b6d989b",
@@ -2949,19 +2163,19 @@
     "start_time": "17:30",
     "end_time": "18:30",
     "location": "HG D 7.2",
-    "refreshments": "Food (essen, pizza)",
+    "refreshments": "Food (pizza)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
           "pizza"
         ]
       },
-      "summary": "Food (essen, pizza)"
-    }
+      "summary": "Food (pizza)"
+    },
+    "easeOfEntry": 0.4
   },
   {
     "url": "events/63dcd550b3ecb82b4375f715",
@@ -2970,7 +2184,7 @@
     "start_time": "17:30",
     "end_time": "21:30",
     "location": "CAB E15.2 VSETH Sitzungszimmer",
-    "refreshments": "Food (essen, food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2978,16 +2192,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (beer, bier)"
-    }
+      "summary": "Food (food) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/63e1332157af48e715b0e78c",
@@ -3011,7 +2224,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 0.6
   },
   {
     "url": "events/63fa27f8c66b08cee421cafc",
@@ -3031,7 +2245,8 @@
         ]
       },
       "summary": "Drinks (apero)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/63ff0e910f3e866f7c204650",
@@ -3040,7 +2255,7 @@
     "start_time": "17:00",
     "end_time": "20:00",
     "location": "HG E 42",
-    "refreshments": "Food (abendessen, dinner, essen) · Drinks (apero)",
+    "refreshments": "Food (dinner) · Drinks (apero)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -3051,13 +2266,12 @@
           "apero"
         ],
         "food": [
-          "abendessen",
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (abendessen, dinner, essen) · Drinks (apero)"
-    }
+      "summary": "Food (dinner) · Drinks (apero)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/64050a888a2e6eea4d1f73df",
@@ -3066,65 +2280,21 @@
     "start_time": "16:00",
     "end_time": "20:00",
     "location": "Food and Lab (CAB H 41)",
-    "refreshments": "Food (buffet, dinner, essen) · Dessert (dessert)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "sweet"
-      ],
-      "matches": {
-        "food": [
-          "buffet",
-          "dinner",
-          "essen",
-          "food"
-        ],
-        "sweet": [
-          "dessert"
-        ]
-      },
-      "summary": "Food (buffet, dinner, essen) · Dessert (dessert)"
-    }
-  },
-  {
-    "url": "events/64107aa6de8e627be35c2d06",
-    "title": "AMIV goes SCS",
-    "date": "2023-05-16",
-    "start_time": "15:00",
-    "end_time": "19:00",
-    "location": "SCS Technopark Zürich, Technoparkstrasse 1",
-    "refreshments": "Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ]
-      },
-      "summary": "Drinks (apero)"
-    }
-  },
-  {
-    "url": "events/6411cd5a741a1433a9e85bf4",
-    "title": "Meet Bastli",
-    "date": "2023-03-23",
-    "start_time": "17:00",
-    "end_time": "19:00",
-    "location": "Bastli (CAB E38)",
-    "refreshments": "Food (essen)",
+    "refreshments": "Food (buffet, dinner, food)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen"
+          "buffet",
+          "dinner",
+          "food"
         ]
       },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (buffet, dinner, food)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6419eddea99b9a165a0cc421",
@@ -3144,7 +2314,8 @@
         ]
       },
       "summary": "Drinks (apero)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/641b21b012e0245a33bb150c",
@@ -3153,12 +2324,11 @@
     "start_time": "16:30",
     "end_time": "20:30",
     "location": "StuZ (CAB F21)",
-    "refreshments": "Food (food) · Drinks (drink) · Snacks (snack, snacks)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
-        "drinks",
-        "snacks"
+        "drinks"
       ],
       "matches": {
         "drinks": [
@@ -3166,14 +2336,11 @@
         ],
         "food": [
           "food"
-        ],
-        "snacks": [
-          "snack",
-          "snacks"
         ]
       },
-      "summary": "Food (food) · Drinks (drink) · Snacks (snack, snacks)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/641c496012e0245a33bb18e8",
@@ -3182,21 +2349,20 @@
     "start_time": "10:00",
     "end_time": "12:00",
     "location": "ETH ML E13",
-    "refreshments": "Food (essen, food, lunch)",
+    "refreshments": "Food (food, lunch)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
           "food",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (essen, food, lunch)"
-    }
+      "summary": "Food (food, lunch)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/641dceede7b25dae114daa3f",
@@ -3205,7 +2371,7 @@
     "start_time": "14:00",
     "end_time": "18:00",
     "location": "CAB Vorhof",
-    "refreshments": "Food (barbecue, bbq, food) · Drinks (beer, bier, drink) · Dessert (ice cream)",
+    "refreshments": "Food (barbecue, bbq, food) · Drinks (beer, drink) · Dessert (ice cream)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -3215,46 +2381,20 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
         ],
         "food": [
           "barbecue",
           "bbq",
-          "food",
-          "grill",
-          "wurst"
+          "food"
         ],
         "sweet": [
           "ice cream"
         ]
       },
-      "summary": "Food (barbecue, bbq, food) · Drinks (beer, bier, drink) · Dessert (ice cream)"
-    }
-  },
-  {
-    "url": "events/64248cc3cb6c2e7f67eda2a5",
-    "title": "Padel Tennis",
-    "date": "2023-05-26",
-    "start_time": "14:00",
-    "end_time": "16:30",
-    "location": "Brandstrasse 12, 8952 Schlieren, Switzerland",
-    "refreshments": "Food (essen) · Drinks (bier)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "bier"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (bier)"
-    }
+      "summary": "Food (barbecue, bbq, food) · Drinks (beer, drink) · Dessert (ice cream)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/6425a30ccb6c2e7f67eda66c",
@@ -3263,7 +2403,7 @@
     "start_time": "16:00",
     "end_time": "20:00",
     "location": "Clausiusbar",
-    "refreshments": "Food (essen, food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer, beverage, beverages)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -3272,23 +2412,114 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier"
+          "beverage",
+          "beverages"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (beer, bier)"
-    }
+      "summary": "Food (food) · Drinks (beer, beverage, beverages)"
+    },
+    "easeOfEntry": 0.8
   },
   {
-    "url": "events/643d4a286982eee88bbec845",
-    "title": "Amiv @ Sensirion",
-    "date": "2023-05-04",
-    "start_time": "11:40",
-    "end_time": "16:00",
-    "location": "Sensirion Laubisrütistrasse 50, 8712 Stäfa",
+    "url": "events/644be20ce4d14127630988e1",
+    "title": "Hike at Our Lovely Event",
+    "date": "2023-05-19",
+    "start_time": "11:00",
+    "end_time": "12:00",
+    "location": "Emmetten-Stockhütte",
+    "refreshments": "Food (dinner, food, lunch) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "food": [
+          "dinner",
+          "food",
+          "lunch"
+        ]
+      },
+      "summary": "Food (dinner, food, lunch) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.2500000000000001
+  },
+  {
+    "url": "events/64528c18022b3a4a3d2aff02",
+    "title": "Summer Cocktail Night",
+    "date": "2023-05-16",
+    "start_time": "17:30",
+    "end_time": "21:00",
+    "location": "Alumni Pavillon ",
+    "refreshments": "Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ]
+      },
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "events/646bcb72f82511abe91f8cdb",
+    "title": "Helfendenessen FS23",
+    "date": "2023-05-31",
+    "start_time": "16:30",
+    "end_time": "21:00",
+    "location": "Cucina Bernoulli, Hardturmstrasse 261, 8005 Zürich",
+    "refreshments": "Food (dinner)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "dinner"
+        ]
+      },
+      "summary": "Food (dinner)"
+    },
+    "easeOfEntry": 1.0
+  },
+  {
+    "url": "events/647586c468c638e81b69370c",
+    "title": "Cocktail Evening",
+    "date": "2023-06-20",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "location": "LFW Terrace, D Floor",
+    "refreshments": "Drinks (cocktail)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "cocktail"
+        ]
+      },
+      "summary": "Drinks (cocktail)"
+    },
+    "easeOfEntry": 1.0
+  },
+  {
+    "url": "events/647f457f0de5af4bb0b16584",
+    "title": "Exclusive Tour at Nuclear Power Plant Leibstadt",
+    "date": "2024-03-21",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "location": "Nuclear Power Plant Leibstadt (KKL)",
     "refreshments": "Drinks (apero)",
     "refreshment_details": {
       "categories": [
@@ -3300,190 +2531,8 @@
         ]
       },
       "summary": "Drinks (apero)"
-    }
-  },
-  {
-    "url": "events/643ece5d850626ac44f7e1c6",
-    "title": "LIMES goes Google",
-    "date": "2023-05-04",
-    "start_time": "15:00",
-    "end_time": "18:00",
-    "location": "Google EURB, Europaallee 1st, 8004 Zurich",
-    "refreshments": null,
-    "refreshment_details": {
-      "categories": [],
-      "matches": {},
-      "summary": null
-    }
-  },
-  {
-    "url": "events/644be20ce4d14127630988e1",
-    "title": "Hike at Our Lovely Event",
-    "date": "2023-05-19",
-    "start_time": "11:00",
-    "end_time": "12:00",
-    "location": "Emmetten-Stockhütte",
-    "refreshments": "Food (abendessen, dinner, essen) · Drinks (drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "abendessen",
-          "dinner",
-          "essen",
-          "food",
-          "lunch"
-        ]
-      },
-      "summary": "Food (abendessen, dinner, essen) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "events/64528c18022b3a4a3d2aff02",
-    "title": "Summer Cocktail Night",
-    "date": "2023-05-16",
-    "start_time": "17:30",
-    "end_time": "21:00",
-    "location": "Alumni Pavillon ",
-    "refreshments": "Food (essen) · Drinks (bier, cocktail, cocktails)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "bier",
-          "cocktail",
-          "cocktails",
-          "drink"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (bier, cocktail, cocktails)"
-    }
-  },
-  {
-    "url": "events/64635a8ef100ee6b9704c56c",
-    "title": "Curd Competetion",
-    "date": "2023-05-31",
-    "start_time": "11:00",
-    "end_time": "11:30",
-    "location": "Outside Alumni Pavilion",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
-  },
-  {
-    "url": "events/646bcb72f82511abe91f8cdb",
-    "title": "Helfendenessen FS23",
-    "date": "2023-05-31",
-    "start_time": "16:30",
-    "end_time": "21:00",
-    "location": "Cucina Bernoulli, Hardturmstrasse 261, 8005 Zürich",
-    "refreshments": "Food (dinner, essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "dinner",
-          "essen"
-        ]
-      },
-      "summary": "Food (dinner, essen)"
-    }
-  },
-  {
-    "url": "events/647586c468c638e81b69370c",
-    "title": "Cocktail Evening",
-    "date": "2023-06-20",
-    "start_time": "16:00",
-    "end_time": "20:00",
-    "location": "LFW Terrace, D Floor",
-    "refreshments": "Food (essen) · Drinks (cocktail, drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "cocktail",
-          "drink"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (cocktail, drink)"
-    }
-  },
-  {
-    "url": "events/647f457f0de5af4bb0b16584",
-    "title": "Exclusive Tour at Nuclear Power Plant Leibstadt",
-    "date": "2024-03-21",
-    "start_time": "10:00",
-    "end_time": "17:30",
-    "location": "Nuclear Power Plant Leibstadt (KKL)",
-    "refreshments": "Food (essen) · Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
-  },
-  {
-    "url": "events/6486d513a3c0f74092dd9024",
-    "title": "Padel Tennis HS23",
-    "date": "2023-11-02",
-    "start_time": "15:00",
-    "end_time": "17:30",
-    "location": "PDL",
-    "refreshments": "Food (essen) · Drinks (bier)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "bier"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (bier)"
-    }
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/64cf78877b5df4366207a4a8",
@@ -3507,7 +2556,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/64dc69716c0e309c267590fd",
@@ -3516,20 +2566,24 @@
     "start_time": "10:00",
     "end_time": "13:00",
     "location": "ETH Zentrum Alumni Pavillon",
-    "refreshments": "Food (essen, lunch, mittagessen)",
+    "refreshments": "Food (lunch) · Drinks (beverage, beverages)",
     "refreshment_details": {
       "categories": [
-        "food"
+        "food",
+        "drinks"
       ],
       "matches": {
+        "drinks": [
+          "beverage",
+          "beverages"
+        ],
         "food": [
-          "essen",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (essen, lunch, mittagessen)"
-    }
+      "summary": "Food (lunch) · Drinks (beverage, beverages)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/64df41f0a2fbccedd617481c",
@@ -3538,23 +2592,19 @@
     "start_time": "05:45",
     "end_time": "12:00",
     "location": "St. Gallen",
-    "refreshments": "Food (essen) · Drinks (beer, bier)",
+    "refreshments": "Drinks (beer)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
-        ],
-        "food": [
-          "essen"
+          "beer"
         ]
       },
-      "summary": "Food (essen) · Drinks (beer, bier)"
-    }
+      "summary": "Drinks (beer)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/6501bc6e5ff1d3cb04531966",
@@ -3575,27 +2625,8 @@
         ]
       },
       "summary": "Drinks (apero, drink)"
-    }
-  },
-  {
-    "url": "events/6507d67c84e6a0539b1d1c11",
-    "title": "EESTEC Kickoff & Info",
-    "date": "2023-09-28",
-    "start_time": "16:30",
-    "end_time": "17:30",
-    "location": "HG D 3.2",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6507f5755ff1d3cb04532de0",
@@ -3604,7 +2635,7 @@
     "start_time": "11:00",
     "end_time": "18:00",
     "location": "CAB Vorhof",
-    "refreshments": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (apero, beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -3613,24 +2644,22 @@
       "matches": {
         "drinks": [
           "apero",
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "grill",
-          "wurst"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)"
-    }
+      "summary": "Food (barbecue) · Drinks (apero, beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/650950bb95fe813964693cd4",
     "title": "Kontakt.23: Career opportunities in software engineering",
-    "date": "",
-    "start_time": "",
-    "end_time": "",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
     "location": "HG E5",
     "refreshments": "Drinks (apero)",
     "refreshment_details": {
@@ -3643,7 +2672,8 @@
         ]
       },
       "summary": "Drinks (apero)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6509969d3727bbc2936abbaa",
@@ -3663,7 +2693,8 @@
         ]
       },
       "summary": "Drinks (apero)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6509e2a23727bbc2936abcd4",
@@ -3672,7 +2703,7 @@
     "start_time": "16:30",
     "end_time": "18:00",
     "location": "HG D7.1",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -3683,12 +2714,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.4
   },
   {
     "url": "events/651177b91551ab2631fd9e4f",
@@ -3697,7 +2728,7 @@
     "start_time": "08:00",
     "end_time": "16:00",
     "location": "CAB E151 (Garage)",
-    "refreshments": "Food (essen, lunch, mittagessen) · Drinks (beer, bier)",
+    "refreshments": "Food (lunch) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -3705,41 +2736,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (essen, lunch, mittagessen) · Drinks (beer, bier)"
-    }
-  },
-  {
-    "url": "events/651454ef1551ab2631fda85a",
-    "title": "LIMES goes Google",
-    "date": "2023-10-19",
-    "start_time": "15:00",
-    "end_time": "18:00",
-    "location": "Google BRA, Brandschenkestrasse 110, 8002 Zürich",
-    "refreshments": "Food (essen) · Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
+      "summary": "Food (lunch) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/651da0263e9043037e7e1b2b",
@@ -3748,7 +2753,7 @@
     "start_time": "16:30",
     "end_time": "19:00",
     "location": "HG D 7.1",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -3759,12 +2764,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.6
   },
   {
     "url": "events/651f0267cf2367b006b3213c",
@@ -3773,43 +2778,20 @@
     "start_time": "18:30",
     "end_time": "21:00",
     "location": "Alumnipavillion",
-    "refreshments": "Food (essen) · Drinks (cocktail, cocktails)",
+    "refreshments": "Drinks (cocktail, cocktails)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "cocktail",
           "cocktails"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (cocktail, cocktails)"
-    }
-  },
-  {
-    "url": "events/6525279c1e9036df5988d8f2",
-    "title": "Curd Competetion",
-    "date": "2023-10-19",
-    "start_time": "11:00",
-    "end_time": "11:30",
-    "location": "Polyterasse",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Drinks (cocktail, cocktails)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/653670abb971133b137d5a9e",
@@ -3818,22 +2800,21 @@
     "start_time": "17:00",
     "end_time": "21:00",
     "location": "Food&Lab, ETH Zentrum, CAB H 41",
-    "refreshments": "Food (abendessen, buffet, dinner)",
+    "refreshments": "Food (buffet, dinner, food)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "abendessen",
           "buffet",
           "dinner",
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (abendessen, buffet, dinner)"
-    }
+      "summary": "Food (buffet, dinner, food)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/65378ac6f6c4c58cf462cd2a",
@@ -3842,7 +2823,7 @@
     "start_time": "14:00",
     "end_time": "14:00",
     "location": "Beuron, Baden-Württemberg, Deutschland",
-    "refreshments": "Food (abendessen, dinner, essen) · Drinks (drink)",
+    "refreshments": "Food (dinner, food, lunch) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -3853,16 +2834,14 @@
           "drink"
         ],
         "food": [
-          "abendessen",
           "dinner",
-          "essen",
           "food",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (abendessen, dinner, essen) · Drinks (drink)"
-    }
+      "summary": "Food (dinner, food, lunch) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.45000000000000007
   },
   {
     "url": "events/6542417cb6a163360446c981",
@@ -3871,24 +2850,19 @@
     "start_time": "08:30",
     "end_time": "16:00",
     "location": "ETH Zürich Zentrum ",
-    "refreshments": "Food (essen, lunch, mittagessen) · Drinks (apero)",
+    "refreshments": "Food (lunch)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
+        "food"
       ],
       "matches": {
-        "drinks": [
-          "apero"
-        ],
         "food": [
-          "essen",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (essen, lunch, mittagessen) · Drinks (apero)"
-    }
+      "summary": "Food (lunch)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/654658603c18e02deed10b2e",
@@ -3897,22 +2871,19 @@
     "start_time": "17:20",
     "end_time": "22:00",
     "location": "HG F 33.5",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": 0.75
   },
   {
     "url": "events/6547e993975acd7369ccbd6b",
@@ -3921,44 +2892,20 @@
     "start_time": "17:00",
     "end_time": "22:00",
     "location": "ETZ Foyer",
-    "refreshments": "Food (essen) · Drinks (beer, bier, drink)",
+    "refreshments": "Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (beer, bier, drink)"
-    }
-  },
-  {
-    "url": "events/654949fc18e4f89d083ec7d6",
-    "title": "Tipsy Painting",
-    "date": "2023-11-15",
-    "start_time": "17:30",
-    "end_time": "21:30",
-    "location": "To be announced",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.6000000000000001
   },
   {
     "url": "events/654a760bd5402adac275c935",
@@ -3967,24 +2914,19 @@
     "start_time": "17:00",
     "end_time": "21:00",
     "location": "Food&Lab ETH-CAB H41",
-    "refreshments": "Food (abendessen, dinner, essen) · Drinks (drink)",
+    "refreshments": "Food (dinner)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
+        "food"
       ],
       "matches": {
-        "drinks": [
-          "drink"
-        ],
         "food": [
-          "abendessen",
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (abendessen, dinner, essen) · Drinks (drink)"
-    }
+      "summary": "Food (dinner)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6553cb45ee736aeaeb602b40",
@@ -3993,7 +2935,7 @@
     "start_time": "17:00",
     "end_time": "22:00",
     "location": "Stuz CAB f21",
-    "refreshments": "Food (dinner, essen) · Drinks (beer, wine)",
+    "refreshments": "Food (dinner) · Drinks (beer, wine)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4005,12 +2947,12 @@
           "wine"
         ],
         "food": [
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (dinner, essen) · Drinks (beer, wine)"
-    }
+      "summary": "Food (dinner) · Drinks (beer, wine)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/65562846b29286688c30e114",
@@ -4019,43 +2961,19 @@
     "start_time": "17:00",
     "end_time": "21:00",
     "location": "Vito Europaallee",
-    "refreshments": "Food (dinner, essen)",
+    "refreshments": "Food (dinner)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (dinner, essen)"
-    }
-  },
-  {
-    "url": "events/655f3a1f25795176d68a96ee",
-    "title": "Excursion to hydropower plant Aue",
-    "date": "2024-03-14",
-    "start_time": "12:25",
-    "end_time": "16:20",
-    "location": "Train station Baden.",
-    "refreshments": "Food (essen) · Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
+      "summary": "Food (dinner)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6569d791b35c6c90d4949fd4",
@@ -4064,7 +2982,7 @@
     "start_time": "15:00",
     "end_time": "21:00",
     "location": "Hönggerberg Plaza (in front of Fusion)",
-    "refreshments": "Food (food, raclette) · Drinks (drink, gluhwein, wein)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4072,18 +2990,15 @@
       ],
       "matches": {
         "drinks": [
-          "drink",
-          "gluhwein",
-          "wein",
-          "wine"
+          "drink"
         ],
         "food": [
-          "food",
-          "raclette"
+          "food"
         ]
       },
-      "summary": "Food (food, raclette) · Drinks (drink, gluhwein, wein)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/656c48d5ec083965c0d50e39",
@@ -4092,19 +3007,19 @@
     "start_time": "06:00",
     "end_time": "09:00",
     "location": "ETZ-Foyer and CLA-Glashalle",
-    "refreshments": "Food (essen, food)",
+    "refreshments": "Food (food)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food)"
-    }
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/657b16338050e9e2f0a960d3",
@@ -4124,7 +3039,8 @@
         ]
       },
       "summary": "Food (essen)"
-    }
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/6597d472c6f1210303af56ae",
@@ -4133,7 +3049,7 @@
     "start_time": "09:00",
     "end_time": "18:00",
     "location": "Bioprocesslabor CNB E151",
-    "refreshments": "Food (essen, meal) · Drinks (beer, bier)",
+    "refreshments": "Food (meal) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4141,16 +3057,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
           "meal"
         ]
       },
-      "summary": "Food (essen, meal) · Drinks (beer, bier)"
-    }
+      "summary": "Food (meal) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/659aa5f5c6f1210303af667c",
@@ -4159,7 +3074,7 @@
     "start_time": "16:30",
     "end_time": "19:00",
     "location": "Alumni Pavillon GEP (MM C 78.1)",
-    "refreshments": "Food (food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4167,15 +3082,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
           "food"
         ]
       },
-      "summary": "Food (food) · Drinks (beer, bier)"
-    }
+      "summary": "Food (food) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/65ad93bdb264d7cc1c8d154e",
@@ -4199,7 +3114,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/65ba445fab3f0c6ab771f805",
@@ -4208,7 +3124,7 @@
     "start_time": "17:30",
     "end_time": "19:00",
     "location": "HG E1.1",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4219,12 +3135,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.4
   },
   {
     "url": "events/65cf50f79d2cc3758732505c",
@@ -4233,7 +3149,7 @@
     "start_time": "08:00",
     "end_time": "19:00",
     "location": "Behind CAB/Gärage hinter dem CAB",
-    "refreshments": "Food (essen, food, lunch) · Drinks (beer, bier)",
+    "refreshments": "Food (food, lunch) · Drinks (beer, beverage)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4242,17 +3158,16 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier"
+          "beverage"
         ],
         "food": [
-          "essen",
           "food",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (essen, food, lunch) · Drinks (beer, bier)"
-    }
+      "summary": "Food (food, lunch) · Drinks (beer, beverage)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/65d4677fd9d6080a41bfcb02",
@@ -4261,7 +3176,7 @@
     "start_time": "17:00",
     "end_time": "19:00",
     "location": "HGE33.5",
-    "refreshments": "Food (abendessen, dinner, essen) · Drinks (apero)",
+    "refreshments": "Food (dinner) · Drinks (apero)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4272,13 +3187,12 @@
           "apero"
         ],
         "food": [
-          "abendessen",
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (abendessen, dinner, essen) · Drinks (apero)"
-    }
+      "summary": "Food (dinner) · Drinks (apero)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/65d5f813d9d6080a41bfd484",
@@ -4287,7 +3201,7 @@
     "start_time": "17:15",
     "end_time": "19:00",
     "location": "HG D 1.1",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4298,80 +3212,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "events/65dda848639575f7ac6259f3",
-    "title": "Siemens Industrytalk",
-    "date": "2024-04-24",
-    "start_time": "16:15",
-    "end_time": "18:00",
-    "location": "HG E1.2",
-    "refreshments": "Food (essen) · Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
-  },
-  {
-    "url": "events/65e33cc6cbe9e0225c75309d",
-    "title": "Coffee Crawl FS24",
-    "date": "2024-03-16",
-    "start_time": "10:00",
-    "end_time": "13:00",
-    "location": "At the Polybahn entrance near Polyterasse  ",
-    "refreshments": "Food (essen) · Drinks (drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "events/65e4aba2cbe9e0225c7538b7",
-    "title": "EESTech Challenge Zurich: AI Marathon ‘n BOnding Time",
-    "date": "2024-04-19",
-    "start_time": "06:00",
-    "end_time": "18:00",
-    "location": "ETH ETZ",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.6
   },
   {
     "url": "events/65faa9b383b6291183ab1987",
@@ -4380,22 +3226,21 @@
     "start_time": "16:00",
     "end_time": "20:00",
     "location": "food&lab, ETH Zentrum, CAB H 41",
-    "refreshments": "Food (abendessen, buffet, dinner)",
+    "refreshments": "Food (buffet, dinner, food)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "abendessen",
           "buffet",
           "dinner",
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (abendessen, buffet, dinner)"
-    }
+      "summary": "Food (buffet, dinner, food)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6602dfebda28a6b5ef4f602e",
@@ -4404,7 +3249,7 @@
     "start_time": "07:30",
     "end_time": "15:00",
     "location": "CNB E 151 Bioprozesslabor",
-    "refreshments": "Food (food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4412,15 +3257,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
           "food"
         ]
       },
-      "summary": "Food (food) · Drinks (beer, bier)"
-    }
+      "summary": "Food (food) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/66053b2b477c17a6f53a989f",
@@ -4429,22 +3274,19 @@
     "start_time": "16:00",
     "end_time": "19:00",
     "location": "Kleine Freiheit, Weinbergstrasse 30, 8006 Zürich",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/660bec6ae0e31789bb36a6bf",
@@ -4453,24 +3295,20 @@
     "start_time": "16:00",
     "end_time": "20:30",
     "location": "ETZ Foyer",
-    "refreshments": "Food (essen) · Drinks (beer, bier, drink)",
+    "refreshments": "Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.6000000000000001
   },
   {
     "url": "events/661e3a51d1a9d4f71db8bc1b",
@@ -4479,7 +3317,7 @@
     "start_time": "16:00",
     "end_time": "21:00",
     "location": "StuZ CAB F21",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4490,12 +3328,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/6627837eeffa7f5b94c0d710",
@@ -4504,7 +3342,7 @@
     "start_time": "11:00",
     "end_time": "19:30",
     "location": "Paintball-Farm Dietwil",
-    "refreshments": "Food (barbecue, essen, grill) · Drinks (beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4512,17 +3350,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "essen",
-          "grill"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, essen, grill) · Drinks (beer, bier)"
-    }
+      "summary": "Food (barbecue) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/66298085270d20493f84b421",
@@ -4531,23 +3367,19 @@
     "start_time": "16:00",
     "end_time": "20:00",
     "location": "CLA Vorhof",
-    "refreshments": "Food (essen, food) · Drinks (wein)",
+    "refreshments": "Food (food)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
+        "food"
       ],
       "matches": {
-        "drinks": [
-          "wein"
-        ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (wein)"
-    }
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/662f59e3caa7f6f2e7602853",
@@ -4556,22 +3388,19 @@
     "start_time": "16:30",
     "end_time": "19:00",
     "location": "Frau Gerolds Garten, Geroldstrasse 23, 8005 Zürich",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/663241e9c1a3c7b5c66350d2",
@@ -4580,36 +3409,19 @@
     "start_time": "19:00",
     "end_time": "01:00",
     "location": "The Urban, Löwenstrasse 2, 8001 Zürich",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "events/66333cfaeb40b6a52859af3a",
-    "title": "LIMES goes Google",
-    "date": "2024-05-24",
-    "start_time": "15:00",
-    "end_time": "18:00",
-    "location": "Google BRA, Brandschenkestrasse 110, 8002 Zürich",
-    "refreshments": null,
-    "refreshment_details": {
-      "categories": [],
-      "matches": {},
-      "summary": null
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": 0.6000000000000001
   },
   {
     "url": "events/664247fb259d6fceac489aff",
@@ -4618,39 +3430,19 @@
     "start_time": "17:00",
     "end_time": "20:00",
     "location": "Vito Europaallee",
-    "refreshments": "Food (dinner, essen)",
+    "refreshments": "Food (dinner)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (dinner, essen)"
-    }
-  },
-  {
-    "url": "events/664352d71812992a32e754a2",
-    "title": "Curd Competetion",
-    "date": "2024-05-23",
-    "start_time": "11:00",
-    "end_time": "11:30",
-    "location": "ETH Polyterasse",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (dinner)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/664352e4259d6fceac48a0cb",
@@ -4659,22 +3451,19 @@
     "start_time": "16:00",
     "end_time": "18:00",
     "location": "Student Project House (Floor E)",
-    "refreshments": "Food (essen) · Drinks (apero)",
+    "refreshments": "Drinks (apero)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "apero"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
+      "summary": "Drinks (apero)"
+    },
+    "easeOfEntry": 0.9500000000000001
   },
   {
     "url": "events/66a259a5a1f15e04deeedc07",
@@ -4683,28 +3472,28 @@
     "start_time": "08:00",
     "end_time": "15:00",
     "location": "ETH Zürich, Zentrum",
-    "refreshments": "Food (essen, lunch)",
+    "refreshments": "Food (lunch)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
           "lunch"
         ]
       },
-      "summary": "Food (essen, lunch)"
-    }
+      "summary": "Food (lunch)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/66d1c339ecc104e335f80ef3",
     "title": "\"Ersti Rally\"",
-    "date": "",
-    "start_time": "",
-    "end_time": "",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
     "location": "CAB Vorhof",
-    "refreshments": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (apero, beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4713,26 +3502,24 @@
       "matches": {
         "drinks": [
           "apero",
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "grill",
-          "wurst"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)"
-    }
+      "summary": "Food (barbecue) · Drinks (apero, beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/66d1c349a656dfb20034789c",
     "title": "\"Ersti Rally\"",
-    "date": "",
-    "start_time": "",
-    "end_time": "",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
     "location": "CAB Vorhof",
-    "refreshments": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (apero, beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4741,17 +3528,15 @@
       "matches": {
         "drinks": [
           "apero",
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "grill",
-          "wurst"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)"
-    }
+      "summary": "Food (barbecue) · Drinks (apero, beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/66d1c489ebe7ba5dbe0f0050",
@@ -4760,7 +3545,7 @@
     "start_time": "12:15",
     "end_time": "15:30",
     "location": "CAB Vorhof",
-    "refreshments": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (apero, beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4769,17 +3554,15 @@
       "matches": {
         "drinks": [
           "apero",
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "grill",
-          "wurst"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)"
-    }
+      "summary": "Food (barbecue) · Drinks (apero, beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/66d72685aa911c30180b09c1",
@@ -4803,7 +3586,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/66e80654930c85f409dc3439",
@@ -4812,7 +3596,7 @@
     "start_time": "16:30",
     "end_time": "19:00",
     "location": "HG D1.2",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4823,26 +3607,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "events/66ec427e5218aed412835fb8",
-    "title": "Designteam Kickoff",
-    "date": "2024-10-01",
-    "start_time": "17:00",
-    "end_time": "20:00",
-    "location": "CAB E 24.2 (VSETH meeting room)",
-    "refreshments": null,
-    "refreshment_details": {
-      "categories": [],
-      "matches": {},
-      "summary": null
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.4
   },
   {
     "url": "events/66f08483fe99e5c45b54d83d",
@@ -4862,7 +3632,8 @@
         ]
       },
       "summary": "Food (food)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/66f18248d9bf48c8fb718081",
@@ -4871,22 +3642,19 @@
     "start_time": "15:15",
     "end_time": "16:15",
     "location": "HG E 3",
-    "refreshments": "Food (essen) · Drinks (apero)",
+    "refreshments": "Drinks (apero)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "apero"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (apero)"
-    }
+      "summary": "Drinks (apero)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/66fa5cbed521016f8db11fc1",
@@ -4895,17 +3663,13 @@
     "start_time": "14:30",
     "end_time": "18:30",
     "location": "Alumni Pavillon (MM C 78.1)",
-    "refreshments": "Food (essen) · Snacks (snack, snacks) · Dessert (cake, cakes, cupcake)",
+    "refreshments": "Snacks (snack, snacks) · Dessert (cake, cakes, cupcake)",
     "refreshment_details": {
       "categories": [
-        "food",
         "snacks",
         "sweet"
       ],
       "matches": {
-        "food": [
-          "essen"
-        ],
         "snacks": [
           "snack",
           "snacks"
@@ -4917,8 +3681,9 @@
           "cupcakes"
         ]
       },
-      "summary": "Food (essen) · Snacks (snack, snacks) · Dessert (cake, cakes, cupcake)"
-    }
+      "summary": "Snacks (snack, snacks) · Dessert (cake, cakes, cupcake)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/67026442580685a38c88d2a7",
@@ -4927,20 +3692,19 @@
     "start_time": "10:15",
     "end_time": "12:00",
     "location": "SPH Zentrum, E-Floor (Student Project House)",
-    "refreshments": "Food (essen, lunch, mittagessen)",
+    "refreshments": "Food (lunch)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (essen, lunch, mittagessen)"
-    }
+      "summary": "Food (lunch)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/6703ae501637064979670b8c",
@@ -4949,7 +3713,7 @@
     "start_time": "16:15",
     "end_time": "17:00",
     "location": "HG D 5.2",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4960,12 +3724,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.6
   },
   {
     "url": "events/67068cf91637064979671cee",
@@ -4974,7 +3738,7 @@
     "start_time": "08:00",
     "end_time": "16:00",
     "location": "Gärage",
-    "refreshments": "Food (essen, lunch, mittagessen) · Drinks (beer, bier)",
+    "refreshments": "Food (lunch) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -4982,17 +3746,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (essen, lunch, mittagessen) · Drinks (beer, bier)"
-    }
+      "summary": "Food (lunch) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/670cffa3e0fd5c5fdeceeab0",
@@ -5001,24 +3763,20 @@
     "start_time": "17:00",
     "end_time": "21:30",
     "location": "ETZ Foyer",
-    "refreshments": "Food (essen) · Drinks (beer, bier, drink)",
+    "refreshments": "Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.6000000000000001
   },
   {
     "url": "events/670d3202e0fd5c5fdeceebef",
@@ -5027,7 +3785,7 @@
     "start_time": "17:15",
     "end_time": "21:00",
     "location": "Clausiusbar",
-    "refreshments": "Food (food) · Drinks (beer, bier, drink) · Snacks (snack, snacks)",
+    "refreshments": "Food (food) · Drinks (beer, drink) · Snacks (snack, snacks)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5037,7 +3795,6 @@
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
         ],
         "food": [
@@ -5048,8 +3805,9 @@
           "snacks"
         ]
       },
-      "summary": "Food (food) · Drinks (beer, bier, drink) · Snacks (snack, snacks)"
-    }
+      "summary": "Food (food) · Drinks (beer, drink) · Snacks (snack, snacks)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/671752902a053ea2add2382a",
@@ -5058,7 +3816,7 @@
     "start_time": "17:30",
     "end_time": "21:00",
     "location": "Clausiusbar",
-    "refreshments": "Food (abendessen, dinner, essen) · Drinks (bier, drink) · Snacks (snack, snacks)",
+    "refreshments": "Food (dinner, meal) · Drinks (drink) · Snacks (snack, snacks)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5067,13 +3825,10 @@
       ],
       "matches": {
         "drinks": [
-          "bier",
           "drink"
         ],
         "food": [
-          "abendessen",
           "dinner",
-          "essen",
           "meal"
         ],
         "snacks": [
@@ -5081,8 +3836,9 @@
           "snacks"
         ]
       },
-      "summary": "Food (abendessen, dinner, essen) · Drinks (bier, drink) · Snacks (snack, snacks)"
-    }
+      "summary": "Food (dinner, meal) · Drinks (drink) · Snacks (snack, snacks)"
+    },
+    "easeOfEntry": 0.65
   },
   {
     "url": "events/671caf19ad27464e13bce0f5",
@@ -5091,42 +3847,19 @@
     "start_time": "17:00",
     "end_time": "19:00",
     "location": "bQm, Leonhardstrasse 34, 8092 Zürich",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "events/6721f9066383bd6ca853dfdc",
-    "title": "Curd Competetion",
-    "date": "2024-11-04",
-    "start_time": "12:00",
-    "end_time": "12:30",
-    "location": "CAB Innenhof",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/67291cf8e73dbe3063be457d",
@@ -5135,7 +3868,7 @@
     "start_time": "09:00",
     "end_time": "19:00",
     "location": "Gärage",
-    "refreshments": "Food (essen, lunch, mittagessen) · Drinks (beer, bier)",
+    "refreshments": "Food (lunch) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5143,17 +3876,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
-          "lunch",
-          "mittagessen"
+          "lunch"
         ]
       },
-      "summary": "Food (essen, lunch, mittagessen) · Drinks (beer, bier)"
-    }
+      "summary": "Food (lunch) · Drinks (beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/672ddf2a682786f856f38a94",
@@ -5162,39 +3893,19 @@
     "start_time": "18:00",
     "end_time": "21:00",
     "location": "La Catedral, Birmensdorferstrasse 83, 8003 Zürich",
-    "refreshments": "Food (dinner, essen)",
+    "refreshments": "Food (dinner)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (dinner, essen)"
-    }
-  },
-  {
-    "url": "events/672f4966682786f856f392c2",
-    "title": "AMIVondue",
-    "date": "2024-12-05",
-    "start_time": "17:00",
-    "end_time": "21:00",
-    "location": "GZ Buchegg Bucheggstrasse 93 8057 Zürich",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (dinner)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/673b3bf1237a7340a39d7944",
@@ -5203,22 +3914,21 @@
     "start_time": "17:00",
     "end_time": "20:30",
     "location": "food&lab, ETH Zentrum, CAB H 41",
-    "refreshments": "Food (abendessen, buffet, dinner)",
+    "refreshments": "Food (buffet, dinner, food)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "abendessen",
           "buffet",
           "dinner",
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (abendessen, buffet, dinner)"
-    }
+      "summary": "Food (buffet, dinner, food)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/674030529a529e539933d7bf",
@@ -5227,22 +3937,19 @@
     "start_time": "17:00",
     "end_time": "20:00",
     "location": "Terrace of ETF",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/675740fb31ac7a6e8786c941",
@@ -5251,19 +3958,19 @@
     "start_time": "11:00",
     "end_time": "19:00",
     "location": "Valle del Nara, Tessin",
-    "refreshments": "Food (essen, fondue)",
+    "refreshments": "Food (fondue)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
           "fondue"
         ]
       },
-      "summary": "Food (essen, fondue)"
-    }
+      "summary": "Food (fondue)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/67ab1305b569cd57b385635b",
@@ -5287,7 +3994,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/67b6293bce2c19654cdf2954",
@@ -5296,19 +4004,19 @@
     "start_time": "17:30",
     "end_time": "21:30",
     "location": "HG D7.2",
-    "refreshments": "Food (essen, pizza)",
+    "refreshments": "Food (pizza)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
           "pizza"
         ]
       },
-      "summary": "Food (essen, pizza)"
-    }
+      "summary": "Food (pizza)"
+    },
+    "easeOfEntry": 0.9500000000000001
   },
   {
     "url": "events/67cf7c6b6dc76225cd7205ae",
@@ -5333,7 +4041,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (apero, drink)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/67cf7cab5c4883718a36f3c6",
@@ -5342,22 +4051,19 @@
     "start_time": "16:15",
     "end_time": "18:00",
     "location": "Kleine Freiheit, Weinbergstrasse 30, 8006 Zürich",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/67d1e4615c4883718a36f56d",
@@ -5377,7 +4083,8 @@
         ]
       },
       "summary": "Drinks (apero)"
-    }
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/67d30311c717ef0a6e85cb8a",
@@ -5386,22 +4093,19 @@
     "start_time": "16:30",
     "end_time": "19:30",
     "location": "Clausiusbar",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/67dc436f25203fc8c7dc71ec",
@@ -5410,7 +4114,7 @@
     "start_time": "16:30",
     "end_time": "20:00",
     "location": "Clausiusbar",
-    "refreshments": "Food (essen, food) · Drinks (beer, bier)",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5418,30 +4122,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (beer, bier)"
-    }
-  },
-  {
-    "url": "events/67e814598dc8ca3b1f3cfae8",
-    "title": "LIMES goes Google",
-    "date": "2025-05-09",
-    "start_time": "15:00",
-    "end_time": "18:00",
-    "location": "Google BRA, Brandschenkestrasse 110, 8002 Zürich",
-    "refreshments": null,
-    "refreshment_details": {
-      "categories": [],
-      "matches": {},
-      "summary": null
-    }
+      "summary": "Food (food) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/67ebaa8a25203fc8c7dc7bf0",
@@ -5450,24 +4139,20 @@
     "start_time": "16:00",
     "end_time": "20:30",
     "location": "ETZ Foyer",
-    "refreshments": "Food (essen) · Drinks (beer, bier, drink)",
+    "refreshments": "Drinks (beer, drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "beer",
-          "bier",
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (beer, bier, drink)"
-    }
+      "summary": "Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.6000000000000001
   },
   {
     "url": "events/67eff44d8dc8ca3b1f3d0055",
@@ -5476,19 +4161,19 @@
     "start_time": "16:30",
     "end_time": "21:00",
     "location": "Royal Panda, Kreuzplatz, 8008 Zürich",
-    "refreshments": "Food (dinner, essen)",
+    "refreshments": "Food (dinner)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (dinner, essen)"
-    }
+      "summary": "Food (dinner)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/68014f8a4d9b881b1a55b3c6",
@@ -5497,7 +4182,7 @@
     "start_time": "11:00",
     "end_time": "19:30",
     "location": "Paintball-Farm Dietwil",
-    "refreshments": "Food (barbecue, essen, grill) · Drinks (beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5505,37 +4190,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "essen",
-          "grill"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, essen, grill) · Drinks (beer, bier)"
-    }
-  },
-  {
-    "url": "events/680e575b4d9b881b1a55bb35",
-    "title": "AMIV goes Opera",
-    "date": "2025-05-17",
-    "start_time": "16:00",
-    "end_time": "21:00",
-    "location": "Opernhaus Zürich",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (barbecue) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.65
   },
   {
     "url": "events/6819b91c7574557738ac4a5a",
@@ -5544,7 +4207,7 @@
     "start_time": "06:00",
     "end_time": "18:00",
     "location": "Mühlebachstrasse 162/164, 8008 Zürich",
-    "refreshments": "Food (abendessen, dinner, essen) · Snacks (snack, snacks)",
+    "refreshments": "Food (dinner, lunch) · Snacks (snack, snacks)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5552,9 +4215,7 @@
       ],
       "matches": {
         "food": [
-          "abendessen",
           "dinner",
-          "essen",
           "lunch"
         ],
         "snacks": [
@@ -5562,28 +4223,9 @@
           "snacks"
         ]
       },
-      "summary": "Food (abendessen, dinner, essen) · Snacks (snack, snacks)"
-    }
-  },
-  {
-    "url": "events/682330544d9b881b1a55cac3",
-    "title": "Curd Competetion",
-    "date": "2025-05-23",
-    "start_time": "11:00",
-    "end_time": "11:30",
-    "location": "Polyterrasse",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (dinner, lunch) · Snacks (snack, snacks)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/683f13d7346b97fae9b7ea4d",
@@ -5592,7 +4234,7 @@
     "start_time": "16:00",
     "end_time": "20:00",
     "location": "HG E5",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5603,21 +4245,21 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.9500000000000001
   },
   {
     "url": "events/6873a09de94a0dd5102e2f55",
     "title": "First year rallye",
-    "date": "",
-    "start_time": "",
-    "end_time": "",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
     "location": "CAB Vorhof",
-    "refreshments": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (apero, beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5626,26 +4268,24 @@
       "matches": {
         "drinks": [
           "apero",
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "grill",
-          "wurst"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)"
-    }
+      "summary": "Food (barbecue) · Drinks (apero, beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/6873a36c8dfd2bcada258270",
     "title": "First year rallye",
-    "date": "",
-    "start_time": "",
-    "end_time": "",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
     "location": "CAB Vorhof",
-    "refreshments": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (apero, beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5654,17 +4294,15 @@
       "matches": {
         "drinks": [
           "apero",
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "grill",
-          "wurst"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)"
-    }
+      "summary": "Food (barbecue) · Drinks (apero, beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/6873a40d1cfd302468336510",
@@ -5673,7 +4311,7 @@
     "start_time": "11:15",
     "end_time": "15:30",
     "location": "CAB Vorhof",
-    "refreshments": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)",
+    "refreshments": "Food (barbecue) · Drinks (apero, beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5682,17 +4320,15 @@
       "matches": {
         "drinks": [
           "apero",
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "barbecue",
-          "grill",
-          "wurst"
+          "barbecue"
         ]
       },
-      "summary": "Food (barbecue, grill, wurst) · Drinks (apero, beer, bier)"
-    }
+      "summary": "Food (barbecue) · Drinks (apero, beer)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/689da0ade5aee8f8b9c69e4f",
@@ -5716,7 +4352,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/68c8e93bd183a7d90a9eb5f0",
@@ -5725,7 +4362,7 @@
     "start_time": "16:15",
     "end_time": "18:00",
     "location": "CAB G59",
-    "refreshments": "Food (essen, food) · Drinks (drink)",
+    "refreshments": "Food (food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5736,12 +4373,12 @@
           "drink"
         ],
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food) · Drinks (drink)"
-    }
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/68c974665811fa6940bf7776",
@@ -5750,59 +4387,19 @@
     "start_time": "16:00",
     "end_time": "19:00",
     "location": "",
-    "refreshments": "Food (essen, food)",
+    "refreshments": "Food (food)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (essen, food)"
-    }
-  },
-  {
-    "url": "events/68cc1dde5fd9a0fb79e6753b",
-    "title": "EESTEC Kickoff",
-    "date": "2025-09-25",
-    "start_time": "16:30",
-    "end_time": "17:30",
-    "location": "ML F 39",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
-  },
-  {
-    "url": "events/68daa57d5811fa6940bf85d6",
-    "title": "Against an increase in tuition fees",
-    "date": "2025-10-01",
-    "start_time": "10:30",
-    "end_time": "16:00",
-    "location": "Helvetiaplatz (Zürich) + Bundesplatz (Bern)",
-    "refreshments": "Food (essen)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "essen"
-        ]
-      },
-      "summary": "Food (essen)"
-    }
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/68e01b695fd9a0fb79e684c2",
@@ -5811,7 +4408,7 @@
     "start_time": "17:30",
     "end_time": "20:00",
     "location": "CAB D21 (PapperlaPub, StuZ)",
-    "refreshments": "Food (dinner, essen) · Drinks (beer, bier)",
+    "refreshments": "Food (dinner) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5819,16 +4416,15 @@
       ],
       "matches": {
         "drinks": [
-          "beer",
-          "bier"
+          "beer"
         ],
         "food": [
-          "dinner",
-          "essen"
+          "dinner"
         ]
       },
-      "summary": "Food (dinner, essen) · Drinks (beer, bier)"
-    }
+      "summary": "Food (dinner) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "events/68e35f905fd9a0fb79e68680",
@@ -5837,22 +4433,19 @@
     "start_time": "17:15",
     "end_time": "22:00",
     "location": "Kleine Freiheit, Weinbergstrasse 30, 8006 Zürich",
-    "refreshments": "Food (essen) · Drinks (drink)",
+    "refreshments": "Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
-        ],
-        "food": [
-          "essen"
         ]
       },
-      "summary": "Food (essen) · Drinks (drink)"
-    }
+      "summary": "Drinks (drink)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/68ea02f35fd9a0fb79e68b59",
@@ -5861,21 +4454,20 @@
     "start_time": "16:00",
     "end_time": "20:00",
     "location": "GLC E Archimedes Gloriastrasse 37",
-    "refreshments": "Food (abendessen, dinner, essen)",
+    "refreshments": "Food (dinner, food)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "abendessen",
           "dinner",
-          "essen",
           "food"
         ]
       },
-      "summary": "Food (abendessen, dinner, essen)"
-    }
+      "summary": "Food (dinner, food)"
+    },
+    "easeOfEntry": 1.0
   },
   {
     "url": "events/68ed75045811fa6940bf9344",
@@ -5884,28 +4476,24 @@
     "start_time": "15:15",
     "end_time": "16:15",
     "location": "ETF E 1",
-    "refreshments": "Food (essen) · Drinks (apero, drink) · Snacks (snack, snacks)",
+    "refreshments": "Drinks (drink) · Snacks (snack, snacks)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks",
         "snacks"
       ],
       "matches": {
         "drinks": [
-          "apero",
           "drink"
-        ],
-        "food": [
-          "essen"
         ],
         "snacks": [
           "snack",
           "snacks"
         ]
       },
-      "summary": "Food (essen) · Drinks (apero, drink) · Snacks (snack, snacks)"
-    }
+      "summary": "Drinks (drink) · Snacks (snack, snacks)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "events/68fa0d4654b105d2cd175870",
@@ -5935,6 +4523,7 @@
         ]
       },
       "summary": "Food (food, grill) · Drinks (beer) · Snacks (snack, snacks)"
-    }
+    },
+    "easeOfEntry": 0.8
   }
 ]

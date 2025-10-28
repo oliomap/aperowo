@@ -157,7 +157,7 @@ async def run_crawlers_from_file(cfg_path: str = "./backend/urls_to_crawl.json")
 
 
         # Save results (overwrite)
-        filepath = os.path.join("../data/raw/", output_filename)
+        filepath = os.path.join("data/raw/", output_filename)
         if os.path.exists(filepath):
             os.remove(filepath)
 

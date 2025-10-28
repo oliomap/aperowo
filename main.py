@@ -34,10 +34,10 @@ def extract_amiv():
     filtered_events_amiv = [extract_event_fields(event) for event in events_with_apero_amiv]
     
     # Write the filtered events to a JSON file.
-    with open("data/apero_results_amiv.json", "w", encoding="utf-8") as outfile:
+    with open("data/raw/AMIV_data.json", "w", encoding="utf-8") as outfile:
         json.dump(filtered_events_amiv, outfile, ensure_ascii=False, indent=2)
 
-    print(f"Extracted information for {len(filtered_events_amiv)} AMIV events and saved to apero_results_amiv.json.")
+    print(f"Extracted information for {len(filtered_events_amiv)} AMIV events and saved to AMIV_data.json.")
 
 def main(
     source: Union[str, Path] = Path("data/raw/VMP_data.json"),
