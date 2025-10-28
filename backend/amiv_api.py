@@ -22,6 +22,8 @@ REFRESHMENT_RULES = {
         "label": "Drinks",
         "keywords": {
             "beer",
+            "beverage",
+            "beverages",
             "bier",
             "wine",
             "wein",
@@ -210,6 +212,11 @@ def extract_event_fields(event):
     # Get the location (if available)
     location = event.get("location", "")
     refreshments = infer_refreshments(event)
+
+    # Fields for ease of entry
+    description = event.get("description_en", event.get("description_de", ""))
+    spots = event.get("spots", "N/A")
+    price = event.get("price", "N/A")
     
     return {
         "url": url,
@@ -220,6 +227,9 @@ def extract_event_fields(event):
         "location": location,
         "refreshments": refreshments.get("summary"),
         "refreshment_details": refreshments,
+        "markdown": description,
+        "spots": spots,
+        "price": price,
     }
 
 

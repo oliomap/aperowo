@@ -1,5 +1,26 @@
 [
   {
+    "url": "https://vmp.ethz.ch/en/events/alle_events",
+    "title": "Current Events | VMP",
+    "date": "2025-11-13",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Food (sushi)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "sushi"
+        ]
+      },
+      "summary": "Food (sushi)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
     "url": "https://vmp.ethz.ch/en/events/all-you-can-sweet-hs25-2025-11-13",
     "title": "All You Can Sweet | VMP",
     "date": "2025-11-13",
@@ -30,27 +51,96 @@
         ]
       },
       "summary": "Drinks (wine) · Snacks (snack) · Dessert (chocolate, crepe, crepes)"
-    }
+    },
+    "easeOfEntry": 0.8
   },
   {
-    "url": "https://vmp.ethz.ch/en/events/appbuilding-challenge-matlab",
-    "title": "App Building Challenge with MATLAB | VMP",
-    "date": "2025-10-29",
+    "url": "https://vmp.ethz.ch/en/events/pokerturnierhs25",
+    "title": "Poker Tournament | VMP",
+    "date": "2025-11-12",
     "start_time": "18:00",
-    "end_time": "20:00",
+    "end_time": "22:00",
     "location": null,
-    "refreshments": "Food (pizza)",
+    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": null
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/vmp-chess-tournament-hs25",
+    "title": "VMP Chess Tournament | VMP",
+    "date": "2025-10-28",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "location": null,
+    "refreshments": "Food (food)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "pizza"
+          "food"
         ]
       },
-      "summary": "Food (pizza)"
-    }
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": null
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/jane-street-panel-talk",
+    "title": "Jane Street “Get to Know Us” Panel Talk | VMP",
+    "date": "2025-11-05",
+    "start_time": "16:30",
+    "end_time": "18:15",
+    "location": null,
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/rge-2025-11-18",
+    "title": "Research Group Event | VMP",
+    "date": "2025-11-18",
+    "start_time": "16:00",
+    "end_time": "18:00",
+    "location": null,
+    "refreshments": "Drinks (apero)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "apero"
+        ]
+      },
+      "summary": "Drinks (apero)"
+    },
+    "easeOfEntry": null
   },
   {
     "url": "https://vmp.ethz.ch/en/events/sushi-night-hs25",
@@ -74,7 +164,8 @@
         ]
       },
       "summary": "Food (sushi) · Drinks (beer)"
-    }
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "https://vmp.ethz.ch/en/events/just-line-dance",
@@ -99,27 +190,88 @@
         ]
       },
       "summary": "Drinks (drink) · Snacks (snack, snacks)"
-    }
+    },
+    "easeOfEntry": null
   },
   {
-    "url": "https://vmp.ethz.ch/en/events/jane-street-panel-talk",
-    "title": "Jane Street “Get to Know Us” Panel Talk | VMP",
-    "date": "2025-11-05",
-    "start_time": "16:30",
-    "end_time": "18:15",
+    "url": "https://vmp.ethz.ch/en/events/appbuilding-challenge-matlab",
+    "title": "App Building Challenge with MATLAB | VMP",
+    "date": "2025-10-29",
+    "start_time": "18:00",
+    "end_time": "20:00",
     "location": null,
-    "refreshments": "Food (food)",
+    "refreshments": "Food (pizza)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "food"
+          "pizza"
         ]
       },
-      "summary": "Food (food)"
-    }
+      "summary": "Food (pizza)"
+    },
+    "easeOfEntry": null
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/alle_events",
+    "title": "Current Events | VMP",
+    "date": "2025-11-13",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Food (sushi) · Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ],
+        "food": [
+          "sushi"
+        ]
+      },
+      "summary": "Food (sushi) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/all-you-can-sweet-hs25-2025-11-13",
+    "title": "All You Can Sweet | VMP",
+    "date": "2025-11-13",
+    "start_time": "17:00",
+    "end_time": "21:00",
+    "location": null,
+    "refreshments": "Drinks (wine) · Snacks (snack) · Dessert (chocolate, crepe, crepes)",
+    "refreshment_details": {
+      "categories": [
+        "drinks",
+        "snacks",
+        "sweet"
+      ],
+      "matches": {
+        "drinks": [
+          "wine"
+        ],
+        "snacks": [
+          "snack"
+        ],
+        "sweet": [
+          "chocolate",
+          "crepe",
+          "crepes",
+          "sweets",
+          "waffle",
+          "waffles"
+        ]
+      },
+      "summary": "Drinks (wine) · Snacks (snack) · Dessert (chocolate, crepe, crepes)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "https://vmp.ethz.ch/en/events/coding-weekend-hs25",
@@ -143,27 +295,8 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    }
-  },
-  {
-    "url": "https://vmp.ethz.ch/en/events/vmp-chess-tournament-hs25",
-    "title": "VMP Chess Tournament | VMP",
-    "date": "2025-10-28",
-    "start_time": "18:00",
-    "end_time": "22:00",
-    "location": null,
-    "refreshments": "Food (food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food)"
-    }
+    },
+    "easeOfEntry": 0.6000000000000001
   },
   {
     "url": "https://vmp.ethz.ch/en/events/rge-2025-11-18",
@@ -183,26 +316,189 @@
         ]
       },
       "summary": "Drinks (apero)"
-    }
+    },
+    "easeOfEntry": null
   },
   {
-    "url": "https://vmp.ethz.ch/en/events/alle_events",
-    "title": "Current Events | VMP",
-    "date": "2025-11-13",
+    "url": "https://vmp.ethz.ch/en/events/pokerturnierhs25",
+    "title": "Poker Tournament | VMP",
+    "date": "2025-11-12",
     "start_time": "18:00",
-    "end_time": null,
+    "end_time": "22:00",
     "location": null,
-    "refreshments": "Food (sushi)",
+    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": null
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/buddy-building",
+    "title": "Buddy Building | VMP",
+    "date": "2025-10-29",
+    "start_time": "18:00",
+    "end_time": "20:00",
+    "location": null,
+    "refreshments": "Food (bbq)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
+          "bbq"
+        ]
+      },
+      "summary": "Food (bbq)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/jane-street-panel-talk",
+    "title": "Jane Street “Get to Know Us” Panel Talk | VMP",
+    "date": "2025-11-05",
+    "start_time": "16:30",
+    "end_time": "18:15",
+    "location": null,
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/sushi-night-hs25",
+    "title": "Sushi Night | VMP",
+    "date": "2025-11-05",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "location": null,
+    "refreshments": "Food (sushi) · Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ],
+        "food": [
           "sushi"
         ]
       },
-      "summary": "Food (sushi)"
-    }
+      "summary": "Food (sushi) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/just-line-dance",
+    "title": "Just (Line) Dance | VMP",
+    "date": "2025-11-03",
+    "start_time": "17:00",
+    "end_time": "20:00",
+    "location": null,
+    "refreshments": "Drinks (drink) · Snacks (snack, snacks)",
+    "refreshment_details": {
+      "categories": [
+        "drinks",
+        "snacks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "snacks": [
+          "snack",
+          "snacks"
+        ]
+      },
+      "summary": "Drinks (drink) · Snacks (snack, snacks)"
+    },
+    "easeOfEntry": null
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/vmp-chess-tournament-hs25",
+    "title": "VMP Chess Tournament | VMP",
+    "date": "2025-10-28",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "location": null,
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": null
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/beer-baseball-hs25",
+    "title": "Beer Baseball Tournament | VMP",
+    "date": "2025-11-07",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "location": null,
+    "refreshments": "Drinks (beer, shots)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer",
+          "shots"
+        ]
+      },
+      "summary": "Drinks (beer, shots)"
+    },
+    "easeOfEntry": 0.6000000000000001
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/appbuilding-challenge-matlab",
+    "title": "App Building Challenge with MATLAB | VMP",
+    "date": "2025-10-29",
+    "start_time": "18:00",
+    "end_time": "20:00",
+    "location": null,
+    "refreshments": "Food (pizza)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "pizza"
+        ]
+      },
+      "summary": "Food (pizza)"
+    },
+    "easeOfEntry": null
   }
 ]
