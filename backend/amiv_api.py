@@ -22,6 +22,8 @@ REFRESHMENT_RULES = {
         "label": "Drinks",
         "keywords": {
             "beer",
+            "beverage",
+            "beverages",
             "bier",
             "wine",
             "wein",
