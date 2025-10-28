@@ -1,67 +1,99 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Apero wo?</title>
-    <link rel="stylesheet" href="/frontend/public/styles.css" />
-  </head>
-  <body>
-    <!-- Disclaimer Modal (shown until accepted) -->
-    <div id="disclaimer-modal" class="disclaimer-overlay" role="dialog" aria-labelledby="disclaimer-title" aria-modal="true" hidden>
-      <div class="disclaimer-card">
-        <header class="disclaimer-card__header">
-          <h2 id="disclaimer-title">Important Disclaimer</h2>
-        </header>
-        <div class="disclaimer-card__content">
-          <p>
-            This tool is for informational purposes only. Free food at events is strictly
-            limited to individuals who are officially inscribed to these events. Please
-            ensure that you meet the eligibility criteria before attending.
-          </p>
-          <p style="margin-top: 0.5rem; color: #475569">
-            By clicking Accept, you acknowledge that you have read and understood this disclaimer.
-          </p>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apero wo?</title>
+  <link rel="stylesheet" href="/styles.css" />
+
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDDVKJB5XE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-KDDVKJB5XE');
+  </script>
+
+</head>
+
+<body>
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent-banner" class="cookie-banner" role="dialog" aria-live="polite"
+    aria-label="Cookie consent banner" hidden>
+    <div class="cookie-banner__content">
+      <p>
+        This website uses cookies to enhance your experience and for analytics. By continuing to browse, you agree to
+        our use of cookies.
+      </p>
+    </div>
+    <div class="cookie-banner__actions">
+      <button id="cookie-consent-accept" type="button" class="cookie-accept-btn">Got it!</button>
+    </div>
+  </div>
+
+  <!-- Disclaimer Modal (shown until accepted) -->
+  <div id="disclaimer-modal" class="disclaimer-overlay" role="dialog" aria-labelledby="disclaimer-title"
+    aria-modal="true" hidden>
+    <div class="disclaimer-card">
+      <header class="disclaimer-card__header">
+        <h2 id="disclaimer-title">Important Disclaimer</h2>
+      </header>
+      <div class="disclaimer-card__content">
+        <p>
+          This tool is for informational purposes only. Free food at events is strictly
+          limited to individuals who are officially inscribed to these events. Please
+          ensure that you meet the eligibility criteria before attending.
+        </p>
+        <p style="margin-top: 0.5rem; color: #475569">
+          By clicking Accept, you acknowledge that you have read and understood this disclaimer.
+        </p>
+      </div>
+      <div class="disclaimer-card__actions">
+        <button id="disclaimer-accept" type="button" class="disclaimer-accept-btn">Accept</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Event Details Modal (ultra-small screens only) -->
+  <div id="mobile-event-modal" class="mobile-modal" role="dialog" aria-modal="true" aria-labelledby="mobile-event-title"
+    hidden>
+    <div class="mobile-modal__backdrop" data-close="true"></div>
+    <div class="mobile-modal__sheet" role="document">
+      <header class="mobile-modal__header">
+        <h2 id="mobile-event-title"></h2>
+        <button type="button" class="mobile-modal__close" aria-label="Close">×</button>
+      </header>
+      <div class="mobile-modal__content"></div>
+    </div>
+  </div>
+
+  <div class="app-shell">
+    <div class="app-card">
+      <header class="app-heading">
+        <h1>Apero wo?</h1>
+        <p>
+          Stay on top of aperos and treats.
+        </p>
+      </header>
+
+      <section id="calendar" class="calendar-wrapper" aria-live="polite">
+        <div class="loading-notice">Loading events…</div>
+      </section>
+
+      <section id="event-panel" class="event-panel event-panel--empty">
+        <div class="event-panel__placeholder">
+          <h2>Select a highlighted day</h2>
+          <p>Day details appear here so you can plan your visit.</p>
         </div>
-        <div class="disclaimer-card__actions">
-          <button id="disclaimer-accept" type="button" class="disclaimer-accept-btn">Accept</button>
-        </div>
-      </div>
+      </section>
     </div>
-    
-    <!-- Mobile Event Details Modal (ultra-small screens only) -->
-    <div id="mobile-event-modal" class="mobile-modal" role="dialog" aria-modal="true" aria-labelledby="mobile-event-title" hidden>
-      <div class="mobile-modal__backdrop" data-close="true"></div>
-      <div class="mobile-modal__sheet" role="document">
-        <header class="mobile-modal__header">
-          <h2 id="mobile-event-title"></h2>
-          <button type="button" class="mobile-modal__close" aria-label="Close">×</button>
-        </header>
-        <div class="mobile-modal__content"></div>
-      </div>
-    </div>
-    <div class="app-shell">
-      <div class="app-card">
-        <header class="app-heading">
-          <h1>Apero wo?</h1>
-          <p>
-            The only unified apero planner for ETH Zurich students. 
-          </p>
-        </header>
+  </div>
 
-        <section id="calendar" class="calendar-wrapper" aria-live="polite">
-          <div class="loading-notice">Loading events…</div>
-        </section>
+  <script type="module" src="/app.js"></script>
+</body>
 
-        <section id="event-panel" class="event-panel event-panel--empty">
-          <div class="event-panel__placeholder">
-            <h2>Select a highlighted day</h2>
-            <p>Day details appear here so you can plan your visit.</p>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <script type="module" src="/frontend/public/app.js"></script>
-  </body>
-  </html>
+</html>
