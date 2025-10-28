@@ -668,6 +668,37 @@ window.matchMedia("(max-width: 420px)").addEventListener("change", (ev) => {
 // Gate app behind disclaimer acceptance (no persistence)
 let appStarted = false;
 
+// Handle cookie consent
+const handleCookieConsent = () => {
+  const banner = document.getElementById("cookie-consent-banner");
+  const acceptBtn = document.getElementById("cookie-consent-accept");
+
+  if (!banner || !acceptBtn) {
+    return;
+  }
+
+  const consentKey = "cookie_consent_accepted";
+  const hasConsented = localStorage.getItem(consentKey);
+
+  if (hasConsented) {
+    return;
+  }
+
+  // Show the banner with a delay for a smoother effect
+  setTimeout(() => {
+    banner.removeAttribute("hidden");
+    // Add class to trigger the transition
+    setTimeout(() => banner.classList.add("visible"), 50);
+  }, 800);
+
+  acceptBtn.addEventListener("click", () => {
+    localStorage.setItem(consentKey, "true");
+    banner.classList.remove("visible");
+    // Wait for transition to finish before hiding
+    setTimeout(() => banner.setAttribute("hidden", ""), 500);
+  });
+};
+
 // Present a disclaimer modal on first load; start the app after acceptance.
 // If the modal is missing in the DOM, the app starts immediately.
 const startWithDisclaimerGate = () => {
@@ -693,6 +724,7 @@ const startWithDisclaimerGate = () => {
         if (!appStarted) {
           appStarted = true;
           initialise();
+          handleCookieConsent(); // Show cookie banner after app starts
         }
       },
       { once: true }
