@@ -421,8 +421,8 @@ body.modal-open {
   align-items: center;
   padding: 0.35rem 0.5rem;
   border-radius: 12px;
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(59, 130, 246, 0.18));
-  color: #312e81;
+  background: var(--ease-color-bg, rgba(99, 102, 241, 0.2));
+  color: var(--ease-color-text, #312e81);
   font-size: 0.75rem;
   font-weight: 600;
   max-width: 100%;

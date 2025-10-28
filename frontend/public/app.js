@@ -96,6 +96,25 @@ const describeEaseOfEntry = (value) => {
   return "Easy";
 };
 
+// Interpolate from a 0..1 score to a color for the event chip display.
+// Returns both a background and a contrasting text color.
+const getEaseOfEntryColors = (score) => {
+  // Define the gradient stops (Hard, Medium, Easy)
+  const colors = {
+    hard: { bg: "rgba(239, 68, 68, 0.2)", text: "#7f1d1d" }, // Red-ish
+    medium: { bg: "rgba(245, 158, 11, 0.2)", text: "#78350f" }, // Amber-ish
+    easy: { bg: "rgba(34, 197, 94, 0.2)", text: "#14532d" }, // Green-ish
+  };
+
+  if (score <= 0.33) {
+    return colors.hard;
+  }
+  if (score <= 0.66) {
+    return colors.medium;
+  }
+  return colors.easy;
+};
+
 // Normalize entries from arbitrary sources into a consistent internal event shape.
 // - Ensures an id, title, date, optional times, and other metadata are present.
 // - Provides sensible defaults when fields are missing.
@@ -354,6 +373,14 @@ const renderCalendar = () => {
       const chip = document.createElement("span");
       chip.className = "calendar__event-chip";
       chip.textContent = event.title;
+
+      // Set CSS variables for dynamic coloring based on ease of entry
+      const easeScore =
+        typeof event.easeOfEntry === "number" ? event.easeOfEntry : DEFAULT_EASE_OF_ENTRY;
+      const colors = getEaseOfEntryColors(easeScore);
+      chip.style.setProperty("--ease-color-bg", colors.bg);
+      chip.style.setProperty("--ease-color-text", colors.text);
+
       eventsContainer.appendChild(chip);
     });
 
