@@ -124,8 +124,6 @@ async def run_crawlers_from_file(cfg_path: str = "./backend/urls_to_crawl.json")
         data = json.load(f)
 
     jobs = data.get("jobs") if isinstance(data, dict) else data
-  
-  
 
     for config in jobs:
         start_url = config.get("url")
@@ -135,10 +133,7 @@ async def run_crawlers_from_file(cfg_path: str = "./backend/urls_to_crawl.json")
         output_filename = config.get("output_filename")
         # print(output_filename)
 
-        
-
         # Build filter chain
-
         include_patterns = config.get("include_pattern_filter") or config.get("urls_to_include") or []
         if not isinstance(include_patterns, (list, tuple)):
             include_patterns = [include_patterns]
@@ -154,7 +149,6 @@ async def run_crawlers_from_file(cfg_path: str = "./backend/urls_to_crawl.json")
         # Run crawler
         results = await event_crawler(start_url, crawl_filters, max_depth)
         print(f"Crawled {len(results)} pages in total for {output_filename}")
-
 
         # Save results (overwrite)
         filepath = os.path.join("data/raw/", output_filename)

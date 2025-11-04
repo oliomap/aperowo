@@ -1159,6 +1159,7 @@ def main() -> None:
         {"source": Path("data/raw/VMP_data.json"), "destination": Path("data/apero_results_vmp.json")},
         {"source": Path("data/raw/VIS_data.json"), "destination": Path("data/apero_results_vis.json")},
         {"source": Path("data/raw/AMIV_data.json"), "destination": Path("data/apero_results_amiv.json")},
+        {"source": Path("data/raw/ARCH_data.json"), "destination": Path("data/apero_results_arch.json")},
         # Add more mappings here if needed
     ]
 

@@ -1,24 +1,51 @@
 [
   {
-    "url": "https://vis.ethz.ch/en/events/931",
-    "title": "VIS x Irrational - Coffee Crawl",
-    "date": "2025-11-08",
-    "start_time": "10:00",
+    "url": "https://vis.ethz.ch/en/events/991",
+    "title": "VIS x QuantCo: Private Dinner",
+    "date": "2018-11-06",
+    "start_time": "18:30",
     "end_time": null,
     "location": null,
-    "refreshments": "Drinks (drink)",
+    "refreshments": "Food (dinner, food)",
     "refreshment_details": {
       "categories": [
-        "drinks"
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "dinner",
+          "food"
+        ]
+      },
+      "summary": "Food (dinner, food)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/997",
+    "title": "VIS Beer Pong Tournament",
+    "date": "2025-11-07",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Drinks (beer) · Snacks (snack, snacks)",
+    "refreshment_details": {
+      "categories": [
+        "drinks",
+        "snacks"
       ],
       "matches": {
         "drinks": [
-          "drink"
+          "beer"
+        ],
+        "snacks": [
+          "snack",
+          "snacks"
         ]
       },
-      "summary": "Drinks (drink)"
+      "summary": "Drinks (beer) · Snacks (snack, snacks)"
     },
-    "easeOfEntry": 0.8
+    "easeOfEntry": 0.2
   },
   {
     "url": "https://vis.ethz.ch/en/events/999",
@@ -46,111 +73,13 @@
     "easeOfEntry": 0.8
   },
   {
-    "url": "https://vis.ethz.ch/en/events/988",
-    "title": "VIS x Dialectic: Tech Talk",
-    "date": "2025-10-28",
-    "start_time": "18:15",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (pizza) · Drinks (drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "pizza"
-        ]
-      },
-      "summary": "Food (pizza) · Drinks (drink)"
-    },
-    "easeOfEntry": 0.8
-  },
-  {
-    "url": "https://vis.ethz.ch/en/events/991",
-    "title": "VIS x QuantCo: Private Dinner",
-    "date": "2018-11-06",
-    "start_time": "18:30",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (dinner, food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "dinner",
-          "food"
-        ]
-      },
-      "summary": "Food (dinner, food)"
-    },
-    "easeOfEntry": 0.8
-  },
-  {
-    "url": "https://vis.ethz.ch/en/events/981",
-    "title": "Coding Weekend",
-    "date": "2025-10-31",
-    "start_time": "14:30",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (food) · Drinks (drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food) · Drinks (drink)"
-    },
-    "easeOfEntry": 0.4
-  },
-  {
-    "url": "https://vis.ethz.ch/en/events/984",
-    "title": "Midweek Mexican Madness",
-    "date": "2025-10-30",
-    "start_time": "18:00",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (food) · Drinks (beer, drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer",
-          "drink"
-        ],
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food) · Drinks (beer, drink)"
-    },
-    "easeOfEntry": 0.75
-  },
-  {
-    "url": "https://vis.ethz.ch/en/events/995",
-    "title": "ICPC Swiss Subregional Contest 2025-2026",
-    "date": "2025-11-01",
+    "url": "https://vis.ethz.ch/en/events/931",
+    "title": "VIS x Irrational - Coffee Crawl",
+    "date": "2025-11-08",
     "start_time": "10:00",
     "end_time": null,
     "location": null,
-    "refreshments": "Drinks (drink) · Snacks (snack, snacks)",
+    "refreshments": "Drinks (drink) · Snacks (sandwich, snack)",
     "refreshment_details": {
       "categories": [
         "drinks",
@@ -161,13 +90,34 @@
           "drink"
         ],
         "snacks": [
-          "snack",
-          "snacks"
+          "sandwich",
+          "snack"
         ]
       },
-      "summary": "Drinks (drink) · Snacks (snack, snacks)"
+      "summary": "Drinks (drink) · Snacks (sandwich, snack)"
     },
     "easeOfEntry": 0.4
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/1008",
+    "title": "Bastli Intro to Milling: Make Your Own Parts",
+    "date": "2025-11-07",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Snacks (nuts)",
+    "refreshment_details": {
+      "categories": [
+        "snacks"
+      ],
+      "matches": {
+        "snacks": [
+          "nuts"
+        ]
+      },
+      "summary": "Snacks (nuts)"
+    },
+    "easeOfEntry": 0.8
   },
   {
     "url": "https://vis.ethz.ch/en/events/994",
@@ -189,32 +139,27 @@
       },
       "summary": "Snacks (snack, snacks)"
     },
-    "easeOfEntry": 0.9500000000000001
+    "easeOfEntry": 0.8
   },
   {
-    "url": "https://vis.ethz.ch/en/events/997",
-    "title": "VIS Beer Pong Tournament",
-    "date": "2025-11-07",
+    "url": "https://vis.ethz.ch/en/events/1005",
+    "title": "VIS x Deloitte: Office Visit",
+    "date": "2025-11-20",
     "start_time": "18:00",
     "end_time": null,
     "location": null,
-    "refreshments": "Drinks (beer) · Snacks (snack, snacks)",
+    "refreshments": "Drinks (apero)",
     "refreshment_details": {
       "categories": [
-        "drinks",
-        "snacks"
+        "drinks"
       ],
       "matches": {
         "drinks": [
-          "beer"
-        ],
-        "snacks": [
-          "snack",
-          "snacks"
+          "apero"
         ]
       },
-      "summary": "Drinks (beer) · Snacks (snack, snacks)"
+      "summary": "Drinks (apero)"
     },
-    "easeOfEntry": 0.6000000000000001
+    "easeOfEntry": 0.4
   }
 ]
