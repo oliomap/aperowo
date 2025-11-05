@@ -34,6 +34,56 @@
     "easeOfEntry": 0.8
   },
   {
+    "url": "https://vmp.ethz.ch/en/events/skiwe_kurz_2026",
+    "title": "Ski Weekend from Friday onwards | VMP",
+    "date": "2025-11-14",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/rge-2025-11-18",
+    "title": "Research Group Event | VMP",
+    "date": "2025-11-18",
+    "start_time": "16:00",
+    "end_time": "18:00",
+    "location": null,
+    "refreshments": "Food (bbq) · Drinks (apero)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "apero"
+        ],
+        "food": [
+          "bbq"
+        ]
+      },
+      "summary": "Food (bbq) · Drinks (apero)"
+    },
+    "easeOfEntry": null
+  },
+  {
     "url": "https://vmp.ethz.ch/en/events/pokerturnierhs25",
     "title": "Poker Tournament | VMP",
     "date": "2025-11-12",
@@ -55,70 +105,6 @@
         ]
       },
       "summary": "Food (food) · Drinks (drink)"
-    },
-    "easeOfEntry": null
-  },
-  {
-    "url": "https://vmp.ethz.ch/en/events/optiver-company-talk",
-    "title": "Optiver Industry Talk | VMP",
-    "date": "2025-11-12",
-    "start_time": "12:15",
-    "end_time": "14:15",
-    "location": null,
-    "refreshments": "Snacks (bites)",
-    "refreshment_details": {
-      "categories": [
-        "snacks"
-      ],
-      "matches": {
-        "snacks": [
-          "bites"
-        ]
-      },
-      "summary": "Snacks (bites)"
-    },
-    "easeOfEntry": 0.8
-  },
-  {
-    "url": "https://vmp.ethz.ch/en/events/mic-pumpkin-carving-hs25",
-    "title": "MIC Pumpkin Carving | VMP",
-    "date": "2025-11-11",
-    "start_time": "16:00",
-    "end_time": "18:00",
-    "location": null,
-    "refreshments": "Drinks (gluhwein, wein)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "gluhwein",
-          "wein"
-        ]
-      },
-      "summary": "Drinks (gluhwein, wein)"
-    },
-    "easeOfEntry": null
-  },
-  {
-    "url": "https://vmp.ethz.ch/en/events/phimale-mid-sem-meeting-hs25",
-    "title": "Phimale Meeting | VMP",
-    "date": "2025-11-04",
-    "start_time": "16:45",
-    "end_time": "17:45",
-    "location": null,
-    "refreshments": "Food (sushi)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "sushi"
-        ]
-      },
-      "summary": "Food (sushi)"
     },
     "easeOfEntry": null
   },
@@ -149,30 +135,55 @@
     "easeOfEntry": 0.8
   },
   {
-    "url": "https://vmp.ethz.ch/en/events/jane-street-panel-talk",
-    "title": "Jane Street “Get to Know Us” Panel Talk | VMP",
-    "date": "2025-11-05",
-    "start_time": "16:30",
-    "end_time": "18:15",
+    "url": "https://vmp.ethz.ch/en/events/optiver-company-talk",
+    "title": "Optiver Industry Talk | VMP",
+    "date": "2025-11-12",
+    "start_time": "12:15",
+    "end_time": "14:15",
     "location": null,
-    "refreshments": "Food (food)",
+    "refreshments": "Snacks (bites)",
     "refreshment_details": {
       "categories": [
-        "food"
+        "snacks"
       ],
       "matches": {
+        "snacks": [
+          "bites"
+        ]
+      },
+      "summary": "Snacks (bites)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/skiwe_lang_2026",
+    "title": "Ski Weekend from Thursday onwards | VMP",
+    "date": "2025-11-13",
+    "start_time": "18:00",
+    "end_time": "18:00",
+    "location": null,
+    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
         "food": [
           "food"
         ]
       },
-      "summary": "Food (food)"
+      "summary": "Food (food) · Drinks (drink)"
     },
     "easeOfEntry": 0.8
   },
   {
     "url": "https://vmp.ethz.ch/en/events/sushi-night-hs25",
     "title": "Sushi Night | VMP",
-    "date": "2025-11-05",
+    "date": "2025-11-19",
     "start_time": "18:00",
     "end_time": "22:00",
     "location": null,
@@ -195,73 +206,45 @@
     "easeOfEntry": 0.8
   },
   {
-    "url": "https://vmp.ethz.ch/en/events/skiwe_kurz_2026",
-    "title": "Ski Weekend from Friday onwards | VMP",
-    "date": "2025-11-14",
+    "url": "https://vmp.ethz.ch/en/events/bastli-intro-to-milling",
+    "title": "Bastli Intro to Milling | VMP",
+    "date": "2025-11-11",
     "start_time": "18:00",
-    "end_time": null,
+    "end_time": "21:00",
     "location": null,
-    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshments": "Snacks (nuts)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
+        "snacks"
       ],
       "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "food"
+        "snacks": [
+          "nuts"
         ]
       },
-      "summary": "Food (food) · Drinks (drink)"
+      "summary": "Snacks (nuts)"
     },
     "easeOfEntry": 0.8
   },
   {
-    "url": "https://vmp.ethz.ch/en/events/skiwe_lang_2026",
-    "title": "Ski Weekend from Thursday onwards | VMP",
-    "date": "2025-11-13",
-    "start_time": "18:00",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (food) · Drinks (drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food) · Drinks (drink)"
-    },
-    "easeOfEntry": 0.8
-  },
-  {
-    "url": "https://vmp.ethz.ch/en/events/rge-2025-11-18",
-    "title": "Research Group Event | VMP",
-    "date": "2025-11-18",
+    "url": "https://vmp.ethz.ch/en/events/mic-pumpkin-carving-hs25",
+    "title": "MIC Pumpkin Carving | VMP",
+    "date": "2025-11-11",
     "start_time": "16:00",
     "end_time": "18:00",
     "location": null,
-    "refreshments": "Drinks (apero)",
+    "refreshments": "Drinks (gluhwein, wein)",
     "refreshment_details": {
       "categories": [
         "drinks"
       ],
       "matches": {
         "drinks": [
-          "apero"
+          "gluhwein",
+          "wein"
         ]
       },
-      "summary": "Drinks (apero)"
+      "summary": "Drinks (gluhwein, wein)"
     },
     "easeOfEntry": null
   },

@@ -1,27 +1,5 @@
 [
   {
-    "url": "https://vis.ethz.ch/en/events/991",
-    "title": "VIS x QuantCo: Private Dinner",
-    "date": "2018-11-06",
-    "start_time": "18:30",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Food (dinner, food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "dinner",
-          "food"
-        ]
-      },
-      "summary": "Food (dinner, food)"
-    },
-    "easeOfEntry": 0.8
-  },
-  {
     "url": "https://vis.ethz.ch/en/events/997",
     "title": "VIS Beer Pong Tournament",
     "date": "2025-11-07",
@@ -48,27 +26,23 @@
     "easeOfEntry": 0.2
   },
   {
-    "url": "https://vis.ethz.ch/en/events/999",
-    "title": "VIS x Jane Street: Tech Talk",
-    "date": "2025-11-04",
-    "start_time": "18:15",
+    "url": "https://vis.ethz.ch/en/events/1008",
+    "title": "Bastli Intro to Milling: Make Your Own Parts",
+    "date": "2025-11-07",
+    "start_time": "18:00",
     "end_time": null,
     "location": null,
-    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshments": "Snacks (nuts)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
+        "snacks"
       ],
       "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "food"
+        "snacks": [
+          "nuts"
         ]
       },
-      "summary": "Food (food) · Drinks (drink)"
+      "summary": "Snacks (nuts)"
     },
     "easeOfEntry": 0.8
   },
@@ -99,25 +73,25 @@
     "easeOfEntry": 0.4
   },
   {
-    "url": "https://vis.ethz.ch/en/events/1008",
-    "title": "Bastli Intro to Milling: Make Your Own Parts",
-    "date": "2025-11-07",
+    "url": "https://vis.ethz.ch/en/events/1005",
+    "title": "VIS x Deloitte: Office Visit",
+    "date": "2025-11-20",
     "start_time": "18:00",
     "end_time": null,
     "location": null,
-    "refreshments": "Snacks (nuts)",
+    "refreshments": "Drinks (apero)",
     "refreshment_details": {
       "categories": [
-        "snacks"
+        "drinks"
       ],
       "matches": {
-        "snacks": [
-          "nuts"
+        "drinks": [
+          "apero"
         ]
       },
-      "summary": "Snacks (nuts)"
+      "summary": "Drinks (apero)"
     },
-    "easeOfEntry": 0.8
+    "easeOfEntry": 0.6000000000000001
   },
   {
     "url": "https://vis.ethz.ch/en/events/994",
@@ -142,24 +116,75 @@
     "easeOfEntry": 0.8
   },
   {
-    "url": "https://vis.ethz.ch/en/events/1005",
-    "title": "VIS x Deloitte: Office Visit",
-    "date": "2025-11-20",
-    "start_time": "18:00",
+    "url": "https://vis.ethz.ch/en/events/991",
+    "title": "VIS x QuantCo: Private Dinner",
+    "date": "2018-11-06",
+    "start_time": "18:30",
     "end_time": null,
     "location": null,
-    "refreshments": "Drinks (apero)",
+    "refreshments": "Food (dinner, food)",
     "refreshment_details": {
       "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "dinner",
+          "food"
+        ]
+      },
+      "summary": "Food (dinner, food)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/1004",
+    "title": "Mentoring Follow-up Event",
+    "date": "2025-11-11",
+    "start_time": "12:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Drinks (drink) · Dessert (cake)",
+    "refreshment_details": {
+      "categories": [
+        "drinks",
+        "sweet"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "sweet": [
+          "cake"
+        ]
+      },
+      "summary": "Drinks (drink) · Dessert (cake)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/1007",
+    "title": "VIS x Hilti: Tech Talk",
+    "date": "2025-11-19",
+    "start_time": "18:15",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Food (pizza) · Drinks (apero)",
+    "refreshment_details": {
+      "categories": [
+        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "apero"
+        ],
+        "food": [
+          "pizza"
         ]
       },
-      "summary": "Drinks (apero)"
+      "summary": "Food (pizza) · Drinks (apero)"
     },
-    "easeOfEntry": 0.4
+    "easeOfEntry": 0.9500000000000001
   }
 ]
