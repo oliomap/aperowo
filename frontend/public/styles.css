@@ -365,6 +365,46 @@ body.modal-open {
   letter-spacing: 0.02em;
 }
 
+/* Subtle, right-aligned status/feedback area in calendar header */
+.calendar__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.calendar__meta-text {
+  color: #6366f1;
+}
+
+/* Lightweight pill buttons that fit the app's aesthetic */
+.meta-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  background: rgba(99, 102, 241, 0.08);
+  color: #3730a3;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
+  box-shadow: 0 6px 12px rgba(99, 102, 241, 0.12);
+  transition: filter 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.meta-btn:hover,
+.meta-btn:focus-visible {
+  filter: brightness(1.05);
+  box-shadow: 0 8px 16px rgba(99, 102, 241, 0.18);
+  outline: none;
+}
+
+.meta-btn:active {
+  transform: translateY(1px);
+}
+
 .calendar__grid {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));

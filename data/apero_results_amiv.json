@@ -4499,8 +4499,8 @@
     "url": "events/68fa0d4654b105d2cd175870",
     "title": "PAINTBALL",
     "date": "2025-11-26",
-    "start_time": "11:30",
-    "end_time": "16:00",
+    "start_time": "13:00",
+    "end_time": "20:00",
     "location": "6042 Dietwil",
     "refreshments": "Food (food, grill) · Drinks (beer) · Snacks (snack, snacks)",
     "refreshment_details": {
@@ -4525,5 +4525,48 @@
       "summary": "Food (food, grill) · Drinks (beer) · Snacks (snack, snacks)"
     },
     "easeOfEntry": 0.8
+  },
+  {
+    "url": "events/6901d2dff36e235dd67f0a32",
+    "title": "Jassturnier HS 25",
+    "date": "2025-12-04",
+    "start_time": "17:00",
+    "end_time": "21:30",
+    "location": "ETZ Foyer",
+    "refreshments": "Drinks (beer, drink)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer",
+          "drink"
+        ]
+      },
+      "summary": "Drinks (beer, drink)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "events/690b346f54b105d2cd1764e6",
+    "title": "Irraco goes Swiss Coffee Festival",
+    "date": "2025-11-22",
+    "start_time": "09:00",
+    "end_time": "12:00",
+    "location": "Halle 550, Oerlikon",
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": null
   }
 ]

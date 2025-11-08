@@ -76,4 +76,5 @@ def main(
     extract_amiv()
 
 if __name__ == "__main__":
-    main()
+    #main()
+    extract_amiv()

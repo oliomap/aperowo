@@ -1,76 +1,28 @@
 [
   {
-    "url": "https://vis.ethz.ch/en/events/997",
-    "title": "VIS Beer Pong Tournament",
-    "date": "2025-11-07",
-    "start_time": "18:00",
+    "url": "https://vis.ethz.ch/en/events/1004",
+    "title": "Mentoring Follow-up Event",
+    "date": "2025-11-11",
+    "start_time": "12:00",
     "end_time": null,
     "location": null,
-    "refreshments": "Drinks (beer) · Snacks (snack, snacks)",
+    "refreshments": "Drinks (drink) · Dessert (cake)",
     "refreshment_details": {
       "categories": [
         "drinks",
-        "snacks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "snacks": [
-          "snack",
-          "snacks"
-        ]
-      },
-      "summary": "Drinks (beer) · Snacks (snack, snacks)"
-    },
-    "easeOfEntry": 0.2
-  },
-  {
-    "url": "https://vis.ethz.ch/en/events/1008",
-    "title": "Bastli Intro to Milling: Make Your Own Parts",
-    "date": "2025-11-07",
-    "start_time": "18:00",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Snacks (nuts)",
-    "refreshment_details": {
-      "categories": [
-        "snacks"
-      ],
-      "matches": {
-        "snacks": [
-          "nuts"
-        ]
-      },
-      "summary": "Snacks (nuts)"
-    },
-    "easeOfEntry": 0.8
-  },
-  {
-    "url": "https://vis.ethz.ch/en/events/931",
-    "title": "VIS x Irrational - Coffee Crawl",
-    "date": "2025-11-08",
-    "start_time": "10:00",
-    "end_time": null,
-    "location": null,
-    "refreshments": "Drinks (drink) · Snacks (sandwich, snack)",
-    "refreshment_details": {
-      "categories": [
-        "drinks",
-        "snacks"
+        "sweet"
       ],
       "matches": {
         "drinks": [
           "drink"
         ],
-        "snacks": [
-          "sandwich",
-          "snack"
+        "sweet": [
+          "cake"
         ]
       },
-      "summary": "Drinks (drink) · Snacks (sandwich, snack)"
+      "summary": "Drinks (drink) · Dessert (cake)"
     },
-    "easeOfEntry": 0.4
+    "easeOfEntry": 0.8
   },
   {
     "url": "https://vis.ethz.ch/en/events/1005",
@@ -91,7 +43,7 @@
       },
       "summary": "Drinks (apero)"
     },
-    "easeOfEntry": 0.6000000000000001
+    "easeOfEntry": 0.4
   },
   {
     "url": "https://vis.ethz.ch/en/events/994",
@@ -116,51 +68,72 @@
     "easeOfEntry": 0.8
   },
   {
-    "url": "https://vis.ethz.ch/en/events/991",
-    "title": "VIS x QuantCo: Private Dinner",
-    "date": "2018-11-06",
-    "start_time": "18:30",
+    "url": "https://vis.ethz.ch/en/events/1012",
+    "title": "Dilemma of the Month",
+    "date": "2025-11-20",
+    "start_time": "12:15",
     "end_time": null,
     "location": null,
-    "refreshments": "Food (dinner, food)",
+    "refreshments": "Food (lunch)",
     "refreshment_details": {
       "categories": [
         "food"
       ],
       "matches": {
         "food": [
-          "dinner",
-          "food"
+          "lunch"
         ]
       },
-      "summary": "Food (dinner, food)"
+      "summary": "Food (lunch)"
+    },
+    "easeOfEntry": 0.9500000000000001
+  },
+  {
+    "url": "https://vis.ethz.ch/en/events/1008",
+    "title": "Bastli Intro to Milling: Make Your Own Parts",
+    "date": "2025-11-07",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Snacks (nuts)",
+    "refreshment_details": {
+      "categories": [
+        "snacks"
+      ],
+      "matches": {
+        "snacks": [
+          "nuts"
+        ]
+      },
+      "summary": "Snacks (nuts)"
     },
     "easeOfEntry": 0.8
   },
   {
-    "url": "https://vis.ethz.ch/en/events/1004",
-    "title": "Mentoring Follow-up Event",
-    "date": "2025-11-11",
-    "start_time": "12:00",
+    "url": "https://vis.ethz.ch/en/events/982",
+    "title": "FIGUGEGL",
+    "date": "2025-11-28",
+    "start_time": "17:00",
     "end_time": null,
     "location": null,
-    "refreshments": "Drinks (drink) · Dessert (cake)",
+    "refreshments": "Food (fondue, food) · Drinks (drink)",
     "refreshment_details": {
       "categories": [
-        "drinks",
-        "sweet"
+        "food",
+        "drinks"
       ],
       "matches": {
         "drinks": [
           "drink"
         ],
-        "sweet": [
-          "cake"
+        "food": [
+          "fondue",
+          "food"
         ]
       },
-      "summary": "Drinks (drink) · Dessert (cake)"
+      "summary": "Food (fondue, food) · Drinks (drink)"
     },
-    "easeOfEntry": 0.8
+    "easeOfEntry": 0.9500000000000001
   },
   {
     "url": "https://vis.ethz.ch/en/events/1007",

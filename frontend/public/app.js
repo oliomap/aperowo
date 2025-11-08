@@ -40,6 +40,39 @@ const MONTH_NAMES = [
 // Weekday labels, Monday-first, to match the calendar grid ordering.
 const WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
+// Match CSS layout breakpoints: treat <=768px as small screens for calendar layout
+const isSmallCalendarScreen = () => window.matchMedia("(max-width: 768px)").matches;
+
+// Get the Monday-start week beginning for a given Date (UTC)
+const getWeekStartUtc = (date) => {
+  // Convert to Monday=0..Sunday=6 in UTC
+  const d = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  const weekday = (d.getUTCDay() + 6) % 7; // Mon=0..Sun=6
+  const start = new Date(d);
+  start.setUTCDate(d.getUTCDate() - weekday);
+  return start;
+};
+
+// Add days (UTC) returning a new Date
+const addUtcDays = (date, days) => {
+  const d = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  d.setUTCDate(d.getUTCDate() + days);
+  return d;
+};
+
+// Format like "November 3rd" from a Date (UTC)
+const formatMonthDayOrdinal = (date) => {
+  const day = date.getUTCDate();
+  const month = MONTH_NAMES[date.getUTCMonth()];
+  const j = day % 10,
+    k = day % 100;
+  let suffix = "th";
+  if (j === 1 && k !== 11) suffix = "st";
+  else if (j === 2 && k !== 12) suffix = "nd";
+  else if (j === 3 && k !== 13) suffix = "rd";
+  return `${month} ${day}${suffix}`;
+};
+
 // Main containers and optional mobile modal elements.
 const calendarContainer = document.getElementById("calendar");
 const eventPanel = document.getElementById("event-panel");
@@ -63,6 +96,8 @@ const state = {
   year: new Date().getFullYear(),
   // Currently selected day (ISO string) whose details are shown in the panel
   activeDay: null,
+  // Week view (small screens): ISO string (YYYY-MM-DD) for the Monday of the shown week
+  weekStartISO: null,
 };
 
 // Turn a Date into a "YYYY-MM-DD" string in UTC.
@@ -262,9 +297,42 @@ const changeMonth = (delta) => {
   renderEventPanel();
 };
 
+// Move the visible calendar by a number of weeks (small screens)
+const changeWeek = (deltaWeeks) => {
+  // Ensure we have a baseline week start
+  if (!state.weekStartISO) {
+    const base = state.activeDay ? new Date(`${state.activeDay}T00:00:00Z`) : new Date();
+    state.weekStartISO = toISODate(getWeekStartUtc(base));
+  }
+
+  const start = new Date(`${state.weekStartISO}T00:00:00Z`);
+  const nextStart = addUtcDays(start, deltaWeeks * 7);
+  state.weekStartISO = toISODate(nextStart);
+
+  // Keep month/year roughly in sync for a smooth switch back to desktop view
+  state.year = nextStart.getUTCFullYear();
+  state.month = nextStart.getUTCMonth();
+
+  // Decide the active day for the new week
+  const weekDays = Array.from({ length: 7 }, (_, i) => toISODate(addUtcDays(nextStart, i)));
+
+  // Keep current active day if it remains in the visible week
+  if (state.activeDay && weekDays.includes(state.activeDay)) {
+    // keep
+  } else {
+    // Prefer the first day in the week that has events, else the week start
+    const firstWithEvents = weekDays.find((d) => state.eventsByDay.has(d));
+    state.activeDay = firstWithEvents ?? weekDays[0];
+  }
+
+  renderCalendar();
+  renderEventPanel();
+};
+
 // Render the month grid and day cells, including navigation and highlights.
 const renderCalendar = () => {
-  const { year, month, eventsByDay, activeDay, events } = state;
+  const { year, month, eventsByDay, activeDay } = state;
+  const smallScreen = isSmallCalendarScreen();
 
   calendarContainer.innerHTML = "";
 
@@ -280,25 +348,43 @@ const renderCalendar = () => {
   const prevBtn = document.createElement("button");
   prevBtn.type = "button";
   prevBtn.className = "calendar__nav-btn";
-  prevBtn.setAttribute("aria-label", "Previous month");
+  prevBtn.setAttribute("aria-label", smallScreen ? "Previous week" : "Previous month");
   prevBtn.textContent = "‹";
-  prevBtn.addEventListener("click", () => changeMonth(-1));
+  prevBtn.addEventListener("click", () => (smallScreen ? changeWeek(-1) : changeMonth(-1)));
 
   const title = document.createElement("h2");
   title.className = "calendar__title";
-  title.textContent = `${MONTH_NAMES[month]} ${year}`;
+  if (smallScreen) {
+    // Show week start e.g. "November 3rd"
+    const weekStart = state.weekStartISO
+      ? new Date(`${state.weekStartISO}T00:00:00Z`)
+      : getWeekStartUtc(new Date());
+    // If not yet set, initialize weekStartISO based on active day or today
+    if (!state.weekStartISO) {
+      const base = state.activeDay ? new Date(`${state.activeDay}T00:00:00Z`) : new Date();
+      state.weekStartISO = toISODate(getWeekStartUtc(base));
+    }
+    title.textContent = formatMonthDayOrdinal(weekStart);
+  } else {
+    title.textContent = `${MONTH_NAMES[month]} ${year}`;
+  }
 
   const nextBtn = document.createElement("button");
   nextBtn.type = "button";
   nextBtn.className = "calendar__nav-btn";
-  nextBtn.setAttribute("aria-label", "Next month");
+  nextBtn.setAttribute("aria-label", smallScreen ? "Next week" : "Next month");
   nextBtn.textContent = "›";
-  nextBtn.addEventListener("click", () => changeMonth(1));
+  nextBtn.addEventListener("click", () => (smallScreen ? changeWeek(1) : changeMonth(1)));
 
   controls.append(prevBtn, title, nextBtn);
 
+  // Replace simple count with a short WIP/feedback blurb and links
   const meta = document.createElement("p");
-  meta.textContent = `${events.length} event${events.length === 1 ? "" : "s"} loaded`;
+  meta.className = "calendar__meta";
+  meta.innerHTML = `
+    <a class="meta-btn" href="https://github.com/oliomap" target="_blank" rel="noreferrer">GitHub</a>
+    <a class="meta-btn" href="https://www.linkedin.com/in/oliver-calvet-2928792b8/" target="_blank" rel="noreferrer">LinkedIn</a>
+  `;
 
   heading.append(controls, meta);
 
@@ -312,15 +398,26 @@ const renderCalendar = () => {
     grid.appendChild(label);
   });
 
-  // Render days for the first and last weeks, filling with adjacent-month days,
-  // but avoid extra rows that contain only adjacent-month days.
-  const firstOfMonth = new Date(Date.UTC(year, month, 1));
-  const lastOfMonth = new Date(Date.UTC(year, month + 1, 0));
-  const startOffset = (firstOfMonth.getUTCDay() + 6) % 7; // Mon=0..Sun=6
-  const endOffset = 6 - ((lastOfMonth.getUTCDay() + 6) % 7);
+  // Render month view (desktop) or week view (small screens)
+  let startDate;
+  let endDate;
+  if (smallScreen) {
+    // Week-only: Monday to Sunday of state.weekStartISO
+    const weekStart = state.weekStartISO
+      ? new Date(`${state.weekStartISO}T00:00:00Z`)
+      : getWeekStartUtc(new Date());
+    startDate = new Date(weekStart);
+    endDate = addUtcDays(weekStart, 6);
+  } else {
+    // Month view: first visible day through last visible day
+    const firstOfMonth = new Date(Date.UTC(year, month, 1));
+    const lastOfMonth = new Date(Date.UTC(year, month + 1, 0));
+    const startOffset = (firstOfMonth.getUTCDay() + 6) % 7; // Mon=0..Sun=6
+    const endOffset = 6 - ((lastOfMonth.getUTCDay() + 6) % 7);
 
-  const startDate = new Date(Date.UTC(year, month, 1 - startOffset));
-  const endDate = new Date(Date.UTC(year, month, lastOfMonth.getUTCDate() + endOffset));
+    startDate = new Date(Date.UTC(year, month, 1 - startOffset));
+    endDate = new Date(Date.UTC(year, month, lastOfMonth.getUTCDate() + endOffset));
+  }
 
   for (let cur = new Date(startDate); cur <= endDate; cur.setUTCDate(cur.getUTCDate() + 1)) {
     const iso = toISODate(cur);
@@ -332,7 +429,8 @@ const renderCalendar = () => {
     button.className = "calendar__day";
     button.dataset.day = iso;
 
-    if (!inMonth) {
+    // In week view, do not mute cross-month days to avoid confusing emphasis
+    if (!smallScreen && !inMonth) {
       button.classList.add("calendar__day--muted");
     }
 
@@ -399,6 +497,11 @@ const renderCalendar = () => {
     const dayYear = cur.getUTCFullYear();
 
     const gotoIfAdjacent = () => {
+      if (smallScreen) {
+        // In week view, simply select the day
+        setActiveDay(iso);
+        return;
+      }
       if (!inMonthCaptured) {
         const currentAbs = state.year * 12 + state.month;
         const targetAbs = dayYear * 12 + dayMonth;
@@ -608,6 +711,10 @@ const initialise = async () => {
 
     state.activeDay = preferredDay ?? null;
 
+    // Initialize week start for small screens based on the active day (or today)
+    const baseForWeek = state.activeDay ? new Date(`${state.activeDay}T00:00:00Z`) : new Date();
+    state.weekStartISO = toISODate(getWeekStartUtc(baseForWeek));
+
     renderCalendar();
     renderEventPanel();
   } catch (error) {
@@ -663,6 +770,23 @@ window.matchMedia("(max-width: 420px)").addEventListener("change", (ev) => {
   if (!ev.matches) {
     closeMobileEventModal();
   }
+});
+
+// Re-render when crossing the small-screen breakpoint so view switches between week/month
+window.matchMedia("(max-width: 768px)").addEventListener("change", (ev) => {
+  // Sync week/month state anchors on breakpoint changes
+  if (ev.matches) {
+    // Entering small-screen: anchor week to active day (or today)
+    const base = state.activeDay ? new Date(`${state.activeDay}T00:00:00Z`) : new Date();
+    state.weekStartISO = toISODate(getWeekStartUtc(base));
+  } else {
+    // Leaving small-screen: anchor month/year to active day for continuity
+    const base = state.activeDay ? new Date(`${state.activeDay}T00:00:00Z`) : new Date();
+    state.year = base.getUTCFullYear();
+    state.month = base.getUTCMonth();
+  }
+  renderCalendar();
+  renderEventPanel();
 });
 
 // Gate app behind disclaimer acceptance (no persistence)

@@ -59,13 +59,35 @@
     "easeOfEntry": 0.8
   },
   {
-    "url": "https://vmp.ethz.ch/en/events/rge-2025-11-18",
-    "title": "Research Group Event | VMP",
-    "date": "2025-11-18",
-    "start_time": "16:00",
-    "end_time": "18:00",
+    "url": "https://vmp.ethz.ch/en/events/gib-dir-die-kante",
+    "title": "Give yourself the edge | VMP",
+    "date": "2025-12-05",
+    "start_time": null,
+    "end_time": null,
     "location": null,
-    "refreshments": "Food (bbq) · Drinks (apero)",
+    "refreshments": "Drinks (gluhwein, wein)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "gluhwein",
+          "wein"
+        ]
+      },
+      "summary": "Drinks (gluhwein, wein)"
+    },
+    "easeOfEntry": null
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/sushi-night-hs25",
+    "title": "Sushi Night | VMP",
+    "date": "2025-11-19",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "location": null,
+    "refreshments": "Food (sushi) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -73,13 +95,128 @@
       ],
       "matches": {
         "drinks": [
-          "apero"
+          "beer"
         ],
         "food": [
-          "bbq"
+          "sushi"
         ]
       },
-      "summary": "Food (bbq) · Drinks (apero)"
+      "summary": "Food (sushi) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/optiver-company-talk",
+    "title": "Optiver Industry Talk | VMP",
+    "date": "2025-11-12",
+    "start_time": "12:15",
+    "end_time": "14:15",
+    "location": null,
+    "refreshments": "Snacks (bites)",
+    "refreshment_details": {
+      "categories": [
+        "snacks"
+      ],
+      "matches": {
+        "snacks": [
+          "bites"
+        ]
+      },
+      "summary": "Snacks (bites)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/niks-hutte",
+    "title": "Nik's Hut | VMP",
+    "date": "2025-11-24",
+    "start_time": "16:00",
+    "end_time": "22:00",
+    "location": null,
+    "refreshments": "Food (raclette) · Drinks (drink, wine)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink",
+          "wine"
+        ],
+        "food": [
+          "raclette"
+        ]
+      },
+      "summary": "Food (raclette) · Drinks (drink, wine)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/mic-pumpkin-carving-hs25",
+    "title": "MIC Pumpkin Carving | VMP",
+    "date": "2025-11-11",
+    "start_time": "16:00",
+    "end_time": "18:00",
+    "location": null,
+    "refreshments": "Drinks (gluhwein, wein)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "gluhwein",
+          "wein"
+        ]
+      },
+      "summary": "Drinks (gluhwein, wein)"
+    },
+    "easeOfEntry": null
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/skiwe_lang_2026",
+    "title": "Ski Weekend from Thursday onwards | VMP",
+    "date": "2025-11-13",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": null,
+    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.8
+  },
+  {
+    "url": "https://vmp.ethz.ch/en/events/cofee-festival",
+    "title": "IraKo goes Swiss Coffee Festival | VMP",
+    "date": "2025-11-22",
+    "start_time": "10:00",
+    "end_time": "13:00",
+    "location": null,
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
     },
     "easeOfEntry": null
   },
@@ -109,105 +246,50 @@
     "easeOfEntry": null
   },
   {
-    "url": "https://vmp.ethz.ch/en/events/niks-hutte",
-    "title": "Nik's Hut | VMP",
-    "date": "2025-11-24",
+    "url": "https://vmp.ethz.ch/en/events/rwonice",
+    "title": "RW on ice | VMP",
+    "date": "2025-11-20",
     "start_time": "16:00",
-    "end_time": "22:00",
+    "end_time": "20:00",
     "location": null,
-    "refreshments": "Food (raclette) · Drinks (drink, wine)",
+    "refreshments": "Drinks (wine)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
-          "drink",
           "wine"
-        ],
-        "food": [
-          "raclette"
         ]
       },
-      "summary": "Food (raclette) · Drinks (drink, wine)"
+      "summary": "Drinks (wine)"
     },
     "easeOfEntry": 0.8
   },
   {
-    "url": "https://vmp.ethz.ch/en/events/optiver-company-talk",
-    "title": "Optiver Industry Talk | VMP",
-    "date": "2025-11-12",
-    "start_time": "12:15",
-    "end_time": "14:15",
-    "location": null,
-    "refreshments": "Snacks (bites)",
-    "refreshment_details": {
-      "categories": [
-        "snacks"
-      ],
-      "matches": {
-        "snacks": [
-          "bites"
-        ]
-      },
-      "summary": "Snacks (bites)"
-    },
-    "easeOfEntry": 0.8
-  },
-  {
-    "url": "https://vmp.ethz.ch/en/events/skiwe_lang_2026",
-    "title": "Ski Weekend from Thursday onwards | VMP",
-    "date": "2025-11-13",
-    "start_time": "18:00",
+    "url": "https://vmp.ethz.ch/en/events/rge-2025-11-18",
+    "title": "Research Group Event | VMP",
+    "date": "2025-11-18",
+    "start_time": "16:00",
     "end_time": "18:00",
     "location": null,
-    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshments": "Drinks (apero)",
     "refreshment_details": {
       "categories": [
-        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
-          "drink"
-        ],
-        "food": [
-          "food"
+          "apero"
         ]
       },
-      "summary": "Food (food) · Drinks (drink)"
+      "summary": "Drinks (apero)"
     },
-    "easeOfEntry": 0.8
-  },
-  {
-    "url": "https://vmp.ethz.ch/en/events/sushi-night-hs25",
-    "title": "Sushi Night | VMP",
-    "date": "2025-11-19",
-    "start_time": "18:00",
-    "end_time": "22:00",
-    "location": null,
-    "refreshments": "Food (sushi) · Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "food": [
-          "sushi"
-        ]
-      },
-      "summary": "Food (sushi) · Drinks (beer)"
-    },
-    "easeOfEntry": 0.8
+    "easeOfEntry": null
   },
   {
     "url": "https://vmp.ethz.ch/en/events/bastli-intro-to-milling",
-    "title": "Bastli Intro to Milling | VMP",
+    "title": "Bastli Milling Workshop | VMP",
     "date": "2025-11-11",
     "start_time": "18:00",
     "end_time": "21:00",
@@ -225,49 +307,5 @@
       "summary": "Snacks (nuts)"
     },
     "easeOfEntry": 0.8
-  },
-  {
-    "url": "https://vmp.ethz.ch/en/events/mic-pumpkin-carving-hs25",
-    "title": "MIC Pumpkin Carving | VMP",
-    "date": "2025-11-11",
-    "start_time": "16:00",
-    "end_time": "18:00",
-    "location": null,
-    "refreshments": "Drinks (gluhwein, wein)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "gluhwein",
-          "wein"
-        ]
-      },
-      "summary": "Drinks (gluhwein, wein)"
-    },
-    "easeOfEntry": null
-  },
-  {
-    "url": "https://vmp.ethz.ch/en/events/beer-baseball-hs25",
-    "title": "Beer Baseball Tournament | VMP",
-    "date": "2025-11-07",
-    "start_time": "18:00",
-    "end_time": "22:00",
-    "location": null,
-    "refreshments": "Drinks (beer, shots)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer",
-          "shots"
-        ]
-      },
-      "summary": "Drinks (beer, shots)"
-    },
-    "easeOfEntry": 0.6000000000000001
   }
 ]

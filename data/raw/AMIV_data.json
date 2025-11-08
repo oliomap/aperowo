@@ -6669,8 +6669,8 @@
     "url": "events/68fa0d4654b105d2cd175870",
     "title": "PAINTBALL",
     "date": "2025-11-26",
-    "start_time": "11:30",
-    "end_time": "16:00",
+    "start_time": "13:00",
+    "end_time": "20:00",
     "location": "6042 Dietwil",
     "refreshments": "Food (food, grill) · Drinks (beer, bier) · Snacks (snack, snacks)",
     "refreshment_details": {
@@ -6696,7 +6696,82 @@
       "summary": "Food (food, grill) · Drinks (beer, bier) · Snacks (snack, snacks)"
     },
     "markdown": "Want to test your friendship? Will it survive the strenuous two hours of close combat against people you might know? Time to shine and bring out your colours and pain(t).\nIn the end enjoy the evening with a (or likely a lot more) beer, grilled food and snacks.\n\nWe will meet at Zürich HB. Bring your strength and survival instincts. ",
-    "spots": 30,
+    "spots": 28,
     "price": 5500
+  },
+  {
+    "url": "events/6901d2dff36e235dd67f0a32",
+    "title": "Jassturnier HS 25",
+    "date": "2025-12-04",
+    "start_time": "17:00",
+    "end_time": "21:30",
+    "location": "ETZ Foyer",
+    "refreshments": "Food (essen) · Drinks (beer, bier, drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer",
+          "bier",
+          "drink"
+        ],
+        "food": [
+          "essen"
+        ]
+      },
+      "summary": "Food (essen) · Drinks (beer, bier, drink)"
+    },
+    "markdown": "To all people who like to play Jass: We are looking for you for the big AMIV Jass tournament! Hotdogs, beer and other drinks are of course included. If you have always wanted to compete against others in a sociable tournament, this is just the right opportunity – doesn't matter wether you're a beginner or a pro! Register as a group of two and win one of the great prizes! Important: Only one person per group needs to register! The Jass tournament will take place in the ETZ foyer.",
+    "spots": 39,
+    "price": 1000
+  },
+  {
+    "url": "events/690854bbf19a79e0c738e0b5",
+    "title": "Schülerinnentag 2025 - Helpers needed!!!",
+    "date": "2025-11-28",
+    "start_time": "08:00",
+    "end_time": "17:00",
+    "location": "ETH",
+    "refreshments": "Food (essen)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "essen"
+        ]
+      },
+      "summary": "Food (essen)"
+    },
+    "markdown": "Help now at the Girls' Day 2025!! On Friday, November 28, 2025, 80 female high school students will take part in the LIMES Students' Day. Professors, students and alumnae share their careers and their fascination for their field. In the lab tours in the afternoon, the students gain insights into the research work in the fields of electrical and mechanical engineering, and in the subsequent discussion rounds, the students have the opportunity to ask their questions. Our goal is to show the students the diversity of electrical engineering and mechanical engineering and to encourage them to take a path into the STEM sciences. The event will be held in German. To do this, we depend on helping hands.",
+    "spots": null,
+    "price": null
+  },
+  {
+    "url": "events/690b346f54b105d2cd1764e6",
+    "title": "Irraco goes Swiss Coffee Festival",
+    "date": "2025-11-22",
+    "start_time": "09:00",
+    "end_time": "12:00",
+    "location": "Halle 550, Oerlikon",
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
+    },
+    "markdown": "To all coffee enthusiasts and enjoyers,\n\nThe coffee festival is an exhibition where you can find representatives of coffee companies such as roasteries, and machine manufacturers that show their expertise in their areas! (which means you can out delicious samples from those stands (～￣▽￣)～)\n\nOtherwise, you can also see the Swiss Coffee Championships in Brewers Cup, Cup Tasters, Barista, Latte Art, and Coffee in Good Spirits happening in the center stage!\n\nAnd last but not least, they also offer food trucks for us to enjoy from ^^. \n\nIf you're curious about the exact program, visit this site: https://swisssca.ch/swiss-coffee-festival/ . Otherwise, you don't need to prepare much, just slight curiosity and excitement will be all you need!\n\nAlso the event-end time is the official time, but feel free to stay longer ^^.\n\nMeetup:\n10 am in front of the Halle 550, 8050 Zürich, CH.\n\n\nI hope to see you there!",
+    "spots": null,
+    "price": null
   }
 ]
