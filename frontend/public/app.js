@@ -359,10 +359,9 @@ const renderCalendar = () => {
     const weekStart = state.weekStartISO
       ? new Date(`${state.weekStartISO}T00:00:00Z`)
       : getWeekStartUtc(new Date());
-    // If not yet set, initialize weekStartISO based on active day or today
+    // If not yet set, initialize weekStartISO to the CURRENT week
     if (!state.weekStartISO) {
-      const base = state.activeDay ? new Date(`${state.activeDay}T00:00:00Z`) : new Date();
-      state.weekStartISO = toISODate(getWeekStartUtc(base));
+      state.weekStartISO = toISODate(getWeekStartUtc(new Date()));
     }
     title.textContent = formatMonthDayOrdinal(weekStart);
   } else {
@@ -711,9 +710,8 @@ const initialise = async () => {
 
     state.activeDay = preferredDay ?? null;
 
-    // Initialize week start for small screens based on the active day (or today)
-    const baseForWeek = state.activeDay ? new Date(`${state.activeDay}T00:00:00Z`) : new Date();
-    state.weekStartISO = toISODate(getWeekStartUtc(baseForWeek));
+    // Initialize week start for small screens to the CURRENT week (today-based)
+    state.weekStartISO = toISODate(getWeekStartUtc(new Date()));
 
     renderCalendar();
     renderEventPanel();
@@ -776,9 +774,8 @@ window.matchMedia("(max-width: 420px)").addEventListener("change", (ev) => {
 window.matchMedia("(max-width: 768px)").addEventListener("change", (ev) => {
   // Sync week/month state anchors on breakpoint changes
   if (ev.matches) {
-    // Entering small-screen: anchor week to active day (or today)
-    const base = state.activeDay ? new Date(`${state.activeDay}T00:00:00Z`) : new Date();
-    state.weekStartISO = toISODate(getWeekStartUtc(base));
+    // Entering small-screen: default to the CURRENT week
+    state.weekStartISO = toISODate(getWeekStartUtc(new Date()));
   } else {
     // Leaving small-screen: anchor month/year to active day for continuity
     const base = state.activeDay ? new Date(`${state.activeDay}T00:00:00Z`) : new Date();
