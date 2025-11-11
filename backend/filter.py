@@ -279,6 +279,7 @@ def write_filtered_events(
     ensure_ascii: bool = False,
     indent: int = 2,
     encoding: str = "utf-8",
+    llm_client: Any = None,  # LLM client for ease of entry scoring
 ) -> list[dict[str, Any]]:
     """
     Serialise filtered events into the structure used by ``apero_results_example.json``.
@@ -340,11 +341,28 @@ def write_filtered_events(
         event_payload["refreshments"] = summary
         event_payload["refreshment_details"] = details
 
-        ease_corpus = _build_search_corpus(_coerce_to_strings(record))
-        price_hint = record.get("price") if isinstance(record, Mapping) else None
-        spots_hint = record.get("spots") if isinstance(record, Mapping) else None
-        ease_result = infer_ease_of_entry(ease_corpus, price=price_hint, spots=spots_hint)
-        event_payload["easeOfEntry"] = ease_result["score"]
+
+        #--LLM Integration for ease of entry scoring--
+        markdown_content = record.get("markdown", "")
+
+        if llm_client and markdown_content:
+            llm_ease_score = infer_ease_of_entry_with_llm(markdown_content, llm_client)
+            if llm_ease_score is not None:
+                event_payload["easeOfEntry"] = llm_ease_score
+            else:
+                # If LLM fails use rulebase scoring
+                ease_corpus = _build_search_corpus(_coerce_to_strings(record))
+                price_hint = record.get("price") if isinstance(record, Mapping) else None
+                spots_hint = record.get("spots") if isinstance(record, Mapping) else None
+                ease_result = infer_ease_of_entry(ease_corpus, price=price_hint, spots=spots_hint)
+                event_payload["easeOfEntry"] = ease_result["score"]
+        else:
+            # Use rulebase scoring if llm_client or markdown_content are not available
+            ease_corpus = _build_search_corpus(_coerce_to_strings(record))
+            price_hint = record.get("price") if isinstance(record, Mapping) else None
+            spots_hint = record.get("spots") if isinstance(record, Mapping) else None
+            ease_result = infer_ease_of_entry(ease_corpus, price=price_hint, spots=spots_hint)
+            event_payload["easeOfEntry"] = ease_result["score"]
 
         serialised.append(dict(event_payload))
 
@@ -1141,6 +1159,56 @@ def is_title_present(title: str, seen_titles: set, score_threshold: int = 80) ->
     return False
 
 
+def infer_ease_of_entry_with_llm(markdown_text: str, llm_client: Any) -> float | None:
+
+
+    """
+    Infer the ease of entry for an event using a language model.
+
+    Parameters
+    ----------
+    markdown_text:
+        The markdown text of the event description.
+        """
+    prompt = f"""
+    You are an assistant that rates how easy it is to enter an event.
+
+    Analyze the markdown below and ONLY ouput one number between 0.0 and 1.0 (including) representing the ease of entry for the event.
+    Don't explain your answer, just output the number.
+
+    1.0 = very easy to enter (free, open, no registration, etc.)
+    0.0 = impossible to enter (sold out, members only, etc.)
+
+    Take into account keywords like 'sold out', 'no registration', 'open to all' and other keys like
+    the fee of entry, number of remaining spots, membership requirements etc.. 
+   
+    Event markdown:
+    {markdown_text}
+
+    Output: <only the number>
+
+     """
+    try:
+        response = llm_client.chat.completions.create(messages= [{"role" : "system", "content" : "You are a highly analytical assistant that outputs only a single float number between 0.0 and 1.0. (including)"},
+                                                                 {"role": "user", "content": prompt}], max_tokens=10, temperature=0.0, model = "gpt-example-model")
+
+        score_str = response.choices[0].message.content.strip()
+        score = float(score_str)
+        if 0.0 <= score <= 1.0:  # this is to ensure the score is within the bounds of 0 and 1
+            return score
+    except Exception as e:
+        print(f"Error inferring ease of entry with LLM: {e}")
+        return None
+    
+    return None
+
+
+
+
+
+
+
+
 def main() -> None:
     """
     Convenience entry point that filters the VMP crawl dump and writes the result.
@@ -1163,6 +1231,9 @@ def main() -> None:
         # Add more mappings here if needed
     ]
 
+    #Set LLM client here
+    llm_client = None # Replace with for example OpenAI(api_key="API_KEY)
+
     for cfg in configs:
         src = cfg["source"]
         dst = cfg["destination"]
@@ -1180,7 +1251,7 @@ def main() -> None:
             records,
             text_fields=("markdown", "extracted_content", "html", "metadata.title"),
         )
-        write_filtered_events(filtered, dst, seen_titles=seen_titles)
+        write_filtered_events(filtered, dst, seen_titles=seen_titles, llm_client=llm_client)
 
         print(
             f"Processed {len(records)} records for {src}, "
