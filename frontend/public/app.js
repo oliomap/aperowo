@@ -1,22 +1,5 @@
-// Data sources to load event information from.
-// Each source is a JSON file (array or single object) pulled via fetch.
-const sources = [
-  {
-    id: "amiv-apero",
-    label: "AMIV Aperos",
-    path: "/data/apero_results_amiv.json",
-  },
-  {
-    id: "vmp-apero",
-    label: "VMP Aperos",
-    path: "/data/apero_results_vmp.json",
-  },
-  {
-    id: "vis-apero",
-    label: "VIS Aperos",
-    path: "/data/apero_results_vis.json",
-  }
-];
+// Single merged data source for all events.
+const DATA_PATH = "/data/events.json";
 
 // Fallback for events that do not specify an ease-of-entry score.
 const DEFAULT_EASE_OF_ENTRY = 0.69;
@@ -150,16 +133,13 @@ const getEaseOfEntryColors = (score) => {
   return colors.easy;
 };
 
-// Normalize entries from arbitrary sources into a consistent internal event shape.
-// - Ensures an id, title, date, optional times, and other metadata are present.
-// - Provides sensible defaults when fields are missing.
-const normaliseEntry = (entry, sourceId) => {
-  if (!entry?.date) {
-    throw new Error(`Missing date in ${sourceId} entry: ${JSON.stringify(entry)}`);
-  }
+// Normalize entries into a consistent internal event shape.
+const normaliseEntry = (entry) => {
+  if (!entry?.date) return null;
 
+  const sourceId = entry.source ?? "unknown";
   return {
-    id: `${sourceId}-${entry.id ?? `${entry.title ?? "event"}-${entry.date}`}`,
+    id: entry.id ?? `${sourceId}-${entry.title ?? "event"}-${entry.date}`,
     title: entry.title ?? "Untitled event",
     date: entry.date,
     startTime: entry.start_time ?? entry.startTime ?? null,
@@ -167,46 +147,36 @@ const normaliseEntry = (entry, sourceId) => {
     location: entry.location ?? null,
     url: entry.url ?? null,
     source: sourceId,
-    raw: entry,
-    refreshments: entry.refreshments ?? entry.refreshment ?? null,
+    foodType: entry.food_type ?? entry.foodType ?? null,
+    refreshments: entry.refreshments ?? null,
     refreshmentDetails: entry.refreshment_details ?? entry.refreshmentDetails ?? null,
     easeOfEntry: typeof entry.easeOfEntry === "number" ? entry.easeOfEntry : DEFAULT_EASE_OF_ENTRY,
   };
 };
 
-// Fetch and parse JSON from a configured source, with error surfacing.
-const fetchJson = async (source) => {
-  const response = await fetch(source.path);
+// Load events from the single merged events.json file.
+const loadEventSources = async () => {
+  const response = await fetch(DATA_PATH);
   if (!response.ok) {
-    throw new Error(`Failed to load ${source.path}: ${response.status} ${response.statusText}`);
+    throw new Error(`Failed to load ${DATA_PATH}: ${response.status} ${response.statusText}`);
   }
 
-  return response.json();
-};
+  const payload = await response.json();
+  const list = Array.isArray(payload) ? payload : [payload];
 
-// Load events from all sources, normalize them, and merge into a single list.
-// Invalid entries (e.g., without a date) are skipped with a console warning.
-const loadEventSources = async () => {
   const items = [];
-
-  for (const source of sources) {
-    const payload = await fetchJson(source);
-    const list = Array.isArray(payload) ? payload : [payload];
-
-    let skipped = 0;
-    list.forEach((entry, idx) => {
-      if (!entry || !entry.date) {
-        skipped += 1;
-        return;
-      }
-      const event = normaliseEntry(entry, source.id);
+  let skipped = 0;
+  for (const entry of list) {
+    const event = normaliseEntry(entry);
+    if (event) {
       items.push(event);
-    });
-
-    if (skipped > 0) {
-      // Surface a clear hint in devtools without interrupting the UI
-      console.warn(`Skipped ${skipped} invalid entries from ${source.id} (missing date).`);
+    } else {
+      skipped += 1;
     }
+  }
+
+  if (skipped > 0) {
+    console.warn(`Skipped ${skipped} entries from events.json (missing date).`);
   }
 
   return items;
@@ -593,14 +563,16 @@ const renderEventPanel = () => {
       metaLines.push(event.location);
     }
 
-    const url =
-      event.url && event.url.startsWith("http")
-        ? event.url
-        : event.url
-        ? `https://amiv.ethz.ch/${event.url.replace(/^\/+/, "")}`
-        : null;
+    const url = event.url || null;
 
-    card.append(source, eventTitle);
+    if (event.foodType) {
+      const foodBadge = document.createElement("span");
+      foodBadge.className = "event-card__food-badge";
+      foodBadge.textContent = event.foodType;
+      card.append(source, foodBadge, eventTitle);
+    } else {
+      card.append(source, eventTitle);
+    }
 
     if (metaLines.length > 0) {
       const meta = document.createElement("span");
@@ -721,7 +693,7 @@ const initialise = async () => {
     eventPanel.innerHTML = `
       <div class="event-panel__placeholder">
         <h2>No events available</h2>
-        <p>Check that <code>data/apero_results_amiv.json</code> exists and is valid JSON.</p>
+        <p>Check that <code>data/events.json</code> exists and is valid JSON.</p>
       </div>
     `;
     eventPanel.classList.add("event-panel--empty");

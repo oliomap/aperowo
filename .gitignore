@@ -123,6 +123,12 @@ dmypy.json
 # Generic JSON ignore is too broad for this project, so remove it.
 # If you need to ignore specific JSON elsewhere, add targeted patterns.
 
-# Node dependencies (duplicated entries cleaned up)
+# Raw crawl data (not needed in repo)
+data/raw/
+
+# Pipeline logs
+logs/
+
+# Node dependencies
 node_modules/
 frontend/node_modules/

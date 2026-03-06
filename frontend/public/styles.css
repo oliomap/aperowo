@@ -619,6 +619,20 @@ body.modal-open {
   text-transform: uppercase;
 }
 
+.event-card__food-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #15803d;
+  background: #dcfce7;
+  padding: 0.15em 0.55em;
+  border-radius: 9999px;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .event-card__title {
   font-weight: 600;
   color: #0f172a;
