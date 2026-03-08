@@ -14,6 +14,7 @@ import requests
 
 from .base import BaseSource
 from ..logging_config import get_logger
+from .. import visited_urls
 
 log = get_logger("aperowo.sources.amiv")
 
@@ -31,8 +32,12 @@ class AmivApiSource(BaseSource):
         # Convert AMIV format to our extraction-ready format
         records = []
         for event in all_events:
+            event_url = event.get("_links", {}).get("self", {}).get("href", "")
+            if event_url and visited_urls.is_visited(event_url):
+                log.debug("[%s] Skipping visited event: %s", self.source_id, event_url)
+                continue
             records.append({
-                "url": event.get("_links", {}).get("self", {}).get("href", ""),
+                "url": event_url,
                 "title": event.get("title_en") or event.get("title_de", ""),
                 "date": (event.get("time_start", "") or "")[:10],
                 "start_time": self._extract_time(event.get("time_start")),

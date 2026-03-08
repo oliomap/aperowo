@@ -126,6 +126,9 @@ dmypy.json
 # Raw crawl data (not needed in repo)
 data/raw/
 
+# Visited URLs cache (local runtime state)
+data/visited_urls.json
+
 # Pipeline logs
 logs/
 

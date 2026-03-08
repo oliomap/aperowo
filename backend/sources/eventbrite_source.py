@@ -13,6 +13,7 @@ from crawl4ai.content_scraping_strategy import LXMLWebScrapingStrategy
 
 from .base import BaseSource
 from ..logging_config import get_logger
+from .. import visited_urls
 
 log = get_logger("aperowo.sources.eventbrite")
 
@@ -47,6 +48,9 @@ class EventbriteSource(BaseSource):
             for r in result:
                 if not r.success:
                     log.warning("[%s] Failed to crawl Eventbrite: %s", self.source_id, r.url)
+                    continue
+                if visited_urls.is_visited(r.url):
+                    log.debug("[%s] Skipping visited page: %s", self.source_id, r.url)
                     continue
                 records.append({
                     "url": r.url,

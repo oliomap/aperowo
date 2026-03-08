@@ -151,6 +151,7 @@ const normaliseEntry = (entry) => {
     refreshments: entry.refreshments ?? null,
     refreshmentDetails: entry.refreshment_details ?? entry.refreshmentDetails ?? null,
     easeOfEntry: typeof entry.easeOfEntry === "number" ? entry.easeOfEntry : DEFAULT_EASE_OF_ENTRY,
+    easeOfEntryReason: entry.easeOfEntry_reason ?? entry.easeOfEntryReason ?? null,
   };
 };
 
@@ -633,6 +634,13 @@ const renderEventPanel = () => {
     meter.appendChild(marker);
     easeRow.append(easeLabel, meter, easeValue);
     insights.appendChild(easeRow);
+
+    if (event.easeOfEntryReason) {
+      const easeReason = document.createElement("div");
+      easeReason.className = "event-card__ease-reason";
+      easeReason.textContent = event.easeOfEntryReason;
+      insights.appendChild(easeReason);
+    }
 
     card.appendChild(insights);
 

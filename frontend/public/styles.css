@@ -700,6 +700,13 @@ body.modal-open {
   box-shadow: 0 4px 10px rgba(15, 23, 42, 0.25);
 }
 
+.event-card__ease-reason {
+  font-size: 0.75rem;
+  color: #64748b;
+  font-style: italic;
+  margin-top: -0.25rem;
+}
+
 .event-card__link {
   align-self: flex-start;
   font-size: 0.85rem;

@@ -15,6 +15,7 @@ from crawl4ai.deep_crawling.filters import URLPatternFilter, FilterChain
 
 from .base import BaseSource
 from ..logging_config import get_logger
+from .. import visited_urls
 
 log = get_logger("aperowo.sources.crawl4ai")
 
@@ -70,6 +71,10 @@ class Crawl4aiSource(BaseSource):
             for result in results:
                 if not result.success:
                     log.warning("[%s] Failed to crawl: %s", self.source_id, result.url)
+                    continue
+                # Skip pages whose URL is already in the visited cache
+                if visited_urls.is_visited(result.url):
+                    log.debug("[%s] Skipping visited page: %s", self.source_id, result.url)
                     continue
                 records.append({
                     "url": result.url,

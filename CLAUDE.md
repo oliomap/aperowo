@@ -22,9 +22,11 @@ Sources (crawl4ai / API / Eventbrite)
 
 ### Backend structure (`backend/`)
 
-- `pipeline.py` — Main orchestrator: `async run()` processes all sources end-to-end
+- `pipeline.py` — Main orchestrator: `async run()` processes all sources concurrently
 - `config.py` — Loads `sources.json`, instantiates source adapters
 - `normalize.py` — Slugify, event ID generation, fuzzy dedup
+- `gemini_rate_limit.py` — Shared async lock, 12s delay between calls, key rotation with failover
+- `logging_config.py` — Colored console (INFO) + rotating file logs in `logs/` (DEBUG)
 - `sources/` — Source adapters (BaseSource ABC)
   - `crawl4ai_source.py` — Generic web crawler using crawl4ai + Playwright
   - `amiv_api_source.py` — AMIV REST API with pagination
@@ -36,6 +38,7 @@ Sources (crawl4ai / API / Eventbrite)
 - `filtering/` — Food/drink detection
   - `refreshments.py` — REFRESHMENT_RULES keyword matching (single source of truth)
   - `food_detector.py` — Determines if event has free food, builds food_type string
+  - `gemini_validator.py` — Gemini-based food validation
 - `scoring/` — Ease-of-entry scoring
   - `gemini_scorer.py` — Gemini-based scoring with rubric
   - `ease_of_entry.py` — Keyword-based weighted scoring fallback
@@ -50,7 +53,7 @@ Sources (crawl4ai / API / Eventbrite)
 
 ### Gemini AI integration
 
-Two uses: structured extraction and ease-of-entry scoring. Both are optional — the system works fully without an API key via regex/keyword fallbacks. Enable by setting `GEMINI_API_KEY` in `.env` (see `.env.example`).
+Three uses: structured extraction, food validation, and ease-of-entry scoring. All are optional — the system works fully without an API key via regex/keyword fallbacks. Enable by setting `GEMINI_API_KEY` in `.env`. Optionally set `GEMINI_API_KEY_2` for automatic failover when the first key's quota is exhausted. Rate limit: Gemini 2.5 Flash free tier = 5 RPM, enforced via a shared async lock with 12s delay.
 
 ## Commands
 
@@ -83,6 +86,8 @@ The frontend runs on port 3000 by default (configurable via `PORT` env var).
 
 ## Notes
 
+- No tests or linting are configured — there is no test suite or formatter to run
 - Text normalization strips diacritics for keyword matching (important for German text like "Glühwein")
 - The frontend `/data/*` route includes path traversal protection via `resolveDataPath`
-- Rate limiting: 4s delay between Gemini API calls to stay within free tier (15 RPM)
+- `data/raw/` and `logs/` are gitignored; `data/events.json` is tracked for GitHub Pages static hosting
+- Pipeline logs are written to `logs/pipeline_<timestamp>.log` with full DEBUG detail

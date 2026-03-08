@@ -7,6 +7,8 @@ file in logs/ (DEBUG) with timestamps and source context.
 from __future__ import annotations
 
 import logging
+import sys
+import threading
 from datetime import datetime
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
@@ -27,6 +29,20 @@ _COLORS = {
 _DIM = "\033[2m"
 _BOLD = "\033[1m"
 
+# Global reference to the active progress display so the console handler
+# can clear it before logging and redraw it after.
+_active_progress: object | None = None
+
+# Lock to serialize console writes (log messages + progress redraws)
+# so concurrent async tasks don't interleave ANSI sequences.
+_console_lock = threading.Lock()
+
+
+def set_active_progress(progress: object | None) -> None:
+    """Register (or clear) the active progress display."""
+    global _active_progress
+    _active_progress = progress
+
 
 class ColorFormatter(logging.Formatter):
     """Formatter that adds ANSI color codes to console output."""
@@ -43,12 +59,28 @@ class ColorFormatter(logging.Formatter):
 
         formatted = f"{timestamp}  {level}  [{name}]  {msg}"
 
-        if record.exc_info and not record.exc_text:
-            record.exc_text = self.formatException(record.exc_info)
-        if record.exc_text:
-            formatted += f"\n{_COLORS[logging.ERROR]}{record.exc_text}{_RESET}"
-
+        # Tracebacks go to the log file only, not the console
         return formatted
+
+
+class ProgressAwareHandler(logging.StreamHandler):
+    """Console handler that clears the progress display before emitting a
+    log record and redraws it afterwards, keeping progress pinned to the
+    bottom of the terminal output.
+
+    Uses _console_lock to prevent concurrent log emissions from
+    interleaving ANSI escape sequences.
+    """
+
+    def emit(self, record: logging.LogRecord) -> None:
+        prog = _active_progress
+        if prog is not None and hasattr(prog, "_clear"):
+            with _console_lock:
+                prog._clear()
+                super().emit(record)
+                prog._redraw()
+        else:
+            super().emit(record)
 
 
 def get_logger(name: str) -> logging.Logger:
@@ -75,8 +107,8 @@ def _configure() -> None:
         datefmt="%Y-%m-%d %H:%M:%S",
     )
 
-    # Console handler — INFO and above, colored
-    console = logging.StreamHandler()
+    # Console handler — INFO and above, colored, progress-aware
+    console = ProgressAwareHandler()
     console.setLevel(logging.INFO)
     console.setFormatter(ColorFormatter(datefmt="%H:%M:%S"))
 
