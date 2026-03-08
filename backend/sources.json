@@ -1,0 +1,406 @@
+{
+  "sources": [
+    {
+      "id": "amiv",
+      "type": "api",
+      "adapter": "amiv_api",
+      "label": "AMIV",
+      "config": {
+        "base_url": "https://api.amiv.ethz.ch/events/",
+        "filter": {
+          "$or": [
+            {"title_en": {"$regex": "aper", "$options": "i"}},
+            {"description_en": {"$regex": "aper", "$options": "i"}},
+            {"catchphrase_en": {"$regex": "aper", "$options": "i"}},
+            {"title_de": {"$regex": "aper", "$options": "i"}},
+            {"description_de": {"$regex": "aper", "$options": "i"}},
+            {"catchphrase_de": {"$regex": "aper", "$options": "i"}},
+            {"title_en": {"$regex": "food", "$options": "i"}},
+            {"description_en": {"$regex": "food", "$options": "i"}},
+            {"title_de": {"$regex": "essen", "$options": "i"}},
+            {"description_de": {"$regex": "essen", "$options": "i"}}
+          ]
+        }
+      }
+    },
+    {
+      "id": "vseth",
+      "type": "crawl4ai",
+      "label": "VSETH",
+      "config": {
+        "url": "https://vseth.ethz.ch/events-2/",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "vis",
+      "type": "crawl4ai",
+      "label": "VIS",
+      "config": {
+        "url": "https://vis.ethz.ch/en/events/",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [
+          "https://vis.ethz.ch/en/events/",
+          "https://vis.ethz.ch/en/accounts/keycloak/login*"
+        ],
+        "depth": 1
+      }
+    },
+    {
+      "id": "vmp",
+      "type": "crawl4ai",
+      "label": "VMP",
+      "config": {
+        "url": "https://vmp.ethz.ch/en/events/alle_events",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [
+          "https://www.vmp.ethz.ch/en/events/alle_events",
+          "https://www.vmp.ethz.ch/en/events",
+          "https://www.vmp.ethz.ch/en/events/meine_events",
+          "https://www.vmp.ethz.ch/en/events/helper-recruitment"
+        ],
+        "depth": 1
+      }
+    },
+    {
+      "id": "amiv-web",
+      "type": "crawl4ai",
+      "label": "AMIV Web",
+      "config": {
+        "url": "https://amiv.ethz.ch/en/events",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "aiv",
+      "type": "crawl4ai",
+      "label": "AIV",
+      "config": {
+        "url": "https://aiv.ethz.ch/",
+        "include_patterns": ["*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "apv",
+      "type": "crawl4ai",
+      "label": "APV",
+      "config": {
+        "url": "https://apv.ethz.ch/?page_id=1409",
+        "include_patterns": ["*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "vebis",
+      "type": "crawl4ai",
+      "label": "VeBiS",
+      "config": {
+        "url": "https://vebis.ch/en/category/events-en/",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "smw",
+      "type": "crawl4ai",
+      "label": "SMW",
+      "config": {
+        "url": "https://smw.ethz.ch/en/",
+        "include_patterns": ["*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "vcs",
+      "type": "crawl4ai",
+      "label": "VCS",
+      "config": {
+        "url": "https://vcs.ethz.ch/events/",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "vial",
+      "type": "crawl4ai",
+      "label": "VIAL",
+      "config": {
+        "url": "https://vial.ethz.ch/",
+        "include_patterns": ["*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "arch",
+      "type": "crawl4ai",
+      "label": "Architektura",
+      "config": {
+        "url": "https://arch.ethz.ch/en/news-und-veranstaltungen/veranstaltungen.html",
+        "include_patterns": ["*news-und-veranstaltungen*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "hoenk",
+      "type": "crawl4ai",
+      "label": "HöNK",
+      "config": {
+        "url": "https://hoenk.vseth.ethz.ch/events/",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "swaz",
+      "type": "crawl4ai",
+      "label": "SWAZ",
+      "config": {
+        "url": "https://swaz.ethz.ch/",
+        "include_patterns": ["*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-infk",
+      "type": "crawl4ai",
+      "label": "D-INFK",
+      "config": {
+        "url": "https://inf.ethz.ch/news-and-events/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-itet",
+      "type": "crawl4ai",
+      "label": "D-ITET",
+      "config": {
+        "url": "https://ee.ethz.ch/news-and-events/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-mavt",
+      "type": "crawl4ai",
+      "label": "D-MAVT",
+      "config": {
+        "url": "https://mavt.ethz.ch/news-and-events/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-phys",
+      "type": "crawl4ai",
+      "label": "D-PHYS",
+      "config": {
+        "url": "https://www.phys.ethz.ch/news-and-events/seminars-colloquia.html",
+        "include_patterns": ["*events*", "*seminars*", "*colloquia*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-math",
+      "type": "crawl4ai",
+      "label": "D-MATH",
+      "config": {
+        "url": "https://math.ethz.ch/news-and-events/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-chab",
+      "type": "crawl4ai",
+      "label": "D-CHAB",
+      "config": {
+        "url": "https://chab.ethz.ch/en/news-and-events/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-biol",
+      "type": "crawl4ai",
+      "label": "D-BIOL",
+      "config": {
+        "url": "https://biol.ethz.ch/en/news-and-events.html",
+        "include_patterns": ["*events*", "*news*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-baug",
+      "type": "crawl4ai",
+      "label": "D-BAUG",
+      "config": {
+        "url": "https://baug.ethz.ch/en/news-and-events/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-mtec",
+      "type": "crawl4ai",
+      "label": "D-MTEC",
+      "config": {
+        "url": "https://mtec.ethz.ch/news/mtec-events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-usys",
+      "type": "crawl4ai",
+      "label": "D-USYS",
+      "config": {
+        "url": "https://usys.ethz.ch/en/news-events/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-bsse",
+      "type": "crawl4ai",
+      "label": "D-BSSE",
+      "config": {
+        "url": "https://bsse.ethz.ch/news-and-events/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-hest",
+      "type": "crawl4ai",
+      "label": "D-HEST",
+      "config": {
+        "url": "https://hest.ethz.ch/en/news/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-erdw",
+      "type": "crawl4ai",
+      "label": "D-ERDW",
+      "config": {
+        "url": "https://erdw.ethz.ch/en/news-events/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "d-gess",
+      "type": "crawl4ai",
+      "label": "D-GESS",
+      "config": {
+        "url": "https://gess.ethz.ch/en/news-and-events.html",
+        "include_patterns": ["*events*", "*news*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "eth-sph",
+      "type": "crawl4ai",
+      "label": "Student Project House",
+      "config": {
+        "url": "https://sph.ethz.ch/",
+        "include_patterns": ["*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "aveth",
+      "type": "crawl4ai",
+      "label": "AVETH",
+      "config": {
+        "url": "https://www.aveth.ethz.ch/category/event/",
+        "include_patterns": ["*event*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "esn",
+      "type": "crawl4ai",
+      "label": "ESN Zurich",
+      "config": {
+        "url": "https://zurich.esn.ch/",
+        "include_patterns": ["*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "entrepreneur-club",
+      "type": "crawl4ai",
+      "label": "Entrepreneur Club",
+      "config": {
+        "url": "https://www.entrepreneur-club.org/",
+        "include_patterns": ["*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "eth-alumni",
+      "type": "crawl4ai",
+      "label": "ETH Alumni",
+      "config": {
+        "url": "https://www.alumni.ethz.ch/en/events.html",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    },
+    {
+      "id": "eventbrite-eth",
+      "type": "eventbrite",
+      "label": "Eventbrite ETH",
+      "config": {
+        "url": "https://www.eventbrite.com/o/eth-zurich-25205217049"
+      }
+    },
+    {
+      "id": "ssc",
+      "type": "crawl4ai",
+      "label": "SSC",
+      "config": {
+        "url": "https://www.ssc.ethz.ch/events/",
+        "include_patterns": ["*events*"],
+        "exclude_patterns": [],
+        "depth": 1
+      }
+    }
+  ]
+}
