@@ -1,15 +1,17 @@
 # Apero wo?
 
-**Apero wo?** is an informational tool designed to help people at ETH Zurich find Aperos and free food happening around campus. The project provides details about events offering free food but emphasizes that such offerings are only available to individuals officially inscribed to these events.
+**Apero wo?** is an informational tool designed to help people at ETH Zurich find Aperos and free food happening around campus. It crawls event sources daily, detects which events offer free food, and displays them in a calendar UI.
 
----
+## Architecture
 
-## Features
-- **Event Information**: Easily find upcoming Aperos or events with free food at ETH Zurich.
-- **User-Friendly**: Provides a straightforward interface for accessing event details.
-- **Campus-Specific**: Tailored specifically for the ETH Zurich community.
+```
+Sources → Extraction → Food detection → Scoring → Dedup → data/events.json → Calendar UI
+```
 
----
+Python backend pipeline processes sources concurrently, outputs `data/events.json`. Node.js/Express frontend serves a vanilla JS calendar. GitHub Actions runs the pipeline daily.
 
-## Important Disclaimer
-This tool is for **informational purposes only**. Free food at events is strictly limited to individuals who are officially inscribed to these events. Please ensure that you meet the eligibility criteria before attending.
+## Disclaimer
+
+This tool is for **informational purposes only**. Free food at events is strictly limited to individuals who are officially inscribed to these events.
+
+For content removal requests or feedback, use the **Feedback** button on the site or email ocalvet@ethz.ch.

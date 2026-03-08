@@ -132,3 +132,8 @@ logs/
 # Node dependencies
 node_modules/
 frontend/node_modules/
+
+# Claude
+.claude/
+CLAUDE.md
+

@@ -354,6 +354,7 @@ const renderCalendar = () => {
   meta.innerHTML = `
     <a class="meta-btn" href="https://github.com/oliomap" target="_blank" rel="noreferrer">GitHub</a>
     <a class="meta-btn" href="https://www.linkedin.com/in/oliver-calvet-2928792b8/" target="_blank" rel="noreferrer">LinkedIn</a>
+    <a class="meta-btn meta-btn--muted" href="mailto:ocalvet@ethz.ch?subject=Apero%20wo%3F%20%E2%80%93%20Feedback" rel="noreferrer">Feedback</a>
   `;
 
   heading.append(controls, meta);

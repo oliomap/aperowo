@@ -405,6 +405,21 @@ body.modal-open {
   transform: translateY(1px);
 }
 
+.meta-btn--muted {
+  background: transparent;
+  border-color: rgba(99, 102, 241, 0.18);
+  color: #6366f1;
+  font-weight: 500;
+  opacity: 0.55;
+  box-shadow: none;
+}
+
+.meta-btn--muted:hover,
+.meta-btn--muted:focus-visible {
+  opacity: 0.85;
+  box-shadow: none;
+}
+
 .calendar__grid {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
