@@ -30,6 +30,8 @@ For each event, do TWO things:
    - Reject scraping artifacts (CSS class names, navigation elements, page templates)
    - Reject non-event pages (news articles, service pages, homepages)
    - Reject events that clearly don't offer free food/drinks
+   - IMPORTANT: "Lunch seminars", "lunch talks", "brown bag sessions", research seminars at lunchtime, colloquia, and similar academic events do NOT offer free food just because they happen at lunchtime. The word "lunch" in titles like "Lunch Seminar" or "Research Seminar" (starting at 12:00) describes the TIME SLOT, not free food. Reject these unless the description explicitly mentions food/drinks being served (e.g. "pizza will be provided", "drinks and snacks", "apéro after the talk").
+   - Similarly, reject events where food_type is only "Lunch", "Dinner", or "Mittagessen" unless the description explicitly confirms free food is part of the event
 
 2. SCORE EASE OF ENTRY: Review the keyword-based score and revise it if needed.
    Score from 0.0 to 1.0 — how easy is it for a random ETH student to walk in and grab free food, whether officially invited or not.

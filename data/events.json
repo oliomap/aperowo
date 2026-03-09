@@ -786,33 +786,6 @@
     "easeOfEntry_reason": "Public exhibition in main hall."
   },
   {
-    "id": "d-gess-knowing-bodies-a-workshop-with-professor-lan-a-li-johns-hopk-2026-03-04",
-    "source": "d-gess",
-    "title": "Knowing Bodies: A Workshop with Professor Lan A Li (Johns Hopkins) – Professorship for Ethics, Technology and Society | ETH Zurich",
-    "date": "2026-03-04",
-    "start_time": "10:00",
-    "end_time": "12:00",
-    "location": "page-link",
-    "url": "https://ets.ethz.ch/ets-news-en/2026/02/knowing-bodies-a-workshop-with-professor-lan-a-li-johns-hopkins.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.4,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-08T10:46:52Z",
-    "easeOfEntry_reason": "Academic workshop, likely has lunch."
-  },
-  {
     "id": "apv-beerpong-turnier-mit-vcs-2026-03-05",
     "source": "apv",
     "title": "Beerpong-Turnier mit VCS",
@@ -1030,33 +1003,6 @@
     "easeOfEntry_reason": "Student association social event, easy access."
   },
   {
-    "id": "d-mtec-responses-to-extreme-price-notches-evidence-from-residential-2026-03-12",
-    "source": "d-mtec",
-    "title": "Responses to Extreme Price Notches: Evidence from Residential Natural Gas Demand",
-    "date": "2026-03-12",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Zentrum, ZUE G 1",
-    "url": "https://mtec.ethz.ch/news/mtec-events/details.responses-to-extreme-price-notches-evidence-from-residential-natural-gas-demand.76582.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-09T07:42:10Z",
-    "easeOfEntry_reason": "Departmental lunch seminar, usually open to students."
-  },
-  {
     "id": "vis-how-to-get-an-internship-with-uber-2026-03-12",
     "source": "vis",
     "title": "How To Get An Internship - with Uber",
@@ -1082,33 +1028,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-09T07:42:10Z",
     "easeOfEntry_reason": "Company talk with pizza, easy to attend."
-  },
-  {
-    "id": "d-erdw-the-distribution-and-prevalence-of-mobile-genetic-elements-w-2026-03-13",
-    "source": "d-erdw",
-    "title": "The distribution and prevalence of mobile genetic elements within and across Earth's diverse ecosystems",
-    "date": "2026-03-13",
-    "start_time": "12:30",
-    "end_time": "13:30",
-    "location": "Zürich Hönggerberg, HIT F 23.2",
-    "url": "https://eaps.ethz.ch/en/events/detail.the-distribution-and-prevalence-of-mobile-genetic-elements-within-and-across-earths-diverse-ecosystems.76176.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-09T07:42:10Z",
-    "easeOfEntry_reason": "Departmental lunch seminar, usually open to students."
   },
   {
     "id": "vis-helper-for-kontaktparty-2026-03-13",
@@ -1220,33 +1139,6 @@
     "easeOfEntry_reason": "Company talk with food, easy to attend."
   },
   {
-    "id": "eth-alumni-deponie-elbisgraben-and-pestalozzi-stiftung-olsberg-2026-03-18",
-    "source": "eth-alumni",
-    "title": "Deponie Elbisgraben and Pestalozzi Stiftung Olsberg",
-    "date": "2026-03-18",
-    "start_time": null,
-    "end_time": null,
-    "location": "Werkleitung Elbisgraben, 4422 Arisdorf",
-    "url": "https://www.alumni.ethz.ch/en/events.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.3,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-09T07:42:10Z",
-    "easeOfEntry_reason": "Excursion, likely limited spots and registration."
-  },
-  {
     "id": "amiv-web-weindegu-2026-03-19",
     "source": "amiv-web",
     "title": "Weindegu",
@@ -1272,33 +1164,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-09T07:42:10Z",
     "easeOfEntry_reason": "Student association social event, easy access."
-  },
-  {
-    "id": "d-mtec-the-new-keynesian-climate-model-2026-03-19",
-    "source": "d-mtec",
-    "title": "The New Keynesian Climate Model",
-    "date": "2026-03-19",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Zentrum, ZUE G 1",
-    "url": "https://mtec.ethz.ch/news/mtec-events/details.the-new-keynesian-climate-model.76852.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-09T07:42:10Z",
-    "easeOfEntry_reason": "Departmental lunch seminar, usually open to students."
   },
   {
     "id": "eth-alumni-badener-stamm-2026-03-19",
@@ -1415,33 +1280,6 @@
     "easeOfEntry_reason": "Company dinner, likely more exclusive/limited."
   },
   {
-    "id": "d-erdw-earth-was-once-a-hycean-world-2026-03-24",
-    "source": "d-erdw",
-    "title": "Earth was once a hycean world",
-    "date": "2026-03-24",
-    "start_time": "12:30",
-    "end_time": "13:30",
-    "location": "Zürich Hönggerberg, HIT F 23.2",
-    "url": "https://eaps.ethz.ch/en/events/detail.earth-was-once-a-hycean-world.76581.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-09T07:42:10Z",
-    "easeOfEntry_reason": "Departmental lunch seminar, usually open to students."
-  },
-  {
     "id": "eth-alumni-alumni-book-club-the-geek-way-2026-03-24",
     "source": "eth-alumni",
     "title": "Alumni Book Club: The Geek Way",
@@ -1467,33 +1305,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-09T07:42:10Z",
     "easeOfEntry_reason": "Alumni event, likely requires registration/membership."
-  },
-  {
-    "id": "d-mtec-ngo-activism-exposure-vs-influence-2026-03-26",
-    "source": "d-mtec",
-    "title": "NGO Activism: Exposure vs Influence",
-    "date": "2026-03-26",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Zentrum, ZUE G 1",
-    "url": "https://mtec.ethz.ch/news/mtec-events/details.ngo-activism-exposure-vs-influence.76862.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-09T07:42:10Z",
-    "easeOfEntry_reason": "Departmental lunch seminar, usually open to students."
   },
   {
     "id": "eth-alumni-plausch-curling-arlesheim-2026-03-26",
@@ -1635,33 +1446,6 @@
     "easeOfEntry_reason": "Student association social event."
   },
   {
-    "id": "d-mtec-research-seminar-by-armon-rezai-2026-04-16",
-    "source": "d-mtec",
-    "title": "Research Seminar by Armon Rezai",
-    "date": "2026-04-16",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Zentrum, ZUE G 1",
-    "url": "https://mtec.ethz.ch/news/mtec-events/details.research-seminar-by-armon-rezai.76854.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-09T07:42:10Z",
-    "easeOfEntry_reason": "Departmental lunch seminar, usually open to students."
-  },
-  {
     "id": "vseth-exbeerience-2026-04-16",
     "source": "vseth",
     "title": "ExBeerience",
@@ -1687,33 +1471,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-09T07:42:10Z",
     "easeOfEntry_reason": "Public student association event on campus, easy to attend."
-  },
-  {
-    "id": "d-mtec-research-seminar-by-mathias-reynaert-2026-05-07",
-    "source": "d-mtec",
-    "title": "Research Seminar by Mathias Reynaert",
-    "date": "2026-05-07",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Zentrum, ZUE G 1",
-    "url": "https://mtec.ethz.ch/news/mtec-events/details.research-seminar-by-mathias-reynaert.76857.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-09T07:42:10Z",
-    "easeOfEntry_reason": "Departmental lunch seminar, usually open to students."
   },
   {
     "id": "entrepreneur-club-eth-entrepreneur-club-2026-05-15",
@@ -1745,33 +1502,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-08T11:32:14Z",
     "easeOfEntry_reason": "Public-facing event, usually open to all students."
-  },
-  {
-    "id": "d-mtec-research-seminar-by-nick-tsivanidis-2026-05-21",
-    "source": "d-mtec",
-    "title": "Research Seminar by Nick Tsivanidis",
-    "date": "2026-05-21",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Zentrum, ZUE G 1",
-    "url": "https://mtec.ethz.ch/news/mtec-events/details.research-seminar-by-nick-tsivanidis.76859.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-09T07:42:10Z",
-    "easeOfEntry_reason": "Departmental lunch seminar, usually open to students."
   },
   {
     "id": "vial-vial-dobier-nodate",
