@@ -85,33 +85,6 @@
     "easeOfEntry_reason": "Public event at SPH."
   },
   {
-    "id": "vial-dobier-rave-2025-03-26",
-    "source": "vial",
-    "title": "DoBier Rave",
-    "date": "2025-03-26",
-    "start_time": "19:00",
-    "end_time": null,
-    "location": "CAB StuZ (D21)",
-    "url": "https://www.instagram.com/p/DVvaautjOfp/",
-    "food_type": "Beer",
-    "refreshments": "Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ]
-      },
-      "summary": "Drinks (beer)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
-    "easeOfEntry_reason": "Student event with beer included in ticket."
-  },
-  {
     "id": "amiv-info-event-msc-quantum-engineering-2025-03-27",
     "source": "amiv",
     "title": "Info Event - MSc Quantum Engineering",
@@ -503,8 +476,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
-    "easeOfEntry_reason": "Informal student event."
+    "scraped_at": "2026-03-14T06:35:55Z",
+    "easeOfEntry_reason": "Departmental student event."
   },
   {
     "id": "amiv-do-or-donut-2025-12-04",
@@ -670,7 +643,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
+    "scraped_at": "2026-03-14T06:35:55Z",
     "easeOfEntry_reason": "Social event with drinks."
   },
   {
@@ -774,10 +747,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
-    "easeOfEntry_reason": "Social student association event."
+    "scraped_at": "2026-03-14T06:35:55Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "esn-lindt-museum-home-of-chocolate-2026-03-10",
@@ -993,8 +966,8 @@
     },
     "easeOfEntry": 0.5,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
-    "easeOfEntry_reason": "Volunteer event with food provided."
+    "scraped_at": "2026-03-14T06:35:55Z",
+    "easeOfEntry_reason": "Volunteering event with food provided."
   },
   {
     "id": "vis-vis-x-jane-street-tech-talk-2026-03-13",
@@ -1075,7 +1048,7 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
+    "scraped_at": "2026-03-14T06:35:55Z",
     "easeOfEntry_reason": "Company tech talk with sushi."
   },
   {
@@ -1106,8 +1079,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
-    "easeOfEntry_reason": "Social student event."
+    "scraped_at": "2026-03-14T06:35:55Z",
+    "easeOfEntry_reason": "Student social event."
   },
   {
     "id": "amiv-web-weindegu-2026-03-19",
@@ -1133,8 +1106,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
-    "easeOfEntry_reason": "Social event with wine, likely open to students."
+    "scraped_at": "2026-03-14T06:35:55Z",
+    "easeOfEntry_reason": "Social event at campus bar."
   },
   {
     "id": "eth-alumni-badener-stamm-2026-03-19",
@@ -1247,7 +1220,7 @@
     },
     "easeOfEntry": 0.5,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
+    "scraped_at": "2026-03-14T06:35:55Z",
     "easeOfEntry_reason": "Company dinner event."
   },
   {
@@ -1333,7 +1306,7 @@
     },
     "easeOfEntry": 0.6,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
+    "scraped_at": "2026-03-14T06:35:55Z",
     "easeOfEntry_reason": "Large student competition with food."
   },
   {
@@ -1439,10 +1412,10 @@
       },
       "summary": "Food (burger)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
-    "easeOfEntry_reason": "Social student association event with food."
+    "scraped_at": "2026-03-14T06:35:55Z",
+    "easeOfEntry_reason": "Student association social event with food."
   },
   {
     "id": "vseth-exbeerience-2026-04-16",
@@ -1496,8 +1469,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
-    "easeOfEntry_reason": "Company-sponsored event with meal explicitly mentioned."
+    "scraped_at": "2026-03-14T06:35:55Z",
+    "easeOfEntry_reason": "Company-sponsored event with meal provided."
   },
   {
     "id": "swaz-smithsmith-2026-05-07",
@@ -1585,6 +1558,33 @@
     "easeOfEntry_reason": "Student association social event with beer."
   },
   {
+    "id": "vial-dobier-nodate",
+    "source": "vial",
+    "title": "DoBier",
+    "date": null,
+    "start_time": "17:00",
+    "end_time": null,
+    "location": "LFW Stall",
+    "url": "https://vial.ethz.ch/",
+    "food_type": "Beer",
+    "refreshments": "Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ]
+      },
+      "summary": "Drinks (beer)"
+    },
+    "easeOfEntry": 0.9,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-03-14T06:35:55Z",
+    "easeOfEntry_reason": "Weekly student social gathering."
+  },
+  {
     "id": "vseth-beer-tastings-nodate",
     "source": "vseth",
     "title": "Beer tastings",
@@ -1608,8 +1608,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
-    "easeOfEntry_reason": "Student association event."
+    "scraped_at": "2026-03-14T06:35:55Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vseth-mulled-wine-bar-nodate",
@@ -1635,8 +1635,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-13T06:40:21Z",
-    "easeOfEntry_reason": "Student association event."
+    "scraped_at": "2026-03-14T06:35:55Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "amiv-ersti-rally-nodate",
@@ -1756,37 +1756,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-08T11:32:14Z",
     "easeOfEntry_reason": "Career talk on campus, easy to attend."
-  },
-  {
-    "id": "vial-vial-dobier-nodate",
-    "source": "vial",
-    "title": "VIAL DoBier",
-    "date": null,
-    "start_time": "17:00",
-    "end_time": null,
-    "location": "LFW Stall",
-    "url": "https://vial.ethz.ch/",
-    "food_type": "Food, Beer",
-    "refreshments": "Food (food) · Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food) · Drinks (beer)"
-    },
-    "easeOfEntry": 0.9,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-12T06:42:22Z",
-    "easeOfEntry_reason": "Weekly student gathering with food and beer."
   },
   {
     "id": "vseth-activity-fair-nodate",
