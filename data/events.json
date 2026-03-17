@@ -566,6 +566,33 @@
     "easeOfEntry_reason": "Lab tour, likely requires sign-up."
   },
   {
+    "id": "vebis-semesterendapro-2025-12-16",
+    "source": "vebis",
+    "title": "Semesterendapéro",
+    "date": "2025-12-16",
+    "start_time": "16:30",
+    "end_time": "19:00",
+    "location": "HPH Foyer",
+    "url": "https://vebis.ch/en/category/events-en/",
+    "food_type": "Apero",
+    "refreshments": "Drinks (apero)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "apero"
+        ]
+      },
+      "summary": "Drinks (apero)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "Departmental apéro; open to students."
+  },
+  {
     "id": "amiv-christmas-brunch-2025-12-16",
     "source": "amiv",
     "title": "Christmas Brunch",
@@ -591,33 +618,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-08T11:32:14Z",
     "easeOfEntry_reason": "Open campus brunch, very easy to access."
-  },
-  {
-    "id": "vebis-semesterendapro-2025-12-16",
-    "source": "vebis",
-    "title": "Semesterendapéro",
-    "date": "2025-12-16",
-    "start_time": "16:30",
-    "end_time": "19:00",
-    "location": "HPH Foyer",
-    "url": "https://vebis.ch/en/category/events-en/",
-    "food_type": "Apero",
-    "refreshments": "Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ]
-      },
-      "summary": "Drinks (apero)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-08T11:54:29Z",
-    "easeOfEntry_reason": "Departmental apéro, very accessible."
   },
   {
     "id": "smw-glhweinstamm-2025-12-17",
@@ -702,8 +702,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
-    "easeOfEntry_reason": "Social event involving beer."
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "esn-lindt-museum-home-of-chocolate-2026-03-10",
@@ -1028,7 +1028,7 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
+    "scraped_at": "2026-03-17T06:53:28Z",
     "easeOfEntry_reason": "Student social event with food and drinks."
   },
   {
@@ -1057,10 +1057,10 @@
       },
       "summary": "Food (dinner) · Drinks (drink)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.6,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
-    "easeOfEntry_reason": "Student social event."
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "Student social event; registration likely not strictly enforced."
   },
   {
     "id": "amiv-web-weindegu-2026-03-19",
@@ -1086,8 +1086,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
-    "easeOfEntry_reason": "Student association social event."
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "Student association wine tasting; usually open to students."
   },
   {
     "id": "eth-alumni-badener-stamm-2026-03-19",
@@ -1174,6 +1174,33 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-09T07:42:10Z",
     "easeOfEntry_reason": "Guided tour, likely limited spots."
+  },
+  {
+    "id": "amiv-web-tour-at-lindt-home-of-chocolate-2026-03-23",
+    "source": "amiv-web",
+    "title": "Tour at Lindt Home of Chocolate",
+    "date": "2026-03-23",
+    "start_time": "15:45",
+    "end_time": "17:30",
+    "location": "Lindt Home of Chocolate, Kilchberg",
+    "url": "https://amiv.ethz.ch/en/events",
+    "food_type": "Chocolate",
+    "refreshments": "Dessert (chocolate)",
+    "refreshment_details": {
+      "categories": [
+        "sweet"
+      ],
+      "matches": {
+        "sweet": [
+          "chocolate"
+        ]
+      },
+      "summary": "Dessert (chocolate)"
+    },
+    "easeOfEntry": 0.3,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "External tour, likely requires registration and payment/ticket."
   },
   {
     "id": "vis-vis-x-quantco-dinner-2026-03-23",
@@ -1284,10 +1311,10 @@
       },
       "summary": "Food (dinner, lunch)"
     },
-    "easeOfEntry": 0.5,
+    "easeOfEntry": 0.2,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
-    "easeOfEntry_reason": "Large scale event at EPFL."
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "Competitive event, likely restricted to participants."
   },
   {
     "id": "eth-alumni-hpq-das-physikgebude-der-zukunft-2026-03-28",
@@ -1352,27 +1379,23 @@
     "end_time": "22:00",
     "location": "CAB F21 / StuZ 2 / in the CAB",
     "url": "https://amiv.ethz.ch/en/events",
-    "food_type": "Food, Beer",
-    "refreshments": "Food (food) · Drinks (beer)",
+    "food_type": "Food",
+    "refreshments": "Food (food)",
     "refreshment_details": {
       "categories": [
-        "food",
-        "drinks"
+        "food"
       ],
       "matches": {
-        "drinks": [
-          "beer"
-        ],
         "food": [
           "food"
         ]
       },
-      "summary": "Food (food) · Drinks (beer)"
+      "summary": "Food (food)"
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
-    "easeOfEntry_reason": "Public student association social event."
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "Student association social event on campus; easy to access."
   },
   {
     "id": "apv-burgerplausch-mit-spieleabend-2026-04-16",
@@ -1398,8 +1421,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
-    "easeOfEntry_reason": "Social event with food."
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "Student association social event with food."
   },
   {
     "id": "vseth-exbeerience-2026-04-16",
@@ -1451,10 +1474,10 @@
       },
       "summary": "Food (food, meal)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
-    "easeOfEntry_reason": "Company-sponsored event with food explicitly mentioned."
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "Company-sponsored event with food provided; easy to attend as a student."
   },
   {
     "id": "swaz-smithsmith-2026-05-07",
@@ -1478,10 +1501,36 @@
       },
       "summary": "Drinks (wine)"
     },
-    "easeOfEntry": 0.4,
+    "easeOfEntry": 0.3,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
-    "easeOfEntry_reason": "External wine tasting event."
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "External event, likely limited capacity/exclusive."
+  },
+  {
+    "id": "d-mavt-virtual-lunch-talk-9-kuafu-a-startup-orchestrating-the-grid-2026-05-12",
+    "source": "d-mavt",
+    "title": "Virtual Lunch Talk #9: kuafu – a startup orchestrating the grid of tomorrow: smarter, cleaner, more resilient (free event, no registration required)",
+    "date": "2026-05-12",
+    "start_time": "12:00",
+    "end_time": "12:45",
+    "location": "Online",
+    "url": "https://mavt.ethz.ch/news-and-events/events/event-detail.virtual-lunch-talk-kuafu-a-startup-orchestrating-the-grid-of-tomorrow-smarter-cleaner-more-resilient-free-event-no-registration-required.76390.html",
+    "food_type": "Lunch",
+    "refreshments": "Food (lunch)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "lunch"
+        ]
+      },
+      "summary": "Food (lunch)"
+    },
+    "easeOfEntry": 1.0,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-03-17T06:53:28Z"
   },
   {
     "id": "entrepreneur-club-eth-entrepreneur-club-2026-05-15",
@@ -1542,31 +1591,35 @@
     "easeOfEntry_reason": "Student association social event with beer."
   },
   {
-    "id": "vial-dobier-nodate",
+    "id": "vial-vial-dobier-nodate",
     "source": "vial",
-    "title": "DoBier",
+    "title": "VIAL DoBier",
     "date": null,
     "start_time": "17:00",
     "end_time": null,
     "location": "LFW Stall",
     "url": "https://vial.ethz.ch/",
-    "food_type": "Beer",
-    "refreshments": "Drinks (beer)",
+    "food_type": "Food, Beer",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
+        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "beer"
+        ],
+        "food": [
+          "food"
         ]
       },
-      "summary": "Drinks (beer)"
+      "summary": "Food (food) · Drinks (beer)"
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
-    "easeOfEntry_reason": "Weekly student social event."
+    "scraped_at": "2026-03-17T06:53:28Z",
+    "easeOfEntry_reason": "Weekly student gathering; very easy to attend."
   },
   {
     "id": "vseth-beer-tastings-nodate",
@@ -1592,7 +1645,7 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
+    "scraped_at": "2026-03-17T06:53:28Z",
     "easeOfEntry_reason": "Student association event."
   },
   {
@@ -1619,7 +1672,7 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-16T07:06:08Z",
+    "scraped_at": "2026-03-17T06:53:28Z",
     "easeOfEntry_reason": "Student association social event."
   },
   {
