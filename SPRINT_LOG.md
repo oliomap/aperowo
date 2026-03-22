@@ -13,4 +13,12 @@
 - **Task**: [B-002] Add source health monitoring script
 - **Type**: infra | **Est**: M | **Priority**: HIGH
 - **Context**: PM agent needs data/source_health.json to detect broken sources; currently no automated way to track which sources are failing or returning zero events
+- **Status**: SUCCESS
+- **PR**: https://github.com/oliomap/aperowo/pull/20
+- **Learnings**: Pipeline logs are plain text; regex parsing works but is fragile if logging format changes. Structured logging (JSON) would be a better long-term solution.
+
+## Sprint 20260322-1130
+- **Task**: [B-003] Add integration test for full pipeline dry-run
+- **Type**: test | **Est**: M | **Priority**: HIGH
+- **Context**: Pipeline orchestration is untested; needed for org safety
 - **Status**: IN_PROGRESS
