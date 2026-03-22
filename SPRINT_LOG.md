@@ -21,4 +21,6 @@
 - **Task**: [B-003] Add integration test for full pipeline dry-run
 - **Type**: test | **Est**: M | **Priority**: HIGH
 - **Context**: Pipeline orchestration is untested; needed for org safety
-- **Status**: IN_PROGRESS
+- **Status**: SUCCESS
+- **PR**: https://github.com/oliomap/aperowo/pull/21
+- **Learnings**: Monkeypatching `_ADAPTER_MAP` in `backend.config` is an effective way to inject mock sources for integration testing without changing production config. Pipeline correctly handles async execution of mock adapters.
