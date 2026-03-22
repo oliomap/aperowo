@@ -1,0 +1,37 @@
+[project]
+name = "aperowo"
+version = "0.1.0"
+description = "ETH Zurich free food event discovery tool"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["backend/tests"]
+pythonpath = ["."]
+asyncio_mode = "auto"
+addopts = [
+    "-v",
+    "--tb=short",
+    "--strict-markers",
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]
+
+[tool.coverage.run]
+source = ["backend"]
+omit = [
+    "backend/tests/*",
+    "backend/sources/*",
+    "backend/extraction/gemini_extractor.py",
+    "backend/filtering/gemini_validator.py",
+    "backend/scoring/gemini_scorer.py",
+    "backend/pipeline.py",
+    "backend/gemini_rate_limit.py",
+    "backend/logging_config.py",
+    "backend/visited_urls.py",
+    "backend/config.py",
+]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80
