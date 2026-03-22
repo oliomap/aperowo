@@ -1,0 +1,29 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+    paths: ['backend/**', 'pyproject.toml', 'requirements*.txt']
+  pull_request:
+    paths: ['backend/**', 'pyproject.toml', 'requirements*.txt']
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run tests with coverage
+        run: python -m pytest backend/tests/ --cov --cov-report=term-missing --cov-fail-under=80
+
+      - name: Upload coverage report
+        if: always()
+        run: python -m coverage report
