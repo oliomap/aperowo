@@ -79,10 +79,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.9,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Student association social event."
+    "scraped_at": "2026-03-22T06:39:21Z",
+    "easeOfEntry_reason": "Student association party."
   },
   {
     "id": "amiv-info-event-msc-quantum-engineering-2025-03-27",
@@ -589,7 +589,7 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
+    "scraped_at": "2026-03-22T06:39:21Z",
     "easeOfEntry_reason": "Student association apéro."
   },
   {
@@ -702,8 +702,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Student association social event with drinks."
+    "scraped_at": "2026-03-22T06:39:21Z",
+    "easeOfEntry_reason": "Student association social event with beer."
   },
   {
     "id": "esn-lindt-museum-home-of-chocolate-2026-03-10",
@@ -1028,8 +1028,8 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Student association social event with food/drinks."
+    "scraped_at": "2026-03-22T06:39:21Z",
+    "easeOfEntry_reason": "Regular student social gathering."
   },
   {
     "id": "vis-icu-x-vis-mojito-night-2026-03-18",
@@ -1146,8 +1146,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Social bar meet-up."
+    "scraped_at": "2026-03-22T06:39:21Z",
+    "easeOfEntry_reason": "Social meet-up at a bar."
   },
   {
     "id": "esn-jass-evening-learn-switzerlands-favorite-game-esn-zrich-2026-03-20",
@@ -1255,8 +1255,8 @@
     },
     "easeOfEntry": 0.4,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Company dinner event."
+    "scraped_at": "2026-03-22T06:39:21Z",
+    "easeOfEntry_reason": "Company dinner, registration required."
   },
   {
     "id": "amiv-web-tour-at-lindt-home-of-chocolate-2026-03-23",
@@ -1309,8 +1309,8 @@
     },
     "easeOfEntry": 0.5,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Student association event with drinks."
+    "scraped_at": "2026-03-22T06:39:21Z",
+    "easeOfEntry_reason": "Small social event, registration required."
   },
   {
     "id": "eth-alumni-alumni-book-club-the-geek-way-2026-03-24",
@@ -1361,10 +1361,10 @@
       },
       "summary": "Drinks (apero)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Workshop with apéro."
+    "scraped_at": "2026-03-22T06:39:21Z",
+    "easeOfEntry_reason": "VMP workshops with apéro are standard student association events; easy to attend."
   },
   {
     "id": "eth-alumni-plausch-curling-arlesheim-2026-03-26",
@@ -1421,8 +1421,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Company-sponsored lunch event."
+    "scraped_at": "2026-03-22T06:39:21Z",
+    "easeOfEntry_reason": "Lunch event with likely food provided."
   },
   {
     "id": "eth-alumni-hpq-das-physikgebude-der-zukunft-2026-03-28",
@@ -1528,10 +1528,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.9,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Student association social event."
+    "scraped_at": "2026-03-22T06:39:21Z",
+    "easeOfEntry_reason": "AMIV events on campus are generally open and easy to access."
   },
   {
     "id": "apv-burgerplausch-mit-spieleabend-2026-04-16",
@@ -1557,7 +1557,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
+    "scraped_at": "2026-03-22T06:39:21Z",
     "easeOfEntry_reason": "Student association social event with food."
   },
   {
@@ -1582,10 +1582,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.9,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Public student association event with open access at a campus location."
+    "scraped_at": "2026-03-22T06:39:21Z",
+    "easeOfEntry_reason": "Public campus event, easy to access."
   },
   {
     "id": "aiv-vseth-verband-der-studierenden-an-der-eth-2026-04-20",
@@ -1640,7 +1640,7 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
+    "scraped_at": "2026-03-22T06:39:21Z",
     "easeOfEntry_reason": "Company networking event with food provided."
   },
   {
@@ -1778,62 +1778,8 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
+    "scraped_at": "2026-03-22T06:39:21Z",
     "easeOfEntry_reason": "Weekly student social gathering."
-  },
-  {
-    "id": "vseth-beer-tastings-nodate",
-    "source": "vseth",
-    "title": "Beer tastings",
-    "date": null,
-    "start_time": null,
-    "end_time": null,
-    "location": "ETH",
-    "url": "https://vseth.ethz.ch/events-2/",
-    "food_type": "Beer",
-    "refreshments": "Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ]
-      },
-      "summary": "Drinks (beer)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Student association social event."
-  },
-  {
-    "id": "vseth-mulled-wine-bar-nodate",
-    "source": "vseth",
-    "title": "Mulled wine bar",
-    "date": null,
-    "start_time": null,
-    "end_time": null,
-    "location": "Höngg",
-    "url": "https://vseth.ethz.ch/events-2/",
-    "food_type": "Wine",
-    "refreshments": "Drinks (wine)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "wine"
-        ]
-      },
-      "summary": "Drinks (wine)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-21T06:31:55Z",
-    "easeOfEntry_reason": "Recurring student association event, open to the campus community."
   },
   {
     "id": "amiv-ersti-rally-nodate",
@@ -1981,6 +1927,60 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-08T10:46:52Z",
     "easeOfEntry_reason": "Large public event, very easy to access."
+  },
+  {
+    "id": "vseth-beer-tastings-nodate",
+    "source": "vseth",
+    "title": "Beer tastings",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
+    "location": "ETH",
+    "url": "https://vseth.ethz.ch/events-2/",
+    "food_type": "Beer",
+    "refreshments": "Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ]
+      },
+      "summary": "Drinks (beer)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-03-21T06:31:55Z",
+    "easeOfEntry_reason": "Student association social event."
+  },
+  {
+    "id": "vseth-mulled-wine-bar-nodate",
+    "source": "vseth",
+    "title": "Mulled wine bar",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
+    "location": "Höngg",
+    "url": "https://vseth.ethz.ch/events-2/",
+    "food_type": "Wine",
+    "refreshments": "Drinks (wine)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "wine"
+        ]
+      },
+      "summary": "Drinks (wine)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-03-21T06:31:55Z",
+    "easeOfEntry_reason": "Recurring student association event, open to the campus community."
   },
   {
     "id": "vseth-summer-bar-nodate",
