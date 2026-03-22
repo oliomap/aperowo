@@ -12,7 +12,7 @@
   Type: infra | Est: M | Added: 2026-03-22
   Context: PM agent needs data/source_health.json to detect broken sources
 
-- [ ] [B-003] Add integration test for full pipeline dry-run (🏗️ Sprint 20260322-1130)
+- [x] [B-003] Add integration test for full pipeline dry-run (✅ DONE — Sprint 20260322-1130)
   Type: test | Est: M | Added: 2026-03-22
   Context: Pipeline orchestration is untested; needed for org safety
 
