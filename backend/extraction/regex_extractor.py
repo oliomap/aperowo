@@ -41,7 +41,7 @@ _MONTH_PATTERN = "|".join(
     sorted((re.escape(a) for a in _MONTH_ALIASES), key=len, reverse=True)
 )
 _MONTH_FIRST_RE = re.compile(
-    rf"\b({_MONTH_PATTERN})\s+(\d{{1,2}})(?:st|nd|rd|th)?(?:,?\s*(\d{{2,4}}))?",
+    rf"\b({_MONTH_PATTERN})\s+(\d{{1,2}})(?:st|nd|rd|th)?(?!\d)(?:,?\s*(\d{{2,4}}))?",
     re.IGNORECASE,
 )
 _DAY_FIRST_RE = re.compile(
