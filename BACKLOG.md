@@ -8,11 +8,11 @@
   Type: test | Est: S | Added: 2026-03-22
   Context: Day-first date parsing and year coercion paths not fully covered (89% coverage)
 
-- [ ] [B-002] Add source health monitoring script (🏗️ Sprint 20260322-1030)
+- [x] [B-002] Add source health monitoring script (✅ DONE — Sprint 20260322-1030)
   Type: infra | Est: M | Added: 2026-03-22
   Context: PM agent needs data/source_health.json to detect broken sources
 
-- [ ] [B-003] Add integration test for full pipeline dry-run
+- [ ] [B-003] Add integration test for full pipeline dry-run (🏗️ Sprint 20260322-1130)
   Type: test | Est: M | Added: 2026-03-22
   Context: Pipeline orchestration is untested; needed for org safety
 
