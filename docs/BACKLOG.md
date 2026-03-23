@@ -4,21 +4,17 @@
 ## Priority: CRITICAL
 
 ## Priority: HIGH
-- [ ] [B-001] Expand test coverage for regex_extractor edge cases
+- [x] [B-001] Expand test coverage for regex_extractor edge cases (✅ DONE — Sprint 20260322-0851)
   Type: test | Est: S | Added: 2026-03-22
   Context: Day-first date parsing and year coercion paths not fully covered (89% coverage)
 
-- [ ] [B-002] Add source health monitoring script
+- [x] [B-002] Add source health monitoring script (✅ DONE — Sprint 20260322-1030)
   Type: infra | Est: M | Added: 2026-03-22
   Context: PM agent needs data/source_health.json to detect broken sources
 
-- [ ] [B-003] Add integration test for full pipeline dry-run
+- [x] [B-003] Add integration test for full pipeline dry-run (✅ DONE — Sprint 20260322-1130)
   Type: test | Est: M | Added: 2026-03-22
   Context: Pipeline orchestration is untested; needed for org safety
-
-- [ ] [B-000] Revisit and refine PR #21 - Integration Test for Full Pipeline
-  Type: refactor | Est: S | Added: 2026-03-22
-  Context: Oli has requested a revisit of PR #21. Engineer Agent to review current changes, ensure robust implementation, and confirm adherence to all standards.
 
 ## Priority: MEDIUM
 - [ ] [B-004] Interactive campus map for event locations
