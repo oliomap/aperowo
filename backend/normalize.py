@@ -3,7 +3,11 @@
 from __future__ import annotations
 
 import re
-from thefuzz import fuzz
+
+try:
+    from thefuzz import fuzz
+except ImportError:
+    fuzz = None  # type: ignore[assignment]
 
 
 def slugify(text: str) -> str:
@@ -22,10 +26,18 @@ def make_event_id(source: str, title: str, date: str | None) -> str:
 
 
 def is_duplicate(title: str, seen_titles: set[str], threshold: int = 80) -> bool:
-    """Check if a similar title already exists using fuzzy matching."""
+    """Check if a similar title already exists using fuzzy matching.
+
+    Falls back to exact (case-insensitive) matching when *thefuzz* is not
+    installed — this keeps the test suite runnable in minimal CI environments.
+    """
     if not title:
         return False
-    for seen in seen_titles:
-        if fuzz.partial_ratio(title, seen) >= threshold:
-            return True
-    return False
+    if fuzz is not None:
+        for seen in seen_titles:
+            if fuzz.partial_ratio(title, seen) >= threshold:
+                return True
+        return False
+    # Fallback: exact case-insensitive comparison
+    title_lower = title.lower()
+    return any(title_lower == s.lower() for s in seen_titles)

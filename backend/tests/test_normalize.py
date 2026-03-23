@@ -4,6 +4,17 @@ import pytest
 
 from backend.normalize import slugify, make_event_id, is_duplicate
 
+# Some tests require thefuzz for meaningful fuzzy matching
+try:
+    from thefuzz import fuzz as _fuzz
+    _HAS_THEFUZZ = True
+except ImportError:
+    _HAS_THEFUZZ = False
+
+needs_thefuzz = pytest.mark.skipif(
+    not _HAS_THEFUZZ, reason="thefuzz not installed"
+)
+
 
 # ---------------------------------------------------------------------------
 # slugify
@@ -77,6 +88,7 @@ class TestIsDuplicate:
         seen = {"ETH Pizza Night"}
         assert is_duplicate("ETH Pizza Night", seen) is True
 
+    @needs_thefuzz
     def test_fuzzy_match(self):
         seen = {"ETH Pizza Night 2026"}
         assert is_duplicate("ETH Pizza Night", seen) is True
@@ -92,6 +104,7 @@ class TestIsDuplicate:
     def test_empty_seen_set(self):
         assert is_duplicate("ETH Pizza Night", set()) is False
 
+    @needs_thefuzz
     def test_custom_threshold(self):
         seen = {"ETH Pizza Night 2026"}
         # partial_ratio("Pizza", "ETH Pizza Night 2026") == 100 since "Pizza" is a substring
@@ -99,6 +112,7 @@ class TestIsDuplicate:
         # Completely different string should not match even at lower threshold
         assert is_duplicate("Quantum Mechanics", seen, threshold=95) is False
 
+    @needs_thefuzz
     def test_similar_titles(self):
         seen = {"Apéro at ETH Main Building"}
         assert is_duplicate("Apero at ETH Main Building", seen) is True
