@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: staging
 
       - uses: actions/setup-python@v5
         with:
@@ -34,5 +36,5 @@ jobs:
           git add data/events.json
           if ! git diff --staged --quiet; then
             git commit -m "Update events data"
-            git push --force
+            git push origin staging
           fi
