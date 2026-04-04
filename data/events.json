@@ -621,6 +621,33 @@
     "easeOfEntry_reason": "Social student event with Glühwein."
   },
   {
+    "id": "apv-apv-akademischer-pharmaziestudierenden-verein-der-eth-zrich-2026-02-20",
+    "source": "apv",
+    "title": "Burgerplausch",
+    "date": "2026-02-20",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "location": "HXE B1",
+    "url": "https://apv.ethz.ch/",
+    "food_type": "Burger",
+    "refreshments": "Food (burger)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "burger"
+        ]
+      },
+      "summary": "Food (burger)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Student association burger event."
+  },
+  {
     "id": "aveth-semianr-series-aveth-2026-02-26",
     "source": "aveth",
     "title": "Seminar Series – AVETH",
@@ -702,9 +729,9 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
+    "scraped_at": "2026-04-04T06:49:01Z",
     "easeOfEntry_reason": "Student association social event."
   },
   {
@@ -1028,10 +1055,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Student social event."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Student association social event with food/drinks."
   },
   {
     "id": "vis-icu-x-vis-mojito-night-2026-03-18",
@@ -1503,10 +1530,10 @@
       },
       "summary": "Food (lunch)"
     },
-    "easeOfEntry": 0.5,
+    "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-02T07:01:38Z",
-    "easeOfEntry_reason": "Internal meeting with lunch provided."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Explicitly mentions lunch included."
   },
   {
     "id": "vmp-coffee-lecture-with-dr-vira-bondar-vmp-2026-03-31",
@@ -1540,6 +1567,33 @@
     "easeOfEntry_reason": "Coffee lecture, usually includes snacks."
   },
   {
+    "id": "vseth-astaz-beerpong-karaoke-2026-04-01",
+    "source": "vseth",
+    "title": "ASTAZ Beerpong & Karaoke",
+    "date": "2026-04-01",
+    "start_time": "18:00",
+    "end_time": "23:00",
+    "location": null,
+    "url": "https://vseth.ethz.ch/events-2/",
+    "food_type": "Beer",
+    "refreshments": "Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ]
+      },
+      "summary": "Drinks (beer)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Public student association event."
+  },
+  {
     "id": "eth-alumni-eth-agri-food-alumni-mynetworking-2026-04-01",
     "source": "eth-alumni",
     "title": "ETH Agri-Food Alumni MyNetworking",
@@ -1567,31 +1621,35 @@
     "easeOfEntry_reason": "Networking event, likely requires registration."
   },
   {
-    "id": "vseth-astaz-beerpong-karaoke-2026-04-01",
+    "id": "vseth-amiv-oktoberfest-2026-04-02",
     "source": "vseth",
-    "title": "ASTAZ Beerpong & Karaoke",
-    "date": "2026-04-01",
-    "start_time": "18:00",
-    "end_time": "23:00",
-    "location": null,
+    "title": "AMIV Oktoberfest",
+    "date": "2026-04-02",
+    "start_time": null,
+    "end_time": null,
+    "location": "ETH Zentrum, CAB F21",
     "url": "https://vseth.ethz.ch/events-2/",
-    "food_type": "Beer",
-    "refreshments": "Drinks (beer)",
+    "food_type": "Food, Beer",
+    "refreshments": "Food (food) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
+        "food",
         "drinks"
       ],
       "matches": {
         "drinks": [
           "beer"
+        ],
+        "food": [
+          "food"
         ]
       },
-      "summary": "Drinks (beer)"
+      "summary": "Food (food) · Drinks (beer)"
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-02T07:01:38Z",
-    "easeOfEntry_reason": "Student association social event, open access."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Public student association event."
   },
   {
     "id": "vmp-easter-egg-hunt-vmp-2026-04-02",
@@ -1621,33 +1679,6 @@
     "easeOfEntry_reason": "Student association event, likely open to students."
   },
   {
-    "id": "vseth-amiv-oktoberfest-april-2026-04-02",
-    "source": "vseth",
-    "title": "AMIV Oktoberfest April",
-    "date": "2026-04-02",
-    "start_time": null,
-    "end_time": null,
-    "location": "ETH Zentrum, CAB F21",
-    "url": "https://vseth.ethz.ch/events-2/",
-    "food_type": "Food",
-    "refreshments": "Food (food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-31T07:04:13Z",
-    "easeOfEntry_reason": "Student association Oktoberfest events are open and social."
-  },
-  {
     "id": "vis-vis-x-epam-social-engineering-and-hacking-humans-2026-04-14",
     "source": "vis",
     "title": "VIS x Epam: Social Engineering and Hacking Humans",
@@ -1669,10 +1700,10 @@
       },
       "summary": "Food (pizza)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Company talk with pizza."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Student association event with explicit mention of free pizza."
   },
   {
     "id": "vmp-vegi-bbq-2026-04-14",
@@ -1697,10 +1728,10 @@
       },
       "summary": "Food (bbq, grill)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.6,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Student association BBQ. These are casual, high-traffic events where blending in is trivial."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Social event, though marked for members, usually open to other students."
   },
   {
     "id": "vis-vis-series-of-poker-2026-04-15",
@@ -1729,45 +1760,18 @@
       },
       "summary": "Food (dinner) · Snacks (chips, snacks)"
     },
-    "easeOfEntry": 0.6,
+    "easeOfEntry": 0.4,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-02T07:01:38Z",
-    "easeOfEntry_reason": "Student association event."
-  },
-  {
-    "id": "apv-burgerplausch-mit-spieleabend-2026-04-16",
-    "source": "apv",
-    "title": "Burgerplausch mit Spieleabend",
-    "date": "2026-04-16",
-    "start_time": null,
-    "end_time": null,
-    "location": null,
-    "url": "https://apv.ethz.ch/?page_id=1409",
-    "food_type": "Burger",
-    "refreshments": "Food (burger)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "burger"
-        ]
-      },
-      "summary": "Food (burger)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Student association social event with food."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Student association event, usually includes snacks."
   },
   {
     "id": "vis-vis-x-huawei-toward-extreme-and-decomposable-scale-up-fabric-2026-04-16",
     "source": "vis",
     "title": "VIS x Huawei: Toward Extreme and Decomposable Scale-up Fabrics",
     "date": "2026-04-16",
-    "start_time": "12:15",
-    "end_time": "15:00",
+    "start_time": "18:15",
+    "end_time": "21:00",
     "location": null,
     "url": "https://vis.ethz.ch/en/events/1074/#participate",
     "food_type": "Pizza",
@@ -1783,10 +1787,10 @@
       },
       "summary": "Food (pizza)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Company talk with pizza."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Student association event with explicit mention of free pizza."
   },
   {
     "id": "vmp-cocktail-night-2026-04-16",
@@ -1811,10 +1815,10 @@
       },
       "summary": "Drinks (cocktail, cocktails)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.6,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Student association social event. While labeled for members, these are typically open to other students and easy to attend."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Social event, though marked for members, usually open to other students."
   },
   {
     "id": "vseth-exbeerience-2026-04-16",
@@ -1840,8 +1844,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-02T07:01:38Z",
-    "easeOfEntry_reason": "Student association event, open access."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Public student association event."
   },
   {
     "id": "aiv-vseth-verband-der-studierenden-an-der-eth-2026-04-20",
@@ -1872,38 +1876,6 @@
     "easeOfEntry_reason": "Student association social event with drinks."
   },
   {
-    "id": "vis-oktoberfest-x-amiv-2026-04-20",
-    "source": "vis",
-    "title": "Oktoberfest x AMIV",
-    "date": "2026-04-20",
-    "start_time": "10:00",
-    "end_time": "22:00",
-    "location": "CAB F21",
-    "url": "https://vis.ethz.ch/en/events/1067/",
-    "food_type": "Food, Wurst, Beer",
-    "refreshments": "Food (food, wurst) · Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "food": [
-          "food",
-          "wurst"
-        ]
-      },
-      "summary": "Food (food, wurst) · Drinks (beer)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-02T07:01:38Z",
-    "easeOfEntry_reason": "Joint student association event."
-  },
-  {
     "id": "d-infk-way-to-tech-from-university-to-industry-2026-04-21",
     "source": "d-infk",
     "title": "Way to Tech: From University to Industry",
@@ -1927,8 +1899,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Networking event at foodLAB."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Social event at foodLAB, likely includes food."
   },
   {
     "id": "vis-dilemma-of-the-month-2026-04-21",
@@ -1954,8 +1926,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Student association event with lunch."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Student association event, usually includes lunch."
   },
   {
     "id": "vis-vis-x-jump-trading-performance-and-engineering-at-scale-2026-04-21",
@@ -1979,10 +1951,10 @@
       },
       "summary": "Food (sushi)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Company talk with sushi."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Student association event with explicit mention of free sushi."
   },
   {
     "id": "vis-coding-weekend-2026-04-24",
@@ -2006,10 +1978,10 @@
       },
       "summary": "Food (food)"
     },
-    "easeOfEntry": 0.6,
+    "easeOfEntry": 0.5,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-02T07:01:38Z",
-    "easeOfEntry_reason": "Student association event, registration usually not strictly enforced."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Student association event, usually includes food."
   },
   {
     "id": "amiv-amiv-vmp-poker-tournament-2026-04-29",
@@ -2035,8 +2007,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Student association event, usually open to students."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Student association event, usually includes snacks/drinks."
   },
   {
     "id": "amiv-womens-evening-with-belimo-2026-04-29",
@@ -2063,8 +2035,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Company networking event with food."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Company event with meal provided."
   },
   {
     "id": "vial-ochs-am-spiess-2026-04-30",
@@ -2075,8 +2047,8 @@
     "end_time": null,
     "location": "HXE, Hönggerberg",
     "url": "https://www.instagram.com/p/DWg4mEADLHG/",
-    "food_type": "Buffet, Grill, Beer",
-    "refreshments": "Food (buffet, grill) · Drinks (beer)",
+    "food_type": "Bbq, Buffet, Beer",
+    "refreshments": "Food (bbq, buffet) · Drinks (beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2087,16 +2059,16 @@
           "beer"
         ],
         "food": [
-          "buffet",
-          "grill"
+          "bbq",
+          "buffet"
         ]
       },
-      "summary": "Food (buffet, grill) · Drinks (beer)"
+      "summary": "Food (bbq, buffet) · Drinks (beer)"
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Large student grill festival."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Large public BBQ event."
   },
   {
     "id": "vmp-conquering-xxi-das-bier-2026-05-01",
@@ -2120,10 +2092,10 @@
       },
       "summary": "Drinks (bier)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.6,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Student association social event. Easy to blend in at campus-based association gatherings."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Social event, though marked for members, usually open to other students."
   },
   {
     "id": "swaz-smithsmith-2026-05-07",
@@ -2132,7 +2104,7 @@
     "date": "2026-05-07",
     "start_time": "19:00",
     "end_time": "21:00",
-    "location": "Smith & Smith",
+    "location": "Smith & Smith, 8045 Zürich",
     "url": "https://swaz.ethz.ch/events/smithsmith/",
     "food_type": "Wine",
     "refreshments": "Drinks (wine)",
@@ -2149,8 +2121,8 @@
     },
     "easeOfEntry": 0.4,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-31T07:04:13Z",
-    "easeOfEntry_reason": "Wine tasting, likely limited/exclusive."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Wine tasting event, likely limited capacity."
   },
   {
     "id": "vis-vista-2026-05-08",
@@ -2174,10 +2146,10 @@
       },
       "summary": "Food (food)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Large student association social event with food and drinks. Registration is standard for such events but rarely strictly enforced for entry."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Social event with grilled food and drinks."
   },
   {
     "id": "d-mavt-virtual-lunch-talk-9-kuafu-a-startup-orchestrating-the-grid-2026-05-12",
@@ -2230,8 +2202,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-02T07:01:38Z",
-    "easeOfEntry_reason": "Student association BBQ, open access."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Public student association event."
   },
   {
     "id": "entrepreneur-club-eth-entrepreneur-club-2026-05-15",
@@ -2315,8 +2287,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
-    "easeOfEntry_reason": "Social gathering for members, likely easy to attend."
+    "scraped_at": "2026-04-04T06:49:01Z",
+    "easeOfEntry_reason": "Apero for members, usually accessible."
   },
   {
     "id": "vial-vial-dobier-nodate",
@@ -2342,7 +2314,7 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-03T07:01:17Z",
+    "scraped_at": "2026-04-04T06:49:01Z",
     "easeOfEntry_reason": "Weekly student social event."
   },
   {
