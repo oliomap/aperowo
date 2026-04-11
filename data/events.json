@@ -704,8 +704,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Student association social event with drinks."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "esn-lindt-museum-home-of-chocolate-2026-03-10",
@@ -1030,8 +1030,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Student association social event with food/drinks."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Student social gathering."
   },
   {
     "id": "vis-icu-x-vis-mojito-night-2026-03-18",
@@ -1673,9 +1673,9 @@
       },
       "summary": "Food (pizza)"
     },
-    "easeOfEntry": 0.6,
+    "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
+    "scraped_at": "2026-04-11T06:50:51Z",
     "easeOfEntry_reason": "Company talk with pizza."
   },
   {
@@ -1703,8 +1703,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Student association BBQ. Very easy to attend as a student."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Student association BBQ. High accessibility for students."
   },
   {
     "id": "vis-vis-series-of-poker-2026-04-15",
@@ -1762,8 +1762,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Burger event, likely open to students."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Student association social event with food."
   },
   {
     "id": "vis-vis-x-huawei-toward-extreme-and-decomposable-scale-up-fabric-2026-04-16",
@@ -1787,9 +1787,9 @@
       },
       "summary": "Food (pizza)"
     },
-    "easeOfEntry": 0.6,
+    "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
+    "scraped_at": "2026-04-11T06:50:51Z",
     "easeOfEntry_reason": "Company talk with pizza."
   },
   {
@@ -1817,8 +1817,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Student association social event. While labeled for members, these are generally open to other students and easy to access."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Student association social event. While labeled for members, these are generally open to the student body."
   },
   {
     "id": "vseth-exbeerience-2026-04-16",
@@ -1876,6 +1876,33 @@
     "easeOfEntry_reason": "Student association social event with drinks."
   },
   {
+    "id": "d-infk-way-to-tech-from-university-to-industry-2026-04-21",
+    "source": "d-infk",
+    "title": "Way to Tech: From University to Industry",
+    "date": "2026-04-21",
+    "start_time": "19:00",
+    "end_time": "21:00",
+    "location": "foodLAB",
+    "url": "https://inf.ethz.ch/news-and-events/events/event-detail.way-to-tech-from-university-to-industry.77425.html",
+    "food_type": "Food",
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": 0.7,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Industry talk at foodLAB, likely includes food."
+  },
+  {
     "id": "vis-vis-x-jump-trading-performance-and-engineering-at-scale-2026-04-21",
     "source": "vis",
     "title": "VIS x Jump Trading: Performance and Engineering at Scale",
@@ -1897,37 +1924,10 @@
       },
       "summary": "Food (sushi)"
     },
-    "easeOfEntry": 0.6,
+    "easeOfEntry": 0.75,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Company talk with sushi."
-  },
-  {
-    "id": "d-infk-way-to-tech-from-university-to-industry-2026-04-21",
-    "source": "d-infk",
-    "title": "Way to Tech: From University to Industry",
-    "date": "2026-04-21",
-    "start_time": "19:00",
-    "end_time": "21:00",
-    "location": "foodLAB, Universitätstrasse 6, 8006 Zürich",
-    "url": "https://inf.ethz.ch/news-and-events/events/event-detail.way-to-tech-from-university-to-industry.77425.html",
-    "food_type": "Food",
-    "refreshments": "Food (food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-07T07:05:01Z",
-    "easeOfEntry_reason": "Networking event at foodLAB."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Company talk with explicit mention of free sushi and swag. Registration is standard for these events and rarely strictly enforced for entry."
   },
   {
     "id": "vis-dilemma-of-the-month-2026-04-21",
@@ -2061,8 +2061,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Student association event, food usually provided at these tournaments."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Student association event, usually open to members/students."
   },
   {
     "id": "amiv-womens-evening-with-belimo-2026-04-29",
@@ -2089,8 +2089,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Company event with meal provided."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Company event with food, usually accessible."
   },
   {
     "id": "vial-ochs-am-spiess-2026-04-30",
@@ -2121,7 +2121,7 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
+    "scraped_at": "2026-04-11T06:50:51Z",
     "easeOfEntry_reason": "Large student BBQ event."
   },
   {
@@ -2148,8 +2148,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Student association social event. Easy to blend in at campus-based association events."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Student association social event. Easy to blend in at campus social gatherings."
   },
   {
     "id": "swaz-smithsmith-2026-05-07",
@@ -2200,10 +2200,10 @@
       },
       "summary": "Food (food)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Large student association social event with food and drinks. Despite registration/fee, these are typically open to the student body and easy to attend."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Social student association event with grilled food. These are typically open and easy to attend."
   },
   {
     "id": "d-mavt-virtual-lunch-talk-9-kuafu-a-startup-orchestrating-the-grid-2026-05-12",
@@ -2341,8 +2341,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
-    "easeOfEntry_reason": "Social gathering with drinks."
+    "scraped_at": "2026-04-11T06:50:51Z",
+    "easeOfEntry_reason": "Apéro event, likely social."
   },
   {
     "id": "vial-vial-dobier-nodate",
@@ -2368,7 +2368,7 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-10T07:16:10Z",
+    "scraped_at": "2026-04-11T06:50:51Z",
     "easeOfEntry_reason": "Weekly student social event."
   },
   {
