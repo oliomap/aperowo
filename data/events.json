@@ -947,7 +947,7 @@
     },
     "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "smw-mate-stamm-2026-03-18",
@@ -1448,7 +1448,7 @@
     },
     "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "vmp-coffee-lecture-with-dr-vira-bondar-vmp-2026-03-31",
@@ -1613,7 +1613,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "apv-apv-akademischer-pharmaziestudierenden-verein-der-eth-zrich-2026-04-05",
@@ -1639,7 +1639,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "aveth-events-aveth-2026-04-06",
@@ -1670,68 +1670,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
-  },
-  {
-    "id": "d-phys-upcoming-events-at-d-phys-2026-04-14",
-    "source": "d-phys",
-    "title": "Upcoming events at D-PHYS",
-    "date": "2026-04-14",
-    "start_time": "10:45",
-    "end_time": "14:00",
-    "location": "pulse",
-    "url": "https://events.phys.ethz.ch/",
-    "food_type": "Lunch, Apero, Chips",
-    "refreshments": "Food (lunch) · Drinks (apero) · Snacks (chips)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks",
-        "snacks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ],
-        "food": [
-          "lunch"
-        ],
-        "snacks": [
-          "chips"
-        ]
-      },
-      "summary": "Food (lunch) · Drinks (apero) · Snacks (chips)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
-  },
-  {
-    "id": "vmp-vegi-bbq-vmp-2026-04-14",
-    "source": "vmp",
-    "title": "Vegi BBQ | VMP",
-    "date": "2026-04-14",
-    "start_time": "18:00",
-    "end_time": null,
-    "location": "VMP 1",
-    "url": "https://vmp.ethz.ch/en/events/vegi-grill-fs26/",
-    "food_type": "Bbq, Grill",
-    "refreshments": "Food (bbq, grill)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "bbq",
-          "grill"
-        ]
-      },
-      "summary": "Food (bbq, grill)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "vis-vis-x-epam-social-engineering-and-hacking-humans-2026-04-14",
@@ -1761,6 +1700,69 @@
     "easeOfEntry_reason": "Company talk with pizza; registration is usually not strictly enforced."
   },
   {
+    "id": "vmp-vegi-bbq-vmp-2026-04-14",
+    "source": "vmp",
+    "title": "Vegi BBQ | VMP",
+    "date": "2026-04-14",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": "VMP 1",
+    "url": "https://vmp.ethz.ch/en/events/vegi-grill-fs26/",
+    "food_type": "Bbq, Grill",
+    "refreshments": "Food (bbq, grill)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "bbq",
+          "grill"
+        ]
+      },
+      "summary": "Food (bbq, grill)"
+    },
+    "easeOfEntry": 1.0,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-04-14T07:19:03Z"
+  },
+  {
+    "id": "d-phys-upcoming-events-at-d-phys-2026-04-15",
+    "source": "d-phys",
+    "title": "Upcoming events at D-PHYS",
+    "date": "2026-04-15",
+    "start_time": "12:00",
+    "end_time": "13:30",
+    "location": "pulse",
+    "url": "https://events.phys.ethz.ch/",
+    "food_type": "Lunch, Pizza, Apero, Beer, Chips",
+    "refreshments": "Food (lunch, pizza) · Drinks (apero, beer) · Snacks (chips)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks",
+        "snacks"
+      ],
+      "matches": {
+        "drinks": [
+          "apero",
+          "beer"
+        ],
+        "food": [
+          "lunch",
+          "pizza"
+        ],
+        "snacks": [
+          "chips"
+        ]
+      },
+      "summary": "Food (lunch, pizza) · Drinks (apero, beer) · Snacks (chips)"
+    },
+    "easeOfEntry": 1.0,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-04-15T07:19:02Z"
+  },
+  {
     "id": "vis-vis-series-of-poker-2026-04-15",
     "source": "vis",
     "title": "VIS Series of Poker",
@@ -1787,9 +1789,9 @@
       },
       "summary": "Food (dinner) · Snacks (chips, snacks)"
     },
-    "easeOfEntry": 0.2,
+    "easeOfEntry": 0.6000000000000001,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "vis-vis-x-huawei-toward-extreme-and-decomposable-scale-up-fabric-2026-04-16",
@@ -1815,7 +1817,7 @@
     },
     "easeOfEntry": 0.75,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "vmp-cocktail-night-2026-04-16",
@@ -1901,7 +1903,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "d-erdw-event-information-department-of-earth-and-planetary-sciences-2026-04-20",
@@ -1927,7 +1929,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "vis-dilemma-of-the-month-2026-04-21",
@@ -1953,7 +1955,7 @@
     },
     "easeOfEntry": 0.75,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "d-infk-way-to-tech-from-university-to-industry-2026-04-21",
@@ -2033,7 +2035,7 @@
     },
     "easeOfEntry": 0.4,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "vis-coding-weekend-2026-04-24",
@@ -2059,7 +2061,7 @@
     },
     "easeOfEntry": 0.4,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "vmp-beerpong-tournament-vmp-vmp-2026-04-24",
@@ -2085,7 +2087,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "vmp-beerpong-tournament-2026-04-24",
@@ -2138,7 +2140,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "amiv-amiv-vmp-poker-tournament-2026-04-29",
@@ -2164,7 +2166,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "amiv-womens-evening-with-belimo-2026-04-29",
@@ -2191,7 +2193,33 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
+  },
+  {
+    "id": "vmp-wine-tasting-vmp-2026-04-30",
+    "source": "vmp",
+    "title": "Wine Tasting | VMP",
+    "date": "2026-04-30",
+    "start_time": "17:30",
+    "end_time": "18:00",
+    "location": "VMP 1",
+    "url": "https://vmp.ethz.ch/en/events/wine-tasting-fs26/",
+    "food_type": "Wine",
+    "refreshments": "Drinks (wine)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "wine"
+        ]
+      },
+      "summary": "Drinks (wine)"
+    },
+    "easeOfEntry": null,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "vial-ochs-am-spiess-2026-04-30",
@@ -2304,7 +2332,7 @@
     },
     "easeOfEntry": 0.6000000000000001,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "d-mavt-virtual-lunch-talk-9-kuafu-a-startup-orchestrating-the-grid-2026-05-12",
@@ -2415,7 +2443,7 @@
     },
     "easeOfEntry": 0.6000000000000001,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "amiv-web-beerpong-tournament-2026-12-03",
@@ -2472,7 +2500,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "swaz-list-of-wines-swaz-student-wine-association-zurich-nodate",
@@ -2498,7 +2526,7 @@
     },
     "easeOfEntry": 0.2,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "scraped_at": "2026-04-15T07:19:02Z"
   },
   {
     "id": "aiv-rl-apro-nodate",
