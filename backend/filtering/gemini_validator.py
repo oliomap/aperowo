@@ -15,7 +15,14 @@ from typing import Any
 
 from google import genai
 
-from ..gemini_rate_limit import gemini_lock, RATE_LIMIT_DELAY, get_api_key, rotate_key, is_quota_error
+from ..gemini_rate_limit import (
+    gemini_lock,
+    RATE_LIMIT_DELAY,
+    get_api_key,
+    rotate_key,
+    is_quota_error,
+    is_unavailable_error,
+)
 from ..logging_config import get_logger
 
 log = get_logger("aperowo.filtering.gemini_validator")
@@ -66,6 +73,10 @@ Return ONLY a valid JSON array. No markdown, no explanation.
 
 # Max events per batch — balances detail per event with token limits
 _MAX_BATCH_SIZE = 30
+
+# Retry config for transient failures (503 overload, malformed JSON)
+_MAX_ATTEMPTS = 4
+_BACKOFF_SECONDS = (5.0, 15.0, 30.0)
 
 
 def is_available() -> bool:
@@ -138,7 +149,7 @@ async def _process_batch(events: list[dict[str, Any]], *, batch_num: int = 1, to
     prompt = _COMBINED_PROMPT.format(events=json.dumps(summaries, ensure_ascii=False))
     events_by_id = {e["id"]: e for e in events}
 
-    for _attempt in range(2):
+    for attempt in range(_MAX_ATTEMPTS):
         try:
             async with gemini_lock:
                 client = _get_client()
@@ -151,7 +162,23 @@ async def _process_batch(events: list[dict[str, Any]], *, batch_num: int = 1, to
                 await asyncio.sleep(RATE_LIMIT_DELAY)
 
             text = _strip_markdown_fences(response.text)
-            results = json.loads(text)
+            try:
+                results = json.loads(text)
+            except json.JSONDecodeError as parse_exc:
+                # Gemini occasionally returns two concatenated JSON docs or
+                # trailing junk. Retry once; if still bad, give up on batch.
+                if attempt < _MAX_ATTEMPTS - 1:
+                    backoff = _BACKOFF_SECONDS[min(attempt, len(_BACKOFF_SECONDS) - 1)]
+                    log.warning(
+                        "Gemini returned unparseable JSON (%s), retrying in %.0fs (attempt %d/%d)",
+                        parse_exc, backoff, attempt + 1, _MAX_ATTEMPTS,
+                    )
+                    await asyncio.sleep(backoff)
+                    continue
+                log.error("Gemini returned unparseable JSON after %d attempts, keeping keyword scores: %s",
+                          _MAX_ATTEMPTS, parse_exc)
+                return events
+
             if not isinstance(results, list):
                 log.warning("Gemini returned non-list, keeping all events with keyword scores")
                 return events
@@ -208,8 +235,26 @@ async def _process_batch(events: list[dict[str, Any]], *, batch_num: int = 1, to
             if is_quota_error(exc) and rotate_key():
                 log.warning("Quota exhausted during review, rotating to next API key")
                 continue
+
+            if is_unavailable_error(exc) and attempt < _MAX_ATTEMPTS - 1:
+                backoff = _BACKOFF_SECONDS[min(attempt, len(_BACKOFF_SECONDS) - 1)]
+                # Try the other key on alternating attempts — capacity pressure
+                # often hits keys independently.
+                if attempt % 2 == 1 and rotate_key():
+                    log.warning(
+                        "Gemini 503 overload, rotating key and retrying in %.0fs (attempt %d/%d)",
+                        backoff, attempt + 1, _MAX_ATTEMPTS,
+                    )
+                else:
+                    log.warning(
+                        "Gemini 503 overload, retrying in %.0fs (attempt %d/%d)",
+                        backoff, attempt + 1, _MAX_ATTEMPTS,
+                    )
+                await asyncio.sleep(backoff)
+                continue
+
             log.error("Gemini review failed, keeping all events: %s", exc, exc_info=True)
             return events
 
-    log.error("Gemini review failed: all API keys exhausted, keeping all events")
+    log.error("Gemini review failed after %d attempts, keeping all events", _MAX_ATTEMPTS)
     return events

@@ -566,32 +566,6 @@
     "easeOfEntry_reason": "Social student event with Glühwein."
   },
   {
-    "id": "aveth-semianr-series-aveth-2026-02-26",
-    "source": "aveth",
-    "title": "Semianr Series – AVETH",
-    "date": "2026-02-26",
-    "start_time": null,
-    "end_time": null,
-    "location": "your-letters-really-go/",
-    "url": "https://www.aveth.ethz.ch/category/events-2/internal-events/semianr-series/",
-    "food_type": "Food",
-    "refreshments": "Food (food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
-  },
-  {
     "id": "amiv-wall-of-scientists-2026-03-03",
     "source": "amiv",
     "title": "Wall of Scientists ",
@@ -1371,32 +1345,6 @@
     "easeOfEntry_reason": "Large student event, usually includes catering."
   },
   {
-    "id": "amiv-er-kickoff-2026-03-30",
-    "source": "amiv",
-    "title": "ER Kickoff",
-    "date": "2026-03-30",
-    "start_time": "10:15",
-    "end_time": "11:00",
-    "location": "CAB E 24.2",
-    "url": "https://amiv.ethz.ch/events/69c6cbc7aae8fe611530c7a6",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": null,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
-  },
-  {
     "id": "vmp-coffee-lecture-with-dr-vira-bondar-vmp-2026-03-31",
     "source": "vmp",
     "title": "Coffee Lecture with Dr. Vira Bondar | VMP",
@@ -1476,35 +1424,11 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
-  },
-  {
-    "id": "aveth-workshops-aveth-2026-04-02",
-    "source": "aveth",
-    "title": "Workshops – AVETH",
-    "date": "2026-04-02",
-    "start_time": "14:00",
-    "end_time": "18:00",
-    "location": "your-letters-really-go/",
-    "url": "https://www.aveth.ethz.ch/category/events-2/external-events/workshops-external-events/",
-    "food_type": "Food",
-    "refreshments": "Food (food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food)"
-    },
-    "easeOfEntry": null,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
+    "easeOfEntry": 0.9,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-19T07:07:36Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association social event with drinks."
   },
   {
     "id": "vmp-easter-egg-hunt-vmp-2026-04-02",
@@ -1559,35 +1483,11 @@
       },
       "summary": "Food (food) · Drinks (beer)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
-  },
-  {
-    "id": "aiv-newsletter-april-akademischer-ingenieurinnen-verein-2026-04-05",
-    "source": "aiv",
-    "title": "Newsletter April – Akademischer Ingenieur:innen-Verein",
-    "date": "2026-04-05",
-    "start_time": "01:00",
-    "end_time": "02:28",
-    "location": null,
-    "url": "https://aiv.ethz.ch/newsletter-april-3/",
-    "food_type": "Apero",
-    "refreshments": "Drinks (apero)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "apero"
-        ]
-      },
-      "summary": "Drinks (apero)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-19T07:07:36Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association event with food and beer."
   },
   {
     "id": "apv-apv-akademischer-pharmaziestudierenden-verein-der-eth-zrich-2026-04-05",
@@ -1625,8 +1525,10 @@
       "summary": "Food (burger, burgers, essen) · Drinks (beer, bier, shots) · Snacks (snack, snacks)"
     },
     "easeOfEntry": 0.8,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-19T07:07:36Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association event with food/drinks."
   },
   {
     "id": "vis-vis-x-epam-social-engineering-and-hacking-humans-2026-04-14",
@@ -1678,9 +1580,11 @@
       },
       "summary": "Food (bbq, grill)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-14T07:19:03Z"
+    "easeOfEntry": 0.9,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-14T07:19:03Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association BBQ."
   },
   {
     "id": "vis-vis-series-of-poker-2026-04-15",
@@ -1709,9 +1613,11 @@
       },
       "summary": "Food (dinner) · Snacks (chips, snacks)"
     },
-    "easeOfEntry": 0.6000000000000001,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-15T07:19:02Z"
+    "easeOfEntry": 0.7,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-15T07:19:02Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association social event with snacks."
   },
   {
     "id": "apv-burgerplausch-mit-spieleabend-2026-04-16",
@@ -1739,32 +1645,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-04-23T07:23:01Z",
     "easeOfEntry_reason": "Student association social event with food."
-  },
-  {
-    "id": "d-mtec-the-politics-of-carbon-pricing-young-vs-old-debtors-vs-credi-2026-04-16",
-    "source": "d-mtec",
-    "title": "The Politics of Carbon Pricing: Young vs. Old, Debtors vs. Creditors",
-    "date": "2026-04-16",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Zentrum, ZUE G 1",
-    "url": "https://mtec.ethz.ch/news/mtec-events/details.the-politics-of-carbon-pricing-young-vs-old-debtors-vs-creditors.76854.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-16T07:20:13Z"
   },
   {
     "id": "vis-vis-x-huawei-toward-extreme-and-decomposable-scale-up-fabric-2026-04-16",
@@ -1843,66 +1723,11 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
-  },
-  {
-    "id": "aiv-vseth-verband-der-studierenden-an-der-eth-2026-04-20",
-    "source": "aiv",
-    "title": "VSETH – Verband der Studierenden an der ETH",
-    "date": "2026-04-20",
-    "start_time": "18:00",
-    "end_time": "23:00",
-    "location": "CAB D21",
-    "url": "https://vseth.ethz.ch/",
-    "food_type": "Lunch, Bier, Gluhwein",
-    "refreshments": "Food (lunch) · Drinks (bier, gluhwein)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "bier",
-          "gluhwein"
-        ],
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch) · Drinks (bier, gluhwein)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
-  },
-  {
-    "id": "d-erdw-event-information-department-of-earth-and-planetary-sciences-2026-04-20",
-    "source": "d-erdw",
-    "title": "Event information – Department of Earth and Planetary Sciences | ETH Zurich",
-    "date": "2026-04-20",
-    "start_time": null,
-    "end_time": null,
-    "location": "Pro Helvetia Swiss Arts Council, COPL Centre for Origin and Prevalence of Life ETH Z",
-    "url": "https://eaps.ethz.ch/en/events/detail.phyto-futures-states-of-planetary-being.76178.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-16T07:20:13Z"
+    "easeOfEntry": 0.9,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-19T07:07:36Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vial-events-from-april-24-may-21-vial-ethz-2026-04-20",
@@ -2026,32 +1851,6 @@
     "easeOfEntry_reason": "Explicitly mentions fried food on campus."
   },
   {
-    "id": "vis-dilemma-of-the-month-2026-04-21",
-    "source": "vis",
-    "title": "Dilemma of the Month",
-    "date": "2026-04-21",
-    "start_time": "12:15",
-    "end_time": "13:00",
-    "location": "CAB H52",
-    "url": "https://vis.ethz.ch/en/events/1073/",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 0.6000000000000001,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
-  },
-  {
     "id": "vis-vis-x-jump-trading-performance-and-engineering-at-scale-2026-04-21",
     "source": "vis",
     "title": "VIS x Jump Trading: Performance and Engineering at Scale",
@@ -2077,36 +1876,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-04-21T07:22:45Z",
     "easeOfEntry_reason": "Company talks with food are generally accessible; registration is often a formality."
-  },
-  {
-    "id": "vial-events-from-april-24-may-21-vial-ethz-2026-04-22",
-    "source": "vial",
-    "title": "Events from April 24 – May 21 – VIAL ETHZ",
-    "date": "2026-04-22",
-    "start_time": "06:07",
-    "end_time": "11:30",
-    "location": "2/",
-    "url": "https://vial.ethz.ch/events/",
-    "food_type": "Mittagessen, Donuts",
-    "refreshments": "Food (mittagessen) · Dessert (donuts)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "sweet"
-      ],
-      "matches": {
-        "food": [
-          "mittagessen"
-        ],
-        "sweet": [
-          "donuts"
-        ]
-      },
-      "summary": "Food (mittagessen) · Dessert (donuts)"
-    },
-    "easeOfEntry": null,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
   },
   {
     "id": "vial-events-from-april-24-may-21-vial-ethz-2026-04-23",
@@ -2192,9 +1961,11 @@
       },
       "summary": "Drinks (drink) · Snacks (snack)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-22T07:21:08Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association open office event."
   },
   {
     "id": "amiv-web-limes-get-together-2026-04-23",
@@ -2218,35 +1989,11 @@
       },
       "summary": "Drinks (drink)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
-  },
-  {
-    "id": "d-mtec-will-green-innovation-augment-or-automate-labor-2026-04-23",
-    "source": "d-mtec",
-    "title": "Will green innovation augment or automate labor?",
-    "date": "2026-04-23",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Zentrum, ZUE G 1",
-    "url": "https://mtec.ethz.ch/news/mtec-events/details.will-green-innovation-augment-or-automate-labor.76855.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-22T07:21:08Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vis-coding-weekend-2026-04-24",
@@ -2579,61 +2326,11 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
-  },
-  {
-    "id": "arch-book-lunch-talk-canons-and-icons-2026-04-30",
-    "source": "arch",
-    "title": "(Book) Lunch Talk: Canons and Icons",
-    "date": "2026-04-30",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Hönggerberg, HIL D 75.1",
-    "url": "https://arch.ethz.ch/en/news-und-veranstaltungen/veranstaltungen/details.book-lunch-talk-canons-and-icons.77566.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
     "easeOfEntry": 0.8,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
-  },
-  {
-    "id": "d-itet-clockless-computation-on-the-stable-dynamics-of-autonomous-s-2026-04-30",
-    "source": "d-itet",
-    "title": "Clockless Computation: On the Stable Dynamics of Autonomous Spiking Neural Networks",
-    "date": "2026-04-30",
-    "start_time": "10:00",
-    "end_time": "11:00",
-    "location": "Zürich Zentrum, ETZ E 81",
-    "url": "https://ee.ethz.ch/news-and-events/events/details.clockless-computation-on-the-stable-dynamics-of-autonomous-spiking-neural-networks.77579.html",
-    "food_type": "Hugo",
-    "refreshments": "Drinks (hugo)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "hugo"
-        ]
-      },
-      "summary": "Drinks (hugo)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-22T07:21:08Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vmp-conquering-xxi-das-bier-2026-05-01",
@@ -2751,32 +2448,6 @@
     "easeOfEntry_reason": "External networking event."
   },
   {
-    "id": "d-mtec-equilibrium-effects-in-complementary-markets-electric-vehicl-2026-05-07",
-    "source": "d-mtec",
-    "title": "Equilibrium Effects in Complementary Markets: Electric Vehicle Adoption and Electricity Pricing",
-    "date": "2026-05-07",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Zentrum, ZUE G 1",
-    "url": "https://mtec.ethz.ch/news/mtec-events/details.equilibrium-effects-in-complementary-markets-electric-vehicle-adoption-and-electricity-pricing.76857.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
-  },
-  {
     "id": "vis-vista-2026-05-08",
     "source": "vis",
     "title": "VISTA",
@@ -2825,61 +2496,11 @@
       },
       "summary": "Dessert (cake)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
-  },
-  {
-    "id": "d-erdw-proteins-from-ancient-amino-acids-2026-05-08",
-    "source": "d-erdw",
-    "title": "Proteins from ancient amino acids",
-    "date": "2026-05-08",
-    "start_time": "12:30",
-    "end_time": "13:30",
-    "location": "Zürich Hönggerberg, HIT F 23.2",
-    "url": "https://eaps.ethz.ch/en/events/detail.proteins-from-ancient-amino-acids.76418.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
-  },
-  {
-    "id": "d-mavt-virtual-lunch-talk-9-kuafu-a-startup-orchestrating-the-grid-2026-05-12",
-    "source": "d-mavt",
-    "title": "Virtual Lunch Talk #9: kuafu – a startup orchestrating the grid of tomorrow",
-    "date": "2026-05-12",
-    "start_time": "12:00",
-    "end_time": "12:45",
-    "location": "Zoom",
-    "url": "https://mavt.ethz.ch/news-and-events/events/event-detail.virtual-lunch-talk-kuafu-a-startup-orchestrating-the-grid-of-tomorrow-smarter-cleaner-more-resilient-free-event-no-registration-required.76390.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-22T07:21:08Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vseth-astaz-grillabendessen-2026-05-13",
@@ -2904,9 +2525,11 @@
       },
       "summary": "Food (dinner, grill)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
+    "easeOfEntry": 0.9,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-19T07:07:36Z",
+    "description": "",
+    "easeOfEntry_reason": "Student association BBQ."
   },
   {
     "id": "entrepreneur-club-eth-entrepreneur-club-2026-05-15",
@@ -2938,32 +2561,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-08T11:32:14Z",
     "easeOfEntry_reason": "Public-facing event, usually open to all students."
-  },
-  {
-    "id": "vseth-polyband-lunch-concert-2026-05-18",
-    "source": "vseth",
-    "title": "Polyband Lunch concert",
-    "date": "2026-05-18",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": null,
-    "url": "https://vseth.ethz.ch/events-2/",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
   },
   {
     "id": "amiv-jass-tournament-fs26-2026-05-20",
@@ -3041,35 +2638,11 @@
       },
       "summary": "Food (food)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
-  },
-  {
-    "id": "d-mtec-research-seminar-by-catie-hausman-2026-05-28",
-    "source": "d-mtec",
-    "title": "Research Seminar by Catie Hausman",
-    "date": "2026-05-28",
-    "start_time": "12:00",
-    "end_time": "13:00",
-    "location": "Zürich Zentrum, ZUE G 1",
-    "url": "https://mtec.ethz.ch/news/mtec-events/details.research-seminar-by-catie-hausman.76860.html",
-    "food_type": "Lunch",
-    "refreshments": "Food (lunch)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-19T07:07:36Z"
+    "easeOfEntry": 0.7,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-19T07:07:36Z",
+    "description": "",
+    "easeOfEntry_reason": "Event about food startups, likely includes food."
   },
   {
     "id": "amiv-web-beerpong-tournament-2026-12-03",
@@ -3174,9 +2747,11 @@
       },
       "summary": "Drinks (apero)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-22T07:21:08Z",
+    "description": "",
+    "easeOfEntry_reason": "Apéro event."
   },
   {
     "id": "amiv-ersti-rally-nodate",
@@ -3300,11 +2875,11 @@
   {
     "id": "smw-esf-2025-organised-by-nodate",
     "source": "smw",
-    "title": "ESF 2025 – organised by",
+    "title": "ESF 2025 (ETH Student Festival)",
     "date": null,
     "start_time": "20:00",
     "end_time": "03:00",
-    "location": "LEGI 24",
+    "location": "ETH Zurich Campus",
     "url": "https://esf.ethz.ch/",
     "food_type": "Food, Drink",
     "refreshments": "Food (food) · Drinks (drink)",
@@ -3323,35 +2898,11 @@
       },
       "summary": "Food (food) · Drinks (drink)"
     },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
-  },
-  {
-    "id": "swaz-list-of-wines-swaz-student-wine-association-zurich-nodate",
-    "source": "swaz",
-    "title": "List of Wines – SWAZ – Student Wine Association Zurich",
-    "date": null,
-    "start_time": "21:26",
-    "end_time": "02:00",
-    "location": "medoc/chateau-ramafort-edition-c.w.-kolbe-2016",
-    "url": "https://swaz.ethz.ch/list-of-wines/",
-    "food_type": "Wine",
-    "refreshments": "Drinks (wine)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "wine"
-        ]
-      },
-      "summary": "Drinks (wine)"
-    },
-    "easeOfEntry": 0.2,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-04-22T07:21:08Z"
+    "easeOfEntry": 0.9,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-04-22T07:21:08Z",
+    "description": "",
+    "easeOfEntry_reason": "The ESF (ETH Student Festival) is a large-scale public event on campus known for food and drink availability."
   },
   {
     "id": "vmp-research-group-event-vmp-nodate",

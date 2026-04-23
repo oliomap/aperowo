@@ -3,7 +3,7 @@
 import asyncio
 import os
 
-from google.genai.errors import ClientError
+from google.genai.errors import ClientError, ServerError
 
 # Single lock ensuring only one Gemini API call runs at a time.
 gemini_lock = asyncio.Lock()
@@ -49,3 +49,10 @@ def rotate_key() -> bool:
 def is_quota_error(exc: Exception) -> bool:
     """Check if an exception is a Gemini 429 quota exhaustion error."""
     return isinstance(exc, ClientError) and exc.code == 429
+
+
+def is_unavailable_error(exc: Exception) -> bool:
+    """Check if an exception is a Gemini 503 UNAVAILABLE (overload) error."""
+    if isinstance(exc, ServerError) and getattr(exc, "code", None) == 503:
+        return True
+    return "503" in str(exc) and "UNAVAILABLE" in str(exc)
