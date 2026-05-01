@@ -1032,7 +1032,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
+    "scraped_at": "2026-05-01T08:02:31Z",
     "easeOfEntry_reason": "Student association social event."
   },
   {
@@ -2347,8 +2347,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Student association event with food/drinks."
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "amiv-amiv-vmp-poker-tournament-2026-04-29",
@@ -2374,8 +2374,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Student association event, likely includes snacks/drinks."
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Student association social event with food."
   },
   {
     "id": "amiv-womens-evening-with-belimo-2026-04-29",
@@ -2402,8 +2402,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Company networking event with meal."
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Company networking event on campus."
   },
   {
     "id": "smw-beerpong-stamm-2026-04-29",
@@ -2429,7 +2429,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
+    "scraped_at": "2026-05-01T08:02:31Z",
     "easeOfEntry_reason": "Student association social event."
   },
   {
@@ -2460,33 +2460,6 @@
     "easeOfEntry_reason": "Company talk with pizza."
   },
   {
-    "id": "amiv-web-beermile-2026-04-30",
-    "source": "amiv-web",
-    "title": "Beermile +",
-    "date": "2026-04-30",
-    "start_time": "18:00",
-    "end_time": "19:00",
-    "location": "CAB Innenhof (neben Byro)",
-    "url": "https://amiv.ethz.ch/en/events",
-    "food_type": "Beer",
-    "refreshments": "Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ]
-      },
-      "summary": "Drinks (beer)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Casual student event."
-  },
-  {
     "id": "vial-ochs-am-spiess-2026-04-30",
     "source": "vial",
     "title": "Ochs am Spiess",
@@ -2513,10 +2486,37 @@
       },
       "summary": "Food (bbq, buffet) · Drinks (beer)"
     },
-    "easeOfEntry": 0.95,
+    "easeOfEntry": 0.9,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Large public student event."
+  },
+  {
+    "id": "amiv-web-beermile-2026-04-30",
+    "source": "amiv-web",
+    "title": "Beermile +",
+    "date": "2026-04-30",
+    "start_time": "18:00",
+    "end_time": "19:00",
+    "location": "CAB Innenhof (neben Byro)",
+    "url": "https://amiv.ethz.ch/en/events",
+    "food_type": "Beer",
+    "refreshments": "Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ]
+      },
+      "summary": "Drinks (beer)"
+    },
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Public student association BBQ event."
+    "easeOfEntry_reason": "Casual student event."
   },
   {
     "id": "vmp-wine-tasting-2026-04-30",
@@ -2567,10 +2567,37 @@
       },
       "summary": "Dessert (cake)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Student association social event."
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Social gathering."
+  },
+  {
+    "id": "vmp-conquering-xxi-das-bier-2026-05-01",
+    "source": "vmp",
+    "title": "Conquering XXI: Das Bier",
+    "date": "2026-05-01",
+    "start_time": "10:00",
+    "end_time": null,
+    "location": null,
+    "url": "https://vmp.ethz.ch/en/events/Conquering/",
+    "food_type": "Bier",
+    "refreshments": "Drinks (bier)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "bier"
+        ]
+      },
+      "summary": "Drinks (bier)"
+    },
+    "easeOfEntry": 0.3,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Explicitly restricted to VMP members, making it harder to access than a public event."
   },
   {
     "id": "vis-vseth-conquering-2026-05-01",
@@ -2598,34 +2625,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-04-30T08:04:13Z",
     "easeOfEntry_reason": "Large student scavenger hunt event."
-  },
-  {
-    "id": "vmp-conquering-xxi-das-bier-2026-05-01",
-    "source": "vmp",
-    "title": "Conquering XXI: Das Bier",
-    "date": "2026-05-01",
-    "start_time": "10:00",
-    "end_time": null,
-    "location": null,
-    "url": "https://vmp.ethz.ch/en/events/Conquering/",
-    "food_type": "Beer, Bier",
-    "refreshments": "Drinks (beer, bier)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer",
-          "bier"
-        ]
-      },
-      "summary": "Drinks (beer, bier)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Student association event."
   },
   {
     "id": "vmp-anniversary-summerbar-vmp-2026-05-04",
@@ -2656,35 +2655,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Student association bar event."
-  },
-  {
-    "id": "amiv-web-sushi-night-2026-05-06",
-    "source": "amiv-web",
-    "title": "Sushi Night",
-    "date": "2026-05-06",
-    "start_time": "18:30",
-    "end_time": "22:00",
-    "location": "StuZ (CAB F21)",
-    "url": "https://amiv.ethz.ch/en/events",
-    "food_type": "Sushi",
-    "refreshments": "Food (sushi)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "sushi"
-        ]
-      },
-      "summary": "Food (sushi)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Casual student event."
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vmp-kfergrill-2026-05-06",
@@ -2710,36 +2682,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Student association grill event."
-  },
-  {
-    "id": "amiv-web-cocktail-night-2026-05-07",
-    "source": "amiv-web",
-    "title": "Cocktail Night",
-    "date": "2026-05-07",
-    "start_time": "19:00",
-    "end_time": "22:00",
-    "location": "Alumni Pavillon",
-    "url": "https://amiv.ethz.ch/en/events",
-    "food_type": "Cocktail, Cocktails",
-    "refreshments": "Drinks (cocktail, cocktails)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "cocktail",
-          "cocktails"
-        ]
-      },
-      "summary": "Drinks (cocktail, cocktails)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Casual student event."
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Student association grill events are typically open and easy to attend."
   },
   {
     "id": "swaz-smithsmith-2026-05-07",
@@ -2769,64 +2713,6 @@
     "easeOfEntry_reason": "External networking event."
   },
   {
-    "id": "amiv-web-pink-friday-2026-05-08",
-    "source": "amiv-web",
-    "title": "PINK Friday",
-    "date": "2026-05-08",
-    "start_time": "11:30",
-    "end_time": "14:00",
-    "location": "CAB Vorhof",
-    "url": "https://amiv.ethz.ch/en/events",
-    "food_type": "Lunch, Drink",
-    "refreshments": "Food (lunch) · Drinks (drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "lunch"
-        ]
-      },
-      "summary": "Food (lunch) · Drinks (drink)"
-    },
-    "easeOfEntry": 0.9,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Public campus event with food/drink."
-  },
-  {
-    "id": "amiv-web-tea-degustation-2026-05-08",
-    "source": "amiv-web",
-    "title": "Tea Degustation",
-    "date": "2026-05-08",
-    "start_time": "16:30",
-    "end_time": "20:30",
-    "location": "Alumni Pavillon",
-    "url": "https://amiv.ethz.ch/en/events",
-    "food_type": "Cake",
-    "refreshments": "Dessert (cake)",
-    "refreshment_details": {
-      "categories": [
-        "sweet"
-      ],
-      "matches": {
-        "sweet": [
-          "cake"
-        ]
-      },
-      "summary": "Dessert (cake)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Casual student event."
-  },
-  {
     "id": "vis-vista-2026-05-08",
     "source": "vis",
     "title": "VISTA",
@@ -2852,33 +2738,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-04-30T08:04:13Z",
     "easeOfEntry_reason": "Social student association event with food."
-  },
-  {
-    "id": "amiv-web-rage-cage-turnier-2026-05-11",
-    "source": "amiv-web",
-    "title": "Rage Cage Turnier",
-    "date": "2026-05-11",
-    "start_time": "18:45",
-    "end_time": "22:00",
-    "location": "HXE B1",
-    "url": "https://amiv.ethz.ch/en/events",
-    "food_type": "Beer",
-    "refreshments": "Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ]
-      },
-      "summary": "Drinks (beer)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Casual student event."
   },
   {
     "id": "vseth-astaz-grillabendessen-2026-05-13",
@@ -2964,7 +2823,7 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
+    "scraped_at": "2026-05-01T08:02:31Z",
     "easeOfEntry_reason": "Student association tournament with food/drinks."
   },
   {
@@ -3016,10 +2875,150 @@
       },
       "summary": "Food (food)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.6,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-26T07:17:27Z",
-    "easeOfEntry_reason": "Public lecture with food."
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Public lecture, likely includes apéro."
+  },
+  {
+    "id": "amiv-web-sushi-night-2026-06-05",
+    "source": "amiv-web",
+    "title": "Sushi Night",
+    "date": "2026-06-05",
+    "start_time": "18:30",
+    "end_time": "22:00",
+    "location": "StuZ (CAB F21)",
+    "url": "https://amiv.ethz.ch/en/events",
+    "food_type": "Sushi",
+    "refreshments": "Food (sushi)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "sushi"
+        ]
+      },
+      "summary": "Food (sushi)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Student association social event."
+  },
+  {
+    "id": "amiv-web-cocktail-night-2026-07-05",
+    "source": "amiv-web",
+    "title": "Cocktail Night",
+    "date": "2026-07-05",
+    "start_time": "19:00",
+    "end_time": "22:00",
+    "location": "Alumni Pavillon",
+    "url": "https://amiv.ethz.ch/en/events",
+    "food_type": "Cocktail, Cocktails",
+    "refreshments": "Drinks (cocktail, cocktails)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "cocktail",
+          "cocktails"
+        ]
+      },
+      "summary": "Drinks (cocktail, cocktails)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Student association social event."
+  },
+  {
+    "id": "amiv-web-pink-friday-2026-08-05",
+    "source": "amiv-web",
+    "title": "PINK Friday",
+    "date": "2026-08-05",
+    "start_time": "11:30",
+    "end_time": "14:00",
+    "location": "CAB Vorhof",
+    "url": "https://amiv.ethz.ch/en/events",
+    "food_type": "Lunch, Drink",
+    "refreshments": "Food (lunch) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "food": [
+          "lunch"
+        ]
+      },
+      "summary": "Food (lunch) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.9,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Student association social event."
+  },
+  {
+    "id": "amiv-web-tea-degustation-2026-08-05",
+    "source": "amiv-web",
+    "title": "Tea Degustation",
+    "date": "2026-08-05",
+    "start_time": "16:30",
+    "end_time": "20:30",
+    "location": "Alumni Pavillon",
+    "url": "https://amiv.ethz.ch/en/events",
+    "food_type": "Cake",
+    "refreshments": "Dessert (cake)",
+    "refreshment_details": {
+      "categories": [
+        "sweet"
+      ],
+      "matches": {
+        "sweet": [
+          "cake"
+        ]
+      },
+      "summary": "Dessert (cake)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Student association social event."
+  },
+  {
+    "id": "amiv-web-rage-cage-turnier-2026-11-05",
+    "source": "amiv-web",
+    "title": "Rage Cage Turnier",
+    "date": "2026-11-05",
+    "start_time": "18:45",
+    "end_time": "22:00",
+    "location": "HXE B1",
+    "url": "https://amiv.ethz.ch/en/events",
+    "food_type": "Beer",
+    "refreshments": "Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ]
+      },
+      "summary": "Drinks (beer)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "amiv-web-beerpong-tournament-2026-12-03",
@@ -3072,8 +3071,8 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Weekly student social gathering with beer."
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Weekly social gathering."
   },
   {
     "id": "vseth-mulled-wine-bar-nodate",
@@ -3099,8 +3098,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-04-30T08:04:13Z",
-    "easeOfEntry_reason": "Recurring student social event."
+    "scraped_at": "2026-05-01T08:02:31Z",
+    "easeOfEntry_reason": "Recurring student association event, generally open to all students."
   },
   {
     "id": "aiv-rl-apro-nodate",
