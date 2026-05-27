@@ -535,7 +535,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "amiv-wall-of-scientists-2026-03-03",
@@ -1426,7 +1426,7 @@
     },
     "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "vmp-coffee-lecture-with-dr-vira-bondar-vmp-2026-03-31",
@@ -1537,7 +1537,7 @@
     },
     "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "vmp-easter-egg-hunt-vmp-2026-04-02",
@@ -1617,7 +1617,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "apv-apv-akademischer-pharmaziestudierenden-verein-der-eth-zrich-2026-04-05",
@@ -2228,7 +2228,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "amiv-amiv-vmp-poker-tournament-2026-04-29",
@@ -2254,7 +2254,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "amiv-womens-evening-with-belimo-2026-04-29",
@@ -2281,7 +2281,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "smw-beerpong-stamm-2026-04-29",
@@ -3035,7 +3035,7 @@
     },
     "easeOfEntry": 0.6000000000000001,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "d-infk-event-detail-department-of-computer-science-eth-zurich-2026-05-20",
@@ -3061,7 +3061,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "vmp-sonafe-vmp-2026-05-20",
@@ -3087,33 +3087,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
-  },
-  {
-    "id": "vseth-events-vseth-2026-05-20",
-    "source": "vseth",
-    "title": "Events – VSETH",
-    "date": "2026-05-20",
-    "start_time": "18:00",
-    "end_time": "20:00",
-    "location": "CAB D21",
-    "url": "https://vseth.ethz.ch/events-2/",
-    "food_type": "Wine",
-    "refreshments": "Drinks (wine)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "wine"
-        ]
-      },
-      "summary": "Drinks (wine)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "swaz-wednesday-uncorked-terravigna-20052026-2026-05-20",
@@ -3306,33 +3280,6 @@
     "easeOfEntry_reason": "Student association event with snacks."
   },
   {
-    "id": "d-phys-upcoming-events-at-d-phys-2026-05-26",
-    "source": "d-phys",
-    "title": "Upcoming events at D-PHYS",
-    "date": "2026-05-26",
-    "start_time": "16:00",
-    "end_time": "17:30",
-    "location": "COPL 101",
-    "url": "https://events.phys.ethz.ch/",
-    "food_type": "Lunch, Pizza",
-    "refreshments": "Food (lunch, pizza)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "lunch",
-          "pizza"
-        ]
-      },
-      "summary": "Food (lunch, pizza)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
-  },
-  {
     "id": "amiv-helfendenessen-fs26-2026-05-27",
     "source": "amiv",
     "title": "Helfendenessen FS26",
@@ -3356,7 +3303,34 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
+  },
+  {
+    "id": "d-phys-upcoming-events-at-d-phys-2026-05-27",
+    "source": "d-phys",
+    "title": "Upcoming events at D-PHYS",
+    "date": "2026-05-27",
+    "start_time": "16:00",
+    "end_time": "17:30",
+    "location": "COPL 101",
+    "url": "https://events.phys.ethz.ch/",
+    "food_type": "Lunch, Pizza",
+    "refreshments": "Food (lunch, pizza)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "lunch",
+          "pizza"
+        ]
+      },
+      "summary": "Food (lunch, pizza)"
+    },
+    "easeOfEntry": 1.0,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "swaz-bubblesbreeze-swaz-goes-lake-zriii-swaz-student-wine-associa-2026-05-27",
@@ -3364,7 +3338,7 @@
     "title": "Bubbles&Breeze – SWAZ goes Lake Züriii – SWAZ – Student Wine Association Zurich",
     "date": "2026-05-27",
     "start_time": "02:00",
-    "end_time": "18:00",
+    "end_time": "22:46",
     "location": null,
     "url": "https://swaz.ethz.ch/events/bubblesbreeze-swaz-goes-lake-zuriii/",
     "food_type": "Wine",
@@ -3380,9 +3354,9 @@
       },
       "summary": "Drinks (wine)"
     },
-    "easeOfEntry": 5.551115123125783e-17,
+    "easeOfEntry": 0.2,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "swaz-swaz-student-wine-association-zurich-der-zrcher-weinclub-2026-05-27",
@@ -3408,7 +3382,7 @@
     },
     "easeOfEntry": 0.20000000000000007,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "vis-drunk-haskell-2026-05-27",
@@ -3439,9 +3413,9 @@
       },
       "summary": "Drinks (beer, beverages, drink) · Snacks (snacks)"
     },
-    "easeOfEntry": 0.9500000000000001,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "amiv-web-semesterendevent-2026-05-28",
@@ -3521,7 +3495,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "amiv-web-limes-cocktail-night-2026-06-03",
@@ -3607,7 +3581,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "amiv-web-beerpong-tournament-2026-12-03",
@@ -3664,7 +3638,33 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-05-26T09:35:52Z"
+    "scraped_at": "2026-05-27T09:01:08Z"
+  },
+  {
+    "id": "vseth-events-vseth-nodate",
+    "source": "vseth",
+    "title": "Events – VSETH",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
+    "location": "CAB E27",
+    "url": "https://vseth.ethz.ch/events-2/",
+    "food_type": "Wine",
+    "refreshments": "Drinks (wine)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "wine"
+        ]
+      },
+      "summary": "Drinks (wine)"
+    },
+    "easeOfEntry": null,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-05-27T09:01:08Z"
   },
   {
     "id": "aiv-bierlauf-mit-geso-nodate",
