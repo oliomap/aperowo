@@ -591,10 +591,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
-    "easeOfEntry_reason": "Student association event with beer."
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "esn-lindt-museum-home-of-chocolate-2026-03-10",
@@ -976,10 +976,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
-    "easeOfEntry_reason": "Student association event with food/drinks."
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vis-icu-x-vis-mojito-night-2026-03-18",
@@ -1798,10 +1798,10 @@
       },
       "summary": "Food (burger)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
-    "easeOfEntry_reason": "Student association event with food."
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Student association social event with food."
   },
   {
     "id": "vis-vis-x-huawei-toward-extreme-and-decomposable-scale-up-fabric-2026-04-16",
@@ -2203,8 +2203,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
-    "easeOfEntry_reason": "Student association event with food/drinks."
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Student association event with food/drink."
   },
   {
     "id": "amiv-amiv-vmp-poker-tournament-2026-04-29",
@@ -2230,8 +2230,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
-    "easeOfEntry_reason": "Student association event, likely has snacks/drinks."
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Student association event, food usually provided."
   },
   {
     "id": "amiv-womens-evening-with-belimo-2026-04-29",
@@ -2258,7 +2258,7 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
+    "scraped_at": "2026-06-28T08:40:37Z",
     "easeOfEntry_reason": "Company networking event with food."
   },
   {
@@ -2269,7 +2269,7 @@
     "start_time": "17:00",
     "end_time": null,
     "location": "Lochness",
-    "url": "https://forms.gle/KrCpzmmfC7pJbTKAA",
+    "url": "https://smw.ethz.ch/en/",
     "food_type": "Beer",
     "refreshments": "Drinks (beer)",
     "refreshment_details": {
@@ -2283,10 +2283,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
-    "easeOfEntry_reason": "Student association event with beer."
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vis-vis-x-forgentai-developing-ai-applications-in-2026-2026-04-29",
@@ -3011,10 +3011,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
-    "easeOfEntry_reason": "Student association tournament with food/drinks."
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Student association tournament with food."
   },
   {
     "id": "d-infk-event-detail-department-of-computer-science-eth-zurich-2026-05-20",
@@ -3707,6 +3707,61 @@
     "easeOfEntry_reason": "Student association social event with beer."
   },
   {
+    "id": "aiv-bierlauf-mit-geso-nodate",
+    "source": "aiv",
+    "title": "Bierlauf mit GESO",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
+    "location": null,
+    "url": "https://aiv.ethz.ch/newsletter-mai-3/",
+    "food_type": "Bier",
+    "refreshments": "Drinks (bier)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "bier"
+        ]
+      },
+      "summary": "Drinks (bier)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Social event with beer, likely open to students."
+  },
+  {
+    "id": "aiv-crpe-plausch-masterreise-nodate",
+    "source": "aiv",
+    "title": "Crêpe-Plausch Masterreise",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
+    "location": null,
+    "url": "https://aiv.ethz.ch/newsletter-mai-3/",
+    "food_type": "Crepe, Crepes",
+    "refreshments": "Dessert (crepe, crepes)",
+    "refreshment_details": {
+      "categories": [
+        "sweet"
+      ],
+      "matches": {
+        "sweet": [
+          "crepe",
+          "crepes"
+        ]
+      },
+      "summary": "Dessert (crepe, crepes)"
+    },
+    "easeOfEntry": 0.7,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Social event with food."
+  },
+  {
     "id": "aveth-postdoc-welcome-event-aveth-nodate",
     "source": "aveth",
     "title": "Postdoc Welcome Event – AVETH",
@@ -3730,8 +3785,8 @@
     },
     "easeOfEntry": 0.6,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
-    "easeOfEntry_reason": "Welcome event, usually open to all postdocs."
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Networking event for postdocs."
   },
   {
     "id": "aveth-wine-cheese-networking-event-aveth-nodate",
@@ -3757,8 +3812,8 @@
     },
     "easeOfEntry": 0.6,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
-    "easeOfEntry_reason": "Networking event with food/drinks."
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Networking event with food/drink."
   },
   {
     "id": "vebis-semesterendapro-nodate",
@@ -3784,7 +3839,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-06-27T08:26:08Z"
+    "scraped_at": "2026-06-28T08:40:37Z"
   },
   {
     "id": "vebis-vebis-grillevent-nodate",
@@ -3809,9 +3864,9 @@
       },
       "summary": "Food (food, grill)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
+    "scraped_at": "2026-06-28T08:40:37Z",
     "easeOfEntry_reason": "Student association grill event."
   },
   {
@@ -3836,65 +3891,10 @@
       },
       "summary": "Drinks (wine)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-27T08:26:08Z",
-    "easeOfEntry_reason": "Student association event with drinks."
-  },
-  {
-    "id": "aiv-bierlauf-mit-geso-nodate",
-    "source": "aiv",
-    "title": "Bierlauf mit GESO",
-    "date": null,
-    "start_time": null,
-    "end_time": null,
-    "location": null,
-    "url": "https://aiv.ethz.ch/newsletter-mai-3/",
-    "food_type": "Bier",
-    "refreshments": "Drinks (bier)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "bier"
-        ]
-      },
-      "summary": "Drinks (bier)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-26T08:50:20Z",
-    "easeOfEntry_reason": "Social student association event with drinks."
-  },
-  {
-    "id": "aiv-crpe-plausch-masterreise-nodate",
-    "source": "aiv",
-    "title": "Crêpe-Plausch Masterreise",
-    "date": null,
-    "start_time": null,
-    "end_time": null,
-    "location": null,
-    "url": "https://aiv.ethz.ch/newsletter-mai-3/",
-    "food_type": "Crepe, Crepes",
-    "refreshments": "Dessert (crepe, crepes)",
-    "refreshment_details": {
-      "categories": [
-        "sweet"
-      ],
-      "matches": {
-        "sweet": [
-          "crepe",
-          "crepes"
-        ]
-      },
-      "summary": "Dessert (crepe, crepes)"
-    },
-    "easeOfEntry": 0.8,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-06-26T08:50:20Z",
-    "easeOfEntry_reason": "Social student association event with food."
+    "scraped_at": "2026-06-28T08:40:37Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "aiv-helferessen-nodate",
