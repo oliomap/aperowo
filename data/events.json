@@ -591,9 +591,9 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-26T08:08:12Z",
+    "scraped_at": "2026-07-28T08:14:10Z",
     "easeOfEntry_reason": "Student association social event."
   },
   {
@@ -976,10 +976,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
-    "easeOfEntry_reason": "Student association social event with drinks/food."
+    "scraped_at": "2026-07-28T08:14:10Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vis-icu-x-vis-mojito-night-2026-03-18",
@@ -1424,10 +1424,10 @@
       },
       "summary": "Food (lunch)"
     },
-    "easeOfEntry": 0.6,
+    "easeOfEntry": 0.5,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
-    "easeOfEntry_reason": "Explicitly mentions lunch included."
+    "scraped_at": "2026-07-28T08:14:10Z",
+    "easeOfEntry_reason": "Internal team meeting, but explicitly mentions lunch provided."
   },
   {
     "id": "vmp-coffee-lecture-with-dr-vira-bondar-vmp-2026-03-31",
@@ -1798,10 +1798,10 @@
       },
       "summary": "Food (burger)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-26T08:08:12Z",
-    "easeOfEntry_reason": "Student association social event."
+    "scraped_at": "2026-07-28T08:14:10Z",
+    "easeOfEntry_reason": "Student association social event with food."
   },
   {
     "id": "vis-vis-x-huawei-toward-extreme-and-decomposable-scale-up-fabric-2026-04-16",
@@ -2203,7 +2203,7 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
+    "scraped_at": "2026-07-28T08:14:10Z",
     "easeOfEntry_reason": "Student association event with food/drinks."
   },
   {
@@ -2230,7 +2230,7 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
+    "scraped_at": "2026-07-28T08:14:10Z",
     "easeOfEntry_reason": "Student association event with food/drinks."
   },
   {
@@ -2258,8 +2258,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
-    "easeOfEntry_reason": "Company networking event with meal."
+    "scraped_at": "2026-07-28T08:14:10Z",
+    "easeOfEntry_reason": "Company-sponsored networking event with food."
   },
   {
     "id": "smw-beerpong-stamm-2026-04-29",
@@ -2269,7 +2269,7 @@
     "start_time": "17:00",
     "end_time": null,
     "location": "Lochness",
-    "url": "https://smw.ethz.ch/en/",
+    "url": "https://forms.gle/KrCpzmmfC7pJbTKAA",
     "food_type": "Beer",
     "refreshments": "Drinks (beer)",
     "refreshment_details": {
@@ -2283,10 +2283,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
-    "easeOfEntry_reason": "Student association social event with drinks."
+    "scraped_at": "2026-07-28T08:14:10Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vis-vis-x-forgentai-developing-ai-applications-in-2026-2026-04-29",
@@ -3013,7 +3013,7 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
+    "scraped_at": "2026-07-28T08:14:10Z",
     "easeOfEntry_reason": "Student association tournament with food/drinks."
   },
   {
@@ -3284,8 +3284,8 @@
     },
     "easeOfEntry": 0.3,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
-    "easeOfEntry_reason": "Volunteers' dinner, likely restricted to helpers."
+    "scraped_at": "2026-07-28T08:14:10Z",
+    "easeOfEntry_reason": "Volunteer appreciation dinner; usually requires being a helper."
   },
   {
     "id": "swaz-bubblesbreeze-swaz-goes-lake-zriii-swaz-student-wine-associa-2026-05-27",
@@ -3702,10 +3702,10 @@
       },
       "summary": "Food (bbq, lunch)"
     },
-    "easeOfEntry": 0.5,
+    "easeOfEntry": 0.4,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
-    "easeOfEntry_reason": "Student association event with food."
+    "scraped_at": "2026-07-28T08:14:10Z",
+    "easeOfEntry_reason": "Helper event, usually includes food for volunteers."
   },
   {
     "id": "d-usys-food-day-at-eth-zurich-2026-12-02",
@@ -3785,8 +3785,35 @@
     },
     "easeOfEntry": 0.6,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
-    "easeOfEntry_reason": "Welcome event with food."
+    "scraped_at": "2026-07-28T08:14:10Z",
+    "easeOfEntry_reason": "Welcome event for postdocs, usually open to the target group."
+  },
+  {
+    "id": "aveth-wine-cheese-networking-event-aveth-nodate",
+    "source": "aveth",
+    "title": "Wine & Cheese networking event – AVETH",
+    "date": null,
+    "start_time": "19:00",
+    "end_time": null,
+    "location": "header",
+    "url": "https://www.aveth.ethz.ch/wine-cheese-networking-event/",
+    "food_type": "Wine",
+    "refreshments": "Drinks (wine)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "wine"
+        ]
+      },
+      "summary": "Drinks (wine)"
+    },
+    "easeOfEntry": 0.6,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-07-28T08:14:10Z",
+    "easeOfEntry_reason": "Networking event with food/drinks."
   },
   {
     "id": "vebis-semesterendapro-nodate",
@@ -3810,9 +3837,9 @@
       },
       "summary": "Drinks (apero)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
+    "scraped_at": "2026-07-28T08:14:10Z",
     "easeOfEntry_reason": "Student association apéro."
   },
   {
@@ -3838,9 +3865,9 @@
       },
       "summary": "Food (food, grill)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
+    "scraped_at": "2026-07-28T08:14:10Z",
     "easeOfEntry_reason": "Student association grill event."
   },
   {
@@ -3865,10 +3892,10 @@
       },
       "summary": "Drinks (wine)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-27T09:30:10Z",
-    "easeOfEntry_reason": "Student association event with drinks."
+    "scraped_at": "2026-07-28T08:14:10Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "aiv-bierlauf-mit-geso-nodate",
@@ -4123,33 +4150,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-08T11:32:14Z",
     "easeOfEntry_reason": "Career talk on campus, easy to attend."
-  },
-  {
-    "id": "aveth-wine-cheese-networking-event-aveth-nodate",
-    "source": "aveth",
-    "title": "Wine & Cheese networking event – AVETH",
-    "date": null,
-    "start_time": "19:00",
-    "end_time": null,
-    "location": "header",
-    "url": "https://www.aveth.ethz.ch/wine-cheese-networking-event/",
-    "food_type": "Wine",
-    "refreshments": "Drinks (wine)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "wine"
-        ]
-      },
-      "summary": "Drinks (wine)"
-    },
-    "easeOfEntry": 0.6,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-07-26T08:08:12Z",
-    "easeOfEntry_reason": "Networking event."
   },
   {
     "id": "smw-esf-2025-organised-by-nodate",
