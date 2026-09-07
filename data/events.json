@@ -566,8 +566,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-06T09:54:19Z",
-    "easeOfEntry_reason": "Student association social event."
+    "scraped_at": "2026-09-07T11:01:30Z",
+    "easeOfEntry_reason": "Student association social event with drinks."
   },
   {
     "id": "esn-lindt-museum-home-of-chocolate-2026-03-10",
@@ -934,7 +934,7 @@
     "date": "2026-03-18",
     "start_time": "18:00",
     "end_time": "23:30",
-    "location": "LochNess",
+    "location": "Lochness",
     "url": "https://smw.ethz.ch/en/",
     "food_type": "Beer",
     "refreshments": "Drinks (beer)",
@@ -949,9 +949,9 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.9,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-06T09:54:19Z",
+    "scraped_at": "2026-09-07T11:01:30Z",
     "easeOfEntry_reason": "Student association social event."
   },
   {
@@ -1773,8 +1773,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-06T09:54:19Z",
-    "easeOfEntry_reason": "Student association social event."
+    "scraped_at": "2026-09-07T11:01:30Z",
+    "easeOfEntry_reason": "Student association social event with food."
   },
   {
     "id": "vis-vis-x-huawei-toward-extreme-and-decomposable-scale-up-fabric-2026-04-16",
@@ -2153,14 +2153,14 @@
     "scraped_at": "2026-04-27T08:05:35Z"
   },
   {
-    "id": "amiv-brauko-beer-tasting-france-2026-04-28",
-    "source": "amiv",
-    "title": "brauko beer tasting FRANCE",
-    "date": "2026-04-28",
-    "start_time": "16:30",
-    "end_time": "19:00",
-    "location": "CAB D21 / PapperlaPub",
-    "url": "https://amiv.ethz.ch/events/69dcf5675812a555fcdb5217",
+    "id": "smw-beerpong-stamm-2026-04-29",
+    "source": "smw",
+    "title": "Beerpong Stamm",
+    "date": "2026-04-29",
+    "start_time": "17:00",
+    "end_time": null,
+    "location": "Lochness",
+    "url": "https://forms.gle/KrCpzmmfC7pJbTKAA",
     "food_type": "Beer",
     "refreshments": "Drinks (beer)",
     "refreshment_details": {
@@ -2174,9 +2174,9 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-06T09:54:19Z",
+    "scraped_at": "2026-09-07T11:01:30Z",
     "easeOfEntry_reason": "Student association social event."
   },
   {
@@ -2233,33 +2233,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-09-06T09:54:19Z",
     "easeOfEntry_reason": "Company networking event, usually open to students."
-  },
-  {
-    "id": "smw-beerpong-stamm-2026-04-29",
-    "source": "smw",
-    "title": "Beerpong Stamm",
-    "date": "2026-04-29",
-    "start_time": "17:00",
-    "end_time": null,
-    "location": "Lochness",
-    "url": "https://forms.gle/KrCpzmmfC7pJbTKAA",
-    "food_type": "Beer",
-    "refreshments": "Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ]
-      },
-      "summary": "Drinks (beer)"
-    },
-    "easeOfEntry": 0.9,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-06T09:54:19Z",
-    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "vis-vis-x-forgentai-developing-ai-applications-in-2026-2026-04-29",
@@ -3755,10 +3728,37 @@
       },
       "summary": "Food (bbq, lunch)"
     },
-    "easeOfEntry": 0.4,
+    "easeOfEntry": 0.5,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-05T09:38:55Z",
-    "easeOfEntry_reason": "Helper event, usually includes food for volunteers."
+    "scraped_at": "2026-09-07T11:01:30Z",
+    "easeOfEntry_reason": "Helper event with food provided."
+  },
+  {
+    "id": "vis-erstiweekend-2026-2026-09-20",
+    "source": "vis",
+    "title": "Erstiweekend 2026",
+    "date": "2026-09-20",
+    "start_time": "15:30",
+    "end_time": "16:00",
+    "location": null,
+    "url": "https://vis.ethz.ch/en/events/1126/",
+    "food_type": "Meals",
+    "refreshments": "Food (meals)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "meals"
+        ]
+      },
+      "summary": "Food (meals)"
+    },
+    "easeOfEntry": 0.6,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-09-07T11:01:30Z",
+    "easeOfEntry_reason": "Student association event, usually requires registration but is open to students."
   },
   {
     "id": "amiv-kultur-kickoff-hs26-2026-09-22",
@@ -3792,6 +3792,37 @@
     "easeOfEntry_reason": "Student association event, open to all."
   },
   {
+    "id": "smw-esf-2026-organised-by-2026-09-24",
+    "source": "smw",
+    "title": "ESF 2026",
+    "date": "2026-09-24",
+    "start_time": "20:00",
+    "end_time": "03:00",
+    "location": "ETH Hönggerberg",
+    "url": "https://esf.ethz.ch/",
+    "food_type": "Food, Drink",
+    "refreshments": "Food (food) · Drinks (drink)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink"
+        ],
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food) · Drinks (drink)"
+    },
+    "easeOfEntry": 0.9,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-09-07T11:01:30Z",
+    "easeOfEntry_reason": "Large student festival."
+  },
+  {
     "id": "amiv-job-search-strategies-alumni-perspectives-2026-09-24",
     "source": "amiv",
     "title": "Job Search Strategies – Alumni Perspectives",
@@ -3817,37 +3848,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-09-06T09:54:19Z",
     "easeOfEntry_reason": "Career event with apéro, easy to attend."
-  },
-  {
-    "id": "smw-esf-2026-organised-by-2026-09-24",
-    "source": "smw",
-    "title": "ESF 2026 – organised by",
-    "date": "2026-09-24",
-    "start_time": "20:00",
-    "end_time": "03:00",
-    "location": "LEGI 25",
-    "url": "https://esf.ethz.ch/",
-    "food_type": "Food, Drink",
-    "refreshments": "Food (food) · Drinks (drink)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "drink"
-        ],
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food) · Drinks (drink)"
-    },
-    "easeOfEntry": 0.9,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-06T09:54:19Z",
-    "easeOfEntry_reason": "Large student festival."
   },
   {
     "id": "d-phys-upcoming-events-at-d-phys-2026-09-24",
@@ -3955,7 +3955,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-06T09:54:19Z",
+    "scraped_at": "2026-09-07T11:01:30Z",
     "easeOfEntry_reason": "Student association apéro."
   },
   {
@@ -3983,8 +3983,35 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-06T09:54:19Z",
+    "scraped_at": "2026-09-07T11:01:30Z",
     "easeOfEntry_reason": "Student association grill event."
+  },
+  {
+    "id": "vseth-beer-tastings-nodate",
+    "source": "vseth",
+    "title": "Beer tastings",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
+    "location": "ETH",
+    "url": "https://vseth.ethz.ch/events-2/",
+    "food_type": "Beer",
+    "refreshments": "Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ]
+      },
+      "summary": "Drinks (beer)"
+    },
+    "easeOfEntry": 0.7,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-09-07T11:01:30Z",
+    "easeOfEntry_reason": "Student association event."
   },
   {
     "id": "vseth-mulled-wine-bar-nodate",
@@ -3993,7 +4020,7 @@
     "date": null,
     "start_time": null,
     "end_time": null,
-    "location": "Hönggerberg Campus",
+    "location": "Höngg",
     "url": "https://vseth.ethz.ch/events-2/",
     "food_type": "Wine",
     "refreshments": "Drinks (wine)",
@@ -4008,9 +4035,9 @@
       },
       "summary": "Drinks (wine)"
     },
-    "easeOfEntry": 0.9,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-06T09:54:19Z",
+    "scraped_at": "2026-09-07T11:01:30Z",
     "easeOfEntry_reason": "Student association social event."
   },
   {
