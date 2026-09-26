@@ -865,7 +865,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
+    "scraped_at": "2026-09-26T10:30:20Z",
     "easeOfEntry_reason": "Student association social event."
   },
   {
@@ -1093,34 +1093,6 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-20T06:42:33Z",
     "easeOfEntry_reason": "External tour, likely limited capacity/paid."
-  },
-  {
-    "id": "vis-vis-x-quantco-dinner-2026-03-23",
-    "source": "vis",
-    "title": "VIS x QuantCo: Dinner",
-    "date": "2026-03-23",
-    "start_time": "18:30",
-    "end_time": "22:00",
-    "location": null,
-    "url": "https://vis.ethz.ch/en/events/1055/#participate",
-    "food_type": "Dinner, Food",
-    "refreshments": "Food (dinner, food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "dinner",
-          "food"
-        ]
-      },
-      "summary": "Food (dinner, food)"
-    },
-    "easeOfEntry": 0.4,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-03-22T06:39:21Z",
-    "easeOfEntry_reason": "Company dinner, registration required."
   },
   {
     "id": "eth-alumni-alumni-book-club-the-geek-way-2026-03-24",
@@ -2057,8 +2029,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Student association beer tasting."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Student association event with food/drink."
   },
   {
     "id": "amiv-amiv-vmp-poker-tournament-2026-04-29",
@@ -2084,8 +2056,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Student association event with food/drinks."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Student association event, usually open to members and guests."
   },
   {
     "id": "amiv-womens-evening-with-belimo-2026-04-29",
@@ -2112,8 +2084,8 @@
     },
     "easeOfEntry": 0.6,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Company-sponsored dinner event."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Company event with meal, usually requires registration."
   },
   {
     "id": "smw-beerpong-stamm-2026-04-29",
@@ -2139,7 +2111,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
+    "scraped_at": "2026-09-26T10:30:20Z",
     "easeOfEntry_reason": "Student association social event."
   },
   {
@@ -2840,7 +2812,7 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
+    "scraped_at": "2026-09-26T10:30:20Z",
     "easeOfEntry_reason": "Student association tournament with food/drinks."
   },
   {
@@ -3111,8 +3083,8 @@
     },
     "easeOfEntry": 0.3,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Volunteers' dinner; restricted to helpers, so access is limited."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Volunteer dinner, restricted to helpers."
   },
   {
     "id": "swaz-bubblesbreeze-swaz-goes-lake-zriii-swaz-student-wine-associa-2026-05-27",
@@ -3670,8 +3642,8 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Public student association event with BBQ and beer."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Public student association event with food/drinks."
   },
   {
     "id": "vmp-ersti-lake-vmp-2026-09-17",
@@ -3840,8 +3812,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Student association event with food."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Open student association event."
   },
   {
     "id": "vmp-how-to-hopo-vmp-2026-09-22",
@@ -3894,8 +3866,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "General assembly with free food."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "General assemblies are open to all members and usually provide food."
   },
   {
     "id": "amiv-job-search-strategies-alumni-perspectives-2026-09-24",
@@ -3921,8 +3893,8 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Career event with apéro on campus."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Career event with apéro, easy to attend."
   },
   {
     "id": "amiv-limes-ersti-apero-masters-edition-2026-09-24",
@@ -3952,41 +3924,8 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Open student association apéro."
-  },
-  {
-    "id": "d-phys-upcoming-events-at-d-phys-2026-09-24",
-    "source": "d-phys",
-    "title": "Upcoming events at D-PHYS",
-    "date": "2026-09-24",
-    "start_time": "17:30",
-    "end_time": "21:00",
-    "location": "Alumni Pavillon",
-    "url": "https://events.phys.ethz.ch/",
-    "food_type": "Bbq, Food, Beer",
-    "refreshments": "Food (bbq, food, lunch) · Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "food": [
-          "bbq",
-          "food",
-          "lunch"
-        ]
-      },
-      "summary": "Food (bbq, food, lunch) · Drinks (beer)"
-    },
-    "easeOfEntry": 0.7,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-24T10:44:29Z",
-    "easeOfEntry_reason": "Departmental social event with food."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Open apéro, easy to attend."
   },
   {
     "id": "esn-welcome-week-international-dinner-2026-09-24",
@@ -4043,6 +3982,39 @@
     "easeOfEntry_reason": "Student association meeting with pizza."
   },
   {
+    "id": "d-phys-upcoming-events-at-d-phys-2026-09-29",
+    "source": "d-phys",
+    "title": "Upcoming events at D-PHYS",
+    "date": "2026-09-29",
+    "start_time": "14:15",
+    "end_time": "15:45",
+    "location": "COPL 101",
+    "url": "https://events.phys.ethz.ch/",
+    "food_type": "Bbq, Food, Beer",
+    "refreshments": "Food (bbq, food, lunch) · Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ],
+        "food": [
+          "bbq",
+          "food",
+          "lunch"
+        ]
+      },
+      "summary": "Food (bbq, food, lunch) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.7,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Departmental social event."
+  },
+  {
     "id": "vebis-gttiabend-2026-09-29",
     "source": "vebis",
     "title": "Göttiabend",
@@ -4064,10 +4036,37 @@
       },
       "summary": "Food (food)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Student association event with food."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Student association event."
+  },
+  {
+    "id": "esn-adelboden-adventure-day-via-ferrata-and-raclette-2026-10-03",
+    "source": "esn",
+    "title": "Adelboden Adventure Day: Via Ferrata and Raclette",
+    "date": "2026-10-03",
+    "start_time": "07:55",
+    "end_time": null,
+    "location": "Adelboden",
+    "url": "https://zurich.esn.ch/event/3378",
+    "food_type": "Raclette",
+    "refreshments": "Food (raclette)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "raclette"
+        ]
+      },
+      "summary": "Food (raclette)"
+    },
+    "easeOfEntry": 0.6,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "ESN event, usually open to students."
   },
   {
     "id": "vis-vis-series-of-poker-2026-10-03",
@@ -4098,35 +4097,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Student association tournament."
-  },
-  {
-    "id": "esn-adelboden-adventure-day-via-ferrata-and-raclette-2026-10-03",
-    "source": "esn",
-    "title": "Adelboden Adventure Day: Via Ferrata and Raclette",
-    "date": "2026-10-03",
-    "start_time": "07:55",
-    "end_time": null,
-    "location": "Adelboden",
-    "url": "https://zurich.esn.ch/event/3378",
-    "food_type": "Raclette",
-    "refreshments": "Food (raclette)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "raclette"
-        ]
-      },
-      "summary": "Food (raclette)"
-    },
-    "easeOfEntry": 0.5,
-    "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-24T10:44:29Z",
-    "easeOfEntry_reason": "ESN event with food."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Student association event."
   },
   {
     "id": "vseth-ks-kaiserschmarrn-dinner-vol-3-2026-10-08",
@@ -4178,10 +4150,10 @@
       },
       "summary": "Food (food, pizza)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Hackathons hosted by student associations typically provide food for participants and are easy to access."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Large student association event; easy to access and blend in."
   },
   {
     "id": "vis-viscon-symposium-2026-10-10",
@@ -4212,10 +4184,10 @@
       },
       "summary": "Food (dinner, food, lunch) · Drinks (apero)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Large symposiums with apéro are easy to blend into, though entry fees should be checked if applicable."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Large public symposium with apéro; very easy to attend."
   },
   {
     "id": "amiv-schtzengarten-brewery-visit-2026-10-15",
@@ -4239,10 +4211,10 @@
       },
       "summary": "Drinks (beer)"
     },
-    "easeOfEntry": 0.5,
+    "easeOfEntry": 0.4,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Excursion with beer tasting."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Excursion, likely limited capacity."
   },
   {
     "id": "apv-beerpong-turnier-mit-vcs-2026-10-15",
@@ -4268,8 +4240,36 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Student association event with beer."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Student association event."
+  },
+  {
+    "id": "vis-vis-x-quantco-private-dinner-2026-10-16",
+    "source": "vis",
+    "title": "VIS x QuantCo: Private Dinner",
+    "date": "2026-10-16",
+    "start_time": "19:00",
+    "end_time": "22:30",
+    "location": "TBD",
+    "url": "https://vis.ethz.ch/en/events/1157/#participate",
+    "food_type": "Dinner, Food",
+    "refreshments": "Food (dinner, food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "dinner",
+          "food"
+        ]
+      },
+      "summary": "Food (dinner, food)"
+    },
+    "easeOfEntry": 0.3,
+    "easeOfEntry_method": "gemini",
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Private dinner events are exclusive and usually have strict guest lists or seat limits."
   },
   {
     "id": "vis-vis-x-nebius-evaluating-the-search-process-of-llm-based-sear-2026-10-20",
@@ -4293,10 +4293,10 @@
       },
       "summary": "Food (pizza)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": 0.75,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "VIS events with pizza are standard student association events; registration is rarely strictly enforced."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Standard VIS company talk with pizza; registration is rarely enforced for entry."
   },
   {
     "id": "apv-fajita-plausch-2026-11-12",
@@ -4322,8 +4322,8 @@
     },
     "easeOfEntry": 0.7,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Student association social dinner."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Student association social event."
   },
   {
     "id": "apv-krimidinner-2026-11-26",
@@ -4347,10 +4347,10 @@
       },
       "summary": "Food (dinner)"
     },
-    "easeOfEntry": 0.5,
+    "easeOfEntry": 0.4,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Student association dinner event."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Private dinner event, likely limited."
   },
   {
     "id": "d-usys-food-day-at-eth-zurich-2026-12-02",
@@ -4488,9 +4488,9 @@
       },
       "summary": "Food (food) · Drinks (drink)"
     },
-    "easeOfEntry": 0.7,
+    "easeOfEntry": 0.8,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
+    "scraped_at": "2026-09-26T10:30:20Z",
     "easeOfEntry_reason": "Large student festival."
   },
   {
@@ -4500,7 +4500,7 @@
     "date": null,
     "start_time": null,
     "end_time": null,
-    "location": "ETH Hönggerberg",
+    "location": "Hönggerberg",
     "url": "https://vseth.ethz.ch/events-2/",
     "food_type": "Wine",
     "refreshments": "Drinks (wine)",
@@ -4517,8 +4517,8 @@
     },
     "easeOfEntry": 0.9,
     "easeOfEntry_method": "gemini",
-    "scraped_at": "2026-09-25T10:48:15Z",
-    "easeOfEntry_reason": "Mulled wine bars are public social events on campus."
+    "scraped_at": "2026-09-26T10:30:20Z",
+    "easeOfEntry_reason": "Public student association bar event, very easy to access."
   },
   {
     "id": "aiv-bierlauf-mit-geso-nodate",
