@@ -1068,7 +1068,7 @@
     },
     "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vmp-coffee-lecture-with-dr-vira-bondar-vmp-2026-03-31",
@@ -1259,7 +1259,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "apv-apv-akademischer-pharmaziestudierenden-verein-der-eth-zrich-2026-04-05",
@@ -1690,7 +1690,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "amiv-amiv-vmp-poker-tournament-2026-04-29",
@@ -1716,7 +1716,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "amiv-womens-evening-with-belimo-2026-04-29",
@@ -1743,7 +1743,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "smw-beerpong-stamm-2026-04-29",
@@ -2271,7 +2271,7 @@
     },
     "easeOfEntry": 0.6000000000000001,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "swaz-wednesday-uncorked-terravigna-20052026-2026-05-20",
@@ -2487,7 +2487,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vis-drunk-haskell-2026-05-27",
@@ -2604,74 +2604,12 @@
     "easeOfEntry_reason": "Small committee activity, likely restricted."
   },
   {
-    "id": "vis-events-2026-06-13",
-    "source": "vis",
-    "title": "Events",
-    "date": "2026-06-13",
-    "start_time": "00:00",
-    "end_time": "01:00",
-    "location": null,
-    "url": "https://vis.ethz.ch/en/events?category=12",
-    "food_type": "Dinner, Food, Beer",
-    "refreshments": "Food (dinner, food) · Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "food": [
-          "dinner",
-          "food"
-        ]
-      },
-      "summary": "Food (dinner, food) · Drinks (beer)"
-    },
-    "easeOfEntry": 0.65,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
-  },
-  {
-    "id": "vis-vis-goes-boda-borg-escape-rooms-2026-06-13",
-    "source": "vis",
-    "title": "VIS goes Boda Borg: Escape Rooms",
-    "date": "2026-06-13",
-    "start_time": "10:00",
-    "end_time": "10:15",
-    "location": null,
-    "url": "https://vis.ethz.ch/en/events/1180/",
-    "food_type": "Dinner, Food, Beer",
-    "refreshments": "Food (dinner, food) · Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "food": [
-          "dinner",
-          "food"
-        ]
-      },
-      "summary": "Food (dinner, food) · Drinks (beer)"
-    },
-    "easeOfEntry": 0.04999999999999996,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
-  },
-  {
     "id": "vis-vis-goes-fliplab-2026-06-13",
     "source": "vis",
     "title": "VIS goes FlipLab",
     "date": "2026-06-13",
     "start_time": "16:30",
-    "end_time": "00:00",
+    "end_time": "18:00",
     "location": null,
     "url": "https://vis.ethz.ch/en/events/1185/",
     "food_type": "Dinner, Food, Beer",
@@ -2694,46 +2632,15 @@
     },
     "easeOfEntry": 0.04999999999999996,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
-  },
-  {
-    "id": "vis-vis-x-bloomberg-bpuzzled-2026-06-13",
-    "source": "vis",
-    "title": "VIS x Bloomberg: Bpuzzled",
-    "date": "2026-06-13",
-    "start_time": "00:00",
-    "end_time": "01:00",
-    "location": null,
-    "url": "https://vis.ethz.ch/en/events/1175/",
-    "food_type": "Dinner, Food, Beer",
-    "refreshments": "Food (dinner, food) · Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "food": [
-          "dinner",
-          "food"
-        ]
-      },
-      "summary": "Food (dinner, food) · Drinks (beer)"
-    },
-    "easeOfEntry": 0.44999999999999996,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vis-vis-x-jane-street-tech-talk-2026-06-13",
     "source": "vis",
     "title": "VIS x Jane Street: Tech Talk",
     "date": "2026-06-13",
-    "start_time": "00:00",
-    "end_time": "01:00",
+    "start_time": "18:15",
+    "end_time": "21:00",
     "location": null,
     "url": "https://vis.ethz.ch/en/events/1178/",
     "food_type": "Dinner, Food, Beer",
@@ -2756,15 +2663,15 @@
     },
     "easeOfEntry": 0.04999999999999996,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vis-vis-x-microsoft-inside-microsofts-spatial-ai-lab-2026-06-13",
     "source": "vis",
     "title": "VIS x Microsoft: Inside Microsoft's Spatial AI Lab",
     "date": "2026-06-13",
-    "start_time": "00:00",
-    "end_time": "01:00",
+    "start_time": "18:15",
+    "end_time": "20:15",
     "location": null,
     "url": "https://vis.ethz.ch/en/events/1179/",
     "food_type": "Dinner, Food, Beer",
@@ -2788,19 +2695,19 @@
     },
     "easeOfEntry": 0.04999999999999996,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vis-vismas-sweater-sale-2026-06-13",
     "source": "vis",
     "title": "VISmas Sweater Sale",
     "date": "2026-06-13",
-    "start_time": "00:00",
-    "end_time": "01:00",
+    "start_time": "01:00",
+    "end_time": "16:30",
     "location": "CAB E31",
     "url": "https://vis.ethz.ch/en/events/1170/",
-    "food_type": "Dinner, Food, Beer",
-    "refreshments": "Food (dinner, food) · Drinks (beer)",
+    "food_type": "Dinner, Food, Apero, Beer",
+    "refreshments": "Food (dinner, food) · Drinks (apero, beer)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2808,6 +2715,7 @@
       ],
       "matches": {
         "drinks": [
+          "apero",
           "beer"
         ],
         "food": [
@@ -2815,11 +2723,11 @@
           "food"
         ]
       },
-      "summary": "Food (dinner, food) · Drinks (beer)"
+      "summary": "Food (dinner, food) · Drinks (apero, beer)"
     },
-    "easeOfEntry": 0.44999999999999996,
+    "easeOfEntry": 0.75,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vis-bjrnctf-2026-2026-06-13",
@@ -2885,6 +2793,68 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-10-06T12:24:53Z",
     "easeOfEntry_reason": "VIS student association event, typically open to students with food provided."
+  },
+  {
+    "id": "vis-vis-goes-boda-borg-escape-rooms-2026-06-13",
+    "source": "vis",
+    "title": "VIS goes Boda Borg: Escape Rooms",
+    "date": "2026-06-13",
+    "start_time": "10:00",
+    "end_time": "10:15",
+    "location": null,
+    "url": "https://vis.ethz.ch/en/events/1180/",
+    "food_type": "Dinner, Food, Beer",
+    "refreshments": "Food (dinner, food) · Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ],
+        "food": [
+          "dinner",
+          "food"
+        ]
+      },
+      "summary": "Food (dinner, food) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.04999999999999996,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-06T13:26:41Z"
+  },
+  {
+    "id": "vis-vis-x-bloomberg-bpuzzled-2026-06-13",
+    "source": "vis",
+    "title": "VIS x Bloomberg: Bpuzzled",
+    "date": "2026-06-13",
+    "start_time": "00:00",
+    "end_time": "01:00",
+    "location": null,
+    "url": "https://vis.ethz.ch/en/events/1175/",
+    "food_type": "Dinner, Food, Beer",
+    "refreshments": "Food (dinner, food) · Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ],
+        "food": [
+          "dinner",
+          "food"
+        ]
+      },
+      "summary": "Food (dinner, food) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.44999999999999996,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-06T13:26:41Z"
   },
   {
     "id": "vis-vis-x-nvidia-tech-talk-2026-06-13",
@@ -3190,7 +3160,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vmp-ersti-lake-vmp-2026-09-17",
@@ -3359,7 +3329,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vmp-how-to-hopo-vmp-2026-09-22",
@@ -3412,7 +3382,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "amiv-job-search-strategies-alumni-perspectives-2026-09-24",
@@ -3438,7 +3408,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "amiv-limes-ersti-apero-masters-edition-2026-09-24",
@@ -3468,7 +3438,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "esn-welcome-week-international-dinner-2026-09-24",
@@ -3850,6 +3820,32 @@
     "scraped_at": "2026-10-10T11:34:10Z"
   },
   {
+    "id": "d-gess-when-bacteria-become-masons-eth-zurich-2026-10-14",
+    "source": "d-gess",
+    "title": "When bacteria become masons | ETH Zurich",
+    "date": "2026-10-14",
+    "start_time": "06:05",
+    "end_time": null,
+    "location": "page-link",
+    "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/when-bacteria-become-masons.html",
+    "food_type": "Cake",
+    "refreshments": "Dessert (cake)",
+    "refreshment_details": {
+      "categories": [
+        "sweet"
+      ],
+      "matches": {
+        "sweet": [
+          "cake"
+        ]
+      },
+      "summary": "Dessert (cake)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-07T12:04:36Z"
+  },
+  {
     "id": "swaz-swaz-goes-bordeaux-2026-10-14",
     "source": "swaz",
     "title": "SWAZ goes Bordeaux",
@@ -3994,7 +3990,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "apv-beerpong-turnier-mit-vcs-2026-10-15",
@@ -4227,7 +4223,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "amiv-web-beermile-2026-10-22",
@@ -4472,7 +4468,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vis-vis-x-dialectic-tech-talk-2026-10-27",
@@ -4585,7 +4581,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vcs-aktuelle-themen-der-hochschulpolitik-2026-11-03",
@@ -4742,7 +4738,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vseth-campus-live-pizza-plausch-2026-11-05",
@@ -4878,7 +4874,64 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
+  },
+  {
+    "id": "d-phys-upcoming-events-at-d-phys-2026-11-10",
+    "source": "d-phys",
+    "title": "Upcoming events at D-PHYS",
+    "date": "2026-11-10",
+    "start_time": "11:00",
+    "end_time": "14:00",
+    "location": "COPL 101",
+    "url": "https://events.phys.ethz.ch/",
+    "food_type": "Lunch",
+    "refreshments": "Food (lunch)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "lunch"
+        ]
+      },
+      "summary": "Food (lunch)"
+    },
+    "easeOfEntry": 0.85,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-07T12:04:36Z"
+  },
+  {
+    "id": "vis-untitled-event-2026-11-10",
+    "source": "vis",
+    "title": "Untitled Event",
+    "date": "2026-11-10",
+    "start_time": "16:30",
+    "end_time": "18:00",
+    "location": "FlipLab, Oberglatterstrasse 35, 8153 R",
+    "url": "https://vis.ethz.ch/en/events/rss.xml",
+    "food_type": "Food, Pizza, Apero",
+    "refreshments": "Food (food, pizza) · Drinks (apero)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "apero"
+        ],
+        "food": [
+          "food",
+          "pizza"
+        ]
+      },
+      "summary": "Food (food, pizza) · Drinks (apero)"
+    },
+    "easeOfEntry": 1.0,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vis-emacs-apro-2026-11-10",
@@ -4936,7 +4989,7 @@
     },
     "easeOfEntry": 0.44999999999999996,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "smw-raclette-stamm-2026-11-11",
@@ -4989,7 +5042,7 @@
     },
     "easeOfEntry": 0.4,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "apv-fajita-plausch-2026-11-12",
@@ -5072,7 +5125,7 @@
     },
     "easeOfEntry": 0.2500000000000001,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "d-erdw-how-could-rna-kickstart-evolution-insights-from-a-small-self-2026-11-13",
@@ -5099,6 +5152,37 @@
     "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
     "scraped_at": "2026-11-04T13:28:24Z"
+  },
+  {
+    "id": "vis-vis-x-ipt-how-to-ship-reliable-software-with-ai-agents-2026-11-17",
+    "source": "vis",
+    "title": "VIS x ipt: How to ship reliable software with AI agents",
+    "date": "2026-11-17",
+    "start_time": "17:00",
+    "end_time": "20:00",
+    "location": null,
+    "url": "https://vis.ethz.ch/en/events/1186/",
+    "food_type": "Dinner, Food, Beer",
+    "refreshments": "Food (dinner, food) · Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ],
+        "food": [
+          "dinner",
+          "food"
+        ]
+      },
+      "summary": "Food (dinner, food) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.04999999999999996,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "amiv-web-get-together-2026-11-17",
@@ -5178,7 +5262,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "swaz-tschin-tschin-2026-11-19",
@@ -5261,7 +5345,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "smw-smw-students-of-material-science-2026-11-20",
@@ -5287,7 +5371,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vis-vis-x-ubique-mobile-reverse-engineering-workshop-2026-11-20",
@@ -5317,9 +5401,9 @@
       },
       "summary": "Food (dinner, food) · Drinks (apero, beer)"
     },
-    "easeOfEntry": 0.75,
+    "easeOfEntry": 0.35,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "vseth-geco-board-game-day-2026-11-21",
@@ -5595,8 +5679,8 @@
     "source": "vis",
     "title": "Intercollegiate Poker Team Qualifier",
     "date": "2027-02-20",
-    "start_time": "00:00",
-    "end_time": "01:00",
+    "start_time": "18:15",
+    "end_time": "20:15",
     "location": null,
     "url": "https://vis.ethz.ch/en/events/1189/",
     "food_type": "Dinner, Food, Beer",
@@ -5619,7 +5703,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "aiv-vseth-verband-der-studierenden-an-der-eth-nodate",
@@ -5646,7 +5730,7 @@
     },
     "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "smw-esf-2026-organised-by-nodate",
@@ -5676,33 +5760,33 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
-    "id": "smw-smw-smp-welcome-whitelist-nodate",
-    "source": "smw",
-    "title": "SMW-SMP · Welcome & whitelist",
+    "id": "vseth-events-vseth-nodate",
+    "source": "vseth",
+    "title": "Events – VSETH",
     "date": null,
     "start_time": null,
     "end_time": null,
-    "location": null,
-    "url": "https://matl-gaming.vsos.ethz.ch/",
-    "food_type": "Nuts",
-    "refreshments": "Snacks (nuts)",
+    "location": "CAB E27",
+    "url": "https://vseth.ethz.ch/events-2/",
+    "food_type": "Wine",
+    "refreshments": "Drinks (wine)",
     "refreshment_details": {
       "categories": [
-        "snacks"
+        "drinks"
       ],
       "matches": {
-        "snacks": [
-          "nuts"
+        "drinks": [
+          "wine"
         ]
       },
-      "summary": "Snacks (nuts)"
+      "summary": "Drinks (wine)"
     },
-    "easeOfEntry": 0.8,
+    "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-06T13:26:41Z"
+    "scraped_at": "2026-11-07T12:04:36Z"
   },
   {
     "id": "aiv-beerpong-turnier-aiv-x-masterreise-nodate",
@@ -5897,6 +5981,32 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-03-08T11:32:14Z",
     "easeOfEntry_reason": "Career talk on campus, easy to attend."
+  },
+  {
+    "id": "smw-smw-smp-welcome-whitelist-nodate",
+    "source": "smw",
+    "title": "SMW-SMP · Welcome & whitelist",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
+    "location": null,
+    "url": "https://matl-gaming.vsos.ethz.ch/",
+    "food_type": "Nuts",
+    "refreshments": "Snacks (nuts)",
+    "refreshment_details": {
+      "categories": [
+        "snacks"
+      ],
+      "matches": {
+        "snacks": [
+          "nuts"
+        ]
+      },
+      "summary": "Snacks (nuts)"
+    },
+    "easeOfEntry": 0.8,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-06T13:26:41Z"
   },
   {
     "id": "vebis-semesterendapro-nodate",
