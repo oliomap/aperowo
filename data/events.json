@@ -1014,7 +1014,7 @@
     },
     "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vmp-coffee-lecture-with-dr-vira-bondar-vmp-2026-03-31",
@@ -1182,30 +1182,30 @@
     "easeOfEntry_reason": "Student association social event; easy to attend."
   },
   {
-    "id": "aiv-newsletter-april-akademischer-ingenieurinnen-verein-2026-04-05",
+    "id": "aiv-newsletter-mai-akademischer-ingenieurinnen-verein-2026-04-05",
     "source": "aiv",
-    "title": "Newsletter April – Akademischer Ingenieur:innen-Verein",
+    "title": "Newsletter Mai – Akademischer Ingenieur:innen-Verein",
     "date": "2026-04-05",
-    "start_time": "01:00",
-    "end_time": "02:28",
+    "start_time": "08:16",
+    "end_time": "02:00",
     "location": null,
-    "url": "https://aiv.ethz.ch/newsletter-april-3/",
-    "food_type": "Apero",
-    "refreshments": "Drinks (apero)",
+    "url": "https://aiv.ethz.ch/newsletter-mai-3/",
+    "food_type": "Crepe",
+    "refreshments": "Dessert (crepe)",
     "refreshment_details": {
       "categories": [
-        "drinks"
+        "sweet"
       ],
       "matches": {
-        "drinks": [
-          "apero"
+        "sweet": [
+          "crepe"
         ]
       },
-      "summary": "Drinks (apero)"
+      "summary": "Dessert (crepe)"
     },
-    "easeOfEntry": 1.0,
+    "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "apv-apv-akademischer-pharmaziestudierenden-verein-der-eth-zrich-2026-04-05",
@@ -1636,7 +1636,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "amiv-amiv-vmp-poker-tournament-2026-04-29",
@@ -1662,7 +1662,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "amiv-womens-evening-with-belimo-2026-04-29",
@@ -1689,7 +1689,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "smw-beerpong-stamm-2026-04-29",
@@ -2217,7 +2217,7 @@
     },
     "easeOfEntry": 0.6000000000000001,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "swaz-wednesday-uncorked-terravigna-20052026-2026-05-20",
@@ -2433,7 +2433,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vis-drunk-haskell-2026-05-27",
@@ -2554,12 +2554,12 @@
     "source": "vis",
     "title": "FIGUGEGL",
     "date": "2026-06-13",
-    "start_time": "15:00",
+    "start_time": "00:00",
     "end_time": "01:00",
-    "location": "CAB H52",
+    "location": "CAB F21",
     "url": "https://vis.ethz.ch/en/events/1192/",
-    "food_type": "Fondue, Food, Beer",
-    "refreshments": "Food (fondue, food) · Drinks (beer)",
+    "food_type": "Fondue, Food, Beer, Gluhwein",
+    "refreshments": "Food (fondue, food) · Drinks (beer, gluhwein)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2567,18 +2567,19 @@
       ],
       "matches": {
         "drinks": [
-          "beer"
+          "beer",
+          "gluhwein"
         ],
         "food": [
           "fondue",
           "food"
         ]
       },
-      "summary": "Food (fondue, food) · Drinks (beer)"
+      "summary": "Food (fondue, food) · Drinks (beer, gluhwein)"
     },
     "easeOfEntry": 0.44999999999999996,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vis-gin-tasting-2026-06-13",
@@ -2590,7 +2591,7 @@
     "location": "CAB H 52",
     "url": "https://vis.ethz.ch/en/events/1201/",
     "food_type": "Food, Beer, Beverages, Snacks",
-    "refreshments": "Food (food) · Drinks (beer, beverages) · Snacks (snacks)",
+    "refreshments": "Food (food) · Drinks (beer, beverages, gluhwein) · Snacks (snacks)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -2600,7 +2601,8 @@
       "matches": {
         "drinks": [
           "beer",
-          "beverages"
+          "beverages",
+          "gluhwein"
         ],
         "food": [
           "food"
@@ -2609,20 +2611,20 @@
           "snacks"
         ]
       },
-      "summary": "Food (food) · Drinks (beer, beverages) · Snacks (snacks)"
+      "summary": "Food (food) · Drinks (beer, beverages, gluhwein) · Snacks (snacks)"
     },
     "easeOfEntry": 0.44999999999999996,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vis-glhwein-gather-2026-06-13",
     "source": "vis",
     "title": "Glühwein & Gather",
     "date": "2026-06-13",
-    "start_time": "15:00",
+    "start_time": "00:00",
     "end_time": "01:00",
-    "location": "CAB H52",
+    "location": null,
     "url": "https://vis.ethz.ch/en/events/1199/",
     "food_type": "Gluhwein",
     "refreshments": "Drinks (gluhwein)",
@@ -2637,9 +2639,9 @@
       },
       "summary": "Drinks (gluhwein)"
     },
-    "easeOfEntry": 0.04999999999999996,
+    "easeOfEntry": 0.44999999999999996,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vis-masters-ice-skating-2026-06-13",
@@ -2648,8 +2650,73 @@
     "date": "2026-06-13",
     "start_time": "16:30",
     "end_time": "18:00",
-    "location": "CAB H52",
+    "location": null,
     "url": "https://vis.ethz.ch/en/events/1202/",
+    "food_type": "Food, Beer, Gluhwein",
+    "refreshments": "Food (food) · Drinks (beer, gluhwein)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer",
+          "gluhwein"
+        ],
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food) · Drinks (beer, gluhwein)"
+    },
+    "easeOfEntry": 0.04999999999999996,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-26T16:00:39Z"
+  },
+  {
+    "id": "vis-niks-htte-2026-06-13",
+    "source": "vis",
+    "title": "Nik's Hütte",
+    "date": "2026-06-13",
+    "start_time": "00:00",
+    "end_time": "01:00",
+    "location": null,
+    "url": "https://vis.ethz.ch/en/events/1203/",
+    "food_type": "Food, Raclette, Beer, Drink",
+    "refreshments": "Food (food, raclette) · Drinks (beer, drink, gluhwein)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer",
+          "drink",
+          "gluhwein",
+          "wine"
+        ],
+        "food": [
+          "food",
+          "raclette"
+        ]
+      },
+      "summary": "Food (food, raclette) · Drinks (beer, drink, gluhwein)"
+    },
+    "easeOfEntry": 0.7500000000000001,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-26T16:00:39Z"
+  },
+  {
+    "id": "vis-vismas-sweater-sale-2026-06-13",
+    "source": "vis",
+    "title": "VISmas Sweater Sale",
+    "date": "2026-06-13",
+    "start_time": "00:00",
+    "end_time": "01:00",
+    "location": "CAB E31",
+    "url": "https://vis.ethz.ch/en/events/1170/",
     "food_type": "Food, Beer, Gluhwein",
     "refreshments": "Food (food) · Drinks (beer, gluhwein)",
     "refreshment_details": {
@@ -2670,70 +2737,7 @@
     },
     "easeOfEntry": 0.44999999999999996,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
-  },
-  {
-    "id": "vis-niks-htte-2026-06-13",
-    "source": "vis",
-    "title": "Nik's Hütte",
-    "date": "2026-06-13",
-    "start_time": "15:00",
-    "end_time": "01:00",
-    "location": "CAB H52",
-    "url": "https://vis.ethz.ch/en/events/1203/",
-    "food_type": "Food, Raclette, Beer, Drink",
-    "refreshments": "Food (food, raclette) · Drinks (beer, drink, wine)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer",
-          "drink",
-          "wine"
-        ],
-        "food": [
-          "food",
-          "raclette"
-        ]
-      },
-      "summary": "Food (food, raclette) · Drinks (beer, drink, wine)"
-    },
-    "easeOfEntry": 0.7500000000000001,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
-  },
-  {
-    "id": "vis-vismas-sweater-sale-2026-06-13",
-    "source": "vis",
-    "title": "VISmas Sweater Sale",
-    "date": "2026-06-13",
-    "start_time": "15:00",
-    "end_time": "01:00",
-    "location": "CAB E31",
-    "url": "https://vis.ethz.ch/en/events/1170/",
-    "food_type": "Food, Beer",
-    "refreshments": "Food (food) · Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food) · Drinks (beer)"
-    },
-    "easeOfEntry": 0.44999999999999996,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vis-bjrnctf-2026-2026-06-13",
@@ -3292,7 +3296,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vmp-ersti-lake-vmp-2026-09-17",
@@ -3461,7 +3465,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vmp-how-to-hopo-vmp-2026-09-22",
@@ -3514,7 +3518,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "amiv-job-search-strategies-alumni-perspectives-2026-09-24",
@@ -3540,7 +3544,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "amiv-limes-ersti-apero-masters-edition-2026-09-24",
@@ -3570,7 +3574,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "esn-welcome-week-international-dinner-2026-09-24",
@@ -4122,7 +4126,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "apv-beerpong-turnier-mit-vcs-2026-10-15",
@@ -4207,7 +4211,7 @@
     },
     "easeOfEntry": 0.7500000000000001,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "amiv-web-teadegu-2026-10-20",
@@ -4385,7 +4389,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "amiv-web-beermile-2026-10-22",
@@ -4630,7 +4634,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vis-vis-x-dialectic-tech-talk-2026-10-27",
@@ -4743,7 +4747,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vcs-aktuelle-themen-der-hochschulpolitik-2026-11-03",
@@ -4900,7 +4904,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vseth-campus-live-pizza-plausch-2026-11-05",
@@ -5036,7 +5040,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vis-emacs-apro-2026-11-10",
@@ -5204,7 +5208,7 @@
     },
     "easeOfEntry": 0.2500000000000001,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "d-erdw-how-could-rna-kickstart-evolution-insights-from-a-small-self-2026-11-13",
@@ -5426,46 +5430,6 @@
     "easeOfEntry_reason": "Student association social event."
   },
   {
-    "id": "aiv-vseth-verband-der-studierenden-an-der-eth-2026-11-20",
-    "source": "aiv",
-    "title": "VSETH – Verband der Studierenden an der ETH",
-    "date": "2026-11-20",
-    "start_time": "20:00",
-    "end_time": "22:00",
-    "location": "CAB F21",
-    "url": "https://vseth.ethz.ch/",
-    "food_type": "Fondue, Food, Apero, Bier, Crepes",
-    "refreshments": "Food (fondue, food, lunch) · Drinks (apero, bier, gluhwein) · Dessert (crepes)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks",
-        "sweet"
-      ],
-      "matches": {
-        "drinks": [
-          "apero",
-          "bier",
-          "gluhwein",
-          "wine"
-        ],
-        "food": [
-          "fondue",
-          "food",
-          "lunch",
-          "pizza"
-        ],
-        "sweet": [
-          "crepes"
-        ]
-      },
-      "summary": "Food (fondue, food, lunch) · Drinks (apero, bier, gluhwein) · Dessert (crepes)"
-    },
-    "easeOfEntry": 1.0,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
-  },
-  {
     "id": "d-gess-how-plastic-waste-transforms-into-higher-value-products-eth-2026-11-20",
     "source": "d-gess",
     "title": "How plastic waste transforms into higher-value products | ETH Zurich",
@@ -5489,7 +5453,7 @@
     },
     "easeOfEntry": 0.8,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vis-vis-x-hudson-river-trading-algo-arena-2026-11-20",
@@ -5498,10 +5462,10 @@
     "date": "2026-11-20",
     "start_time": "18:15",
     "end_time": "21:00",
-    "location": "CAB H52",
+    "location": null,
     "url": "https://vis.ethz.ch/en/events/1197/",
-    "food_type": "Food, Beer",
-    "refreshments": "Food (food) · Drinks (beer)",
+    "food_type": "Food, Beer, Gluhwein",
+    "refreshments": "Food (food) · Drinks (beer, gluhwein)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -5509,48 +5473,18 @@
       ],
       "matches": {
         "drinks": [
-          "beer"
+          "beer",
+          "gluhwein"
         ],
         "food": [
           "food"
         ]
       },
-      "summary": "Food (food) · Drinks (beer)"
+      "summary": "Food (food) · Drinks (beer, gluhwein)"
     },
     "easeOfEntry": 0.44999999999999996,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
-  },
-  {
-    "id": "vis-vis-x-snowflake-observability-at-cloud-scale-2026-11-20",
-    "source": "vis",
-    "title": "VIS x Snowflake: Observability at Cloud Scale",
-    "date": "2026-11-20",
-    "start_time": "18:15",
-    "end_time": "21:00",
-    "location": "CAB G 61",
-    "url": "https://vis.ethz.ch/en/events/1191/",
-    "food_type": "Food, Pizza, Beer",
-    "refreshments": "Food (food, pizza) · Drinks (beer)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "beer"
-        ],
-        "food": [
-          "food",
-          "pizza"
-        ]
-      },
-      "summary": "Food (food, pizza) · Drinks (beer)"
-    },
-    "easeOfEntry": 0.44999999999999996,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "smw-smw-students-of-material-science-2026-11-20",
@@ -5638,6 +5572,37 @@
     "easeOfEntry": 0.44999999999999996,
     "easeOfEntry_method": "keyword",
     "scraped_at": "2026-11-19T14:54:20Z"
+  },
+  {
+    "id": "vis-vis-x-snowflake-observability-at-cloud-scale-2026-11-20",
+    "source": "vis",
+    "title": "VIS x Snowflake: Observability at Cloud Scale",
+    "date": "2026-11-20",
+    "start_time": "18:15",
+    "end_time": "21:00",
+    "location": "CAB G 61",
+    "url": "https://vis.ethz.ch/en/events/1191/",
+    "food_type": "Food, Pizza, Beer",
+    "refreshments": "Food (food, pizza) · Drinks (beer)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "beer"
+        ],
+        "food": [
+          "food",
+          "pizza"
+        ]
+      },
+      "summary": "Food (food, pizza) · Drinks (beer)"
+    },
+    "easeOfEntry": 0.44999999999999996,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-25T16:26:38Z"
   },
   {
     "id": "vis-vis-x-ubique-mobile-reverse-engineering-workshop-2026-11-20",
@@ -5864,65 +5829,6 @@
     "scraped_at": "2026-11-25T16:26:38Z"
   },
   {
-    "id": "vial-events-from-november-26-december-10-vial-ethz-2026-11-25",
-    "source": "vial",
-    "title": "Events from November 26 – December 10 – VIAL ETHZ",
-    "date": "2026-11-25",
-    "start_time": "13:40",
-    "end_time": "00:00",
-    "location": "2/",
-    "url": "https://vial.ethz.ch/events/",
-    "food_type": "Food",
-    "refreshments": "Food (food)",
-    "refreshment_details": {
-      "categories": [
-        "food"
-      ],
-      "matches": {
-        "food": [
-          "food"
-        ]
-      },
-      "summary": "Food (food)"
-    },
-    "easeOfEntry": null,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
-  },
-  {
-    "id": "vis-untitled-event-2026-11-25",
-    "source": "vis",
-    "title": "Untitled Event",
-    "date": "2026-11-25",
-    "start_time": "18:15",
-    "end_time": "21:00",
-    "location": "CAB G 61",
-    "url": "https://vis.ethz.ch/en/events/rss.xml",
-    "food_type": "Fondue, Raclette, Drink, Gluhwein",
-    "refreshments": "Food (fondue, raclette) · Drinks (drink, gluhwein, wine)",
-    "refreshment_details": {
-      "categories": [
-        "food",
-        "drinks"
-      ],
-      "matches": {
-        "drinks": [
-          "drink",
-          "gluhwein",
-          "wine"
-        ],
-        "food": [
-          "fondue",
-          "raclette"
-        ]
-      },
-      "summary": "Food (fondue, raclette) · Drinks (drink, gluhwein, wine)"
-    },
-    "easeOfEntry": null,
-    "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
-  },
-  {
     "id": "vmp-tipsy-painting-vmp-2026-11-25",
     "source": "vmp",
     "title": "Tipsy Painting | VMP",
@@ -5977,7 +5883,66 @@
     },
     "easeOfEntry": 0.3,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
+  },
+  {
+    "id": "vial-events-from-november-26-december-10-vial-ethz-2026-11-26",
+    "source": "vial",
+    "title": "Events from November 26 – December 10 – VIAL ETHZ",
+    "date": "2026-11-26",
+    "start_time": "13:42",
+    "end_time": "00:00",
+    "location": "2/",
+    "url": "https://vial.ethz.ch/events/",
+    "food_type": "Food",
+    "refreshments": "Food (food)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ]
+      },
+      "summary": "Food (food)"
+    },
+    "easeOfEntry": null,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-26T16:00:39Z"
+  },
+  {
+    "id": "vis-untitled-event-2026-11-26",
+    "source": "vis",
+    "title": "Untitled Event",
+    "date": "2026-11-26",
+    "start_time": "18:00",
+    "end_time": "22:30",
+    "location": "CAB North Court",
+    "url": "https://vis.ethz.ch/en/events/rss.xml",
+    "food_type": "Fondue, Raclette, Drink, Gluhwein",
+    "refreshments": "Food (fondue, raclette) · Drinks (drink, gluhwein, wine)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "drink",
+          "gluhwein",
+          "wine"
+        ],
+        "food": [
+          "fondue",
+          "raclette"
+        ]
+      },
+      "summary": "Food (fondue, raclette) · Drinks (drink, gluhwein, wine)"
+    },
+    "easeOfEntry": null,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "apv-krimidinner-2026-11-26",
@@ -6004,6 +5969,36 @@
     "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
     "scraped_at": "2026-11-04T13:28:24Z"
+  },
+  {
+    "id": "esn-ski-day-flumserberg-esn-zrich-2026-11-29",
+    "source": "esn",
+    "title": "Ski Day Flumserberg | ESN Zürich",
+    "date": "2026-11-29",
+    "start_time": "06:55",
+    "end_time": "08:00",
+    "location": "HXE B1",
+    "url": "https://zurich.esn.ch/event/3EM95B",
+    "food_type": "Food, Snacks",
+    "refreshments": "Food (food) · Snacks (snacks)",
+    "refreshment_details": {
+      "categories": [
+        "food",
+        "snacks"
+      ],
+      "matches": {
+        "food": [
+          "food"
+        ],
+        "snacks": [
+          "snacks"
+        ]
+      },
+      "summary": "Food (food) · Snacks (snacks)"
+    },
+    "easeOfEntry": 0.3,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "amiv-web-events-amiv-an-der-eth-2026-12-01",
@@ -6121,8 +6116,8 @@
     "end_time": "03:00",
     "location": "CAB F21",
     "url": "https://vis.ethz.ch/en/events/1184/",
-    "food_type": "Food, Beer",
-    "refreshments": "Food (food) · Drinks (beer)",
+    "food_type": "Food, Beer, Gluhwein",
+    "refreshments": "Food (food) · Drinks (beer, gluhwein)",
     "refreshment_details": {
       "categories": [
         "food",
@@ -6130,17 +6125,18 @@
       ],
       "matches": {
         "drinks": [
-          "beer"
+          "beer",
+          "gluhwein"
         ],
         "food": [
           "food"
         ]
       },
-      "summary": "Food (food) · Drinks (beer)"
+      "summary": "Food (food) · Drinks (beer, gluhwein)"
     },
     "easeOfEntry": 0.44999999999999996,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vseth-aaz-fondue-evening-2026-12-04",
@@ -6222,6 +6218,32 @@
     "easeOfEntry_method": "gemini",
     "scraped_at": "2026-11-05T13:42:21Z",
     "easeOfEntry_reason": "Public student association pub quiz at a campus bar."
+  },
+  {
+    "id": "vmp-vmp-fondue-vmp-2026-12-09",
+    "source": "vmp",
+    "title": "VMP Fondue | VMP",
+    "date": "2026-12-09",
+    "start_time": "18:00",
+    "end_time": null,
+    "location": "CAB F21",
+    "url": "https://vmp.ethz.ch/en/events/Fondue-HS26/",
+    "food_type": "Fondue",
+    "refreshments": "Food (fondue)",
+    "refreshment_details": {
+      "categories": [
+        "food"
+      ],
+      "matches": {
+        "food": [
+          "fondue"
+        ]
+      },
+      "summary": "Food (fondue)"
+    },
+    "easeOfEntry": null,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "smw-glhweinstamm-2026-12-16",
@@ -6307,7 +6329,34 @@
     },
     "easeOfEntry": 0.45000000000000007,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
+  },
+  {
+    "id": "aiv-vseth-verband-der-studierenden-an-der-eth-nodate",
+    "source": "aiv",
+    "title": "VSETH – Verband der Studierenden an der ETH",
+    "date": null,
+    "start_time": null,
+    "end_time": null,
+    "location": "CAB E27",
+    "url": "https://vseth.ethz.ch/",
+    "food_type": "Bier, Gluhwein",
+    "refreshments": "Drinks (bier, gluhwein)",
+    "refreshment_details": {
+      "categories": [
+        "drinks"
+      ],
+      "matches": {
+        "drinks": [
+          "bier",
+          "gluhwein"
+        ]
+      },
+      "summary": "Drinks (bier, gluhwein)"
+    },
+    "easeOfEntry": null,
+    "easeOfEntry_method": "keyword",
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "smw-esf-2026-organised-by-nodate",
@@ -6337,7 +6386,7 @@
     },
     "easeOfEntry": 1.0,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "swaz-list-of-wines-swaz-student-wine-association-zurich-nodate",
@@ -6363,7 +6412,7 @@
     },
     "easeOfEntry": 0.2,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "vseth-events-vseth-nodate",
@@ -6389,7 +6438,7 @@
     },
     "easeOfEntry": null,
     "easeOfEntry_method": "keyword",
-    "scraped_at": "2026-11-25T16:26:38Z"
+    "scraped_at": "2026-11-26T16:00:39Z"
   },
   {
     "id": "aiv-beerpong-turnier-aiv-x-masterreise-nodate",
